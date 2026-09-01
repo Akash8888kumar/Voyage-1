@@ -92,6 +92,17 @@ a {
   }
 }
 
+.eyebrow{
+  color: var(--vo-navy) !important;
+}
+
+
+.local_experties{
+  border-bottom: 1px solid white !important;
+
+}
+
+
 .page {
   width: 100%;
   overflow-x: hidden;
