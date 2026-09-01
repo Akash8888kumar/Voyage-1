@@ -27,7 +27,7 @@ a {
 
 .local_experties{
   background-color:transparent !important;
-  box-shadow: 0 14px 34px rgba(0, 0, 0, .0);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .0) !important;
 }
 
 
