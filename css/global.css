@@ -140,7 +140,7 @@ a {
 
 .eyebrow {
   font-size: .875rem;
-  font-family: "didot";
+  font-family: "Didot";
   letter-spacing: .16em;
   color: #0A1F3E;
   margin-bottom: 1.125rem;
@@ -894,7 +894,7 @@ footer a {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=didot:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didot:wght@400;500;600;700;800&display=swap');
 
 :root {
   --vo-ink: #0A1F3E;
@@ -906,14 +906,14 @@ footer a {
   --vo-navy: #0A1F3E;
 }
 
-/* didot everywhere by default */
+/* Didot everywhere by default */
 html, body,
 button, input, textarea, select,
 h1, h2, h3, h4, h5, h6, p, a, span, small, strong, li,
 .logo, .links, .nav-links, .nav-item, .btn,
 .card, .service-card, .service, .value, .item, .pin,
 .quote, .person, .footer-col, .footer-logo {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
 }
 
 body {
@@ -924,7 +924,7 @@ body {
 
 /* The small editorial heading treatment from About Us */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'didot', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'Didot', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   text-transform: none !important;
@@ -944,11 +944,11 @@ body {
   color: var(--vo-gold) !important;
 }
 
-/* Editorial didot hierarchy */
+/* Editorial Didot hierarchy */
 h1, h2, h3, h4, h5, h6,
 .hero h1, .hero h2,
 h2, .heading h2, .two h2, .story h2, .partner h2 {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   font-weight: 700 !important;
   letter-spacing: -.055em !important;
 }
@@ -962,7 +962,7 @@ h2, .heading h2, .two h2, .story h2, .partner h2 {
 }
 
 p {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   color: var(--vo-muted);
   line-height: 1.65;
 }
@@ -1025,7 +1025,7 @@ p {
 
 /* About-style buttons */
 .btn {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   font-weight: 600 !important;
   border-radius: 0 !important;
 }
@@ -1049,7 +1049,7 @@ p {
 }
 
 input, select, textarea {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
 }
 
 /* Section headings get consistent breathing room */
@@ -1081,13 +1081,13 @@ input, select, textarea {
 
 /* Footer */
 footer, .footer, .foot {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
 }
 
 /* Remove wireframe-looking labels where a real visual placeholder exists,
    while retaining layout and content. */
 .wire-label {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
 }
 
 /* Mobile */
@@ -1099,14 +1099,14 @@ footer, .footer, .foot {
 
 
 
-/* didot is intentionally relaxed: no compressed tracking. */
+/* Didot is intentionally relaxed: no compressed tracking. */
 html, body, button, input, textarea, select,
 body h1, body h2, body h3, body h4, body h5, body h6,
 body p, body a, body span, body small, body strong, body li,
 .logo, .links, .nav-links, .nav-item, .btn,
 .card, .service-card, .service, .value, .item, .pin,
 .quote, .person, .footer-col, .footer-logo {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
 }
 
 body {
@@ -1114,9 +1114,9 @@ body {
   letter-spacing: 0;
 }
 
-/* Small editorial labels stay in didot, like the About Us reference. */
+/* Small editorial labels stay in Didot, like the About Us reference. */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'didot', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'Didot', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 1.125rem !important;
@@ -1125,10 +1125,10 @@ body {
   text-transform: none !important;
 }
 
-/* Main headings: didot, but with comfortable tracking and line-height. */
+/* Main headings: Didot, but with comfortable tracking and line-height. */
 h1, h2, h3, h4, h5, h6,
 .hero h1, .hero h2, .heading h2, .two h2, .story h2, .partner h2 {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   letter-spacing: -.025em !important;
   word-spacing: .01em;
 }
@@ -1150,7 +1150,7 @@ h3, h4, h5, h6 {
 }
 
 p {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   font-weight: 400 !important;
   letter-spacing: 0 !important;
   line-height: 1.72 !important;
@@ -1202,17 +1202,17 @@ p {
 }
 
 html, body {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   background: var(--cream);
   color: var(--ink)
 }
 
 body * {
-  font-family: 'didot', Arial, sans-serif !important
+  font-family: 'Didot', Arial, sans-serif !important
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'didot', cursive !important;
+  font-family: 'Didot', cursive !important;
   font-style: normal !important;
   text-transform: none !important;
   letter-spacing: .02em !important;
@@ -1673,15 +1673,15 @@ html, body {
 }
 
 body {
-  font-family: 'didot', Arial, sans-serif !important
+  font-family: 'Didot', Arial, sans-serif !important
 }
 
 body * {
-  font-family: 'didot', Arial, sans-serif
+  font-family: 'Didot', Arial, sans-serif
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'didot', cursive !important;
+  font-family: 'Didot', cursive !important;
   color: var(--voyage-gold) !important;
   font-style: normal !important;
   letter-spacing: .02em !important;
@@ -1984,7 +1984,7 @@ input:focus, select:focus, textarea:focus {
 .vo-dropdown-title {
   padding: 8px 12px 12px;
   color: #0A1F3E;
-  font-family: 'didot', cursive !important;
+  font-family: 'Didot', cursive !important;
   font-size: 1.0625rem !important;
   letter-spacing: 0 !important;
   text-transform: none !important
@@ -2776,7 +2776,7 @@ p {
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=didot:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didot:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
 
 :root {
   --voyage-navy: #0A1F3E;
@@ -3019,8 +3019,8 @@ h2 {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=didot:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.cdnfonts.com/css/didot');
+@import url('https://fonts.googleapis.com/css2?family=Didot:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/Didot');
 
 :root {
   --vo-ink: #0A1F3E;
@@ -3518,8 +3518,8 @@ header {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=didot:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.cdnfonts.com/css/didot');
+@import url('https://fonts.googleapis.com/css2?family=Didot:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/Didot');
 
 :root {
   --vo-ink: #0A1F3E;
@@ -3531,7 +3531,7 @@ header {
   --vo-navy: #0A1F3E;
 }
 
-/* didot everywhere by default */
+/* Didot everywhere by default */
 
 body {
   background: var(--vo-paper) !important;
@@ -3541,7 +3541,7 @@ body {
 
 /* The small editorial heading treatment from About Us */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'didot', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'Didot', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   text-transform: none !important;
@@ -3554,7 +3554,7 @@ body {
 
 /* Preserve white small headings when explicitly used over dark hero areas */
 
-/* Editorial didot hierarchy */
+/* Editorial Didot hierarchy */
 
 h1, .hero h1 {
   line-height: .88 !important;
@@ -3565,7 +3565,7 @@ h2, .heading h2, .two h2, .story h2, .partner h2 {
 }
 
 p {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   color: var(--vo-muted);
   line-height: 1.65;
 }
@@ -3588,7 +3588,7 @@ p {
 
 /* About-style buttons */
 .btn {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   font-weight: 600 !important;
   border-radius: 0 !important;
 }
@@ -3596,7 +3596,7 @@ p {
 /* Cards, forms and content blocks */
 
 input, select, textarea {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
 }
 
 /* Section headings get consistent breathing room */
@@ -3623,16 +3623,16 @@ input, select, textarea {
 
 
 
-/* didot is intentionally relaxed: no compressed tracking. */
+/* Didot is intentionally relaxed: no compressed tracking. */
 
 body {
   font-size: 0.9375rem;
   letter-spacing: 0;
 }
 
-/* Small editorial labels stay in didot, like the About Us reference. */
+/* Small editorial labels stay in Didot, like the About Us reference. */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'didot', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'Didot', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 1.125rem !important;
@@ -3641,7 +3641,7 @@ body {
   text-transform: none !important;
 }
 
-/* Main headings: didot, but with comfortable tracking and line-height. */
+/* Main headings: Didot, but with comfortable tracking and line-height. */
 
 h1, .hero h1 {
   font-weight: 700 !important;
@@ -3654,7 +3654,7 @@ h2, .heading h2, .two h2, .story h2, .partner h2 {
 }
 
 p {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   font-weight: 400 !important;
   letter-spacing: 0 !important;
   line-height: 1.72 !important;
@@ -3678,7 +3678,7 @@ p {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=didot&family=didot:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didot&family=Didot:wght@400;500;600;700&display=swap');
 
 :root {
   --navy: #0A1F3E;
@@ -3691,17 +3691,17 @@ p {
 }
 
 html, body {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   background: var(--cream);
   color: var(--ink)
 }
 
 body * {
-  font-family: 'didot', Arial, sans-serif !important
+  font-family: 'Didot', Arial, sans-serif !important
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'didot', cursive !important;
+  font-family: 'Didot', cursive !important;
   font-style: normal !important;
   text-transform: none !important;
   letter-spacing: .02em !important;
@@ -3933,15 +3933,15 @@ html, body {
 }
 
 body {
-  font-family: 'didot', Arial, sans-serif !important
+  font-family: 'Didot', Arial, sans-serif !important
 }
 
 body * {
-  font-family: 'didot', Arial, sans-serif
+  font-family: 'Didot', Arial, sans-serif
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'didot', cursive !important;
+  font-family: 'Didot', cursive !important;
   color: var(--voyage-gold) !important;
   font-style: normal !important;
   letter-spacing: .02em !important;
@@ -4791,8 +4791,8 @@ footer li {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=didot:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.cdnfonts.com/css/didot');
+@import url('https://fonts.googleapis.com/css2?family=Didot:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/Didot');
 
 :root {
   --vo-ink: #0A1F3E;
@@ -4804,7 +4804,7 @@ footer li {
   --vo-navy: #0A1F3E;
 }
 
-/* didot everywhere by default */
+/* Didot everywhere by default */
 
 body {
   background: var(--vo-paper) !important;
@@ -4814,7 +4814,7 @@ body {
 
 /* The small editorial heading treatment from About Us */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'didot', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'Didot', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   text-transform: none !important;
@@ -4827,7 +4827,7 @@ body {
 
 /* Preserve white small headings when explicitly used over dark hero areas */
 
-/* Editorial didot hierarchy */
+/* Editorial Didot hierarchy */
 
 h1, .hero h1 {
   line-height: .88 !important;
@@ -4838,7 +4838,7 @@ h2, .heading h2, .two h2, .story h2, .partner h2 {
 }
 
 p {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   color: var(--vo-muted);
   line-height: 1.65;
 }
@@ -4861,7 +4861,7 @@ p {
 
 /* About-style buttons */
 .btn {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   font-weight: 600 !important;
   border-radius: 0 !important;
 }
@@ -4869,7 +4869,7 @@ p {
 /* Cards, forms and content blocks */
 
 input, select, textarea {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
 }
 
 /* Section headings get consistent breathing room */
@@ -4896,16 +4896,16 @@ input, select, textarea {
 
 
 
-/* didot is intentionally relaxed: no compressed tracking. */
+/* Didot is intentionally relaxed: no compressed tracking. */
 
 body {
   font-size: 0.9375rem;
   letter-spacing: 0;
 }
 
-/* Small editorial labels stay in didot, like the About Us reference. */
+/* Small editorial labels stay in Didot, like the About Us reference. */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'didot', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'Didot', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 1.125rem !important;
@@ -4914,7 +4914,7 @@ body {
   text-transform: none !important;
 }
 
-/* Main headings: didot, but with comfortable tracking and line-height. */
+/* Main headings: Didot, but with comfortable tracking and line-height. */
 
 h1, .hero h1 {
   font-weight: 700 !important;
@@ -4927,7 +4927,7 @@ h2, .heading h2, .two h2, .story h2, .partner h2 {
 }
 
 p {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   font-weight: 400 !important;
   letter-spacing: 0 !important;
   line-height: 1.72 !important;
@@ -4951,7 +4951,7 @@ p {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=didot&family=didot:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didot&family=Didot:wght@400;500;600;700&display=swap');
 
 :root {
   --navy: #0A1F3E;
@@ -4964,17 +4964,17 @@ p {
 }
 
 html, body {
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   background: var(--cream);
   color: var(--ink)
 }
 
 body * {
-  font-family: 'didot', Arial, sans-serif !important
+  font-family: 'Didot', Arial, sans-serif !important
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'didot', cursive !important;
+  font-family: 'Didot', cursive !important;
   font-style: normal !important;
   text-transform: none !important;
   letter-spacing: .02em !important;
@@ -5205,15 +5205,15 @@ html, body {
 }
 
 body {
-  font-family: 'didot', Arial, sans-serif !important
+  font-family: 'Didot', Arial, sans-serif !important
 }
 
 body * {
-  font-family: 'didot', Arial, sans-serif
+  font-family: 'Didot', Arial, sans-serif
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'didot', cursive !important;
+  font-family: 'Didot', cursive !important;
   color: var(--voyage-gold) !important;
   font-style: normal !important;
   letter-spacing: .02em !important;
@@ -5496,7 +5496,7 @@ body {
   color: var(--voyage-navy) !important;
 }
 
-/* didot editorial heading treatment */
+/* Didot editorial heading treatment */
 .page-home .hero+.service-strip .eyebrow,
 .page-home .hero+.service-strip .e,
 .page-about .hero+.s .eyebrow,
@@ -5509,7 +5509,7 @@ body {
 .page-uae .hero+.trust .e,
 .page-uae .hero+.trust .ey {
   color: var(--voyage-gold) !important;
-  font-family: "didot", cursive !important;
+  font-family: "Didot", cursive !important;
 }
 
 /* First-section separators remain subtle on navy */
@@ -5544,7 +5544,7 @@ body {
 .hero .e,
 .hero .ey {
   color: var(--voyage-gold) !important;
-  font-family: "didot", cursive !important;
+  font-family: "Didot", cursive !important;
 }
 
 .hero .btn {
@@ -5648,7 +5648,7 @@ main>section:nth-of-type(even),
   opacity: .88;
 }
 
-/* Navy sections: white body/headings, gold didot eyebrow. */
+/* Navy sections: white body/headings, gold Didot eyebrow. */
 .s[style*="background"] h1,
 .s[style*="background"] h2,
 .s[style*="background"] h3,
@@ -5690,13 +5690,13 @@ main>section:nth-of-type(even),
   opacity: .82;
 }
 
-/* Gold is reserved for the editorial/didot accents. */
+/* Gold is reserved for the editorial/Didot accents. */
 .e,
 .team-label,
 .section-eyebrow,
 .eyebrow {
   color: var(--voyage-gold) !important;
-  font-family: 'didot', cursive !important;
+  font-family: 'Didot', cursive !important;
 }
 
 /* Borders stay neutral without introducing another background color. */
@@ -5798,7 +5798,7 @@ main>.vo-alt-dark .section-head>* {
   color: #FFFFFF !important;
 }
 
-/* didot editorial headings always stay gold. */
+/* Didot editorial headings always stay gold. */
 main>.vo-alt-light .e,
 main>.vo-alt-light .ey,
 main>.vo-alt-light .eyebrow,
@@ -5810,7 +5810,7 @@ main>.vo-alt-dark .eyebrow,
 main>.vo-alt-dark .section-eyebrow,
 main>.vo-alt-dark .team-label {
   color: #DFBC54 !important;
-  font-family: 'didot', cursive !important;
+  font-family: 'Didot', cursive !important;
 }
 
 /* ---------------------------------------------------------
@@ -6990,7 +6990,7 @@ input, select, textarea {
   background: transparent !important;
   color: var(--navy) !important;
   -webkit-text-fill-color: var(--navy) !important;
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   font-size: 1.375rem !important;
   font-weight: 400 !important;
   line-height: 1.5 !important;
@@ -7009,7 +7009,7 @@ input, select, textarea {
   background: transparent !important;
   color: var(--navy) !important;
   -webkit-text-fill-color: var(--navy) !important;
-  font-family: 'didot', Arial, sans-serif !important;
+  font-family: 'Didot', Arial, sans-serif !important;
   font-size: 0.75rem !important;
   font-weight: 600 !important;
   line-height: 1.5 !important;
@@ -8385,7 +8385,7 @@ h3 {
 .final-cta .eyebrow,
 .dark .team-label {
   color: var(--vo-gold) !important;
-  font-family: 'didot', cursive !important
+  font-family: 'Didot', cursive !important
 }
 
 .dest-card, .experience, .case, .gallery-item, .photo, .visual, .exp-card {
