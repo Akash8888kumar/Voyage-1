@@ -18,18 +18,12 @@ body {
 }
 
 
+
 a {
   color: inherit;
   text-decoration: none;
   transition: all 0.3s ease;
 }
-
-.local_experties{
-  background-color: transparent !important;
-  box-shadow: 0 14px 34px rgba(0, 0, 0, .0) !important;
-}
-
-
 
 /* ===== ANIMATIONS & TRANSITIONS ===== */
 
@@ -414,7 +408,7 @@ nav {
   position: relative;
   z-index: 1;
   padding: 24px;
-  background: linear-gradient(transparent, #000 20%, #000 80%);
+  background: linear-gradient(transparent, #0A1F3E 20%, #0A1F3E 80%);
   transition: transform .35s ease;
 }
 
@@ -8595,3 +8589,188 @@ body.vo-lightbox-open{overflow:hidden}
   .vo-lightbox-caption{left:52px;right:52px;bottom:12px;font-size:9px}
 }
 @media(prefers-reduced-motion:reduce){.gallery-track,.gallery-slide-media{transition:none!important}}
+
+
+/* ===== USER REQUEST: SECTION COLOR THEME ===== */
+:root {
+  --section-bg: #f4ede3;
+  --section-heading-gold: #DFBC54;
+  --section-text-white: #FFFFFF;
+}
+
+/* All content sections use the requested cream background. */
+section:not(.hero) {
+  background: var(--section-bg) !important;
+}
+
+/* Existing section-like wrappers also use the requested background. */
+.section:not(.hero),
+.s:not(.hero),
+.sec:not(.hero) {
+  background: var(--section-bg) !important;
+}
+
+/* Headings inside sections are golden. */
+section:not(.hero) h1,
+section:not(.hero) h2,
+section:not(.hero) h3,
+section:not(.hero) h4,
+section:not(.hero) h5,
+section:not(.hero) h6,
+.section:not(.hero) h1,
+.section:not(.hero) h2,
+.section:not(.hero) h3,
+.section:not(.hero) h4,
+.section:not(.hero) h5,
+.section:not(.hero) h6,
+.s:not(.hero) h1,
+.s:not(.hero) h2,
+.s:not(.hero) h3,
+.s:not(.hero) h4,
+.s:not(.hero) h5,
+.s:not(.hero) h6,
+.sec:not(.hero) h1,
+.sec:not(.hero) h2,
+.sec:not(.hero) h3,
+.sec:not(.hero) h4,
+.sec:not(.hero) h5,
+.sec:not(.hero) h6 {
+  color: var(--section-heading-gold) !important;
+}
+
+/* Eyebrow headings and paragraphs are white. */
+section:not(.hero) .eyebrow,
+.section:not(.hero) .eyebrow,
+.s:not(.hero) .eyebrow,
+.sec:not(.hero) .eyebrow {
+  color: var(--section-text-white) !important;
+}
+
+section:not(.hero) p,
+.section:not(.hero) p,
+.s:not(.hero) p,
+.sec:not(.hero) p {
+  color: var(--section-text-white) !important;
+}
+
+
+/* =========================================================
+   FINAL HOMEPAGE SECTION BACKGROUND RHYTHM
+   Hero -> image -> cream -> image -> cream ... 
+   ========================================================= */
+
+:root {
+  --voyage-section-cream: #f4ede3;
+  --voyage-section-image: url("../assets/images/bg.webp");
+}
+
+/* Keep the hero untouched. Starting immediately after the hero:
+   even-numbered <section> elements are image sections,
+   odd-numbered <section> elements are cream sections. */
+.page-home > section.section:nth-of-type(even) {
+  position: relative;
+  isolation: isolate;
+  background-color: #111 !important;
+  background-image: var(--voyage-section-image) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  color: #fff !important;
+  border-bottom-color: rgba(255,255,255,.18) !important;
+}
+
+.page-home > section.section:nth-of-type(even)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(4,10,20,.48), rgba(4,10,20,.22)),
+    linear-gradient(180deg, rgba(4,10,20,.18), rgba(4,10,20,.38));
+}
+
+.page-home > section.section:nth-of-type(odd) {
+  background: var(--voyage-section-cream) !important;
+  background-color: var(--voyage-section-cream) !important;
+  color: #0A1F3E !important;
+}
+
+/* The final CTA follows the same cream half of the rhythm. */
+.page-home > section.final-cta {
+  background: var(--voyage-section-cream) !important;
+  background-color: var(--voyage-section-cream) !important;
+  color: #0A1F3E !important;
+}
+
+/* Content on image sections follows the same treatment as
+   "The Voyage One Difference": gold headings, white eyebrow/body copy. */
+.page-home > section.section:nth-of-type(even) h1,
+.page-home > section.section:nth-of-type(even) h2,
+.page-home > section.section:nth-of-type(even) h3,
+.page-home > section.section:nth-of-type(even) h4,
+.page-home > section.section:nth-of-type(even) h5,
+.page-home > section.section:nth-of-type(even) h6 {
+  color: #DFBC54 !important;
+}
+
+.page-home > section.section:nth-of-type(even) .eyebrow {
+  color: #FFFFFF !important;
+}
+
+.page-home > section.section:nth-of-type(even) p,
+.page-home > section.section:nth-of-type(even) li {
+  color: #FFFFFF !important;
+}
+
+/* Cream sections retain the requested gold/white hierarchy. */
+.page-home > section.section:nth-of-type(odd) h1,
+.page-home > section.section:nth-of-type(odd) h2,
+.page-home > section.section:nth-of-type(odd) h3,
+.page-home > section.section:nth-of-type(odd) h4,
+.page-home > section.section:nth-of-type(odd) h5,
+.page-home > section.section:nth-of-type(odd) h6 {
+  color: #DFBC54 !important;
+}
+
+.page-home > section.section:nth-of-type(odd) .eyebrow,
+.page-home > section.section:nth-of-type(odd) p,
+.page-home > section.section:nth-of-type(odd) li {
+  color: #FFFFFF !important;
+}
+
+/* All paragraphs across the site use Montserrat. */
+body p,
+p,
+.page-home p {
+  font-family: "Montserrat", Arial, sans-serif !important;
+}
+
+/* Keep the uploaded background styling consistent wherever the
+   same background image is explicitly used. */
+.page-home section[style*="bg.webp"] {
+  position: relative;
+  isolation: isolate;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.page-home section[style*="bg.webp"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(4,10,20,.48), rgba(4,10,20,.22)),
+    linear-gradient(180deg, rgba(4,10,20,.18), rgba(4,10,20,.38));
+}
+
+/* Preserve readability for the image-backed sections' internal elements. */
+.page-home > section.section:nth-of-type(even) .value,
+.page-home > section.section:nth-of-type(even) .why-item,
+.page-home > section.section:nth-of-type(even) .process-step {
+  border-color: rgba(255,255,255,.28) !important;
+}
+
