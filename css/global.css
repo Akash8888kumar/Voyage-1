@@ -895,7 +895,6 @@ footer a {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.cdnfonts.com/css/blacksword');
 
 :root {
   --vo-ink: #0A1F3E;
@@ -925,7 +924,7 @@ body {
 
 /* The small editorial heading treatment from About Us */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'Blacksword', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'poppins', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   text-transform: none !important;
@@ -1115,9 +1114,9 @@ body {
   letter-spacing: 0;
 }
 
-/* Small editorial labels stay in Blacksword, like the About Us reference. */
+/* Small editorial labels stay in poppins, like the About Us reference. */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'Blacksword', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'poppins', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 1.125rem !important;
@@ -1191,7 +1190,6 @@ p {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Blacksword&family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
   --navy: #0A1F3E;
@@ -1214,7 +1212,7 @@ body * {
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'Blacksword', cursive !important;
+  font-family: 'poppins', cursive !important;
   font-style: normal !important;
   text-transform: none !important;
   letter-spacing: .02em !important;
@@ -1683,7 +1681,7 @@ body * {
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'Blacksword', cursive !important;
+  font-family: 'poppins', cursive !important;
   color: var(--voyage-gold) !important;
   font-style: normal !important;
   letter-spacing: .02em !important;
@@ -1986,7 +1984,7 @@ input:focus, select:focus, textarea:focus {
 .vo-dropdown-title {
   padding: 8px 12px 12px;
   color: #0A1F3E;
-  font-family: 'Blacksword', cursive !important;
+  font-family: 'poppins', cursive !important;
   font-size: 1.0625rem !important;
   letter-spacing: 0 !important;
   text-transform: none !important
@@ -3022,7 +3020,7 @@ h2 {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.cdnfonts.com/css/blacksword');
+@import url('https://fonts.cdnfonts.com/css/poppins');
 
 :root {
   --vo-ink: #0A1F3E;
@@ -3521,7 +3519,7 @@ header {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.cdnfonts.com/css/blacksword');
+@import url('https://fonts.cdnfonts.com/css/poppins');
 
 :root {
   --vo-ink: #0A1F3E;
@@ -3543,7 +3541,7 @@ body {
 
 /* The small editorial heading treatment from About Us */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'Blacksword', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'poppins', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   text-transform: none !important;
@@ -3632,9 +3630,9 @@ body {
   letter-spacing: 0;
 }
 
-/* Small editorial labels stay in Blacksword, like the About Us reference. */
+/* Small editorial labels stay in poppins, like the About Us reference. */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'Blacksword', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'poppins', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 1.125rem !important;
@@ -3680,7 +3678,7 @@ p {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Blacksword&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=poppins&family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
   --navy: #0A1F3E;
@@ -3703,7 +3701,7 @@ body * {
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'Blacksword', cursive !important;
+  font-family: 'poppins', cursive !important;
   font-style: normal !important;
   text-transform: none !important;
   letter-spacing: .02em !important;
@@ -3943,7 +3941,7 @@ body * {
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'Blacksword', cursive !important;
+  font-family: 'poppins', cursive !important;
   color: var(--voyage-gold) !important;
   font-style: normal !important;
   letter-spacing: .02em !important;
@@ -4794,7 +4792,7 @@ footer li {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.cdnfonts.com/css/blacksword');
+@import url('https://fonts.cdnfonts.com/css/poppins');
 
 :root {
   --vo-ink: #0A1F3E;
@@ -4816,7 +4814,7 @@ body {
 
 /* The small editorial heading treatment from About Us */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'Blacksword', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'poppins', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   text-transform: none !important;
@@ -4905,9 +4903,9 @@ body {
   letter-spacing: 0;
 }
 
-/* Small editorial labels stay in Blacksword, like the About Us reference. */
+/* Small editorial labels stay in poppins, like the About Us reference. */
 .eyebrow, .ey, .e, .team-label, .team-section>.team-label {
-  font-family: 'Blacksword', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-family: 'poppins', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 1.125rem !important;
@@ -4953,7 +4951,7 @@ p {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Blacksword&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=poppins&family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
   --navy: #0A1F3E;
@@ -4976,7 +4974,7 @@ body * {
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'Blacksword', cursive !important;
+  font-family: 'poppins', cursive !important;
   font-style: normal !important;
   text-transform: none !important;
   letter-spacing: .02em !important;
@@ -5215,7 +5213,7 @@ body * {
 }
 
 .e, .eyebrow, .ey, .team-label {
-  font-family: 'Blacksword', cursive !important;
+  font-family: 'poppins', cursive !important;
   color: var(--voyage-gold) !important;
   font-style: normal !important;
   letter-spacing: .02em !important;
@@ -5498,7 +5496,7 @@ body {
   color: var(--voyage-navy) !important;
 }
 
-/* Blacksword editorial heading treatment */
+/* poppins editorial heading treatment */
 .page-home .hero+.service-strip .eyebrow,
 .page-home .hero+.service-strip .e,
 .page-about .hero+.s .eyebrow,
@@ -5511,7 +5509,7 @@ body {
 .page-uae .hero+.trust .e,
 .page-uae .hero+.trust .ey {
   color: var(--voyage-gold) !important;
-  font-family: "Blacksword", cursive !important;
+  font-family: "poppins", cursive !important;
 }
 
 /* First-section separators remain subtle on navy */
@@ -5546,7 +5544,7 @@ body {
 .hero .e,
 .hero .ey {
   color: var(--voyage-gold) !important;
-  font-family: "Blacksword", cursive !important;
+  font-family: "poppins", cursive !important;
 }
 
 .hero .btn {
@@ -5650,7 +5648,7 @@ main>section:nth-of-type(even),
   opacity: .88;
 }
 
-/* Navy sections: white body/headings, gold Blacksword eyebrow. */
+/* Navy sections: white body/headings, gold poppins eyebrow. */
 .s[style*="background"] h1,
 .s[style*="background"] h2,
 .s[style*="background"] h3,
@@ -5692,13 +5690,13 @@ main>section:nth-of-type(even),
   opacity: .82;
 }
 
-/* Gold is reserved for the editorial/Blacksword accents. */
+/* Gold is reserved for the editorial/poppins accents. */
 .e,
 .team-label,
 .section-eyebrow,
 .eyebrow {
   color: var(--voyage-gold) !important;
-  font-family: 'Blacksword', cursive !important;
+  font-family: 'poppins', cursive !important;
 }
 
 /* Borders stay neutral without introducing another background color. */
@@ -5800,7 +5798,7 @@ main>.vo-alt-dark .section-head>* {
   color: #FFFFFF !important;
 }
 
-/* Blacksword editorial headings always stay gold. */
+/* poppins editorial headings always stay gold. */
 main>.vo-alt-light .e,
 main>.vo-alt-light .ey,
 main>.vo-alt-light .eyebrow,
@@ -5812,7 +5810,7 @@ main>.vo-alt-dark .eyebrow,
 main>.vo-alt-dark .section-eyebrow,
 main>.vo-alt-dark .team-label {
   color: #DFBC54 !important;
-  font-family: 'Blacksword', cursive !important;
+  font-family: 'poppins', cursive !important;
 }
 
 /* ---------------------------------------------------------
@@ -8387,7 +8385,7 @@ h3 {
 .final-cta .eyebrow,
 .dark .team-label {
   color: var(--vo-gold) !important;
-  font-family: 'Blacksword', cursive !important
+  font-family: 'poppins', cursive !important
 }
 
 .dest-card, .experience, .case, .gallery-item, .photo, .visual, .exp-card {
