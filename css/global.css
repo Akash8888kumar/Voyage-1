@@ -112,31 +112,6 @@ a {
   max-width: 1280px;
 }
 
-
-
-#destinations h2{
-  color: #0A1F3E !important;
-}
-
-#services{
-  background: url(assets/images/bg.webp) !important;
-}
-
-
-#services .service-card{
-      background: transparent !important;
-    border: 1px solid white !important;
-}
-
-
-#services .service-card h3{
-  color: #DFBC54 !important;
-}
-
-#services .service-card p{
-  color: white !important;
-}
-
 .wire-label {
   display: inline-flex;
   padding: 7px 10px;
