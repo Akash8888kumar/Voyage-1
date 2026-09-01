@@ -414,7 +414,7 @@ nav {
   position: relative;
   z-index: 1;
   padding: 24px;
-  background: linear-gradient(transparent, #0A1F3E 20%, #0A1F3E 80%);
+  background: linear-gradient(transparent, #000 20%, #000 80%);
   transition: transform .35s ease;
 }
 
