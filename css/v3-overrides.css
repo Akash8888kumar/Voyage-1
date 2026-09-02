@@ -1,0 +1,241 @@
+/* =========================================================
+   VOYAGE 1 — V3 UI REFINEMENT
+   Cleaner spacing, larger icons, denser cards and consistent
+   testimonial/card patterns across pages.
+   ========================================================= */
+
+/* Keep section separators simple — no decorative bottom blocks. */
+.section, .s, .sec, .hero, .cta, .final-cta { border-bottom: 3px solid var(--navy); }
+
+/* Tighter editorial rhythm: preserve breathing room without empty areas. */
+.section, .s, .sec { padding: 78px 0 82px; }
+.heading { margin-bottom: 30px; }
+.heading p { max-width: 780px; }
+.section > .container > .heading h2,
+.s > .c > h2,
+.s > .c > .heading h2 { margin-bottom: 12px; }
+
+/* Icons: 1.5x from the previous 30px treatment. */
+.card-icon { width: 45px; height: 45px; margin-bottom: 16px; color: var(--gold); }
+.service-icon { width: 42px; height: 42px; padding: 8px; left: 20px; top: 20px; }
+.service { padding: 20px 20px 20px 76px; min-height: 116px; }
+
+/* Generic card polish. */
+.card, .service, .exp-card, .exp-copy, .svc, .block, .testimonial, .itinerary, .panel, .form {
+  box-shadow: 0 8px 24px rgba(20,40,70,.045);
+}
+.card:hover, .service:hover, .exp-card:hover, .svc:hover { transform: translateY(-2px); transition: transform .2s ease, box-shadow .2s ease; box-shadow: 0 14px 30px rgba(20,40,70,.08); }
+
+/* UAE: dense, useful grids instead of long empty columns. */
+.page-uae .cards.five { grid-template-columns: repeat(5, minmax(0,1fr)); gap: 12px; }
+.page-uae .cards.five .card { min-height: 250px; padding: 18px; }
+.page-uae .cards.five .card-img { min-height: 112px; display:grid; place-items:center; color:var(--gold); font-family:var(--heading); letter-spacing:.08em; font-size:12px; border-radius:5px; }
+.page-uae .cards.five .card-body { padding-top: 3px; }
+.page-uae .cards.five .card-body h3 { margin: 0; }
+.page-uae .cards.five .card-body p { font-size: 13px; line-height: 1.5; }
+
+.page-uae .exp { grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px; }
+.page-uae .exp-card { min-height: 185px; padding: 12px; }
+.page-uae .exp-copy { min-height: 160px; padding: 22px; display:flex; flex-direction:column; justify-content:flex-end; position:relative; }
+.page-uae .exp-copy::before { content:'✦'; position:absolute; top:18px; left:22px; color:var(--gold); font-size:28px; line-height:1; }
+.page-uae .exp-copy h3 { padding-top: 28px; margin-bottom: 6px; }
+.page-uae .exp-copy p { margin:0; font-size:13px; }
+
+.page-uae #services .services { grid-template-columns: repeat(3, minmax(0,1fr)); gap:12px; }
+.page-uae #services .service { min-height: 112px; }
+.page-uae #services .service h3 { font-size:18px; }
+
+.page-uae .itineraries { grid-template-columns: repeat(3, minmax(0,1fr)); gap:12px; }
+.page-uae .itinerary .img { height:190px; }
+.page-uae .itinerary .body { padding:18px; }
+.page-uae .itinerary .body p { font-size:13px; }
+
+.page-uae .mice { min-height:360px; }
+.page-uae .mice .placeholder { min-height:360px; }
+.page-uae .mice-content { padding:52px; }
+
+/* UAE DMC partner section: turn the formerly sparse list into a compact feature grid. */
+.page-uae .section.dark { background:var(--cream); color:var(--ink); }
+.page-uae .section.dark .heading h2,
+.page-uae .section.dark .heading p { color:var(--black); }
+.page-uae .section.dark .eyebrow { color:var(--gold); }
+.page-uae .usps { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:12px; }
+.page-uae .usp { padding:22px; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); min-height:176px; }
+.page-uae .usp .card-icon { margin-bottom:13px; }
+.page-uae .usp h3 { font-size:18px; margin-bottom:7px; }
+.page-uae .usp p { font-size:13px; line-height:1.5; margin:0; }
+
+/* Travel information: 4-up instead of stacked cards. */
+.page-uae .info { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:12px; }
+.page-uae .info .card { min-height:185px; padding:22px; }
+.page-uae .info .card-body { gap:6px; }
+.page-uae .info .card-icon { margin-bottom:12px; }
+.page-uae .info h3 { font-size:19px; }
+.page-uae .info p { font-size:13px; margin:0; }
+
+/* FAQ: readable accordion-like rows with an icon and clear affordance. */
+.page-uae .faq { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.page-uae .faq-item { min-height:76px; display:flex; align-items:center; justify-content:space-between; gap:18px; padding:18px 20px; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); color:var(--navy); }
+.page-uae .faq-item::before { content:'?'; flex:0 0 34px; width:34px; height:34px; display:grid; place-items:center; border:1px solid rgba(200,167,75,.55); border-radius:50%; color:var(--gold); font-family:var(--heading); font-size:17px; }
+.page-uae .faq-item strong { flex:1; font-family:var(--heading); font-size:16px; font-weight:500; }
+.page-uae .faq-item span { width:28px; height:28px; display:grid; place-items:center; border:1px solid var(--navy); border-radius:50%; color:var(--navy); font-size:18px; line-height:1; }
+
+/* Gallery: use the available width. */
+.page-uae .gallery { display:grid; grid-template-columns:1.35fr .65fr .65fr; grid-template-rows:190px 190px; gap:10px; }
+.page-uae .gallery > div { min-height:0; border-radius:var(--radius); background-size:cover; background-position:center; }
+.page-uae .gallery > .large { grid-row:1 / -1; }
+
+/* Process: four compact steps. */
+.page-uae .process { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:12px; }
+.page-uae .step { position:relative; min-height:190px; padding:22px; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); }
+.page-uae .step::before { content:'→'; position:absolute; right:18px; top:18px; color:var(--gold); font-size:22px; }
+.page-uae .step .num { display:flex; align-items:center; justify-content:center; width:40px; height:40px; margin-bottom:28px; border:1px solid rgba(200,167,75,.55); border-radius:50%; color:var(--gold); font-family:var(--heading); font-size:13px; }
+.page-uae .step h3 { font-size:18px; margin-bottom:7px; }
+.page-uae .step p { font-size:13px; margin:0; }
+
+/* Accommodation and transportation use the same service-card language. */
+.page-uae .two > div > .services { grid-template-columns:1fr 1fr; gap:10px; margin:20px 0 22px; }
+.page-uae .two > div > .services .service { min-height:92px; padding-top:18px; padding-bottom:18px; }
+.page-uae .two > div > .services .service-icon { top:17px; }
+.page-uae .two > div > .services .service h3 { font-size:16px; }
+.page-uae .two > div > .services .service p { font-size:12px; }
+
+/* CTA spacing. */
+.page-uae .cta { padding:70px 0 76px; }
+.page-uae .cta h2 { margin-bottom:12px; }
+.page-uae .cta p { margin-bottom:20px; }
+
+/* Contact/enquiry panel: premium but compact. */
+.page-uae #contact .contact { display:grid; grid-template-columns:.78fr 1.22fr; gap:42px; align-items:start; }
+.page-uae #contact .detail { padding:15px 0; color:var(--white); border-top:1px solid rgba(255,255,255,.18); }
+.page-uae #contact .detail small { color:var(--gold); }
+.page-uae #uae-enquiry-form { gap:13px; padding:24px; border-top-width:3px; box-shadow:0 16px 38px rgba(0,0,0,.12); }
+.page-uae #uae-enquiry-form .form-field { gap:5px; }
+.page-uae #uae-enquiry-form input,
+.page-uae #uae-enquiry-form select,
+.page-uae #uae-enquiry-form textarea { min-height:46px; padding:11px 13px; border-radius:5px; }
+.page-uae #uae-enquiry-form textarea { min-height:112px; }
+
+/* About page refinement. */
+.page-about .section, .page-about .s { padding-top:72px; padding-bottom:76px; }
+.page-about .two { gap:48px; }
+.page-about .block { padding:22px; background:var(--card); }
+.page-about .grid2 { gap:12px; }
+.page-about .grid2 .card { min-height:220px; padding:22px; }
+.page-about .team-grid { gap:12px; }
+.page-about .team-card { box-shadow:0 8px 24px rgba(20,40,70,.055); }
+.page-about .team-card .pi { padding:14px 16px 17px; }
+.page-about .beliefs-closing { gap:12px; margin-top:20px; }
+.page-about #testimonials { background:var(--cream); }
+.page-about #testimonials .testimonial-slider { margin-top:26px; }
+
+/* Homepage and About testimonials must share the same card treatment. */
+.testimonial { min-height:260px; padding:26px; }
+.testimonial-type { margin-bottom:18px; }
+.testimonial .quote { font-size:23px; }
+.testimonial-video-frame img { aspect-ratio:16/10; }
+.testimonial .person { display:flex; align-items:center; gap:8px; margin-top:18px; }
+.testimonial-avatar { width:30px; height:30px; border-radius:50%; object-fit:cover; }
+
+/* Slightly more useful content width on large screens. */
+@media (min-width:1200px) {
+  .page-uae .container, .page-about .c { max-width:1180px; }
+}
+
+@media (max-width:900px) {
+  .page-uae .cards.five { grid-template-columns:repeat(3,1fr); }
+  .page-uae .usps { grid-template-columns:repeat(2,1fr); }
+  .page-uae .info { grid-template-columns:repeat(2,1fr); }
+  .page-uae .process { grid-template-columns:repeat(2,1fr); }
+  .page-uae .faq { grid-template-columns:1fr; }
+  .page-uae #contact .contact { grid-template-columns:1fr; }
+  .page-uae .gallery { grid-template-columns:1fr 1fr; grid-template-rows:220px 160px 160px; }
+  .page-uae .gallery > .large { grid-row:1 / 2; grid-column:1 / -1; }
+  .page-uae .two > div > .services { grid-template-columns:1fr 1fr; }
+}
+
+@media (max-width:600px) {
+  .section, .s, .sec { padding:58px 0 62px; }
+  .page-uae .cards.five, .page-uae .usps, .page-uae .info, .page-uae .process, .page-uae .exp, .page-uae #services .services { grid-template-columns:1fr; }
+  .page-uae .two > div > .services { grid-template-columns:1fr; }
+  .page-uae .gallery { grid-template-columns:1fr; grid-template-rows:220px repeat(4,150px); }
+  .page-uae .gallery > .large { grid-column:auto; grid-row:auto; }
+  .page-uae #uae-enquiry-form { padding:20px; }
+  .card-icon { width:45px; height:45px; }
+  .service-icon { width:42px; height:42px; }
+}
+
+.step-icon { width:45px; height:45px; margin-bottom:12px; color:var(--gold); display:block; }
+.page-uae .step .num { position:absolute; top:22px; right:22px; margin:0; width:34px; height:34px; }
+.page-uae .step::before { display:none; }
+.page-uae .exp-copy .card-icon { margin-bottom:10px; }
+.page-uae .exp-copy::before { display:none; }
+.page-uae .section.dark .usp .card-icon { color:var(--gold); }
+.page-uae #contact .form-actions .btn { background:var(--navy); color:var(--white); border-color:var(--navy); }
+.page-uae #contact .form-actions .btn:hover { background:var(--gold); color:var(--navy); border-color:var(--gold); }
+
+
+/* V4 — tighter editorial cards, consistent icon language and balanced copy. */
+.page-uae .cards.five { gap: 14px; }
+.page-uae .cards.five .card { min-height: 220px; padding: 20px; display:flex; flex-direction:column; }
+.page-uae .cards.five .card-img { min-height: 70px; height:70px; display:flex; align-items:flex-start; justify-content:space-between; background:transparent; border-radius:0; color:var(--gold); }
+.page-uae .cards.five .card-img svg { width:42px; height:42px; fill:none; stroke:currentColor; stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }
+.page-uae .cards.five .card-img span { font-family:var(--heading); font-size:11px; letter-spacing:.14em; margin-top:7px; }
+.page-uae .cards.five .card-body { margin-top:auto; padding-top:12px; }
+.page-uae .cards.five .card-body h3 { font-size:22px; margin-bottom:7px; }
+.page-uae .cards.five .card-body p { font-size:13px; line-height:1.45; margin:0; max-width:20ch; }
+
+.page-uae .exp { gap:14px; }
+.page-uae .exp-card, .page-uae .exp-copy { min-height:175px; }
+.page-uae .exp-copy { padding:20px; }
+.page-uae .exp-copy .card-icon { width:45px; height:45px; margin-bottom:10px; }
+.page-uae .exp-copy h3 { font-size:19px; }
+.page-uae .exp-copy p { font-size:13px; line-height:1.45; max-width:24ch; }
+
+.page-uae #services .services { gap:14px; }
+.page-uae #services .service { min-height:126px; padding:22px 20px 20px 82px; }
+.page-uae #services .service h3 { font-size:18px; margin-bottom:7px; }
+.page-uae #services .service p { font-size:13px; line-height:1.45; max-width:25ch; margin:0; }
+.page-uae #services .service-icon { width:48px; height:48px; padding:10px; left:20px; top:22px; }
+
+.page-uae .two > div > .services { gap:12px; }
+.page-uae .two > div > .services .service { min-height:84px; padding:18px 16px 18px 70px; }
+.page-uae .two > div > .services .service-icon { width:42px; height:42px; padding:8px; left:16px; top:17px; }
+.page-uae .two > div > .services .service h3 { font-size:16px; }
+
+.page-uae .usps { gap:14px; }
+.page-uae .usp { min-height:160px; padding:20px; }
+.page-uae .usp .card-icon { width:45px; height:45px; }
+.page-uae .usp h3 { font-size:18px; }
+.page-uae .usp p { font-size:13px; max-width:25ch; }
+
+.page-uae .info { gap:14px; }
+.page-uae .info .card { min-height:165px; padding:20px; }
+.page-uae .info .card-icon { width:45px; height:45px; }
+
+.page-uae .step { min-height:170px; padding:20px; }
+.page-uae .step .step-icon { width:45px; height:45px; }
+.page-uae .step p { max-width:27ch; line-height:1.45; }
+
+.page-uae .gallery { gap:14px; grid-template-rows:205px 205px; }
+.page-uae #testimonials .section-intro { max-width:700px; margin-bottom:22px; }
+.page-uae #testimonials .testimonial-slider { margin-top:0; }
+.page-uae #testimonials .testimonial { min-height:270px; }
+
+/* Keep accommodation CTA aligned with the card grid. */
+.page-uae .two > div > .btn { margin-top:0; }
+
+@media (min-width:901px) {
+  .page-uae .cards.five .card-body p { min-height:38px; }
+  .page-uae #services .service p { min-height:19px; }
+}
+
+@media (max-width:900px) {
+  .page-uae .cards.five .card { min-height:200px; }
+}
+
+@media (max-width:600px) {
+  .page-uae .cards.five .card { min-height:185px; }
+  .page-uae .cards.five .card-img { min-height:58px; height:58px; }
+  .page-uae #services .service { min-height:110px; padding-left:76px; }
+}
