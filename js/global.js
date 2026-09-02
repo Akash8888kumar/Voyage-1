@@ -1,3 +1,40 @@
+/* Static-site CTA fallbacks: enquiry forms open the visitor's mail client; video testimonial buttons open the local video when no lightbox is available. */
+function wireStaticCtas() {
+  document.querySelectorAll('form#contact-enquiry-form, form#uae-enquiry-form').forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      const data = new FormData(form);
+      const lines = [];
+      data.forEach(function (value, key) {
+        if (String(value).trim()) lines.push(key.replace(/_/g, ' ')+': '+String(value).trim());
+      });
+      const subject = form.id === 'uae-enquiry-form' ? 'UAE Journey Enquiry — Voyage 1' : 'New Enquiry — Voyage 1';
+      const body = 'Hello Voyage 1 Team,\\n\\nI would like to enquire about the following:\\n\\n' + lines.join('\\n') + '\\n\\nThank you.';
+      window.location.href = 'mailto:info@voyage-one.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  });
+
+  document.querySelectorAll('.testimonial-video-trigger[data-lightbox-src]').forEach(function (trigger) {
+    trigger.addEventListener('click', function (event) {
+      const lightbox = document.querySelector('[data-vo-lightbox]');
+      // The current pages do not use a gallery slider, so the existing lightbox
+      // initializer is intentionally bypassed. Open the bundled MP4 directly.
+      if (!lightbox) {
+        event.preventDefault();
+        window.open(trigger.getAttribute('data-lightbox-src'), '_blank', 'noopener,noreferrer');
+      } else {
+        // If a lightbox exists but is not initialized, still provide a working CTA.
+        event.preventDefault();
+        window.open(trigger.getAttribute('data-lightbox-src'), '_blank', 'noopener,noreferrer');
+      }
+    });
+  });
+}
+
 /* Voyage 1 — shared frontend behavior */
 
 function toggleCard(button) {
@@ -7,6 +44,9 @@ function toggleCard(button) {
   button.setAttribute('aria-expanded', String(expanded));
   button.textContent = expanded ? 'Read Less ↑' : 'Read More →';
 }
+
+
+document.addEventListener('DOMContentLoaded', wireStaticCtas);
 
 document.addEventListener('DOMContentLoaded', function () {
   if (window.AOS) {
@@ -101,15 +141,15 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!slider) return;
   const controls = document.querySelector('[data-hero-controls]');
   const images = [
-    'assets/images/hero-uae.webp',
-    'assets/images/hero-georgia.webp',
-    'assets/images/hero-kazakhstan.webp',
-    'assets/images/hero-azerbaijan.webp',
-    'assets/images/hero-japan.webp',
-    'assets/images/hero-vietnam.webp',
-    'assets/images/hero-kenya.webp',
-    'assets/images/hero-tanzania.webp',
-    'assets/images/hero-south-africa.webp'
+    'assets/images/UAE.jpg',
+    'assets/images/georgia.jpg',
+    'assets/images/Kazakhstan.jpg',
+    'assets/images/Azerbaijan.jpg',
+    'assets/images/Japan.jpg',
+    'assets/images/Vietnam.jpg',
+    'assets/images/Kenya.jpg',
+    'assets/images/tanzania.jpg',
+    'assets/images/South-Africa.jpg'
   ];
   let index=0, timer;
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
