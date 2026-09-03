@@ -3355,3 +3355,632 @@ body {
     padding: 72px 0;
   }
 }
+
+/* Destination card heading spacing: 15px / 0.9375rem below the image */
+.card .card-img ~ .card-body h3 {
+  margin-top: 0.9375rem;
+}
+
+/* =========================================================
+   GLOBAL CONTENT RHYTHM — MATCH DMC PARTNER SECTION
+   Apply the same heading/paragraph/card spacing throughout
+   all pages while removing unnecessary text constraints.
+   ========================================================= */
+
+/* Section heading rhythm: eyebrow → heading → paragraph. */
+.heading {
+  margin-bottom: 1.875rem;
+}
+
+.heading h2,
+.heading h1 {
+  margin-bottom: 0.75rem;
+}
+
+.heading h2 + p,
+.heading h1 + p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Keep supporting copy from being artificially narrowed. */
+.heading p {
+  max-width: 100%;
+}
+
+/* Cards: image → heading → supporting copy with one consistent rhythm. */
+.card-body {
+  gap: 0;
+}
+
+.card .card-img ~ .card-body h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-body h3 + p,
+.card-body h3 + .link {
+  margin-top: 0;
+}
+
+.card-body p {
+  margin-bottom: 0.75rem;
+  max-width: none;
+}
+
+/* Let short card descriptions stay on one line when the card has room. */
+.card-body p,
+.usp p,
+.step p,
+.service p,
+.exp-copy p,
+.info .card p,
+.why-item p,
+.value p {
+  max-width: none;
+}
+
+/* Match the reference DMC-partner card spacing across every destination. */
+.usp h3,
+.service h3,
+.step h3,
+.exp-copy h3,
+.info .card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.usp p,
+.service p,
+.step p,
+.exp-copy p,
+.info .card p {
+  margin-bottom: 0;
+}
+
+/* Remove forced vertical gaps that were only creating empty card space. */
+.usp,
+.step,
+.info .card,
+.exp-copy,
+.service {
+  align-content: start;
+}
+
+/* Keep destination imagery and content consistently separated. */
+.card .card-img {
+  margin-bottom: 0;
+}
+
+@media (max-width: 37.5rem) {
+  /* On phones, allow copy to wrap naturally instead of clipping. */
+  .card-body p,
+  .usp p,
+  .step p,
+  .service p,
+  .exp-copy p,
+  .info .card p,
+  .why-item p,
+  .value p {
+    white-space: normal;
+  }
+}
+
+
+/* =========================================================
+   FINAL NAV + SPACING REFINEMENT
+   Navigation order: About Us → Destinations → Media → Careers → Send Query
+   Consistent editorial spacing across sections and cards.
+   ========================================================= */
+
+.vo-nav {
+  gap: 34px;
+}
+
+.vo-menu {
+  gap: 32px;
+}
+
+.vo-header-cta {
+  margin-left: 8px;
+  white-space: nowrap;
+}
+
+/* Consistent section breathing room. */
+.section,
+.s,
+.sec {
+  padding: 96px 0 112px;
+}
+
+.section + .section,
+.section + .sec,
+.sec + .section,
+.sec + .sec,
+.s + .section,
+.s + .sec {
+  padding-top: 88px;
+}
+
+/* Heading → copy → content rhythm. */
+.heading,
+.section-head {
+  margin-bottom: 42px;
+}
+
+.heading h1,
+.heading h2,
+.section-head h1,
+.section-head h2 {
+  margin-bottom: 14px;
+}
+
+.heading h1 + p,
+.heading h2 + p,
+.section-head h1 + p,
+.section-head h2 + p {
+  margin-top: 0;
+}
+
+/* Intro/value sections: keep both columns visually aligned. */
+.intro-grid,
+.two,
+.grid2,
+.network {
+  gap: 78px;
+}
+
+.value,
+.why-item,
+.process-step {
+  padding: 26px 0;
+}
+
+.value h3,
+.why-item h3,
+.process-step h3 {
+  margin-bottom: 8px;
+}
+
+/* Cards: predictable image → title → copy → CTA spacing. */
+.card-body {
+  padding-top: 0;
+}
+
+.card .card-img ~ .card-body h3 {
+  margin-top: 24px;
+  margin-bottom: 9px;
+}
+
+.card-body p {
+  margin-bottom: 18px;
+}
+
+.card-body .link:last-child {
+  margin-top: 0;
+}
+
+/* Grid gaps should remain consistent instead of relying on per-section overrides. */
+.dest-grid,
+.services-grid,
+.services,
+.why-grid,
+.process-grid,
+.grid,
+.cases {
+  gap: 18px;
+}
+
+@media (max-width: 1050px) {
+  .vo-nav { gap: 24px; }
+  .vo-menu { gap: 22px; }
+  .intro-grid,
+  .two,
+  .grid2,
+  .network { gap: 48px; }
+}
+
+@media (max-width: 900px) {
+  .vo-menu { gap: 0; }
+  .section,
+  .s,
+  .sec { padding: 76px 0 88px; }
+  .section + .section,
+  .section + .sec,
+  .sec + .section,
+  .sec + .sec,
+  .s + .section,
+  .s + .sec { padding-top: 68px; }
+  .heading,
+  .section-head { margin-bottom: 32px; }
+}
+
+@media (max-width: 600px) {
+  .section,
+  .s,
+  .sec { padding: 64px 0 76px; }
+  .heading,
+  .section-head { margin-bottom: 28px; }
+  .intro-grid,
+  .two,
+  .grid2,
+  .network { gap: 36px; }
+  .value,
+  .why-item,
+  .process-step { padding: 22px 0; }
+}
+
+
+/* =========================================================
+   FINAL HERO SYSTEM — INTERIOR BANNERS
+   Homepage hero slider intentionally remains unchanged.
+   ========================================================= */
+/* One shared height / treatment for all non-home hero banners. */
+body:not(.page-home) .hero,
+body:not(.page-home) .career-hero,
+body:not(.page-home) .media-hero {
+  min-height: 680px !important;
+  height: 680px !important;
+  display: flex;
+  align-items: center;
+  border-bottom: none !important;
+  overflow: hidden;
+}
+
+/* Use the same full-bleed photo treatment for interior heroes. */
+body:not(.page-home) .hero .vo-static-banner,
+body:not(.page-home) .hero .hero-bg,
+body:not(.page-home) .career-hero,
+body:not(.page-home) .media-hero {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+/* Shared readability overlay; homepage slider is excluded. */
+body:not(.page-home) .hero .vo-static-banner::after,
+body:not(.page-home) .hero .hero-bg::after,
+body:not(.page-home) .hero .overlay,
+body:not(.page-home) .career-hero::before,
+body:not(.page-home) .media-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,
+    rgba(0,0,0,.68) 0%,
+    rgba(0,0,0,.54) 30%,
+    rgba(0,0,0,.28) 58%,
+    rgba(0,0,0,.08) 100%) !important;
+  pointer-events: none;
+}
+
+/* About/contact static banners get real full-bleed photography. */
+.page-about .hero .vo-static-banner {
+  background-image: url('../assets/images/about-story-1.webp') !important;
+  background-size: cover !important;
+  background-position: center 45% !important;
+}
+.page-contact .hero .vo-static-banner {
+  background-image: url('../assets/images/ChatGPT Image Sep 2, 2026, 12_02_09 PM.webp') !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+/* Destination pages keep their destination-specific hero image. */
+.page-uae .hero .hero-bg {
+  background-size: cover !important;
+  background-position: center center !important;
+}
+.page-uae .hero .vo-static-banner { display: none !important; }
+
+/* Align all interior hero copy consistently. */
+body:not(.page-home) .hero > .container,
+body:not(.page-home) .hero > .c,
+body:not(.page-home) .career-hero > .container,
+body:not(.page-home) .media-hero > .container {
+  position: relative;
+  z-index: 3;
+  width: min(var(--shell), calc(100% - 56px));
+  max-width: var(--shell);
+  margin-inline: auto;
+}
+
+body:not(.page-home) .hero .hero-content,
+body:not(.page-home) .hero .hc,
+body:not(.page-home) .career-hero-content,
+body:not(.page-home) .media-hero-content {
+  position: relative;
+  z-index: 3;
+  max-width: 760px;
+  padding: 0 !important;
+  margin: 0;
+}
+
+body:not(.page-home) .hero h1,
+body:not(.page-home) .career-hero h1,
+body:not(.page-home) .media-hero h1 {
+  margin-bottom: 20px;
+}
+
+body:not(.page-home) .hero p,
+body:not(.page-home) .career-hero-content > p,
+body:not(.page-home) .media-hero p {
+  margin-bottom: 0 !important;
+  max-width: 720px;
+}
+
+/* No hero CTAs on interior pages — homepage is the only exception. */
+body:not(.page-home) .hero .actions,
+body:not(.page-home) .hero .hero-actions,
+body:not(.page-home) .hero-content > .btn,
+body:not(.page-home) .career-hero .hero-actions,
+body:not(.page-home) .media-hero .hero-actions {
+  display: none !important;
+}
+
+/* Remove the old gold bottom accent from Careers/Media. */
+.career-hero::after,
+.media-hero::after {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  body:not(.page-home) .hero,
+  body:not(.page-home) .career-hero,
+  body:not(.page-home) .media-hero {
+    min-height: 620px !important;
+    height: 620px !important;
+  }
+  body:not(.page-home) .hero > .container,
+  body:not(.page-home) .hero > .c,
+  body:not(.page-home) .career-hero > .container,
+  body:not(.page-home) .media-hero > .container {
+    width: min(var(--shell), calc(100% - 40px));
+  }
+}
+
+@media (max-width: 600px) {
+  body:not(.page-home) .hero,
+  body:not(.page-home) .career-hero,
+  body:not(.page-home) .media-hero {
+    min-height: 560px !important;
+    height: 560px !important;
+  }
+  body:not(.page-home) .hero > .container,
+  body:not(.page-home) .hero > .c,
+  body:not(.page-home) .career-hero > .container,
+  body:not(.page-home) .media-hero > .container {
+    width: calc(100% - 32px);
+  }
+  body:not(.page-home) .hero h1,
+  body:not(.page-home) .career-hero h1,
+  body:not(.page-home) .media-hero h1 {
+    font-size: clamp(42px, 12vw, 60px);
+  }
+}
+
+
+/* =========================================================
+   FINAL INTERIOR HERO PASS
+   Homepage slider remains untouched. Every interior banner
+   shares one height, overlay, typography and spacing system.
+   ========================================================= */
+body:not(.page-home) .hero,
+body:not(.page-home) .media-hero,
+body:not(.page-home) .career-hero {
+  min-height: 680px !important;
+  height: 680px !important;
+  display: flex !important;
+  align-items: center !important;
+  border: 0 !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+}
+
+/* Shared image layer */
+body:not(.page-home) .hero .hero-bg,
+body:not(.page-home) .hero .vo-static-banner,
+body:not(.page-home) .media-hero,
+body:not(.page-home) .career-hero {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+/* Shared dark overlay */
+body:not(.page-home) .hero .hero-bg::after,
+body:not(.page-home) .hero .vo-static-banner::after,
+body:not(.page-home) .hero .overlay,
+body:not(.page-home) .media-hero::before,
+body:not(.page-home) .career-hero::before {
+  content: '' !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: linear-gradient(90deg,
+    rgba(7,21,37,.82) 0%,
+    rgba(7,21,37,.64) 36%,
+    rgba(7,21,37,.34) 62%,
+    rgba(7,21,37,.12) 100%) !important;
+  pointer-events: none !important;
+  z-index: 1 !important;
+}
+
+/* Interior copy alignment */
+body:not(.page-home) .hero > .container,
+body:not(.page-home) .career-hero > .container,
+body:not(.page-home) .media-hero > .container {
+  position: relative !important;
+  z-index: 3 !important;
+  width: min(var(--shell), calc(100% - 56px)) !important;
+  max-width: var(--shell) !important;
+  margin-inline: auto !important;
+}
+
+body:not(.page-home) .hero .hero-content,
+body:not(.page-home) .hero .hc,
+body:not(.page-home) .career-hero-content,
+body:not(.page-home) .media-hero-content {
+  position: relative !important;
+  z-index: 3 !important;
+  max-width: 760px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body:not(.page-home) .hero h1,
+body:not(.page-home) .career-hero h1,
+body:not(.page-home) .media-hero h1 {
+  color: var(--white) !important;
+  margin: 0 0 20px !important;
+  font-family: var(--heading) !important;
+  font-size: clamp(48px, 7vw, 82px) !important;
+  line-height: .98 !important;
+  letter-spacing: -.04em !important;
+}
+
+body:not(.page-home) .hero .eyebrow,
+body:not(.page-home) .hero .e,
+body:not(.page-home) .hero .ey,
+body:not(.page-home) .career-hero .eyebrow,
+body:not(.page-home) .media-hero .eyebrow {
+  color: var(--gold) !important;
+}
+
+body:not(.page-home) .hero p,
+body:not(.page-home) .career-hero-content > p,
+body:not(.page-home) .media-hero p {
+  color: rgba(255,255,255,.92) !important;
+  margin: 0 !important;
+  max-width: 720px !important;
+}
+
+/* Absolutely no CTA/buttons inside interior hero banners. */
+body:not(.page-home) .hero .hero-actions,
+body:not(.page-home) .hero .actions,
+body:not(.page-home) .hero .hero-content > .btn,
+body:not(.page-home) .hero .hc > .btn,
+body:not(.page-home) .career-hero .hero-actions,
+body:not(.page-home) .career-hero .actions,
+body:not(.page-home) .career-hero .btn,
+body:not(.page-home) .media-hero .hero-actions,
+body:not(.page-home) .media-hero .actions,
+body:not(.page-home) .media-hero .btn {
+  display: none !important;
+}
+
+/* Remove every decorative gold/navy line from interior hero bottoms. */
+body:not(.page-home) .hero::after,
+body:not(.page-home) .career-hero::after,
+body:not(.page-home) .media-hero::after {
+  display: none !important;
+  content: none !important;
+  height: 0 !important;
+  border: 0 !important;
+  background: none !important;
+}
+
+/* Destination-specific hero imagery. */
+.page-uae .hero .hero-bg { background-image: url('../assets/images/hero-uae.webp') !important; }
+.page-georgia .hero .hero-bg { background-image: url('../assets/images/hero-georgia.webp') !important; }
+.page-kazakhstan .hero .hero-bg { background-image: url('../assets/images/hero-kazakhstan.webp') !important; }
+.page-azerbaijan .hero .hero-bg { background-image: url('../assets/images/hero-azerbaijan.webp') !important; }
+.page-japan .hero .hero-bg { background-image: url('../assets/images/hero-japan.webp') !important; }
+.page-vietnam .hero .hero-bg { background-image: url('../assets/images/hero-vietnam.webp') !important; }
+.page-kenya .hero .hero-bg { background-image: url('../assets/images/hero-kenya.webp') !important; }
+.page-tanzania .hero .hero-bg { background-image: url('../assets/images/hero-tanzania.webp') !important; }
+.page-south-africa .hero .hero-bg { background-image: url('../assets/images/hero-south-africa.webp') !important; }
+
+/* About uses its static banner; keep it in the same visual system. */
+.page-about .hero .vo-static-banner {
+  background-image: url('../assets/images/about-story-1.webp') !important;
+  background-size: cover !important;
+  background-position: center 45% !important;
+}
+
+/* Media and Careers use the same banner image treatment. */
+.page-media .media-hero,
+.page-careers .career-hero {
+  background-image: url('../assets/images/partner-meeting.webp') !important;
+}
+
+@media (max-width: 900px) {
+  body:not(.page-home) .hero,
+  body:not(.page-home) .media-hero,
+  body:not(.page-home) .career-hero {
+    min-height: 620px !important;
+    height: 620px !important;
+  }
+  body:not(.page-home) .hero > .container,
+  body:not(.page-home) .career-hero > .container,
+  body:not(.page-home) .media-hero > .container {
+    width: calc(100% - 40px) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  body:not(.page-home) .hero,
+  body:not(.page-home) .media-hero,
+  body:not(.page-home) .career-hero {
+    min-height: 560px !important;
+    height: 560px !important;
+  }
+  body:not(.page-home) .hero > .container,
+  body:not(.page-home) .career-hero > .container,
+  body:not(.page-home) .media-hero > .container {
+    width: calc(100% - 32px) !important;
+  }
+  body:not(.page-home) .hero h1,
+  body:not(.page-home) .career-hero h1,
+  body:not(.page-home) .media-hero h1 {
+    font-size: clamp(42px, 12vw, 60px) !important;
+  }
+}
+
+/* =========================================================
+   FINAL HERO CONTENT ALIGNMENT
+   Keep interior hero copy on the exact same content rail as
+   the header logo/navigation shell.
+   ========================================================= */
+body:not(.page-home) .hero > .c.hc,
+body:not(.page-home) .hero > .container,
+body:not(.page-home) .career-hero > .container,
+body:not(.page-home) .media-hero > .container {
+  width: min(var(--shell), calc(100% - 56px)) !important;
+  max-width: var(--shell) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
+  align-self: center !important;
+  flex: 0 1 var(--shell) !important;
+}
+
+body:not(.page-home) .hero .hc,
+body:not(.page-home) .hero .hero-content,
+body:not(.page-home) .career-hero-content,
+body:not(.page-home) .media-hero-content {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media (max-width: 900px) {
+  body:not(.page-home) .hero > .c.hc,
+  body:not(.page-home) .hero > .container,
+  body:not(.page-home) .career-hero > .container,
+  body:not(.page-home) .media-hero > .container {
+    width: calc(100% - 40px) !important;
+    flex-basis: calc(100% - 40px) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  body:not(.page-home) .hero > .c.hc,
+  body:not(.page-home) .hero > .container,
+  body:not(.page-home) .career-hero > .container,
+  body:not(.page-home) .media-hero > .container {
+    width: calc(100% - 32px) !important;
+    flex-basis: calc(100% - 32px) !important;
+  }
+}
