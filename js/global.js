@@ -49,6 +49,19 @@ function toggleCard(button) {
 document.addEventListener('DOMContentLoaded', wireStaticCtas);
 
 document.addEventListener('DOMContentLoaded', function () {
+  // Career links can carry a role/subject into the shared enquiry form.
+  var params = new URLSearchParams(window.location.search);
+  var role = params.get('role');
+  var subject = params.get('subject');
+  var requirements = document.getElementById('requirements');
+  if (requirements && (role || subject)) {
+    var label = role ? 'Career enquiry — ' + role : 'Career enquiry';
+    requirements.value = label + '\n\nI would like to learn more about opportunities at Voyage 1.';
+    requirements.focus({ preventScroll: true });
+  }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
   if (window.AOS) {
     AOS.init({ duration: 850, easing: 'ease-out-cubic', once: true, offset: 70, disable: false });
   }
