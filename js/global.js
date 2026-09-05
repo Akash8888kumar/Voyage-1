@@ -1,8 +1,18 @@
 
-/* Voyage 1 site loader — logo-led branded transition. */
+/* Voyage 1 site loader — shown once per browsing session, not on every internal page. */
 (function(){
   const loader = document.querySelector('[data-site-loader]');
   if (!loader) return;
+
+  let alreadySeen = false;
+  try { alreadySeen = sessionStorage.getItem('voyage-loader-seen') === '1'; } catch (e) {}
+
+  if (alreadySeen) {
+    document.documentElement.classList.add('vo-loader-skip');
+    document.documentElement.classList.remove('vo-is-loading');
+    loader.remove();
+    return;
+  }
 
   const startedAt = performance.now();
   const minimumDisplay = 720;
@@ -14,6 +24,7 @@
     hiding = true;
     const elapsed = performance.now() - startedAt;
     window.setTimeout(() => {
+      try { sessionStorage.setItem('voyage-loader-seen', '1'); } catch (e) {}
       loader.classList.add('is-leaving');
       document.documentElement.classList.remove('vo-is-loading');
       window.dispatchEvent(new CustomEvent('voyage:loader-leaving'));
@@ -79,106 +90,102 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  if (window.AOS) {
-    AOS.init({ duration: 850, easing: 'ease-out-cubic', once: true, offset: 70, disable: false });
+  // Native reveal engine. The class is placed in <head> before first paint, so nothing flashes or snaps.
+  const revealItems = Array.from(document.querySelectorAll('[data-aos]'));
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  revealItems.forEach(function (item) {
+    const rawDelay = parseInt(item.getAttribute('data-aos-delay') || '0', 10);
+    const rawDuration = parseInt(item.getAttribute('data-aos-duration') || '900', 10);
+    const delay = Number.isFinite(rawDelay) ? Math.min(Math.max(rawDelay, 0), 520) : 0;
+    const duration = Number.isFinite(rawDuration) ? Math.min(Math.max(rawDuration, 700), 1250) : 900;
+    item.style.setProperty('--vo-reveal-delay', delay + 'ms');
+    item.style.setProperty('--vo-reveal-duration', duration + 'ms');
+
+    // Repeated cards enter in a gentle sequence instead of appearing as one abrupt block.
+    if (!item.hasAttribute('data-aos-delay')) {
+      const row = item.parentElement;
+      if (row && row.children.length > 1 && row.children.length <= 10) {
+        const siblingIndex = Array.prototype.indexOf.call(row.children, item);
+        item.style.setProperty('--vo-reveal-delay', Math.min(siblingIndex * 65, 325) + 'ms');
+      }
+    }
+  });
+
+  if (reduceMotion || !revealItems.length) {
+    revealItems.forEach(function (item) { item.classList.add('aos-animate'); });
+  } else {
+    document.documentElement.classList.add('js-reveal');
+
+    // A section that contains separately animated children acts only as a shell.
+    // This prevents a hidden parent from making its child animation appear to jump in suddenly.
+    document.querySelectorAll('section[data-aos]').forEach(function(section) {
+      const nested = section.querySelector('[data-aos]');
+      if (nested) {
+        section.classList.add('vo-reveal-shell', 'aos-animate');
+      }
+    });
+
+    // Hero and service strip use their own transitions and should be immediately paintable.
+    revealItems.filter(function(item) {
+      return item.closest('.hero') || item.classList.contains('service-strip');
+    }).forEach(function(item) {
+      item.classList.add('aos-animate');
+    });
+
+    const reveal = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (!entry.isIntersecting) return;
+        window.requestAnimationFrame(function() {
+          entry.target.classList.add('aos-animate');
+        });
+        observer.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.08 });
+
+    revealItems.forEach(function(item) {
+      if (item.classList.contains('aos-animate')) return;
+      reveal.observe(item);
+    });
   }
 
-  // FAQ accordion: one clear open state with a smooth height animation.
+  // FAQ accordion.
   document.querySelectorAll('.faq-item').forEach(function (item) {
     const trigger = item.querySelector('.faq-trigger');
-    const answer = item.querySelector('.faq-answer');
-    if (!trigger || !answer) return;
-
+    if (!trigger) return;
     trigger.addEventListener('click', function () {
       const isOpen = item.classList.contains('is-open');
       document.querySelectorAll('.faq-item.is-open').forEach(function (openItem) {
         if (openItem === item) return;
         openItem.classList.remove('is-open');
-        const openTrigger = openItem.querySelector('.faq-trigger');
-        if (openTrigger) openTrigger.setAttribute('aria-expanded', 'false');
+        openItem.querySelector('.faq-trigger')?.setAttribute('aria-expanded', 'false');
       });
       item.classList.toggle('is-open', !isOpen);
       trigger.setAttribute('aria-expanded', String(!isOpen));
     });
   });
 
-  // Sticky header: add a subtle shadow once the page scrolls
+  // Sticky header shadow. Bootstrap owns navbar collapse/dropdown behavior.
   const header = document.querySelector('.vo-header');
   if (header) {
-    const onHeaderScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
-    onHeaderScroll();
-    window.addEventListener('scroll', onHeaderScroll, { passive: true });
+    const syncHeader = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+    syncHeader();
+    window.addEventListener('scroll', syncHeader, { passive: true });
   }
 
-  const toggle = document.querySelector('.vo-mobile-toggle');
-  const menu = document.querySelector('.vo-menu');
-  if (toggle && menu) {
-    // Put the primary enquiry action inside the mobile drawer as a large tap target.
-    if (!menu.querySelector('.vo-mobile-query')) {
-      const queryLink = document.createElement('a');
-      queryLink.className = 'vo-mobile-query';
-      queryLink.href = 'contact.html';
-      queryLink.innerHTML = 'Send Query <span aria-hidden="true">→</span>';
-      menu.appendChild(queryLink);
-    }
-
-    const closeDropdowns = function (except) {
-      menu.querySelectorAll('.vo-dropdown-wrap.mobile-open').forEach(function (wrap) {
-        if (wrap === except) return;
-        wrap.classList.remove('mobile-open');
-        const chevron = wrap.querySelector('.vo-menu-link .vo-chevron');
-        if (chevron) chevron.style.transform = 'rotate(0deg)';
-      });
-    };
-
-    const setMenuOpen = function (open) {
-      menu.classList.toggle('is-open', open);
-      toggle.setAttribute('aria-expanded', String(open));
-      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-      toggle.textContent = open ? '×' : '☰';
-      document.documentElement.classList.toggle('vo-menu-open', open);
-      document.body.classList.toggle('vo-menu-open', open);
-      if (!open) closeDropdowns();
-    };
-
-    toggle.addEventListener('click', function () {
-      setMenuOpen(!menu.classList.contains('is-open'));
-    });
-
-    menu.querySelectorAll('a').forEach(function (link) {
+  // Collapse the mobile Bootstrap navbar after selecting a real destination/page link.
+  const navCollapse = document.getElementById('voyageNavbar');
+  if (navCollapse && window.bootstrap) {
+    navCollapse.querySelectorAll('a:not(.dropdown-toggle)').forEach(function (link) {
       link.addEventListener('click', function () {
-        if (window.innerWidth <= 900 && link.classList.contains('vo-menu-link')) return;
-        setMenuOpen(false);
+        if (window.innerWidth < 992 && navCollapse.classList.contains('show')) {
+          bootstrap.Collapse.getOrCreateInstance(navCollapse).hide();
+        }
       });
     });
-
-    // Mobile dropdowns behave like a clean accordion so one submenu never overlaps another.
-    document.querySelectorAll('.vo-menu-link').forEach(function (link) {
-      link.addEventListener('click', function (event) {
-        if (window.innerWidth > 900) return;
-        const wrap = link.closest('.vo-dropdown-wrap');
-        if (!wrap) return;
-        event.preventDefault();
-
-        const willOpen = !wrap.classList.contains('mobile-open');
-        closeDropdowns(wrap);
-        wrap.classList.toggle('mobile-open', willOpen);
-
-        const chevron = link.querySelector('.vo-chevron');
-        if (chevron) chevron.style.transform = willOpen ? 'rotate(180deg)' : 'rotate(0deg)';
-      });
-    });
-
-    document.addEventListener('keydown', function (event) {
-      if (event.key === 'Escape' && menu.classList.contains('is-open')) setMenuOpen(false);
-    });
-
-    window.addEventListener('resize', function () {
-      if (window.innerWidth > 900 && menu.classList.contains('is-open')) setMenuOpen(false);
-    }, { passive: true });
   }
 
-  // Keep frontend validation active without adding any backend behavior.
+  // Keep frontend validation active without adding backend behavior.
   document.querySelectorAll('form').forEach(function (form) {
     form.addEventListener('submit', function (event) {
       if (!form.checkValidity()) {
