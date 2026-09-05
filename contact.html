@@ -6,9 +6,19 @@
 <link href="css/global.css" rel="stylesheet"/>
 <link href="css/v3-overrides.css" rel="stylesheet"/>
 </head><body class="page-contact">
+<div class="vo-site-loader" data-site-loader aria-hidden="true">
+  <div class="vo-loader-inner">
+    <div class="vo-loader-logo-wrap" aria-hidden="true">
+      <span class="vo-loader-orbit"></span>
+      <img class="vo-loader-brand-logo" src="assets/images/voyage-one-logo__png.webp" alt=""/>
+    </div>
+    <div class="vo-loader-track"><span></span></div>
+    <div class="vo-loader-caption">Curating your next journey</div>
+  </div>
+</div>
 <header class="vo-header">
 <div class="vo-shell vo-nav">
-<a aria-label="Voyage 1 home" class="vo-brand" href="index.html"><img alt="Voyage 1 DMC logo" src="assets/images/voyage-one-logo.png"/></a>
+<a aria-label="Voyage 1 home" class="vo-brand" href="index.html"><img alt="Voyage 1 DMC logo" src="assets/images/voyage-one-logo__png.webp"/></a>
 <nav aria-label="Primary navigation" class="vo-menu">
 
 
@@ -52,11 +62,72 @@
 <section class="sec" data-aos="fade-up" data-aos-duration="850" id="query"><div class="c grid"><div class="intro"><div class="ey">Start A Conversation</div><h2>Have A Journey<br/>In Mind?</h2><p class="lead">Tell us what you're looking for. Our destination team will help shape the right solution for your clients.</p><div class="details"><div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true"><small>Global Enquiries</small><b>+971 52 167 2038</b></div><div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true"><small>Email</small><b>info@voyage-one.com</b></div><div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true"><small>Global Office</small><b>Dubai, UAE</b></div></div></div>
 <form class="form" id="contact-enquiry-form"><h3>Send Us Your Query</h3><div class="fields"><div class="field"><label for="first-name">First Name *</label><input autocomplete="given-name" id="first-name" name="first_name" required=""/></div><div class="field"><label for="last-name">Last Name *</label><input autocomplete="family-name" id="last-name" name="last_name" required=""/></div><div class="field"><label for="work-email">Work Email *</label><input autocomplete="email" id="work-email" name="email" required="" type="email"/></div><div class="field"><label for="contact-number">Contact Number *</label><input autocomplete="tel" id="contact-number" name="phone" required="" type="tel"/></div><div class="field"><label for="destination">Destination</label><select id="destination" name="destination"><option disabled="" selected="" value="">Select destination</option><option>UAE</option><option>Georgia</option><option>Kazakhstan</option><option>Azerbaijan</option><option>Japan</option><option>Vietnam</option><option>Kenya</option><option>Tanzania</option><option>South Africa</option></select></div><div class="field"><label for="travel-type">Travel Type</label><select id="travel-type" name="travel_type"><option disabled="" selected="" value="">Select travel type</option><option>FIT</option><option>GIT</option><option>MICE</option><option>Luxury</option><option>Experiences</option></select></div><div class="field"><label for="pax">Pax</label><input id="pax" min="1" name="pax" type="number"/></div><div class="field"><label for="travel-dates">Travel Dates</label><input id="travel-dates" name="travel_dates" type="date"/></div><div class="field full"><label for="requirements">Requirements *</label><textarea id="requirements" name="requirements" required=""></textarea></div></div><div class="formfoot"><span>Your enquiry will reach the relevant destination team.</span><button class="btn dark" type="submit">Send Query →</button></div></form></div></section>
 <section class="sec" data-aos="fade-up" data-aos-duration="850"><div class="c"><div class="ey">Talk To Our Team</div><h2>Global Support.<br/>Local Access.</h2><p>Wherever your clients travel, having the right people nearby makes all the difference. Our destination teams bring local knowledge, trusted relationships and responsive support closer to every journey.</p><div class="grid"><div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">Global Office<br/><b>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer, Dubai, UAE</b></div><div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">Phone<br/><b>+971 4 2897211<br/>+971 52 167 2038</b></div><div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">Email<br/><b>info@voyage-one.com</b></div><div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">Office Network<br/><b>Georgia · Almaty · Baku · Japan · Vietnam · Kenya · Tanzania</b></div></div></div></section>
-<section class="sec" data-aos="fade-up" data-aos-duration="850"><div class="c"><div class="ey">Where We Are</div><h2>Local Teams.<br/>Global Reach.</h2><div class="office"><div class="map"><span class="pin p1">DUBAI</span><span class="pin p2">GEORGIA</span><span class="pin p3">JAPAN</span><span class="pin p4">VIETNAM</span><span class="pin p5">KENYA</span><span class="pin p6">AZERBAIJAN</span></div><div class="panel"><div class="tabs"><button class="active">Dubai</button><button>Georgia</button><button>Almaty</button><button>Baku</button><button>Japan</button><button>Vietnam</button><button>Kenya</button><button>Tanzania</button></div><div><div class="ey">Global Office</div><h2>Dubai</h2><p>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer, Dubai, UAE</p><a class="btn" href="https://maps.google.com/?q=73+G+Floor+Al+Fahidi+Plaza+Souq+Al+Kabeer+Dubai+UAE" target="_blank">View On Map →</a></div></div></div></div></section>
+<section class="sec" data-aos="fade-up" data-aos-duration="850"><div class="c"><div class="ey">Where We Are</div><h2>Local Teams.<br/>Global Reach.</h2><div class="office"><div class="map"><span class="pin p1">DUBAI</span><span class="pin p2">GEORGIA</span><span class="pin p3">JAPAN</span><span class="pin p4">VIETNAM</span><span class="pin p5">KENYA</span><span class="pin p6">AZERBAIJAN</span></div><div class="panel office-panel" data-office-panel>
+<div class="tabs" role="tablist" aria-label="Voyage 1 offices">
+<button class="active" type="button" role="tab" aria-selected="true" data-office-tab="dubai">Dubai</button>
+<button type="button" role="tab" aria-selected="false" data-office-tab="georgia">Georgia</button>
+<button type="button" role="tab" aria-selected="false" data-office-tab="almaty">Almaty</button>
+<button type="button" role="tab" aria-selected="false" data-office-tab="baku">Baku</button>
+<button type="button" role="tab" aria-selected="false" data-office-tab="japan">Japan</button>
+<button type="button" role="tab" aria-selected="false" data-office-tab="vietnam">Vietnam</button>
+<button type="button" role="tab" aria-selected="false" data-office-tab="kenya">Kenya</button>
+<button type="button" role="tab" aria-selected="false" data-office-tab="tanzania">Tanzania</button>
+</div>
+<div class="office-detail" data-office-detail aria-live="polite">
+<div class="ey">Global Office</div>
+<h2 data-office-name>Dubai</h2>
+<p data-office-address>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer, Dubai, UAE</p>
+<a class="btn" data-office-map href="https://maps.google.com/?q=73+G+Floor+Al+Fahidi+Plaza+Souq+Al+Kabeer+Dubai+UAE" target="_blank" rel="noopener">View On Map →</a>
+</div>
+</div></div></div></section>
 <section class="sec" data-aos="fade-up" data-aos-duration="850"><div class="c network"><div><div class="ey">Destination Network</div><h2>One Partner.<br/>Multiple Destinations.</h2></div><div><p>From the UAE and Japan to Africa, South Africa, Vietnam, Georgia, Azerbaijan and Kazakhstan, our destination network gives travel partners access to local expertise across a growing world of possibilities.</p><div class="list"><div>UAE</div><div>Georgia</div><div>Kazakhstan</div><div>Azerbaijan</div><div>Japan</div><div>Vietnam</div><div>Kenya</div><div>Tanzania</div><div>South Africa</div></div></div></div></section>
 <section class="sec" data-aos="fade-up" data-aos-duration="850"><div class="c"><div class="ey">Why Voyage 1</div><h2>Why Work With Us?</h2><div class="why"><div class="card" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span>01</span><div><svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M12 21s7-6.4 7-11.5A7 7 0 0 0 5 9.5C5 14.6 12 21 12 21Z"></path><circle cx="12" cy="9.5" r="2.4"></circle></svg><h3>Local Expertise</h3><p>Destination knowledge where it matters.</p></div></div><div class="card" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span>02</span><div><svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"></path></svg><h3>Fast Response</h3><p>A responsive team behind every enquiry.</p></div></div><div class="card" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span>03</span><div><svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M4 13v-1a8 8 0 0 1 16 0v1"></path><rect height="6" rx="1.3" width="4" x="2.5" y="13"></rect><rect height="6" rx="1.3" width="4" x="17.5" y="13"></rect><path d="M19.5 19v.6a3 3 0 0 1-3 3H13"></path></svg><h3>End-To-End Support</h3><p>From planning to on-ground operations.</p></div></div></div></div></section>
 <section class="cta" data-aos="fade-up" data-aos-duration="850"><div class="c"><div class="ey">Ready To Begin?</div><h2>Ready To Build The Journey?</h2><p>Tell us where you're going. We'll take care of what happens next.</p><a class="btn dark" href="#query">Send A Query →</a><a class="btn" href="uae.html">Explore Destinations →</a></div></section>
-<footer class="vo-footer"><div class="vo-shell"><div class="vo-footer-grid"><div class="vo-footer-brand"><a class="vo-footer-logo" href="index.html"><img alt="Voyage 1 DMC logo" src="assets/images/voyage-one-logo.png"/></a><p>Global Destination Management Company delivering seamless travel experiences through local expertise and trusted partnerships.</p></div><div><h4>Explore</h4><a href="index.html">Home</a><a href="uae.html">Destinations</a><a href="index.html#services">Services</a><a href="about-us.html">About Us</a><a href="careers.html">Careers</a></div><div><h4>For Partners</h4><a href="contact.html">Send Query</a><a href="index.html#services">Group Travel</a><a href="index.html#services">MICE</a><a href="contact.html">Become A Partner</a></div><div><h4>Contact</h4><a href="mailto:info@voyage-one.com">info@voyage-one.com</a><a href="tel:+971521672038">+971 52 167 2038</a><a href="contact.html">Dubai, UAE</a><a href="contact.html">Contact Us</a></div></div><div class="vo-footer-bottom"><span>© 2026 Voyage 1 DMC</span><span>Privacy Policy · Terms &amp; Conditions</span></div></div></footer>
+<footer class="vo-footer">
+<div class="vo-shell">
+<div class="vo-footer-top">
+<div class="vo-footer-brand">
+<a class="vo-footer-logo" href="index.html"><img alt="Voyage 1 DMC logo" src="assets/images/voyage-one-logo__png.webp"/></a>
+<span class="vo-footer-kicker">Destination Management Company</span>
+<h3>Local expertise.<br/>Global journeys.</h3>
+<p>Creating seamless travel experiences through local knowledge, trusted partnerships and responsive destination teams.</p>
+<div class="vo-footer-contact">
+<a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+<a href="tel:+971521672038">+971 52 167 2038</a>
+</div>
+</div>
+<div class="vo-footer-column"><h4>Explore</h4>
+<a href="index.html">Home</a><a href="uae.html">Destinations</a><a href="index.html#services">Services</a><a href="about-us.html">About Us</a><a href="media.html">Media</a><a href="careers.html">Careers</a></div>
+<div class="vo-footer-column"><h4>Destinations</h4>
+<a href="uae.html">United Arab Emirates</a><a href="georgia.html">Georgia</a><a href="kazakhstan.html">Kazakhstan</a><a href="azerbaijan.html">Azerbaijan</a><a href="japan.html">Japan</a><a href="vietnam.html">Vietnam</a><a href="kenya.html">Kenya</a><a href="tanzania.html">Tanzania</a><a href="south-africa.html">South Africa</a></div>
+<div class="vo-footer-column">
+<h4>Contact Us</h4>
+<a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+<a href="tel:+971521672038">+971 52 167 2038</a>
+<div class="vo-footer-office">
+<small>GLOBAL OFFICE</small>
+<strong>Dubai, UAE</strong>
+<span>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer</span>
+</div>
+<div class="vo-footer-socials" aria-label="Voyage 1 social media">
+<a href="https://www.instagram.com/voyage1dmc/" target="_blank" rel="noopener noreferrer" aria-label="Voyage 1 on Instagram" title="Instagram">
+<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.25" y="3.25" width="17.5" height="17.5" rx="5.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.45" cy="6.65" r="1.15" fill="currentColor"/></svg>
+</a>
+<a href="https://www.facebook.com/Voyage1DMC" target="_blank" rel="noopener noreferrer" aria-label="Voyage 1 on Facebook" title="Facebook">
+<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.65 21v-7h2.55l.4-3h-2.95V9.08c0-.87.24-1.46 1.5-1.46h1.61V4.94c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.06V11H7.8v3h2.66v7h3.19Z"/></svg>
+</a>
+<a href="https://www.linkedin.com/company/voyage-1-dmc/" target="_blank" rel="noopener noreferrer" aria-label="Voyage 1 on LinkedIn" title="LinkedIn">
+<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.2 8.25H3.05V21H6.2V8.25ZM4.62 3A1.88 1.88 0 1 0 4.62 6.76 1.88 1.88 0 0 0 4.62 3ZM8.62 8.25V21h3.15v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.06 1.9 2.06 3.38V21h3.15v-6.85c0-3.37-.73-5.96-4.7-5.96-1.91 0-3.19 1.05-3.71 2.05h-.04v-1.99H8.62Z"/></svg>
+</a>
+<a href="https://wa.me/971521672038" target="_blank" rel="noopener noreferrer" aria-label="Chat with Voyage 1 on WhatsApp" title="WhatsApp">
+<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z"/></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="vo-footer-bottom"><span>© 2026 Voyage 1 DMC. All rights reserved.</span><span><a href="contact.html">Contact</a> · Privacy Policy · Terms &amp; Conditions</span></div>
+</div>
+</footer>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script src="js/global.js"></script>
 </body></html>

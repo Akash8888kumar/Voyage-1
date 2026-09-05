@@ -1,3 +1,36 @@
+
+/* Voyage 1 site loader — logo-led branded transition. */
+(function(){
+  const loader = document.querySelector('[data-site-loader]');
+  if (!loader) return;
+
+  const startedAt = performance.now();
+  const minimumDisplay = 720;
+  let hiding = false;
+  document.documentElement.classList.add('vo-is-loading');
+
+  const hideLoader = () => {
+    if (hiding) return;
+    hiding = true;
+    const elapsed = performance.now() - startedAt;
+    window.setTimeout(() => {
+      loader.classList.add('is-leaving');
+      document.documentElement.classList.remove('vo-is-loading');
+      window.dispatchEvent(new CustomEvent('voyage:loader-leaving'));
+      window.setTimeout(() => loader.remove(), 700);
+    }, Math.max(0, minimumDisplay - elapsed));
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', hideLoader, { once: true });
+  } else {
+    hideLoader();
+  }
+
+  // Never let a slow remote resource keep the page covered.
+  window.setTimeout(hideLoader, 2200);
+})();
+
 /* Static-site CTA fallbacks: enquiry forms open the visitor's mail client; video testimonial buttons open the local video when no lightbox is available. */
 function wireStaticCtas() {
   document.querySelectorAll('form#contact-enquiry-form, form#uae-enquiry-form').forEach(function (form) {
@@ -15,22 +48,6 @@ function wireStaticCtas() {
       const subject = form.id === 'uae-enquiry-form' ? 'UAE Journey Enquiry — Voyage 1' : 'New Enquiry — Voyage 1';
       const body = 'Hello Voyage 1 Team,\\n\\nI would like to enquire about the following:\\n\\n' + lines.join('\\n') + '\\n\\nThank you.';
       window.location.href = 'mailto:info@voyage-one.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-    });
-  });
-
-  document.querySelectorAll('.testimonial-video-trigger[data-lightbox-src]').forEach(function (trigger) {
-    trigger.addEventListener('click', function (event) {
-      const lightbox = document.querySelector('[data-vo-lightbox]');
-      // The current pages do not use a gallery slider, so the existing lightbox
-      // initializer is intentionally bypassed. Open the bundled MP4 directly.
-      if (!lightbox) {
-        event.preventDefault();
-        window.open(trigger.getAttribute('data-lightbox-src'), '_blank', 'noopener,noreferrer');
-      } else {
-        // If a lightbox exists but is not initialized, still provide a working CTA.
-        event.preventDefault();
-        window.open(trigger.getAttribute('data-lightbox-src'), '_blank', 'noopener,noreferrer');
-      }
     });
   });
 }
@@ -96,46 +113,70 @@ document.addEventListener('DOMContentLoaded', function () {
   const toggle = document.querySelector('.vo-mobile-toggle');
   const menu = document.querySelector('.vo-menu');
   if (toggle && menu) {
-    toggle.addEventListener('click', function () {
-      const open = menu.classList.toggle('is-open');
+    // Put the primary enquiry action inside the mobile drawer as a large tap target.
+    if (!menu.querySelector('.vo-mobile-query')) {
+      const queryLink = document.createElement('a');
+      queryLink.className = 'vo-mobile-query';
+      queryLink.href = 'contact.html';
+      queryLink.innerHTML = 'Send Query <span aria-hidden="true">→</span>';
+      menu.appendChild(queryLink);
+    }
+
+    const closeDropdowns = function (except) {
+      menu.querySelectorAll('.vo-dropdown-wrap.mobile-open').forEach(function (wrap) {
+        if (wrap === except) return;
+        wrap.classList.remove('mobile-open');
+        const chevron = wrap.querySelector('.vo-menu-link .vo-chevron');
+        if (chevron) chevron.style.transform = 'rotate(0deg)';
+      });
+    };
+
+    const setMenuOpen = function (open) {
+      menu.classList.toggle('is-open', open);
       toggle.setAttribute('aria-expanded', String(open));
       toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
       toggle.textContent = open ? '×' : '☰';
+      document.documentElement.classList.toggle('vo-menu-open', open);
+      document.body.classList.toggle('vo-menu-open', open);
+      if (!open) closeDropdowns();
+    };
+
+    toggle.addEventListener('click', function () {
+      setMenuOpen(!menu.classList.contains('is-open'));
     });
 
     menu.querySelectorAll('a').forEach(function (link) {
       link.addEventListener('click', function () {
         if (window.innerWidth <= 900 && link.classList.contains('vo-menu-link')) return;
-        menu.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-        toggle.setAttribute('aria-label', 'Open menu');
-        toggle.textContent = '☰';
+        setMenuOpen(false);
       });
     });
-  }
 
-  // Mobile dropdowns: tap the parent to reveal its submenu with smooth animation.
-  document.querySelectorAll('.vo-menu-link').forEach(function (link) {
-    link.addEventListener('click', function (event) {
-      if (window.innerWidth > 900) return;
-      const wrap = link.closest('.vo-dropdown-wrap');
-      if (!wrap) return;
-      event.preventDefault();
-      
-      // Toggle the mobile-open class for animation
-      const isOpen = wrap.classList.toggle('mobile-open');
-      
-      // Smooth rotation of chevron
-      const chevron = link.querySelector('.vo-chevron');
-      if (chevron) {
-        if (isOpen) {
-          chevron.style.transform = 'rotate(180deg)';
-        } else {
-          chevron.style.transform = 'rotate(0deg)';
-        }
-      }
+    // Mobile dropdowns behave like a clean accordion so one submenu never overlaps another.
+    document.querySelectorAll('.vo-menu-link').forEach(function (link) {
+      link.addEventListener('click', function (event) {
+        if (window.innerWidth > 900) return;
+        const wrap = link.closest('.vo-dropdown-wrap');
+        if (!wrap) return;
+        event.preventDefault();
+
+        const willOpen = !wrap.classList.contains('mobile-open');
+        closeDropdowns(wrap);
+        wrap.classList.toggle('mobile-open', willOpen);
+
+        const chevron = link.querySelector('.vo-chevron');
+        if (chevron) chevron.style.transform = willOpen ? 'rotate(180deg)' : 'rotate(0deg)';
+      });
     });
-  });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && menu.classList.contains('is-open')) setMenuOpen(false);
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 900 && menu.classList.contains('is-open')) setMenuOpen(false);
+    }, { passive: true });
+  }
 
   // Keep frontend validation active without adding any backend behavior.
   document.querySelectorAll('form').forEach(function (form) {
@@ -148,52 +189,179 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-/* Home hero slider — 9 optimized local destination images, 4-second autoplay + line controls */
+/* Home hero slider — true layered 100vh slides with opening video. */
 (function(){
-  const slider = document.querySelector('.vo-hero-slider');
+  const slider = document.querySelector('[data-hero-slider]');
   if (!slider) return;
+
+  const hero = slider.closest('.hero');
+  const slides = Array.from(slider.querySelectorAll('[data-hero-slide]'));
   const controls = document.querySelector('[data-hero-controls]');
-  const images = [
-    'assets/images/UAE.jpg',
-    'assets/images/georgia.jpg',
-    'assets/images/Kazakhstan.jpg',
-    'assets/images/Azerbaijan.jpg',
-    'assets/images/Japan.jpg',
-    'assets/images/Vietnam.jpg',
-    'assets/images/Kenya.jpg',
-    'assets/images/tanzania.jpg',
-    'assets/images/South-Africa.jpg'
-  ];
-  let index=0, timer;
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const IMAGE_DURATION = 5000;
+  let index = Math.max(0, slides.findIndex(slide => slide.classList.contains('is-active')));
+  let timer = null;
+
+  const typeOf = slide => slide?.dataset.slideType || 'image';
+  const activeVideo = slide => slide?.querySelector('[data-hero-video]') || null;
+
+  const stopTimer = () => {
+    if (timer) window.clearTimeout(timer);
+    timer = null;
+  };
+
+  const updateControls = () => {
+    if (!controls) return;
+    controls.querySelectorAll('.hero-slider-line').forEach((button, i) => {
+      const active = i === index;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-current', active ? 'true' : 'false');
+    });
+  };
+
+  const refreshHeroContent = () => {
+    const content = hero?.querySelector('.hero-content');
+    if (!content) return;
+    content.classList.remove('hero-content-refresh');
+    void content.offsetWidth;
+    content.classList.add('hero-content-refresh');
+  };
+
+  const scheduleNext = () => {
+    stopTimer();
+    if (document.hidden) return;
+    if (typeOf(slides[index]) !== 'image') return;
+    timer = window.setTimeout(() => show(index + 1, { reason: 'auto' }), IMAGE_DURATION);
+  };
+
+  const playCurrentVideo = (restart = false) => {
+    const slide = slides[index];
+    if (typeOf(slide) !== 'video') return;
+    const video = activeVideo(slide);
+    if (!video) return;
+
+    video.controls = false;
+    video.removeAttribute('controls');
+    video.muted = true;
+    video.defaultMuted = true;
+
+    if (restart) {
+      try { video.currentTime = 0; } catch (e) {}
+    }
+
+    // Wait until the loader starts leaving so the visitor sees the film from frame one.
+    const loaderVisible = Boolean(document.querySelector('[data-site-loader]:not(.is-leaving)'));
+    if (loaderVisible) {
+      video.pause();
+      try { video.currentTime = 0; } catch (e) {}
+      return;
+    }
+
+    if (reduced.matches) {
+      video.pause();
+      timer = window.setTimeout(() => show(index + 1, { reason: 'reduced-motion' }), IMAGE_DURATION);
+      return;
+    }
+
+    const promise = video.play();
+    if (promise && typeof promise.catch === 'function') {
+      promise.catch(() => {
+        // If autoplay is blocked, keep the poster visible and continue the carousel.
+        stopTimer();
+        timer = window.setTimeout(() => show(index + 1, { reason: 'autoplay-fallback' }), IMAGE_DURATION);
+      });
+    }
+  };
+
+  function show(next, options = {}) {
+    if (!slides.length) return;
+    stopTimer();
+
+    const normalized = (next + slides.length) % slides.length;
+    const previous = slides[index];
+    const incoming = slides[normalized];
+
+    // Clicking the already-active video dot restarts the film cleanly.
+    if (normalized === index) {
+      if (typeOf(incoming) === 'video' && options.reason === 'user') playCurrentVideo(true);
+      else if (typeOf(incoming) === 'image') scheduleNext();
+      return;
+    }
+
+    const previousVideo = activeVideo(previous);
+    if (previousVideo) previousVideo.pause();
+
+    previous?.classList.remove('is-active');
+    previous?.setAttribute('aria-hidden', 'true');
+
+    index = normalized;
+    incoming.classList.add('is-active');
+    incoming.setAttribute('aria-hidden', 'false');
+
+    const isVideo = typeOf(incoming) === 'video';
+    hero?.classList.toggle('is-video-active', isVideo);
+    updateControls();
+    refreshHeroContent();
+
+    if (isVideo) playCurrentVideo(true);
+    else scheduleNext();
+  }
 
   if (controls) {
-    controls.innerHTML='';
-    images.forEach((_,i)=>{
-      const b=document.createElement('button');
-      b.type='button'; b.className='hero-slider-line';
-      b.setAttribute('aria-label',`Show hero image ${i+1}`);
-      b.addEventListener('click',()=>show(i,true));
-      controls.appendChild(b);
+    controls.innerHTML = '';
+    slides.forEach((slide, i) => {
+      const button = document.createElement('button');
+      const isVideo = typeOf(slide) === 'video';
+      const name = isVideo ? 'Opening film' : (slide.dataset.label || `Slide ${i + 1}`);
+      button.type = 'button';
+      button.className = 'hero-slider-line';
+      button.setAttribute('aria-label', `Show ${name}`);
+      button.addEventListener('click', () => show(i, { reason: 'user' }));
+      controls.appendChild(button);
     });
   }
-  const updateControls=()=>controls?.querySelectorAll('.hero-slider-line').forEach((b,i)=>b.classList.toggle('is-active',i===index));
-  const show=(next,user=false)=>{
-    index=(next+images.length)%images.length;
-    slider.classList.add('is-changing');
-    const heroContent = document.querySelector('.page-home .hero-content');
-    if (heroContent) { heroContent.classList.remove('hero-content-refresh'); void heroContent.offsetWidth; heroContent.classList.add('hero-content-refresh'); }
-    window.setTimeout(()=>{ slider.style.backgroundImage=`url("${images[index]}")`; slider.classList.remove('is-changing'); },260);
-    updateControls();
-    if(user) restart();
-  };
-  images.forEach(src=>{const im=new Image(); im.src=src;});
-  slider.style.backgroundImage=`url("${images[0]}")`; updateControls();
-  const stop=()=>window.clearInterval(timer);
-  const restart=()=>{stop(); if(!reduced.matches) timer=window.setInterval(()=>show(index+1),4000);};
-  document.addEventListener('visibilitychange',()=>document.hidden?stop():restart());
-  controls?.addEventListener('mouseenter',stop); controls?.addEventListener('mouseleave',restart);
-  restart();
+
+  slides.forEach((slide, i) => {
+    slide.setAttribute('aria-hidden', i === index ? 'false' : 'true');
+    const video = activeVideo(slide);
+    if (!video) return;
+    video.controls = false;
+    video.removeAttribute('controls');
+    video.addEventListener('ended', () => {
+      if (slides[index] === slide) show(index + 1, { reason: 'video-ended' });
+    });
+  });
+
+  hero?.classList.toggle('is-video-active', typeOf(slides[index]) === 'video');
+  updateControls();
+
+  // The first slide is the film. It begins only when the branded loader clears.
+  if (!document.querySelector('[data-site-loader]:not(.is-leaving)')) {
+    if (typeOf(slides[index]) === 'video') playCurrentVideo(true);
+    else scheduleNext();
+  }
+
+  window.addEventListener('voyage:loader-leaving', () => {
+    if (typeOf(slides[index]) === 'video') playCurrentVideo(true);
+    else scheduleNext();
+  });
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      stopTimer();
+      activeVideo(slides[index])?.pause();
+      return;
+    }
+    if (typeOf(slides[index]) === 'video') playCurrentVideo(false);
+    else scheduleNext();
+  });
+
+  controls?.addEventListener('mouseenter', () => {
+    if (typeOf(slides[index]) === 'image') stopTimer();
+  });
+  controls?.addEventListener('mouseleave', () => {
+    if (typeOf(slides[index]) === 'image') scheduleNext();
+  });
 })();
 
 /* Testimonials — same finite, wrapping carousel behavior as the destination gallery. */
@@ -323,8 +491,10 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   window.addEventListener('resize',()=>requestAnimationFrame(update));
   update();
+})();
 
-  /* Shared media lightbox: gallery images + testimonial videos */
+/* ===== Shared media lightbox gallery ===== */
+(function(){
   const lightbox=document.querySelector('[data-vo-lightbox]');
   if(!lightbox) return;
   const content=lightbox.querySelector('[data-lightbox-content]');
@@ -334,23 +504,39 @@ document.addEventListener('DOMContentLoaded', function () {
   const lbPrev=lightbox.querySelector('[data-lightbox-prev]');
   const lbNext=lightbox.querySelector('[data-lightbox-next]');
   let lightboxGroup='';
-  const mediaItems=()=>Array.from(document.querySelectorAll(`[data-lightbox-type][data-lightbox-src][data-lightbox-group="${lightboxGroup}"]`));
   let current=0;
   let lastFocus=null;
 
-  const render=()=>{
+  const mediaItems=()=>Array.from(document.querySelectorAll(
+    `[data-lightbox-type][data-lightbox-src][data-lightbox-group="${lightboxGroup}"]`
+  ));
+
+  const render=(direction=0)=>{
     const items=mediaItems();
     if(!items.length) return;
+
     current=(current+items.length)%items.length;
     const item=items[current];
     const type=item.dataset.lightboxType;
     const src=item.dataset.lightboxSrc;
-    const title=item.dataset.lightboxTitle || item.closest('.testimonial')?.querySelector('.person')?.textContent?.trim() || 'Preview';
+    const title=item.dataset.lightboxTitle ||
+      item.closest('.testimonial')?.querySelector('.person')?.textContent?.trim() ||
+      'Preview';
+
+    content.classList.remove('vo-lightbox-slide-left','vo-lightbox-slide-right');
+    void content.offsetWidth;
+    if(direction < 0) content.classList.add('vo-lightbox-slide-left');
+    if(direction > 0) content.classList.add('vo-lightbox-slide-right');
+
     content.innerHTML='';
+
     if(type==='video'){
       const video=document.createElement('video');
-      video.controls=true; video.autoplay=true; video.playsInline=true;
+      video.controls=true;
+      video.autoplay=true;
+      video.playsInline=true;
       video.preload='metadata';
+      video.setAttribute('aria-label',title);
       const poster=item.dataset.lightboxPoster;
       if(poster) video.poster=poster;
       video.src=src;
@@ -358,12 +544,16 @@ document.addEventListener('DOMContentLoaded', function () {
       video.play().catch(()=>{});
     }else{
       const img=document.createElement('img');
-      img.src=src; img.alt=title; img.decoding='async';
+      img.src=src;
+      img.alt=title;
+      img.decoding='async';
       content.appendChild(img);
     }
+
     if(caption) caption.textContent=title;
     if(count) count.textContent=`${current+1} / ${items.length}`;
-    lbPrev.hidden=items.length<2; lbNext.hidden=items.length<2;
+    lbPrev.hidden=items.length<2;
+    lbNext.hidden=items.length<2;
   };
 
   const open=(item)=>{
@@ -371,15 +561,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const items=mediaItems();
     current=Math.max(0,items.indexOf(item));
     lastFocus=document.activeElement;
+
     lightbox.classList.add('is-open');
     lightbox.setAttribute('aria-hidden','false');
     document.body.classList.add('vo-lightbox-open');
     render();
     lightbox.querySelector('.vo-lightbox-close')?.focus();
   };
+
   const close=()=>{
     const video=content.querySelector('video');
-    if(video) video.pause();
+    if(video){
+      video.pause();
+      video.removeAttribute('src');
+      video.load();
+    }
     content.innerHTML='';
     lightbox.classList.remove('is-open');
     lightbox.setAttribute('aria-hidden','true');
@@ -387,20 +583,28 @@ document.addEventListener('DOMContentLoaded', function () {
     lightboxGroup='';
     lastFocus?.focus?.();
   };
+
   const move=(dir)=>{
     const items=mediaItems();
     if(items.length<2) return;
     current=(current+dir+items.length)%items.length;
-    render();
+    render(dir);
   };
 
   document.addEventListener('click',e=>{
     const trigger=e.target.closest('[data-lightbox-type][data-lightbox-src]');
-    if(trigger){e.preventDefault();open(trigger);}
+    if(trigger){
+      e.preventDefault();
+      open(trigger);
+    }
   });
+
   closeButtons.forEach(b=>b.addEventListener('click',close));
   lbPrev?.addEventListener('click',()=>move(-1));
   lbNext?.addEventListener('click',()=>move(1));
+
+  content.addEventListener('click',e=>e.stopPropagation());
+
   document.addEventListener('keydown',e=>{
     if(!lightbox.classList.contains('is-open')) return;
     if(e.key==='Escape') close();
@@ -408,7 +612,6 @@ document.addEventListener('DOMContentLoaded', function () {
     if(e.key==='ArrowRight') move(1);
   });
 })();
-
 /* Luxury interaction polish — tactile click state + viewport-friendly image motion. */
 document.addEventListener('pointerdown', function (event) {
   const target = event.target.closest('.btn, .cases-arrow, .testimonial-arrow, .gallery-arrow, .hero-slider-line');
@@ -456,4 +659,97 @@ window.addEventListener('load', function () {
     if(e.key==='ArrowRight'){e.preventDefault();go(1);}
   });
   update();
+})();
+
+
+/* ===== Contact office tabs ===== */
+(function(){
+  const panel=document.querySelector('[data-office-panel]');
+  if(!panel) return;
+  const tabs=Array.from(panel.querySelectorAll('[data-office-tab]'));
+  const name=panel.querySelector('[data-office-name]');
+  const address=panel.querySelector('[data-office-address]');
+  const map=panel.querySelector('[data-office-map]');
+  if(!tabs.length||!name||!address||!map) return;
+
+  const offices={
+    dubai:{
+      name:'Dubai',
+      eyebrow:'Global Office',
+      address:'#73, G Floor, Al Fahidi Plaza Souq Al Kabeer, Dubai, UAE',
+      map:'https://maps.google.com/?q=73+G+Floor+Al+Fahidi+Plaza+Souq+Al+Kabeer+Dubai+UAE'
+    },
+    georgia:{
+      name:'Georgia',
+      eyebrow:'Regional Office',
+      address:'#7, 01 Floor, Vere Business Center 120/2, L2, Tbilisi, Georgia',
+      map:'https://maps.google.com/?q=Vere+Business+Center+Tbilisi+Georgia'
+    },
+    almaty:{
+      name:'Almaty',
+      eyebrow:'Regional Office',
+      address:'Al-Farabi Avenue Business Center 120/62, Almaty 050044, Kazakhstan',
+      map:'https://maps.google.com/?q=Al-Farabi+Avenue+120%2F62+Almaty+Kazakhstan'
+    },
+    baku:{
+      name:'Baku',
+      eyebrow:'Regional Office',
+      address:'#3, G Floor, Icherisheher, Qasr Street, 50 Donga 1, Baku, Azerbaijan',
+      map:'https://maps.google.com/?q=Icherisheher+Qasr+Street+Baku+Azerbaijan'
+    },
+    japan:{
+      name:'Japan',
+      eyebrow:'Regional Office',
+      address:'2-6-6 Hitotsubashi, Chiyoda-ku, Tokyo 101-0003, Japan',
+      map:'https://maps.google.com/?q=2-6-6+Hitotsubashi+Chiyoda+Tokyo+Japan'
+    },
+    vietnam:{
+      name:'Vietnam',
+      eyebrow:'Regional Office',
+      address:'R18, 5th Floor, 71 Nguyen Chi Thanh Street, Giang Vo Ward, Hanoi, Vietnam',
+      map:'https://maps.google.com/?q=71+Nguyen+Chi+Thanh+Hanoi+Vietnam'
+    },
+    kenya:{
+      name:'Kenya',
+      eyebrow:'Regional Office',
+      address:'Thome, Off Northern Bypass, Nairobi, Kenya',
+      map:'https://maps.google.com/?q=Thome+Northern+Bypass+Nairobi+Kenya'
+    },
+    tanzania:{
+      name:'Tanzania',
+      eyebrow:'Destination Office',
+      address:'Tanzania destination operations — contact the Voyage 1 team for local office details.',
+      map:'https://maps.google.com/?q=Voyage+1+DMC+Tanzania'
+    }
+  };
+
+  function select(key){
+    const office=offices[key]||offices.dubai;
+    tabs.forEach(tab=>{
+      const active=tab.dataset.officeTab===key;
+      tab.classList.toggle('active',active);
+      tab.setAttribute('aria-selected',String(active));
+    });
+    const detail=panel.querySelector('.office-detail');
+    if(detail){
+      detail.classList.remove('is-changing');
+      void detail.offsetWidth;
+      detail.classList.add('is-changing');
+    }
+    name.textContent=office.name;
+    address.textContent=office.address;
+    map.href=office.map;
+  }
+
+  tabs.forEach(tab=>{
+    tab.addEventListener('click',()=>select(tab.dataset.officeTab));
+    tab.addEventListener('keydown',e=>{
+      if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft') return;
+      e.preventDefault();
+      const i=tabs.indexOf(tab);
+      const next=(i+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;
+      tabs[next].focus();
+      select(tabs[next].dataset.officeTab);
+    });
+  });
 })();

@@ -4243,3 +4243,1301 @@ body:not(.page-home) .media-hero-content {
 @media (max-width: 520px) {
   .event-slide-photo, .event-slide-photo img { min-height: 260px; }
 }
+
+/* =========================================================
+   USER-PROVIDED NATURAL IMAGE REPLACEMENTS
+   Single-location visuals only; no collages/montages.
+   ========================================================= */
+.page-uae .vo-inline-bg-5{background-image:url('../assets/images/UAE_Fujairah_Destination_Card_Beach_Diving_Hajar_Mountains.webp')!important;background-size:cover;background-position:center;}
+.page-uae .vo-inline-bg-6{background-image:url('../assets/images/UAE_Ajman_Destination_Card_Beachfront_Resort_Relaxed_Leisure.webp')!important;background-size:cover;background-position:center;}
+.page-uae .vo-inline-bg-9{background-image:url('../assets/images/UAE_Dubai_Itinerary_3_Days_Dubai_Highlights.webp')!important;background-size:cover;background-position:center;}
+.page-georgia .vo-inline-bg-9{background-image:url('../assets/images/Georgia_Tbilisi_Itinerary_3_Days_Old_Tbilisi.webp')!important;background-size:cover;background-position:center;}
+.page-azerbaijan .vo-inline-bg-9{background-image:url('../assets/images/Azerbaijan_Baku_Itinerary_3_Days_Old_City_Waterfront.webp')!important;background-size:cover;background-position:center;}
+.page-azerbaijan .vo-inline-bg-10{background-image:url('../assets/images/Azerbaijan_Qabala_Itinerary_5_Days_Caucasus_Mountains.webp')!important;background-size:cover;background-position:center;}
+.page-japan .vo-inline-bg-9{background-image:url('../assets/images/Japan_Tokyo_Itinerary_4_Days_Tokyo_Skyline_Culture.webp')!important;background-size:cover;background-position:center;}
+.page-japan .vo-inline-bg-10{background-image:url('../assets/images/Japan_Tokyo_Itinerary_7_Days_Tokyo_Shopping_Culture.webp')!important;background-size:cover;background-position:center;}
+.page-kazakhstan .vo-inline-bg-9{background-image:url('../assets/images/Kazakhstan_Almaty_Itinerary_3_Days_Mountains_City.webp')!important;background-size:cover;background-position:center;}
+.page-kenya .vo-inline-bg-6{background-image:url('../assets/images/Kenya_Nairobi_Destination_Card_City_Skyline_Culture.webp')!important;background-size:cover;background-position:center;}
+.page-kenya .vo-inline-bg-9{background-image:url('../assets/images/Kenya_Maasai_Mara_Itinerary_4_Days_Game_Drive.webp')!important;background-size:cover;background-position:center;}
+.page-kenya .vo-inline-bg-10{background-image:url('../assets/images/Kenya_Amboseli_Itinerary_6_Days_Elephants.webp')!important;background-size:cover;background-position:center;}
+.page-tanzania .vo-inline-bg-3{background-image:url('../assets/images/Tanzania_Zanzibar_Destination_Card_Beach_Stone_Town_Culture.webp')!important;background-size:cover;background-position:center;}
+.page-tanzania .vo-inline-bg-9{background-image:url('../assets/images/Tanzania_Northern_Safari_Itinerary_4_Days.webp')!important;background-size:cover;background-position:center;}
+.page-tanzania .vo-inline-bg-10{background-image:url('../assets/images/Tanzania_Safari_Itinerary_7_Days_Savannah.webp')!important;background-size:cover;background-position:center;}
+.page-tanzania .vo-inline-bg-11{background-image:url('../assets/images/Tanzania_Safari_Zanzibar_Itinerary_9_Days_Zanzibar.webp')!important;background-size:cover;background-position:center;}
+.page-south-africa .vo-inline-bg-6{background-image:url('../assets/images/South_Africa_Hermanus_Destination_Card_Whale_Watching_Coast.webp')!important;background-size:cover;background-position:center;}
+
+
+/* Team management social links */
+.page-about .team-card .team-socials {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 8px;
+}
+
+.page-about .team-card .team-socials a {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--navy);
+  background: var(--white);
+  text-decoration: none;
+  transition: transform .2s ease, background-color .2s ease, color .2s ease;
+}
+
+.page-about .team-card .team-socials a:hover,
+.page-about .team-card .team-socials a:focus-visible {
+  transform: translateY(-2px);
+  background: var(--navy);
+  color: var(--white);
+  outline: none;
+}
+
+.page-about .team-card .team-socials svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (max-width: 900px) {
+  .page-about .team-card .team-socials a {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Fix: Umm Al Quwain destination card used a zero-byte uae-card7.webp. */
+.page-uae .vo-inline-bg-7{background-image:url('../assets/images/uae-card7.webp')!important;background-size:cover;background-position:center;}
+
+
+.page-about .org-chart-network {
+  padding: 0;
+  overflow: hidden;
+}
+.page-about .org-chart-network img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+@media (max-width: 760px) {
+  .page-about .org-chart-network {
+    overflow-x: auto;
+  }
+  .page-about .org-chart-network img {
+    width: 900px;
+    max-width: none;
+  }
+}
+
+
+/* =========================================================
+   V10 — OPENING HERO FILM + BRANDED SITE LOADER
+   ========================================================= */
+
+/* Opening hero video sits inside the existing slider media layer. */
+.page-home .vo-hero-slider {
+  background-color: #071525;
+}
+
+.page-home .vo-hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: scale(1.012);
+  transition: opacity .65s ease, visibility .65s ease, transform 5s ease;
+}
+
+.page-home .vo-hero-video.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+/* A lighter, narrower readability veil keeps the film visually dominant. */
+.page-home .hero.is-video-active .vo-hero-slider::after {
+  background: linear-gradient(90deg,
+      rgba(0, 0, 0, .54) 0%,
+      rgba(0, 0, 0, .34) 25%,
+      rgba(0, 0, 0, .12) 47%,
+      rgba(0, 0, 0, .02) 68%,
+      rgba(0, 0, 0, 0) 82%);
+}
+
+/* On the film slide, copy scales down so the motion remains the hero. */
+.page-home .hero.is-video-active .hero-content {
+  max-width: 535px;
+}
+
+.page-home .hero.is-video-active h1 {
+  max-width: 610px;
+  font-size: clamp(44px, 5.25vw, 72px);
+  line-height: .98;
+  margin-bottom: 18px;
+}
+
+.page-home .hero.is-video-active .hero-copy {
+  max-width: 535px;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.page-home .hero.is-video-active .eyebrow {
+  font-size: 12px;
+}
+
+.page-home .hero.is-video-active .hero-actions {
+  margin-top: 22px;
+}
+
+.page-home .hero.is-video-active .btn {
+  min-height: 46px;
+  padding-inline: 20px;
+}
+
+/* Site loader */
+html.vo-is-loading,
+html.vo-is-loading body {
+  overflow: hidden;
+}
+
+.vo-site-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 50% 44%, rgba(198, 154, 82, .12), transparent 28%),
+    #071525;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .68s cubic-bezier(.22, .61, .36, 1), visibility .68s ease;
+}
+
+.vo-site-loader::before {
+  content: '';
+  position: absolute;
+  inset: 22px;
+  border: 1px solid rgba(255, 255, 255, .06);
+  pointer-events: none;
+}
+
+.vo-site-loader.is-leaving {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.vo-loader-inner {
+  width: min(320px, calc(100vw - 54px));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.vo-loader-mark {
+  position: relative;
+  width: 86px;
+  height: 86px;
+  margin-bottom: 22px;
+}
+
+.vo-loader-ring,
+.vo-loader-needle,
+.vo-loader-dot {
+  position: absolute;
+  display: block;
+}
+
+.vo-loader-ring-outer {
+  inset: 0;
+  border: 1px solid rgba(198, 154, 82, .38);
+  border-top-color: #c69a52;
+  border-radius: 50%;
+  animation: voLoaderSpin 2.4s linear infinite;
+}
+
+.vo-loader-ring-inner {
+  inset: 13px;
+  border: 1px solid rgba(255, 255, 255, .16);
+  border-right-color: rgba(255, 255, 255, .72);
+  border-radius: 50%;
+  animation: voLoaderSpinReverse 1.75s linear infinite;
+}
+
+.vo-loader-needle {
+  left: 50%;
+  top: 18px;
+  width: 1px;
+  height: 50px;
+  background: linear-gradient(to bottom, #c69a52 0 50%, rgba(255, 255, 255, .58) 50% 100%);
+  transform-origin: 50% 25px;
+  animation: voNeedleSweep 2.8s cubic-bezier(.65, 0, .35, 1) infinite;
+}
+
+.vo-loader-dot {
+  left: 50%;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #c69a52;
+  box-shadow: 0 0 20px rgba(198, 154, 82, .72);
+  transform: translate(-50%, -50%);
+}
+
+.vo-loader-wordmark {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: .28em;
+  padding-left: .28em;
+}
+
+.vo-loader-wordmark span {
+  color: #c69a52;
+}
+
+.vo-loader-track {
+  width: 148px;
+  height: 1px;
+  margin-top: 17px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, .13);
+}
+
+.vo-loader-track span {
+  display: block;
+  width: 52%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, #c69a52, transparent);
+  animation: voLoaderTrack 1.25s ease-in-out infinite;
+}
+
+.vo-loader-caption {
+  margin-top: 13px;
+  color: rgba(255, 255, 255, .54);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+}
+
+@keyframes voLoaderSpin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes voLoaderSpinReverse {
+  to { transform: rotate(-360deg); }
+}
+
+@keyframes voNeedleSweep {
+  0%, 100% { transform: rotate(-28deg); }
+  50% { transform: rotate(148deg); }
+}
+
+@keyframes voLoaderTrack {
+  0% { transform: translateX(-115%); }
+  100% { transform: translateX(225%); }
+}
+
+@media (max-width: 900px) {
+  .page-home .hero.is-video-active h1 {
+    font-size: clamp(42px, 8vw, 66px);
+  }
+
+  .page-home .hero.is-video-active .hero-content {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-home .vo-hero-video {
+    object-position: center center;
+  }
+
+  .page-home .hero.is-video-active .vo-hero-slider::after {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, .48) 0%,
+        rgba(0, 0, 0, .34) 38%,
+        rgba(0, 0, 0, .22) 68%,
+        rgba(0, 0, 0, .30) 100%);
+  }
+
+  .page-home .hero.is-video-active .hero-content {
+    max-width: 92%;
+  }
+
+  .page-home .hero.is-video-active h1 {
+    font-size: clamp(38px, 12vw, 54px);
+    line-height: 1;
+  }
+
+  .page-home .hero.is-video-active .hero-copy {
+    font-size: 14px;
+    line-height: 1.55;
+    max-width: 92%;
+  }
+
+  .vo-site-loader::before {
+    inset: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vo-loader-ring-outer,
+  .vo-loader-ring-inner,
+  .vo-loader-needle,
+  .vo-loader-track span {
+    animation-duration: 8s;
+  }
+}
+
+/* =========================================================
+   V11 — 100VH HOME MEDIA SLIDER + LOGO LOADER
+   ========================================================= */
+
+/* The home slider itself is exactly one viewport tall. */
+.page-home .hero {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.page-home .vo-hero-slider {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+  opacity: 1 !important;
+  transform: none !important;
+  background: #071525;
+}
+
+/* Real layered slides: only the active media layer is visible. */
+.page-home .vo-hero-slide {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.018);
+  transition:
+    opacity .72s cubic-bezier(.22, .61, .36, 1),
+    visibility .72s ease,
+    transform 5s ease;
+  will-change: opacity, transform;
+}
+
+.page-home .vo-hero-slide.is-active {
+  z-index: 2;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.page-home .vo-hero-slide-video {
+  background: #071525;
+}
+
+.page-home .vo-hero-video,
+.page-home .vo-hero-video.is-active {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: none;
+  pointer-events: none;
+}
+
+/* Keep the readability layer above every slide, not on the individual media. */
+.page-home .vo-hero-slider::after {
+  z-index: 5;
+}
+
+.page-home .hero .container,
+.page-home .hero .hero-content {
+  z-index: 7;
+}
+
+.page-home .hero-slider-controls {
+  position: relative;
+  z-index: 8;
+}
+
+.page-home .hero-slider-line {
+  cursor: pointer;
+  transition: width .28s ease, background-color .28s ease, opacity .28s ease;
+}
+
+/* Brand-logo loader: use the real Voyage 1 mark, with a subtle orbit and progress line. */
+.vo-loader-inner {
+  width: min(300px, calc(100vw - 52px));
+}
+
+.vo-loader-logo-wrap {
+  position: relative;
+  width: 132px;
+  height: 132px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 22px;
+}
+
+.vo-loader-brand-logo {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 16px 50px rgba(0, 0, 0, .24), 0 0 34px rgba(198, 154, 82, .10);
+  animation: voLogoBreathe 1.9s ease-in-out infinite;
+}
+
+.vo-loader-orbit {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border: 1px solid rgba(198, 154, 82, .18);
+  border-top-color: rgba(198, 154, 82, .95);
+  border-right-color: rgba(198, 154, 82, .45);
+  border-radius: 50%;
+  animation: voLogoOrbit 2.4s linear infinite;
+}
+
+.vo-loader-orbit::after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  border-radius: 50%;
+  background: #c69a52;
+  box-shadow: 0 0 18px rgba(198, 154, 82, .8);
+}
+
+.vo-loader-track {
+  width: 164px;
+  margin-top: 0;
+}
+
+.vo-loader-caption {
+  margin-top: 14px;
+  letter-spacing: .20em;
+}
+
+@keyframes voLogoOrbit {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes voLogoBreathe {
+  0%, 100% { transform: scale(.96); opacity: .88; }
+  50% { transform: scale(1); opacity: 1; }
+}
+
+@media (max-width: 760px) {
+  .page-home .hero,
+  .page-home .vo-hero-slider {
+    height: 100svh;
+    min-height: 100svh;
+  }
+
+  .page-home .hero .hero-content {
+    padding-top: 74px;
+    padding-bottom: 72px;
+  }
+
+  .vo-loader-logo-wrap {
+    width: 118px;
+    height: 118px;
+  }
+
+  .vo-loader-brand-logo {
+    width: 92px;
+    height: 92px;
+    border-radius: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-home .vo-hero-slide,
+  .vo-loader-brand-logo,
+  .vo-loader-orbit {
+    transition-duration: .01ms !important;
+    animation: none !important;
+  }
+}
+
+/* =========================================================
+   V12 — FIRST-VIEW HEIGHT, EASIER SLIDER CONTROLS,
+   PREMIUM LOADER + MOBILE UX / RESPONSIVE POLISH
+   ========================================================= */
+
+:root {
+  --vo-home-header-h: 82px;
+  --vo-home-strip-h: 68px;
+}
+
+/* The complete home opening view (header + media + blue service strip)
+   now fits inside one viewport. */
+.page-home .hero {
+  height: calc(100vh - var(--vo-home-header-h) - var(--vo-home-strip-h)) !important;
+  height: calc(100svh - var(--vo-home-header-h) - var(--vo-home-strip-h)) !important;
+  min-height: 0 !important;
+  max-height: none !important;
+}
+
+.page-home .vo-hero-slider {
+  height: 100% !important;
+  min-height: 0 !important;
+}
+
+.page-home .service-strip {
+  height: var(--vo-home-strip-h);
+  min-height: var(--vo-home-strip-h);
+}
+
+.page-home .service-strip > div {
+  min-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Keep exactly the same typography on the film and image slides. */
+.page-home .hero.is-video-active .hero-content,
+.page-home .hero .hero-content {
+  max-width: 650px;
+}
+
+.page-home .hero.is-video-active h1,
+.page-home .hero h1 {
+  max-width: 780px;
+  font-size: clamp(52px, 7vw, 94px);
+  line-height: .98;
+  margin-bottom: 24px;
+}
+
+.page-home .hero.is-video-active .hero-copy,
+.page-home .hero .hero-copy {
+  max-width: 640px;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.page-home .hero.is-video-active .eyebrow,
+.page-home .hero .eyebrow {
+  font-size: 12px;
+}
+
+.page-home .hero.is-video-active .hero-actions,
+.page-home .hero .hero-actions {
+  margin-top: 28px;
+}
+
+.page-home .hero.is-video-active .btn,
+.page-home .hero .btn {
+  min-height: 50px;
+  padding-inline: 23px;
+}
+
+/* Keep the visual line thin, but make the actual clickable/touch target generous. */
+.page-home .hero-slider-controls {
+  gap: 3px;
+  margin-top: 22px;
+  align-items: center;
+}
+
+.page-home .hero-slider-line,
+.page-home .hero-slider-line.is-active {
+  position: relative;
+  width: 40px;
+  height: 26px;
+  min-width: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent !important;
+  cursor: pointer;
+  opacity: 1;
+  transition: width .28s ease, opacity .2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.page-home .hero-slider-line.is-active {
+  width: 54px;
+}
+
+.page-home .hero-slider-line::before {
+  content: '';
+  position: absolute;
+  left: 3px;
+  right: 3px;
+  top: 50%;
+  height: 2px;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, .46);
+  transition: background-color .25s ease, transform .25s ease, opacity .25s ease;
+}
+
+.page-home .hero-slider-line:hover::before,
+.page-home .hero-slider-line:focus-visible::before {
+  background: rgba(255, 255, 255, .84);
+  transform: translateY(-50%) scaleY(1.35);
+}
+
+.page-home .hero-slider-line.is-active::before {
+  background: var(--gold);
+}
+
+.page-home .hero-slider-line:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, .8);
+  outline-offset: -2px;
+}
+
+/* ---------------- Premium logo loader: clean reveal, no orbit ---------------- */
+.vo-site-loader {
+  background:
+    radial-gradient(circle at 50% 46%, rgba(198, 154, 82, .10), transparent 26%),
+    linear-gradient(180deg, #071525 0%, #091a2c 100%);
+}
+
+.vo-site-loader::before {
+  inset: 0 !important;
+  border: 0 !important;
+  background:
+    linear-gradient(90deg, transparent 0 49.92%, rgba(255,255,255,.026) 50%, transparent 50.08%),
+    linear-gradient(0deg, transparent 0 49.92%, rgba(255,255,255,.018) 50%, transparent 50.08%);
+}
+
+.vo-loader-inner {
+  width: min(280px, calc(100vw - 48px));
+}
+
+.vo-loader-logo-wrap {
+  position: relative;
+  width: 118px;
+  height: 118px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.vo-loader-orbit {
+  display: none !important;
+}
+
+.vo-loader-logo-wrap::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border: 1px solid rgba(198, 154, 82, .28);
+  opacity: 0;
+  transform: scale(.86);
+  animation: voLoaderFrameIn .72s .10s cubic-bezier(.22,.61,.36,1) forwards;
+}
+
+.vo-loader-logo-wrap::after {
+  content: '';
+  position: absolute;
+  z-index: 4;
+  top: -20%;
+  bottom: -20%;
+  left: -48%;
+  width: 34%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.20), transparent);
+  transform: skewX(-18deg);
+  animation: voLoaderShine 1.45s .28s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.vo-loader-brand-logo {
+  position: absolute;
+  inset: 8px;
+  z-index: 2;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: 0 14px 38px rgba(0,0,0,.25);
+  opacity: 0;
+  transform: translateY(8px) scale(.97);
+  clip-path: inset(0 50% 0 50%);
+  animation: voLoaderLogoReveal .72s cubic-bezier(.22,.61,.36,1) forwards;
+}
+
+.vo-loader-track {
+  width: 150px;
+  height: 1px;
+  margin-top: 0;
+  overflow: hidden;
+  background: rgba(255,255,255,.12);
+}
+
+.vo-loader-track span {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #c69a52, #f0d49b);
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: voLoaderProgress 1.25s .18s cubic-bezier(.22,.61,.36,1) infinite;
+}
+
+.vo-loader-caption {
+  margin-top: 13px;
+  color: rgba(255,255,255,.58);
+  font-size: 9px;
+  letter-spacing: .22em;
+  opacity: 0;
+  transform: translateY(4px);
+  animation: voLoaderCaptionIn .5s .34s ease forwards;
+}
+
+@keyframes voLoaderLogoReveal {
+  0% { opacity: 0; transform: translateY(8px) scale(.97); clip-path: inset(0 50% 0 50%); }
+  100% { opacity: 1; transform: translateY(0) scale(1); clip-path: inset(0 0 0 0); }
+}
+
+@keyframes voLoaderFrameIn {
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes voLoaderShine {
+  0%, 28% { left: -48%; opacity: 0; }
+  42% { opacity: .7; }
+  68% { left: 118%; opacity: 0; }
+  100% { left: 118%; opacity: 0; }
+}
+
+@keyframes voLoaderProgress {
+  0% { transform: scaleX(0); opacity: .65; }
+  70% { transform: scaleX(1); opacity: 1; }
+  100% { transform: scaleX(1); opacity: 0; }
+}
+
+@keyframes voLoaderCaptionIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------------- Mobile navigation + global responsive safety ---------------- */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.page,
+.page > *,
+section,
+.container,
+.c,
+.vo-shell,
+[class*="grid"],
+[class*="track"] {
+  min-width: 0;
+}
+
+img,
+video,
+iframe,
+svg {
+  max-width: 100%;
+}
+
+input,
+select,
+textarea,
+button {
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --vo-home-header-h: 76px;
+    --vo-home-strip-h: 84px;
+  }
+
+  html.vo-menu-open,
+  body.vo-menu-open {
+    overflow: hidden !important;
+  }
+
+  .vo-header {
+    min-height: var(--vo-home-header-h);
+    height: var(--vo-home-header-h);
+  }
+
+  .vo-nav {
+    min-height: var(--vo-home-header-h) !important;
+    height: var(--vo-home-header-h);
+    width: calc(100% - 32px);
+    gap: 14px;
+  }
+
+  .vo-brand img {
+    width: 64px;
+  }
+
+  .vo-mobile-toggle {
+    position: relative;
+    z-index: 1002;
+    display: grid;
+    place-items: center;
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+    margin-left: auto;
+    padding: 0;
+    font-size: 0;
+    line-height: 1;
+    border-radius: 50%;
+    transition: background-color .2s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .vo-mobile-toggle::before {
+    content: '☰';
+    color: var(--navy);
+    font-size: 23px;
+    font-weight: 400;
+  }
+
+  .vo-mobile-toggle[aria-expanded="true"]::before {
+    content: '×';
+    font-size: 31px;
+    transform: translateY(-1px);
+  }
+
+  .vo-mobile-toggle:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+  }
+
+  .vo-menu {
+    position: fixed !important;
+    z-index: 1001;
+    top: var(--vo-home-header-h) !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    max-width: none !important;
+    max-height: calc(100svh - var(--vo-home-header-h));
+    margin: 0 !important;
+    padding: 14px 20px 30px !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0 !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background: rgba(246, 237, 230, .995);
+    border: 0 !important;
+    border-top: 1px solid rgba(20,40,70,.08) !important;
+    box-shadow: 0 22px 42px rgba(20,40,70,.16);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: opacity .22s ease, transform .22s ease, visibility .22s ease;
+  }
+
+  .vo-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .vo-menu > a,
+  .vo-menu-link {
+    width: 100%;
+    min-height: 52px;
+    padding: 0 4px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    border-bottom: 1px solid rgba(20,40,70,.12) !important;
+    font-size: 12px;
+  }
+
+  .vo-dropdown-wrap {
+    width: 100%;
+  }
+
+  .vo-dropdown-wrap > .vo-menu-link .vo-chevron {
+    flex: 0 0 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .vo-dropdown {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 4px 0 10px !important;
+    display: none !important;
+    gap: 0;
+    overflow: hidden;
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .vo-dropdown-wrap.mobile-open .vo-dropdown {
+    display: grid !important;
+  }
+
+  .vo-dropdown a {
+    width: 100%;
+    min-width: 0;
+    grid-template-columns: 28px minmax(0,1fr) auto;
+    gap: 8px;
+    padding: 12px 8px !important;
+    margin: 0;
+    background: rgba(20,40,70,.035) !important;
+    border-bottom: 1px solid rgba(20,40,70,.09) !important;
+    font-size: 11px;
+    line-height: 1.35;
+    white-space: normal;
+  }
+
+  .vo-dropdown a:last-child {
+    border-bottom: 0 !important;
+  }
+
+  .vo-dropdown a em {
+    justify-self: end;
+  }
+
+  .vo-mobile-query {
+    display: flex !important;
+    min-height: 50px !important;
+    margin-top: 16px;
+    padding: 0 16px !important;
+    justify-content: center !important;
+    border: 1px solid var(--gold) !important;
+    background: var(--gold);
+    color: #101a29 !important;
+    font-weight: 600;
+  }
+
+  .page-home .hero {
+    align-items: flex-end;
+  }
+
+  .page-home .hero > .container {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .page-home .hero .hero-content,
+  .page-home .hero.is-video-active .hero-content {
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    padding: 0 0 26px !important;
+  }
+
+  .page-home .hero.is-video-active h1,
+  .page-home .hero h1 {
+    font-size: clamp(44px, 8.4vw, 66px);
+  }
+
+  .page-home .hero.is-video-active .hero-copy,
+  .page-home .hero .hero-copy {
+    font-size: 16px;
+  }
+
+  .page-home .service-strip {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .page-home .service-strip > div {
+    min-height: calc((var(--vo-home-strip-h) - 4px) / 2);
+    padding: 0 8px !important;
+    font-size: 10px;
+  }
+
+  /* Interior pages: avoid fixed content clipping on tablets. */
+  body:not(.page-home) .hero,
+  body:not(.page-home) .career-hero,
+  body:not(.page-home) .media-hero {
+    height: min(680px, calc(100svh - var(--vo-home-header-h))) !important;
+    min-height: 560px !important;
+  }
+
+  .event-slide,
+  .feature,
+  .mice,
+  .page-contact .sec .grid {
+    min-width: 0;
+  }
+}
+
+@media (min-width: 901px) {
+  .vo-mobile-query {
+    display: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --vo-home-header-h: 74px;
+    --vo-home-strip-h: 80px;
+  }
+
+  .container,
+  .c,
+  .vo-shell {
+    width: calc(100% - 32px) !important;
+  }
+
+  .vo-header,
+  .vo-nav {
+    min-height: var(--vo-home-header-h) !important;
+    height: var(--vo-home-header-h) !important;
+  }
+
+  .vo-brand img {
+    width: 60px;
+  }
+
+  .vo-menu {
+    padding: 10px 16px 26px !important;
+  }
+
+  .vo-menu > a,
+  .vo-menu-link {
+    min-height: 50px;
+  }
+
+  .page-home .hero .hero-content,
+  .page-home .hero.is-video-active .hero-content {
+    padding-bottom: 20px !important;
+  }
+
+  .page-home .hero.is-video-active h1,
+  .page-home .hero h1 {
+    font-size: clamp(40px, 11.2vw, 48px);
+    line-height: 1.01;
+    margin-bottom: 16px;
+  }
+
+  .page-home .hero .eyebrow,
+  .page-home .hero.is-video-active .eyebrow {
+    margin-bottom: 10px;
+    font-size: 10px;
+    line-height: 1.35;
+  }
+
+  .page-home .hero.is-video-active .hero-copy,
+  .page-home .hero .hero-copy {
+    max-width: 100%;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .page-home .hero .hero-actions,
+  .page-home .hero.is-video-active .hero-actions {
+    margin-top: 17px;
+  }
+
+  .page-home .hero .hero-actions .btn,
+  .page-home .hero.is-video-active .hero-actions .btn {
+    width: 100%;
+    min-height: 48px;
+  }
+
+  .page-home .hero-slider-controls {
+    width: 100%;
+    gap: 0;
+    margin-top: 13px;
+    justify-content: flex-start;
+  }
+
+  .page-home .hero-slider-line,
+  .page-home .hero-slider-line.is-active {
+    width: 31px;
+    min-width: 31px;
+    height: 30px;
+  }
+
+  .page-home .hero-slider-line.is-active {
+    width: 42px;
+  }
+
+  .page-home .hero-slider-line::before {
+    left: 2px;
+    right: 2px;
+  }
+
+  .page-home .service-strip > div {
+    font-size: 9px;
+    letter-spacing: .06em;
+  }
+
+  /* Common small-screen alignment / tap / overflow fixes. */
+  .section,
+  .s,
+  .sec {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .section-head,
+  .heading {
+    width: 100%;
+  }
+
+  .btn,
+  .link,
+  .event-slider-arrow,
+  .cases-arrow,
+  .gallery-arrow,
+  .testimonial-arrow,
+  .faq-trigger {
+    touch-action: manipulation;
+  }
+
+  .event-slide {
+    grid-template-columns: 1fr !important;
+  }
+
+  .event-slide-photo,
+  .event-slide-photo img {
+    min-height: 280px !important;
+    height: 280px !important;
+  }
+
+  .event-slide-body {
+    padding: 24px 20px !important;
+  }
+
+  table {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body:not(.page-home) .hero,
+  body:not(.page-home) .career-hero,
+  body:not(.page-home) .media-hero {
+    height: auto !important;
+    min-height: min(560px, calc(100svh - var(--vo-home-header-h))) !important;
+  }
+
+  body:not(.page-home) .hero .hero-content,
+  body:not(.page-home) .career-hero-content,
+  body:not(.page-home) .media-hero-content {
+    max-width: 100% !important;
+    padding-top: 56px !important;
+    padding-bottom: 56px !important;
+  }
+
+  body:not(.page-home) .hero h1,
+  body:not(.page-home) .career-hero h1,
+  body:not(.page-home) .media-hero h1 {
+    overflow-wrap: anywhere;
+  }
+
+  .vo-footer-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .vo-footer-brand {
+    grid-column: auto !important;
+  }
+}
+
+@media (max-width: 380px), (max-height: 700px) and (max-width: 600px) {
+  :root {
+    --vo-home-strip-h: 74px;
+  }
+
+  .page-home .hero.is-video-active h1,
+  .page-home .hero h1 {
+    font-size: clamp(36px, 10.6vw, 42px);
+    margin-bottom: 12px;
+  }
+
+  .page-home .hero.is-video-active .hero-copy,
+  .page-home .hero .hero-copy {
+    font-size: 13px;
+    line-height: 1.48;
+  }
+
+  .page-home .hero .hero-actions,
+  .page-home .hero.is-video-active .hero-actions {
+    margin-top: 13px;
+  }
+
+  .page-home .hero-slider-controls {
+    margin-top: 8px;
+  }
+
+  .page-home .hero .hero-content,
+  .page-home .hero.is-video-active .hero-content {
+    padding-bottom: 12px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vo-loader-brand-logo,
+  .vo-loader-logo-wrap::before,
+  .vo-loader-logo-wrap::after,
+  .vo-loader-track span,
+  .vo-loader-caption {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+  }
+}
