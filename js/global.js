@@ -421,3 +421,39 @@ document.addEventListener('pointerdown', function (event) {
 window.addEventListener('load', function () {
   if (window.AOS) window.setTimeout(() => AOS.refreshHard(), 120);
 });
+
+/* ===== Media event slider — one event visible at a time ===== */
+(function(){
+  const slider=document.querySelector('[data-event-slider]');
+  if(!slider) return;
+  const viewport=slider.querySelector('.event-slider-viewport');
+  const track=slider.querySelector('.event-slider-track');
+  const slides=Array.from(track?.querySelectorAll('.event-slide')||[]);
+  const prev=slider.querySelector('[data-event-prev]');
+  const next=slider.querySelector('[data-event-next]');
+  const current=slider.querySelector('[data-event-current]');
+  const total=slider.querySelector('[data-event-total]');
+  if(!viewport||!track||!slides.length) return;
+  let index=0;
+  if(total) total.textContent=String(slides.length).padStart(2,'0');
+  const update=()=>{
+    index=Math.max(0,Math.min(index,slides.length-1));
+    track.style.transform=`translate3d(${-index*100}%,0,0)`;
+    slides.forEach((slide,i)=>slide.classList.toggle('is-active',i===index));
+    if(current) current.textContent=String(index+1).padStart(2,'0');
+    if(prev) prev.disabled=slides.length<=1;
+    if(next) next.disabled=slides.length<=1;
+  };
+  const go=(dir)=>{
+    if(slides.length<=1) return;
+    index=(index+dir+slides.length)%slides.length;
+    update();
+  };
+  prev?.addEventListener('click',()=>go(-1));
+  next?.addEventListener('click',()=>go(1));
+  viewport.addEventListener('keydown',e=>{
+    if(e.key==='ArrowLeft'){e.preventDefault();go(-1);}
+    if(e.key==='ArrowRight'){e.preventDefault();go(1);}
+  });
+  update();
+})();
