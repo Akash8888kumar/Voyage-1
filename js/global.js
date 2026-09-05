@@ -1,69 +1,4 @@
-
-/* Voyage 1 site loader — shown once per browsing session, not on every internal page. */
-(function(){
-  const loader = document.querySelector('[data-site-loader]');
-  if (!loader) return;
-
-  let alreadySeen = false;
-  try { alreadySeen = sessionStorage.getItem('voyage-loader-seen') === '1'; } catch (e) {}
-
-  if (alreadySeen) {
-    document.documentElement.classList.add('vo-loader-skip');
-    document.documentElement.classList.remove('vo-is-loading');
-    loader.remove();
-    return;
-  }
-
-  const startedAt = performance.now();
-  const minimumDisplay = 720;
-  let hiding = false;
-  document.documentElement.classList.add('vo-is-loading');
-
-  const hideLoader = () => {
-    if (hiding) return;
-    hiding = true;
-    const elapsed = performance.now() - startedAt;
-    window.setTimeout(() => {
-      try { sessionStorage.setItem('voyage-loader-seen', '1'); } catch (e) {}
-      loader.classList.add('is-leaving');
-      document.documentElement.classList.remove('vo-is-loading');
-      window.dispatchEvent(new CustomEvent('voyage:loader-leaving'));
-      window.setTimeout(() => loader.remove(), 700);
-    }, Math.max(0, minimumDisplay - elapsed));
-  };
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', hideLoader, { once: true });
-  } else {
-    hideLoader();
-  }
-
-  // Never let a slow remote resource keep the page covered.
-  window.setTimeout(hideLoader, 2200);
-})();
-
-/* Static-site CTA fallbacks: enquiry forms open the visitor's mail client; video testimonial buttons open the local video when no lightbox is available. */
-function wireStaticCtas() {
-  document.querySelectorAll('form#contact-enquiry-form, form#uae-enquiry-form').forEach(function (form) {
-    form.addEventListener('submit', function (event) {
-      event.preventDefault();
-      if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-      }
-      const data = new FormData(form);
-      const lines = [];
-      data.forEach(function (value, key) {
-        if (String(value).trim()) lines.push(key.replace(/_/g, ' ')+': '+String(value).trim());
-      });
-      const subject = form.id === 'uae-enquiry-form' ? 'UAE Journey Enquiry — Voyage 1' : 'New Enquiry — Voyage 1';
-      const body = 'Hello Voyage 1 Team,\\n\\nI would like to enquire about the following:\\n\\n' + lines.join('\\n') + '\\n\\nThank you.';
-      window.location.href = 'mailto:info@voyage-one.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-    });
-  });
-}
-
-/* Voyage 1 — shared frontend behavior */
+/* Voyage 1 — production frontend behavior */
 
 function toggleCard(button) {
   const card = button.closest('.dest-card');
@@ -73,302 +8,271 @@ function toggleCard(button) {
   button.textContent = expanded ? 'Read Less ↑' : 'Read More →';
 }
 
-
-document.addEventListener('DOMContentLoaded', wireStaticCtas);
-
-document.addEventListener('DOMContentLoaded', function () {
-  // Career links can carry a role/subject into the shared enquiry form.
-  var params = new URLSearchParams(window.location.search);
-  var role = params.get('role');
-  var subject = params.get('subject');
-  var requirements = document.getElementById('requirements');
-  if (requirements && (role || subject)) {
-    var label = role ? 'Career enquiry — ' + role : 'Career enquiry';
-    requirements.value = label + '\n\nI would like to learn more about opportunities at Voyage 1.';
-    requirements.focus({ preventScroll: true });
+/* Branded loader — once per browsing session, not on every internal page. */
+(function () {
+  const loader = document.querySelector('[data-site-loader]');
+  if (!loader) return;
+  let seen = false;
+  try { seen = sessionStorage.getItem('voyage-loader-seen') === '1'; } catch (e) {}
+  if (seen) {
+    document.documentElement.classList.add('vo-loader-skip');
+    loader.remove();
+    window.dispatchEvent(new CustomEvent('voyage:loader-leaving'));
+    return;
   }
-});
+  const started = performance.now();
+  let hiding = false;
+  const hide = () => {
+    if (hiding) return;
+    hiding = true;
+    const wait = Math.max(0, 720 - (performance.now() - started));
+    window.setTimeout(() => {
+      try { sessionStorage.setItem('voyage-loader-seen', '1'); } catch (e) {}
+      loader.classList.add('is-leaving');
+      window.dispatchEvent(new CustomEvent('voyage:loader-leaving'));
+      window.setTimeout(() => loader.remove(), 700);
+    }, wait);
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', hide, { once: true });
+  else hide();
+  window.setTimeout(hide, 2200);
+})();
+
+/* Accessible copy helper used by static enquiry forms. */
+async function copyVoyageText(text) {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch (e) {}
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand('copy');
+    ta.remove();
+    return ok;
+  } catch (e) { return false; }
+}
+
+function showFormStatus(form, message, copyText) {
+  let box = form.querySelector('.vo-form-status');
+  if (!box) {
+    box = document.createElement('div');
+    box.className = 'vo-form-status';
+    box.setAttribute('role', 'status');
+    form.appendChild(box);
+  }
+  box.innerHTML = '';
+  const span = document.createElement('span');
+  span.textContent = message;
+  box.appendChild(span);
+  if (copyText) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = 'Copy enquiry';
+    button.addEventListener('click', async () => {
+      const ok = await copyVoyageText(copyText);
+      button.textContent = ok ? 'Copied ✓' : 'Select and copy manually';
+    });
+    box.appendChild(button);
+  }
+}
+
+function wireEnquiryForms() {
+  document.querySelectorAll('form#contact-enquiry-form, form#uae-enquiry-form').forEach((form) => {
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      const data = new FormData(form);
+      const lines = [];
+      data.forEach((value, key) => {
+        const clean = String(value).trim();
+        if (clean) lines.push(key.replace(/([A-Z])/g, ' $1').replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()) + ': ' + clean);
+      });
+      const destination = form.dataset.destination || '';
+      const subject = form.dataset.subject || (destination ? destination + ' Journey Enquiry — Voyage 1' : 'New Enquiry — Voyage 1');
+      const body = 'Hello Voyage 1 Team,\n\nI would like to enquire about the following:\n\n' + lines.join('\n') + '\n\nThank you.';
+      const mailto = 'mailto:info@voyage-one.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      showFormStatus(form, 'Your enquiry is ready. Your email app should open now; if it does not, use “Copy enquiry” and email info@voyage-one.com.', body);
+      await copyVoyageText(body);
+      window.location.href = mailto;
+    });
+  });
+}
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Native reveal engine. The class is placed in <head> before first paint, so nothing flashes or snaps.
+  /* Career links can carry a role into the shared enquiry form. */
+  const params = new URLSearchParams(window.location.search);
+  const role = params.get('role');
+  const subject = params.get('subject');
+  const requirements = document.getElementById('requirements');
+  if (requirements && (role || subject)) {
+    requirements.value = (role ? 'Career enquiry — ' + role : 'Career enquiry') + '\n\nI would like to learn more about opportunities at Voyage 1.';
+  }
+
+  /* Native AOS-compatible reveal engine: smooth, no external dependency. */
   const revealItems = Array.from(document.querySelectorAll('[data-aos]'));
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  revealItems.forEach(function (item) {
+  revealItems.forEach((item) => {
     const rawDelay = parseInt(item.getAttribute('data-aos-delay') || '0', 10);
     const rawDuration = parseInt(item.getAttribute('data-aos-duration') || '900', 10);
-    const delay = Number.isFinite(rawDelay) ? Math.min(Math.max(rawDelay, 0), 520) : 0;
-    const duration = Number.isFinite(rawDuration) ? Math.min(Math.max(rawDuration, 700), 1250) : 900;
-    item.style.setProperty('--vo-reveal-delay', delay + 'ms');
-    item.style.setProperty('--vo-reveal-duration', duration + 'ms');
-
-    // Repeated cards enter in a gentle sequence instead of appearing as one abrupt block.
+    item.style.setProperty('--vo-delay', Math.min(Math.max(rawDelay || 0, 0), 520) + 'ms');
+    item.style.setProperty('--vo-duration', Math.min(Math.max(rawDuration || 900, 700), 1250) + 'ms');
     if (!item.hasAttribute('data-aos-delay')) {
       const row = item.parentElement;
       if (row && row.children.length > 1 && row.children.length <= 10) {
-        const siblingIndex = Array.prototype.indexOf.call(row.children, item);
-        item.style.setProperty('--vo-reveal-delay', Math.min(siblingIndex * 65, 325) + 'ms');
+        const i = Array.prototype.indexOf.call(row.children, item);
+        item.style.setProperty('--vo-delay', Math.min(i * 60, 300) + 'ms');
       }
     }
   });
-
-  if (reduceMotion || !revealItems.length) {
-    revealItems.forEach(function (item) { item.classList.add('aos-animate'); });
-  } else {
-    document.documentElement.classList.add('js-reveal');
-
-    // A section that contains separately animated children acts only as a shell.
-    // This prevents a hidden parent from making its child animation appear to jump in suddenly.
-    document.querySelectorAll('section[data-aos]').forEach(function(section) {
-      const nested = section.querySelector('[data-aos]');
-      if (nested) {
-        section.classList.add('vo-reveal-shell', 'aos-animate');
-      }
+  if (reduceMotion) revealItems.forEach(item => item.classList.add('aos-animate'));
+  else {
+    document.querySelectorAll('section[data-aos]').forEach((section) => {
+      if (section.querySelector('[data-aos]')) section.classList.add('vo-reveal-shell', 'aos-animate');
     });
-
-    // Hero and service strip use their own transitions and should be immediately paintable.
-    revealItems.filter(function(item) {
-      return item.closest('.hero') || item.classList.contains('service-strip');
-    }).forEach(function(item) {
-      item.classList.add('aos-animate');
-    });
-
-    const reveal = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
+    revealItems.filter(item => item.closest('.hero') || item.classList.contains('service-strip')).forEach(item => item.classList.add('aos-animate'));
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
-        window.requestAnimationFrame(function() {
-          entry.target.classList.add('aos-animate');
-        });
-        observer.unobserve(entry.target);
+        requestAnimationFrame(() => entry.target.classList.add('aos-animate'));
+        obs.unobserve(entry.target);
       });
     }, { rootMargin: '0px 0px -6% 0px', threshold: 0.08 });
-
-    revealItems.forEach(function(item) {
-      if (item.classList.contains('aos-animate')) return;
-      reveal.observe(item);
-    });
+    revealItems.forEach(item => { if (!item.classList.contains('aos-animate')) observer.observe(item); });
   }
 
-  // FAQ accordion.
-  document.querySelectorAll('.faq-item').forEach(function (item) {
+  /* FAQ accordion. */
+  document.querySelectorAll('.faq-item').forEach((item) => {
     const trigger = item.querySelector('.faq-trigger');
     if (!trigger) return;
-    trigger.addEventListener('click', function () {
-      const isOpen = item.classList.contains('is-open');
-      document.querySelectorAll('.faq-item.is-open').forEach(function (openItem) {
-        if (openItem === item) return;
-        openItem.classList.remove('is-open');
-        openItem.querySelector('.faq-trigger')?.setAttribute('aria-expanded', 'false');
+    trigger.addEventListener('click', () => {
+      const open = item.classList.contains('is-open');
+      document.querySelectorAll('.faq-item.is-open').forEach((other) => {
+        if (other === item) return;
+        other.classList.remove('is-open');
+        other.querySelector('.faq-trigger')?.setAttribute('aria-expanded', 'false');
       });
-      item.classList.toggle('is-open', !isOpen);
-      trigger.setAttribute('aria-expanded', String(!isOpen));
+      item.classList.toggle('is-open', !open);
+      trigger.setAttribute('aria-expanded', String(!open));
     });
   });
 
-  // Sticky header shadow. Bootstrap owns navbar collapse/dropdown behavior.
+  /* Sticky header shadow. */
   const header = document.querySelector('.vo-header');
   if (header) {
-    const syncHeader = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
-    syncHeader();
-    window.addEventListener('scroll', syncHeader, { passive: true });
+    const sync = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+    sync(); window.addEventListener('scroll', sync, { passive: true });
   }
 
-  // Collapse the mobile Bootstrap navbar after selecting a real destination/page link.
-  const navCollapse = document.getElementById('voyageNavbar');
-  if (navCollapse && window.bootstrap) {
-    navCollapse.querySelectorAll('a:not(.dropdown-toggle)').forEach(function (link) {
-      link.addEventListener('click', function () {
-        if (window.innerWidth < 992 && navCollapse.classList.contains('show')) {
-          bootstrap.Collapse.getOrCreateInstance(navCollapse).hide();
-        }
-      });
-    });
-  }
-
-  // Keep frontend validation active without adding backend behavior.
-  document.querySelectorAll('form').forEach(function (form) {
-    form.addEventListener('submit', function (event) {
-      if (!form.checkValidity()) {
-        event.preventDefault();
-        form.reportValidity();
+  /* Desktop dropdowns are hover/focus only; tablet/phone use Bootstrap click. */
+  const dropdownToggles = Array.from(document.querySelectorAll('.vo-header .dropdown-toggle'));
+  const syncDropdownMode = () => {
+    const desktop = window.innerWidth >= 992;
+    dropdownToggles.forEach((toggle) => {
+      if (desktop) {
+        if (!toggle.dataset.bsToggleSaved) toggle.dataset.bsToggleSaved = toggle.getAttribute('data-bs-toggle') || 'dropdown';
+        toggle.removeAttribute('data-bs-toggle');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.nextElementSibling?.classList.remove('show');
+      } else {
+        toggle.setAttribute('data-bs-toggle', toggle.dataset.bsToggleSaved || 'dropdown');
       }
     });
+  };
+  syncDropdownMode();
+  window.addEventListener('resize', syncDropdownMode, { passive: true });
+
+  /* Parent dropdown labels are real links too. On tablet/phone the first tap
+     opens the submenu; tapping the already-open parent again follows its page link. */
+  dropdownToggles.forEach((toggle) => {
+    toggle.addEventListener('click', (event) => {
+      if (window.innerWidth >= 992) return;
+      const menu = toggle.nextElementSibling;
+      const href = toggle.getAttribute('href');
+      if (!href || href === '#' || !menu?.classList.contains('show')) return;
+      event.preventDefault();
+      event.stopPropagation();
+      window.location.href = href;
+    });
   });
+
+  /* Close mobile navbar after a real navigation choice. */
+  const navCollapse = document.getElementById('voyageNavbar');
+  if (navCollapse && window.bootstrap) {
+    navCollapse.querySelectorAll('a:not(.dropdown-toggle)').forEach((link) => link.addEventListener('click', () => {
+      if (window.innerWidth < 992 && navCollapse.classList.contains('show')) bootstrap.Collapse.getOrCreateInstance(navCollapse).hide();
+    }));
+  }
+
+  wireEnquiryForms();
 });
 
-/* Home hero slider — true layered 100vh slides with opening video. */
-(function(){
+/* Home hero slider — opening film + destination images. */
+(function () {
   const slider = document.querySelector('[data-hero-slider]');
   if (!slider) return;
-
   const hero = slider.closest('.hero');
   const slides = Array.from(slider.querySelectorAll('[data-hero-slide]'));
   const controls = document.querySelector('[data-hero-controls]');
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const IMAGE_DURATION = 5000;
-  let index = Math.max(0, slides.findIndex(slide => slide.classList.contains('is-active')));
+  let index = Math.max(0, slides.findIndex(s => s.classList.contains('is-active')));
   let timer = null;
+  const stop = () => { if (timer) clearTimeout(timer); timer = null; };
+  const typeOf = s => s?.dataset.slideType || 'image';
+  const videoOf = s => s?.querySelector('[data-hero-video]') || null;
 
-  const typeOf = slide => slide?.dataset.slideType || 'image';
-  const activeVideo = slide => slide?.querySelector('[data-hero-video]') || null;
-
-  const stopTimer = () => {
-    if (timer) window.clearTimeout(timer);
-    timer = null;
+  const updateControls = () => controls?.querySelectorAll('.hero-slider-line').forEach((button, i) => {
+    const active = i === index; button.classList.toggle('is-active', active); button.setAttribute('aria-current', active ? 'true' : 'false');
+  });
+  const refreshText = () => {
+    const content = hero?.querySelector('.hero-content'); if (!content) return;
+    content.classList.remove('hero-content-refresh'); void content.offsetWidth; content.classList.add('hero-content-refresh');
   };
-
-  const updateControls = () => {
-    if (!controls) return;
-    controls.querySelectorAll('.hero-slider-line').forEach((button, i) => {
-      const active = i === index;
-      button.classList.toggle('is-active', active);
-      button.setAttribute('aria-current', active ? 'true' : 'false');
-    });
+  const schedule = () => {
+    stop(); if (document.hidden || typeOf(slides[index]) !== 'image') return;
+    timer = setTimeout(() => show(index + 1, 'auto'), IMAGE_DURATION);
   };
-
-  const refreshHeroContent = () => {
-    const content = hero?.querySelector('.hero-content');
-    if (!content) return;
-    content.classList.remove('hero-content-refresh');
-    void content.offsetWidth;
-    content.classList.add('hero-content-refresh');
+  const playVideo = (restart) => {
+    const video = videoOf(slides[index]); if (!video) return;
+    video.controls = false; video.removeAttribute('controls'); video.muted = true; video.defaultMuted = true;
+    if (restart) { try { video.currentTime = 0; } catch (e) {} }
+    if (document.querySelector('[data-site-loader]:not(.is-leaving)')) { video.pause(); return; }
+    if (reduced.matches) { timer = setTimeout(() => show(index + 1, 'reduced'), IMAGE_DURATION); return; }
+    const p = video.play(); if (p?.catch) p.catch(() => { timer = setTimeout(() => show(index + 1, 'fallback'), IMAGE_DURATION); });
   };
-
-  const scheduleNext = () => {
-    stopTimer();
-    if (document.hidden) return;
-    if (typeOf(slides[index]) !== 'image') return;
-    timer = window.setTimeout(() => show(index + 1, { reason: 'auto' }), IMAGE_DURATION);
-  };
-
-  const playCurrentVideo = (restart = false) => {
-    const slide = slides[index];
-    if (typeOf(slide) !== 'video') return;
-    const video = activeVideo(slide);
-    if (!video) return;
-
-    video.controls = false;
-    video.removeAttribute('controls');
-    video.muted = true;
-    video.defaultMuted = true;
-
-    if (restart) {
-      try { video.currentTime = 0; } catch (e) {}
-    }
-
-    // Wait until the loader starts leaving so the visitor sees the film from frame one.
-    const loaderVisible = Boolean(document.querySelector('[data-site-loader]:not(.is-leaving)'));
-    if (loaderVisible) {
-      video.pause();
-      try { video.currentTime = 0; } catch (e) {}
-      return;
-    }
-
-    if (reduced.matches) {
-      video.pause();
-      timer = window.setTimeout(() => show(index + 1, { reason: 'reduced-motion' }), IMAGE_DURATION);
-      return;
-    }
-
-    const promise = video.play();
-    if (promise && typeof promise.catch === 'function') {
-      promise.catch(() => {
-        // If autoplay is blocked, keep the poster visible and continue the carousel.
-        stopTimer();
-        timer = window.setTimeout(() => show(index + 1, { reason: 'autoplay-fallback' }), IMAGE_DURATION);
-      });
-    }
-  };
-
-  function show(next, options = {}) {
-    if (!slides.length) return;
-    stopTimer();
-
-    const normalized = (next + slides.length) % slides.length;
-    const previous = slides[index];
-    const incoming = slides[normalized];
-
-    // Clicking the already-active video dot restarts the film cleanly.
-    if (normalized === index) {
-      if (typeOf(incoming) === 'video' && options.reason === 'user') playCurrentVideo(true);
-      else if (typeOf(incoming) === 'image') scheduleNext();
-      return;
-    }
-
-    const previousVideo = activeVideo(previous);
-    if (previousVideo) previousVideo.pause();
-
-    previous?.classList.remove('is-active');
-    previous?.setAttribute('aria-hidden', 'true');
-
-    index = normalized;
-    incoming.classList.add('is-active');
-    incoming.setAttribute('aria-hidden', 'false');
-
-    const isVideo = typeOf(incoming) === 'video';
-    hero?.classList.toggle('is-video-active', isVideo);
-    updateControls();
-    refreshHeroContent();
-
-    if (isVideo) playCurrentVideo(true);
-    else scheduleNext();
+  function show(next, reason) {
+    stop(); const ni = (next + slides.length) % slides.length;
+    if (ni === index) { if (typeOf(slides[index]) === 'video' && reason === 'user') playVideo(true); else schedule(); return; }
+    videoOf(slides[index])?.pause(); slides[index].classList.remove('is-active'); slides[index].setAttribute('aria-hidden', 'true');
+    index = ni; slides[index].classList.add('is-active'); slides[index].setAttribute('aria-hidden', 'false');
+    const video = typeOf(slides[index]) === 'video'; hero?.classList.toggle('is-video-active', video); updateControls(); refreshText();
+    if (video) playVideo(true); else schedule();
   }
-
   if (controls) {
     controls.innerHTML = '';
     slides.forEach((slide, i) => {
-      const button = document.createElement('button');
-      const isVideo = typeOf(slide) === 'video';
-      const name = isVideo ? 'Opening film' : (slide.dataset.label || `Slide ${i + 1}`);
-      button.type = 'button';
-      button.className = 'hero-slider-line';
-      button.setAttribute('aria-label', `Show ${name}`);
-      button.addEventListener('click', () => show(i, { reason: 'user' }));
-      controls.appendChild(button);
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'hero-slider-line';
+      b.setAttribute('aria-label', 'Show ' + (typeOf(slide) === 'video' ? 'opening film' : (slide.dataset.label || 'slide ' + (i + 1))));
+      b.addEventListener('click', () => show(i, 'user')); controls.appendChild(b);
     });
   }
-
   slides.forEach((slide, i) => {
     slide.setAttribute('aria-hidden', i === index ? 'false' : 'true');
-    const video = activeVideo(slide);
-    if (!video) return;
-    video.controls = false;
-    video.removeAttribute('controls');
-    video.addEventListener('ended', () => {
-      if (slides[index] === slide) show(index + 1, { reason: 'video-ended' });
-    });
+    const v = videoOf(slide); if (v) v.addEventListener('ended', () => { if (slides[index] === slide) show(index + 1, 'video-ended'); });
   });
-
-  hero?.classList.toggle('is-video-active', typeOf(slides[index]) === 'video');
-  updateControls();
-
-  // The first slide is the film. It begins only when the branded loader clears.
-  if (!document.querySelector('[data-site-loader]:not(.is-leaving)')) {
-    if (typeOf(slides[index]) === 'video') playCurrentVideo(true);
-    else scheduleNext();
-  }
-
-  window.addEventListener('voyage:loader-leaving', () => {
-    if (typeOf(slides[index]) === 'video') playCurrentVideo(true);
-    else scheduleNext();
-  });
-
-  document.addEventListener('visibilitychange', () => {
-    if (document.hidden) {
-      stopTimer();
-      activeVideo(slides[index])?.pause();
-      return;
-    }
-    if (typeOf(slides[index]) === 'video') playCurrentVideo(false);
-    else scheduleNext();
-  });
-
-  controls?.addEventListener('mouseenter', () => {
-    if (typeOf(slides[index]) === 'image') stopTimer();
-  });
-  controls?.addEventListener('mouseleave', () => {
-    if (typeOf(slides[index]) === 'image') scheduleNext();
-  });
+  hero?.classList.toggle('is-video-active', typeOf(slides[index]) === 'video'); updateControls();
+  const start = () => typeOf(slides[index]) === 'video' ? playVideo(true) : schedule();
+  if (!document.querySelector('[data-site-loader]:not(.is-leaving)')) start();
+  window.addEventListener('voyage:loader-leaving', start, { once: true });
+  document.addEventListener('visibilitychange', () => { if (document.hidden) { stop(); videoOf(slides[index])?.pause(); } else { typeOf(slides[index]) === 'video' ? playVideo(false) : schedule(); } });
 })();
 
 /* Testimonials — same finite, wrapping carousel behavior as the destination gallery. */
@@ -626,11 +530,6 @@ document.addEventListener('pointerdown', function (event) {
   target.classList.add('is-pressed');
   window.setTimeout(() => target.classList.remove('is-pressed'), 180);
 }, { passive: true });
-
-/* Keep AOS responsive after viewport changes and newly revealed layouts. */
-window.addEventListener('load', function () {
-  if (window.AOS) window.setTimeout(() => AOS.refreshHard(), 120);
-});
 
 /* ===== Media event slider — one event visible at a time ===== */
 (function(){
