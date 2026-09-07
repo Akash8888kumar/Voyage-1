@@ -5626,7 +5626,7 @@ body:not(.page-home) .hero::after,body:not(.page-home) .career-hero::after,body:
 }
 
 .page-media .media-hero,.page-careers .career-hero{
-  background-image: url("../assets/images/partner-meeting.webp") !important;
+  background-image: url("../assets/images/career-page-banner.webp") !important;
 }
 
 @media (max-width: 900px) {
