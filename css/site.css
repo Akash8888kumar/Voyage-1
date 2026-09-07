@@ -304,7 +304,7 @@ strong,b{
   position: absolute;
   inset: 0 0 0 42%;
   z-index: 0;
-  background-image: url("../assets/images/hero-uae.webp");
+  background-image: url("../assets/images/uae-hero-banner-dubai-luxury-travel.webp");
   background-size: cover;
   background-position: center;
   opacity: .96;
@@ -330,7 +330,7 @@ strong,b{
 }
 
 .page-uae .hero-bg{
-  background-image: url("../assets/images/hero-uae.webp");
+  background-image: url("../assets/images/uae-hero-banner-dubai-luxury-travel.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1814,7 +1814,7 @@ strong,b{
 }
 
 .vo-inline-bg-1{
-  background-image: url("../assets/images/hero-uae.webp");
+  background-image: url("../assets/images/uae-hero-banner-dubai-luxury-travel.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1832,7 +1832,7 @@ strong,b{
 }
 
 .vo-inline-bg-4{
-  background-image: url("../assets/images/hero-uae.webp");
+  background-image: url("../assets/images/uae-hero-banner-dubai-luxury-travel.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1958,7 +1958,7 @@ strong,b{
 }
 
 .vo-inline-bg-32{
-  background-image: url("../assets/images/hero-uae.webp");
+  background-image: url("../assets/images/uae-hero-banner-dubai-luxury-travel.webp");
   background-size: cover;
   background-position: center;
 }
@@ -5609,8 +5609,8 @@ body:not(.page-home) .hero::after,body:not(.page-home) .career-hero::after,body:
   background: none !important;
 }
 
-.page-uae .hero .hero-bg{ background-image: url("../assets/images/hero-uae.webp") !important; }
-.page-georgia .hero .hero-bg{ background-image: url("../assets/images/hero-georgia.webp") !important; }
+.page-uae .hero .hero-bg{ background-image: url("../assets/images/uae-hero-banner-dubai-luxury-travel.webp") !important; }
+.page-georgia .hero .hero-bg{ background-image: url("../assets/images/georgia-hero-banner-tbilisi-caucasus.webp") !important; }
 .page-kazakhstan .hero .hero-bg{ background-image: url("../assets/images/hero-kazakhstan.webp") !important; }
 .page-azerbaijan .hero .hero-bg{ background-image: url("../assets/images/hero-azerbaijan.webp") !important; }
 .page-japan .hero .hero-bg{ background-image: url("../assets/images/hero-japan.webp") !important; }
@@ -5918,10 +5918,10 @@ body:not(.page-home) .hero .hc,body:not(.page-home) .hero .hero-content,body:not
   .event-slide-photo,.event-slide-photo img{ min-height: 260px; }
 }
 
-.page-uae .vo-inline-bg-5{background-image:url("../assets/images/UAE_Fujairah_Destination_Card_Beach_Diving_Hajar_Mountains.webp")!important;background-size:cover;background-position:center;}
-.page-uae .vo-inline-bg-6{background-image:url("../assets/images/UAE_Ajman_Destination_Card_Beachfront_Resort_Relaxed_Leisure.webp")!important;background-size:cover;background-position:center;}
-.page-uae .vo-inline-bg-9{background-image:url("../assets/images/UAE_Dubai_Itinerary_3_Days_Dubai_Highlights.webp")!important;background-size:cover;background-position:center;}
-.page-georgia .vo-inline-bg-9{background-image:url("../assets/images/Georgia_Tbilisi_Itinerary_3_Days_Old_Tbilisi.webp")!important;background-size:cover;background-position:center;}
+.page-uae .vo-inline-bg-5{background-image:url("../assets/images/uae-fujairah-destination-card.webp")!important;background-size:cover;background-position:center;}
+.page-uae .vo-inline-bg-6{background-image:url("../assets/images/uae-ajman-destination-card.webp")!important;background-size:cover;background-position:center;}
+.page-uae .vo-inline-bg-9{background-image:url("../assets/images/uae-itinerary-dubai-highlights.webp")!important;background-size:cover;background-position:center;}
+.page-georgia .vo-inline-bg-9{background-image:url("../assets/images/georgia-itinerary-tbilisi-highlights.webp")!important;background-size:cover;background-position:center;}
 .page-azerbaijan .vo-inline-bg-9{background-image:url("../assets/images/Azerbaijan_Baku_Itinerary_3_Days_Old_City_Waterfront.webp")!important;background-size:cover;background-position:center;}
 .page-azerbaijan .vo-inline-bg-10{background-image:url("../assets/images/Azerbaijan_Qabala_Itinerary_5_Days_Caucasus_Mountains.webp")!important;background-size:cover;background-position:center;}
 .page-japan .vo-inline-bg-9{background-image:url("../assets/images/Japan_Tokyo_Itinerary_4_Days_Tokyo_Skyline_Culture.webp")!important;background-size:cover;background-position:center;}
@@ -5981,7 +5981,7 @@ body:not(.page-home) .hero .hc,body:not(.page-home) .hero .hero-content,body:not
   }
 }
 
-.page-uae .vo-inline-bg-7{background-image:url("../assets/images/uae-card7.webp")!important;background-size:cover;background-position:center;}
+.page-uae .vo-inline-bg-7{background-image:url("../assets/images/uae-umm-al-quwain-destination-card.webp")!important;background-size:cover;background-position:center;}
 
 .page-about .org-chart-network{
   padding: 0;
@@ -6498,4 +6498,108 @@ body.page-media .media-hero-content {
 .vo-footer-contact a,
 .vo-footer-column a[href="tel:+912240000000"]{
   white-space: nowrap;
+}
+
+
+/* UAE redesign: image mosaic, route line, numbered process rail */
+.page-destination .uae-experiences-redesign,.page-destination .uae-movement-redesign,.page-destination .uae-process-redesign{overflow:hidden}
+.page-destination .uae-showcase-head,.page-destination .uae-process-intro{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr);gap:48px;align-items:end;margin-bottom:42px}
+.page-destination .uae-showcase-head h2,.page-destination .uae-process-intro h2{margin:0}
+.page-destination .uae-showcase-head p,.page-destination .uae-process-intro p{margin:0;max-width:560px;font-size:15px}
+.page-destination .uae-exp-mosaic{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,1.38fr);gap:14px;min-height:610px}
+.page-destination .uae-exp-feature,.page-destination .uae-exp-tile{position:relative;overflow:hidden;background-size:cover;background-position:center;border-radius:18px;isolation:isolate}
+.page-destination .uae-exp-feature{min-height:610px}
+.page-destination .uae-exp-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(0,1fr));gap:14px}
+.page-destination .uae-exp-tile{min-height:190px}
+.page-destination .uae-exp-feature::before,.page-destination .uae-exp-tile::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,22,40,.02) 18%,rgba(10,22,40,.82) 100%);transition:background .35s ease}
+.page-destination .uae-exp-feature:hover::before,.page-destination .uae-exp-tile:hover::before{background:linear-gradient(180deg,rgba(10,22,40,.08) 8%,rgba(10,22,40,.9) 100%)}
+.page-destination .uae-exp-overlay{position:absolute;left:0;right:0;bottom:0;padding:25px;color:#fff;z-index:1}
+.page-destination .uae-exp-feature .uae-exp-overlay{padding:32px}
+.page-destination .uae-exp-kicker{display:block;color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:.16em;margin-bottom:9px;font-weight:600}
+.page-destination .uae-exp-overlay h3{color:#fff;font-size:23px;margin:0 0 7px}.page-destination .uae-exp-feature .uae-exp-overlay h3{font-size:35px}
+.page-destination .uae-exp-overlay p{color:rgba(255,255,255,.88);font-size:13px;line-height:1.55;margin:0;max-width:360px}
+.page-destination .uae-movement-redesign{background:var(--white)}
+.page-destination .uae-movement-head{margin-bottom:64px}
+.page-destination .uae-route{position:relative;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;padding:0 0 18px}
+.page-destination .uae-route-line{position:absolute;left:8.333%;right:8.333%;top:30px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),var(--gold),transparent)}
+.page-destination .uae-route-stop{position:relative;text-align:center;padding:0 12px}
+.page-destination .uae-route-node{width:60px;height:60px;margin:0 auto 15px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--cream);border:1px solid rgba(200,167,75,.65);color:var(--gold);font-family:var(--heading);font-size:12px;position:relative;z-index:2}
+.page-destination .uae-route-icon{display:flex;align-items:center;justify-content:center;font-family:var(--heading);font-size:28px;font-weight:700;color:var(--navy);height:42px;line-height:1;margin:0 auto 10px;min-width:42px}
+.page-destination .uae-route-stop h3{font-size:17px;margin:0 0 7px}.page-destination .uae-route-stop p{font-size:12px;line-height:1.55;margin:0;color:rgba(22,42,75,.68)}
+.page-destination .uae-process-redesign{background:var(--navy);color:var(--white);padding-top:92px;padding-bottom:96px}
+.page-destination .uae-process-intro{margin-bottom:68px}.page-destination .uae-process-intro h2{color:#fff}.page-destination .uae-process-intro p{color:rgba(255,255,255,.7)}
+.page-destination .uae-process-rail{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.page-destination .uae-process-line{position:absolute;left:7%;right:7%;top:43px;height:1px;background:rgba(255,255,255,.22)}
+.page-destination .uae-process-step{position:relative;padding:0 26px 0 0;margin-right:26px;border-right:1px solid rgba(255,255,255,.14);min-height:230px}.page-destination .uae-process-step:last-child{border-right:0;margin-right:0}
+.page-destination .uae-process-num{font-family:var(--heading);font-size:12px;letter-spacing:.12em;color:var(--gold);margin-bottom:16px;position:relative;z-index:2}
+.page-destination .uae-process-icon{width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--navy);border:1px solid rgba(200,167,75,.72);color:var(--gold);font-family:var(--heading);font-size:21px;margin-bottom:25px;position:relative;z-index:2}
+.page-destination .uae-process-step h3{color:#fff;font-size:21px;margin-bottom:9px}.page-destination .uae-process-step p{color:rgba(255,255,255,.68);font-size:13px;line-height:1.6;margin:0;max-width:250px}
+@media (max-width:991.98px){.page-destination .uae-showcase-head,.page-destination .uae-process-intro{grid-template-columns:1fr;gap:18px}.page-destination .uae-exp-mosaic{grid-template-columns:1fr;min-height:0}.page-destination .uae-exp-feature{min-height:430px}.page-destination .uae-route{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:38px}.page-destination .uae-route-line{display:none}.page-destination .uae-process-rail{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:52px}.page-destination .uae-process-line{display:none}}
+@media (max-width:575.98px){.page-destination .uae-showcase-head,.page-destination .uae-process-intro{margin-bottom:30px}.page-destination .uae-exp-tiles{grid-template-columns:1fr;grid-template-rows:none}.page-destination .uae-exp-tile{min-height:230px}.page-destination .uae-exp-feature{min-height:360px}.page-destination .uae-exp-feature .uae-exp-overlay{padding:24px}.page-destination .uae-exp-feature .uae-exp-overlay h3{font-size:28px}.page-destination .uae-route{grid-template-columns:1fr;gap:26px;text-align:left}.page-destination .uae-route-stop{display:grid;grid-template-columns:58px 1fr;column-gap:16px;text-align:left;align-items:center;padding:0}.page-destination .uae-route-node{grid-row:1 / span 3;margin:0;width:58px;height:58px}.page-destination .uae-route-icon{display:flex;align-items:center;justify-content:center;height:auto;line-height:1;margin:0 0 6px;font-size:26px;min-width:auto}.page-destination .uae-route-stop h3{margin:0 0 4px}.page-destination .uae-route-stop p{grid-column:2}.page-destination .uae-process-redesign{padding-top:70px;padding-bottom:72px}.page-destination .uae-process-rail{grid-template-columns:1fr;gap:42px}.page-destination .uae-process-step{border-right:0!important;margin-right:0;padding-right:0;min-height:0}}
+
+
+/* ===== UAE final section adjustments ===== */
+.page-destination .uae-movement-redesign{background:#f6ede6!important}
+.page-destination .uae-movement-head{margin-bottom:64px}
+
+.page-destination .uae-process-redesign{background:#f6ede6!important;color:var(--navy)!important;padding-top:92px;padding-bottom:96px}
+.page-destination .uae-process-intro{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);gap:44px;align-items:end;margin-bottom:42px}
+.page-destination .uae-process-intro h2{color:var(--navy)!important;margin:0}
+.page-destination .uae-process-intro p{color:rgba(22,42,75,.72)!important;max-width:520px;margin:0}
+.page-destination .uae-process-rail{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;align-items:stretch}
+.page-destination .uae-process-line{position:absolute;left:13%;right:13%;top:18px;height:2px;background:linear-gradient(90deg,rgba(207,168,59,.18),rgba(207,168,59,.9),rgba(207,168,59,.18));z-index:0}
+.page-destination .uae-process-step{position:relative;z-index:1;background:#f7f8fc!important;border:1px solid rgba(22,42,75,.12)!important;border-radius:28px!important;box-shadow:0 20px 44px rgba(22,42,75,.06)!important;padding:34px 24px 28px!important;min-height:226px;border-right:none!important;margin-right:0!important;overflow:hidden}
+.page-destination .uae-process-step::after{content:'';position:absolute;inset:0 auto 0 0;width:100%;height:6px;top:0;background:linear-gradient(90deg,#cfa83b 0%,rgba(230,210,154,.95) 100%)}
+.page-destination .uae-process-num{position:absolute;top:22px;right:20px;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#f6f0e3;color:var(--gold)!important;border:1px solid rgba(207,168,59,.55);font-size:12px;font-weight:700;letter-spacing:.06em;margin:0!important;z-index:2}
+.page-destination .uae-process-icon{width:44px;height:44px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:rgba(22,42,75,.06)!important;border:none!important;color:var(--gold)!important;font-family:var(--heading);font-size:18px;margin:0 0 24px!important;position:relative;z-index:2}
+.page-destination .uae-process-step h3{color:var(--navy)!important;font-size:18px!important;line-height:1.2;margin:0 0 18px!important;max-width:80%}
+.page-destination .uae-process-step p{color:rgba(22,42,75,.72)!important;font-size:14px!important;line-height:1.65!important;margin:0!important;max-width:92%}
+.page-destination .uae-process-step:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(22,42,75,.10)!important}
+
+@media (max-width:991.98px){
+  .page-destination .uae-process-intro{grid-template-columns:1fr;gap:18px}
+  .page-destination .uae-process-rail{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+  .page-destination .uae-process-line{display:none}
+}
+@media (max-width:575.98px){
+  .page-destination .uae-process-redesign{padding-top:72px;padding-bottom:72px}
+  .page-destination .uae-process-intro{margin-bottom:30px}
+  .page-destination .uae-process-rail{grid-template-columns:1fr;gap:18px}
+  .page-destination .uae-process-step{min-height:auto;padding:24px 20px 22px!important}
+  .page-destination .uae-process-step h3{max-width:100%}
+}
+
+
+
+/* ===== UAE experiences redesign refinement ===== */
+.page-destination .uae-exp-grid-redesign{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+.page-destination .uae-exp-card{display:flex;flex-direction:column;background:#f7f8fc;border:1px solid rgba(22,42,75,.12);border-radius:24px;overflow:hidden;box-shadow:0 18px 38px rgba(22,42,75,.05);transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease;height:100%}
+.page-destination .uae-exp-card:hover{transform:translateY(-7px);box-shadow:0 24px 48px rgba(22,42,75,.10);border-color:rgba(207,168,59,.32)}
+.page-destination .uae-exp-card-media{position:relative;min-height:220px;background-size:cover;background-position:center}
+.page-destination .uae-exp-card-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,16,32,.04) 5%,rgba(8,16,32,.18) 60%,rgba(8,16,32,.28) 100%)}
+.page-destination .uae-exp-card-num{position:absolute;top:18px;left:18px;z-index:2;display:inline-flex;align-items:center;justify-content:center;min-width:42px;height:42px;padding:0 12px;border-radius:999px;background:rgba(246,237,230,.94);color:var(--gold);font-size:12px;font-weight:700;letter-spacing:.08em;border:1px solid rgba(207,168,59,.38)}
+.page-destination .uae-exp-card-body{padding:22px 22px 24px}
+.page-destination .uae-exp-card-tag{display:inline-block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:10px}
+.page-destination .uae-exp-card h3{margin:0 0 10px;font-size:30px;line-height:1.06;color:var(--navy)}
+.page-destination .uae-exp-card p{margin:0;color:rgba(22,42,75,.74);font-size:15px;line-height:1.7}
+.page-destination .uae-exp-card-wide{grid-column:span 2;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);align-items:stretch}
+.page-destination .uae-exp-card-wide .uae-exp-card-media{min-height:100%;height:100%}
+.page-destination .uae-exp-card-wide .uae-exp-card-body{display:flex;flex-direction:column;justify-content:center;padding:28px 28px 30px}
+.page-destination .uae-exp-card-wide h3{font-size:38px;line-height:1.02}
+.page-destination .uae-exp-card-wide p{font-size:16px}
+.page-destination .uae-exp-card-wide .uae-exp-card-body{background:linear-gradient(180deg,#fbfcff 0%,#f5f6fa 100%)}
+@media (max-width:1199.98px){
+  .page-destination .uae-exp-grid-redesign{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .page-destination .uae-exp-card-wide{grid-column:span 2}
+}
+@media (max-width:991.98px){
+  .page-destination .uae-exp-card-wide{grid-template-columns:1fr}
+  .page-destination .uae-exp-card-wide .uae-exp-card-media{min-height:280px}
+}
+@media (max-width:767.98px){
+  .page-destination .uae-exp-grid-redesign{grid-template-columns:1fr;gap:18px}
+  .page-destination .uae-exp-card-wide{grid-column:auto}
+  .page-destination .uae-exp-card h3{font-size:26px}
+  .page-destination .uae-exp-card-wide h3{font-size:30px}
+  .page-destination .uae-exp-card-media{min-height:210px}
 }
