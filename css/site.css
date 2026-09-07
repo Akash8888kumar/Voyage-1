@@ -5625,8 +5625,11 @@ body:not(.page-home) .hero::after,body:not(.page-home) .career-hero::after,body:
   background-position: center 45% !important;
 }
 
-.page-media .media-hero,.page-careers .career-hero{
+.page-careers .career-hero{
   background-image: url("../assets/images/career-page-banner.webp") !important;
+}
+.page-media .media-hero{
+  background-image: url("../assets/images/media-page-banner.webp") !important;
 }
 
 @media (max-width: 900px) {
