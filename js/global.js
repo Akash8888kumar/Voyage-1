@@ -164,11 +164,30 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  /* Sticky header shadow. */
+  /* Sticky header shadow + scroll-direction reveal. */
   const header = document.querySelector('.vo-header');
   if (header) {
-    const sync = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
-    sync(); window.addEventListener('scroll', sync, { passive: true });
+    let lastScrollY = Math.max(0, window.scrollY || 0);
+    let ticking = false;
+    const sync = () => {
+      const y = Math.max(0, window.scrollY || 0);
+      header.classList.toggle('is-scrolled', y > 8);
+
+      const menuOpen = !!header.querySelector('.navbar-collapse.show');
+      if (y <= 12 || y < lastScrollY - 3) {
+        header.classList.remove('vo-nav-hidden');
+      } else if (y > 120 && y > lastScrollY + 3 && !menuOpen) {
+        header.classList.add('vo-nav-hidden');
+      }
+      lastScrollY = y;
+      ticking = false;
+    };
+    sync();
+    window.addEventListener('scroll', () => {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(sync);
+    }, { passive: true });
   }
 
   /* Desktop dropdowns are hover/focus only; tablet/phone use Bootstrap click. */
