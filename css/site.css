@@ -6606,3 +6606,317 @@ body.page-media .media-hero-content {
   .page-destination .uae-exp-card-wide h3{font-size:30px}
   .page-destination .uae-exp-card-media{min-height:210px}
 }
+
+
+/* VOAGE 1 WEBSITE UPDATES */
+.page-about .team-card[data-profile]{
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+.page-about .team-card[data-profile]:hover,
+.page-about .team-card[data-profile]:focus-visible{
+  transform: translateY(-4px);
+  border-color: rgba(200,167,75,.45);
+  box-shadow: 0 16px 34px rgba(22,42,75,.10);
+  outline: none;
+}
+.vo-footer-brand h3{
+  font-size: clamp(21px, 2.05vw, 31px);
+  line-height: 1.14;
+  letter-spacing: -.015em;
+}
+.uae-process-redesign .uae-process-intro{
+  display: block;
+}
+.uae-process-redesign .uae-process-intro > div{
+  display: block;
+}
+.uae-process-redesign .uae-process-intro > div > p,
+.uae-process-redesign .uae-process-intro > p{
+  margin-top: 14px;
+  max-width: 610px;
+}
+.profile-hero{
+  padding: 88px 0 70px;
+  background: var(--cream);
+}
+.profile-hero .profile-grid{
+  display: grid;
+  grid-template-columns: minmax(280px, .82fr) minmax(0, 1.18fr);
+  gap: 64px;
+  align-items: center;
+}
+.profile-portrait{
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 24px 60px rgba(22,42,75,.12);
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+.profile-portrait img{
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+}
+.profile-role{
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: .13em;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.profile-hero h1{
+  margin: 0 0 18px;
+  font-family: var(--heading);
+  color: var(--navy);
+  font-size: clamp(42px, 6vw, 78px);
+  line-height: .98;
+  font-weight: 300;
+  letter-spacing: -.04em;
+}
+.profile-lead{
+  font-size: clamp(18px, 2vw, 23px);
+  color: rgba(22,42,75,.72);
+  max-width: 690px;
+}
+.profile-copy{
+  padding: 72px 0 88px;
+  background: var(--white);
+}
+.profile-copy-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.profile-copy-card{
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fbfbfc;
+}
+.profile-copy-card h2{
+  font-family: var(--heading);
+  color: var(--navy);
+  font-size: clamp(27px, 3vw, 38px);
+  font-weight: 400;
+  line-height: 1.08;
+  margin-bottom: 16px;
+}
+.profile-meta{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 30px;
+}
+.profile-meta .meta-item{
+  padding: 18px;
+  border-top: 2px solid var(--gold);
+  background: rgba(255,255,255,.62);
+}
+.profile-meta small{
+  display: block;
+  color: rgba(22,42,75,.56);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: 9px;
+  margin-bottom: 6px;
+}
+.profile-meta strong{
+  color: var(--navy);
+  font-family: var(--heading);
+  font-weight: 500;
+  font-size: 15px;
+}
+@media (max-width: 900px){
+  .profile-hero .profile-grid, .profile-copy-grid{ grid-template-columns: 1fr; gap: 34px; }
+  .profile-hero{ padding-top: 54px; }
+  .profile-meta{ grid-template-columns: 1fr; }
+}
+
+/* ==========================================================
+   Sep 8 refinements: destination title split, management profile,
+   contact network and enquiry typography
+   ========================================================== */
+
+/* Destination hero: destination + DMC stays on line one; tagline starts line two. */
+.page-destination .hero h1 .hero-dmc-name,
+.page-destination .hero h1 .hero-dmc-tagline{
+  display:block;
+}
+.page-destination .hero h1 .hero-dmc-name{
+  white-space:nowrap;
+}
+.page-destination .hero h1 .hero-dmc-tagline{
+  margin-top:.06em;
+}
+@media (max-width: 600px){
+  .page-destination .hero h1 .hero-dmc-name{
+    font-size:.84em;
+  }
+  .page-destination .hero h1 .hero-dmc-tagline{
+    margin-top:.12em;
+  }
+}
+
+/* Management cards remain visually unchanged; only requested title casing. */
+.page-about .team-card[data-profile="naveen-kundu.html"] .pi > span{
+  text-transform:none !important;
+}
+
+/* Management profile detail pages: theme-matched presentation using source content only. */
+.management-profile{
+  padding:88px 0 104px;
+  background:var(--cream);
+  border-bottom:3px solid var(--navy);
+}
+.management-profile-grid{
+  display:grid;
+  grid-template-columns:minmax(280px,.78fr) minmax(0,1.22fr);
+  gap:64px;
+  align-items:start;
+}
+.management-profile-portrait{
+  position:sticky;
+  top:120px;
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:var(--white);
+  box-shadow:0 24px 58px rgba(22,42,75,.11);
+}
+.management-profile-portrait img{
+  width:100%;
+  aspect-ratio:4/5;
+  object-fit:cover;
+}
+.management-profile-role{
+  margin:2px 0 14px;
+  color:var(--gold);
+  font-family:var(--heading);
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.08em;
+  text-transform:none;
+}
+.management-profile-content h1{
+  margin:0 0 22px;
+  color:var(--navy);
+  font-family:var(--heading);
+  font-size:clamp(46px,6vw,78px);
+  line-height:.98;
+  font-weight:300;
+  letter-spacing:-.04em;
+}
+.management-profile-socials{
+  display:flex;
+  gap:9px;
+  margin:0 0 30px;
+}
+.management-profile-socials a{
+  width:38px;
+  height:38px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(22,42,75,.18);
+  border-radius:50%;
+  color:var(--navy);
+  background:transparent;
+  transition:transform .3s ease,background-color .3s ease,color .3s ease,border-color .3s ease;
+}
+.management-profile-socials a:hover,
+.management-profile-socials a:focus-visible{
+  transform:translateY(-2px);
+  background:var(--navy);
+  border-color:var(--navy);
+  color:var(--white);
+  outline:none;
+}
+.management-profile-socials svg{
+  width:17px;
+  height:17px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.5;
+}
+.management-profile-bio{
+  max-width:780px;
+  padding-top:28px;
+  border-top:1px solid var(--line);
+}
+.management-profile-bio p{
+  margin:0 0 19px;
+  color:var(--ink);
+  font-size:16px;
+  line-height:1.75;
+}
+@media (max-width:900px){
+  .management-profile{padding:62px 0 78px}
+  .management-profile-grid{grid-template-columns:1fr;gap:36px}
+  .management-profile-portrait{position:static;max-width:520px}
+}
+@media (max-width:600px){
+  .management-profile{padding:46px 0 62px}
+  .management-profile-grid{gap:28px}
+  .management-profile-content h1{font-size:clamp(40px,12vw,56px)}
+  .management-profile-bio{padding-top:22px}
+}
+
+/* Global Enquiries numbers: use the requested Raleway family. */
+.page-contact .global-enquiries-detail b,
+.page-contact .global-enquiries-detail b a{
+  font-family:"Raleway",Arial,sans-serif !important;
+  font-weight:400 !important;
+  letter-spacing:0 !important;
+}
+
+/* Contact destination network: light-blue glow instead of dark/black-looking blur. */
+.page-contact .office .map{
+  background:
+    radial-gradient(circle at 50% 48%, rgba(15,44,91,.23) 0%, rgba(15,44,91,.12) 18%, rgba(15,44,91,0) 38%),
+    var(--card) !important;
+}
+.page-contact .office .map::before{
+  color:rgba(15,44,91,.16) !important;
+}
+
+/* Nine destination locations on the network visual. */
+.page-contact .office .map .loc-uae{left:13%;top:29%}
+.page-contact .office .map .loc-georgia{left:27%;top:19%}
+.page-contact .office .map .loc-kazakhstan{left:44%;top:15%}
+.page-contact .office .map .loc-azerbaijan{left:41%;top:37%}
+.page-contact .office .map .loc-japan{left:76%;top:22%}
+.page-contact .office .map .loc-vietnam{left:70%;top:55%}
+.page-contact .office .map .loc-kenya{left:25%;top:66%}
+.page-contact .office .map .loc-tanzania{left:44%;top:68%}
+.page-contact .office .map .loc-south-africa{left:55%;top:80%}
+@media (max-width:767.98px){
+  .page-contact .office .map{min-height:360px}
+  .page-contact .office .map .pin{font-size:8px;padding:6px 8px}
+  .page-contact .office .map .loc-uae{left:7%;top:24%}
+  .page-contact .office .map .loc-georgia{left:31%;top:14%}
+  .page-contact .office .map .loc-kazakhstan{left:48%;top:25%}
+  .page-contact .office .map .loc-azerbaijan{left:33%;top:39%}
+  .page-contact .office .map .loc-japan{left:74%;top:16%}
+  .page-contact .office .map .loc-vietnam{left:68%;top:48%}
+  .page-contact .office .map .loc-kenya{left:12%;top:61%}
+  .page-contact .office .map .loc-tanzania{left:40%;top:66%}
+  .page-contact .office .map .loc-south-africa{left:55%;top:82%}
+}
+
+/* ==========================================================
+   Final font + management designation sync
+   ========================================================== */
+/* The global body-* rule can override heading typography. All destination
+   headings must use the Voyage 1 Raleway heading family consistently. */
+.page-destination h1,
+.page-destination h2,
+.page-destination h3,
+.page-destination h4,
+.page-destination h5,
+.page-destination h6,
+.page-destination .hero h1,
+.page-destination .hero h1 *,
+.page-destination .heading h2,
+.page-destination .section-head h2 {
+  font-family: "Raleway", Arial, sans-serif !important;
+}

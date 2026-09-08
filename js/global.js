@@ -626,6 +626,12 @@ document.addEventListener('pointerdown', function (event) {
       eyebrow:'Destination Office',
       address:'Tanzania destination operations — contact the Voyage 1 team for local office details.',
       map:'https://maps.google.com/?q=Voyage+1+DMC+Tanzania'
+    },
+    'south-africa':{
+      name:'South Africa',
+      eyebrow:'Destination Office',
+      address:'South Africa destination operations — contact the Voyage 1 team for local office details.',
+      map:'https://maps.google.com/?q=Voyage+1+DMC+South+Africa'
     }
   };
 
@@ -659,3 +665,22 @@ document.addEventListener('pointerdown', function (event) {
     });
   });
 })();
+
+/* VO_TEAM_PROFILE_NAV */
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.team-card[data-profile]').forEach(function(card) {
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', function (event) {
+      if (event.target.closest('a')) return;
+      var target = card.getAttribute('data-profile');
+      if (target) window.location.href = target;
+    });
+    card.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        var target = card.getAttribute('data-profile');
+        if (target) window.location.href = target;
+      }
+    });
+  });
+});
