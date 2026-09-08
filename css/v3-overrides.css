@@ -3890,7 +3890,7 @@ body:not(.page-home) .media-hero::after {
 .page-georgia .hero .hero-bg { background-image: url('../assets/images/hero-georgia.webp') !important; }
 .page-kazakhstan .hero .hero-bg { background-image: url('../assets/images/hero-kazakhstan.webp') !important; }
 .page-azerbaijan .hero .hero-bg { background-image: url('../assets/images/hero-azerbaijan.webp') !important; }
-.page-japan .hero .hero-bg { background-image: url('../assets/images/hero-japan.webp') !important; }
+.page-japan .hero .hero-bg { background-image: url('../assets/images/japan-hero-banner-autumn-street.jpg') !important; }
 .page-vietnam .hero .hero-bg { background-image: url('../assets/images/hero-vietnam.webp') !important; }
 .page-kenya .hero .hero-bg { background-image: url('../assets/images/hero-kenya.webp') !important; }
 .page-tanzania .hero .hero-bg { background-image: url('../assets/images/hero-tanzania.webp') !important; }
@@ -5562,3 +5562,5 @@ button {
 .page-tanzania .feature-main{background-image:url("../assets/images/Tanzania_Serengeti_Destination.webp")!important;background-size:cover;background-position:center!important;}
 .page-tanzania .feature-small:nth-child(1){background-image:url("../assets/images/Tanzania_Ngorongoro_Destination.webp")!important;background-size:cover;background-position:center!important;}
 .page-tanzania .feature-small:nth-child(2){background-image:url("../assets/images/Tanzania_Zanzibar_Destination.webp")!important;background-size:cover;background-position:center!important;}
+
+body.page-japan .hero .hero-bg{background-image:url('../assets/images/japan-hero-banner-autumn-street.jpg') !important;background-size:cover !important;background-position:center center !important;background-repeat:no-repeat !important;}
