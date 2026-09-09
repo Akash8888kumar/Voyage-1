@@ -594,8 +594,19 @@ document.addEventListener('pointerdown', function (event) {
   const tabs=Array.from(panel.querySelectorAll('[data-office-tab]'));
   const name=panel.querySelector('[data-office-name]');
   const address=panel.querySelector('[data-office-address]');
-  const map=panel.querySelector('[data-office-map]');
-  if(!tabs.length||!name||!address||!map) return;
+  const mapLink=panel.querySelector('[data-office-map]');
+  const mapEmbed=document.querySelector('[data-office-map-embed]');
+  if(!tabs.length||!name||!address||!mapLink) return;
+
+  function toEmbedUrl(mapUrl){
+    try{
+      const url=new URL(mapUrl,window.location.href);
+      const query=url.searchParams.get('q')||'Voyage 1 DMC';
+      return `https://www.google.com/maps?q=${encodeURIComponent(query)}&output=embed`;
+    }catch(e){
+      return 'https://www.google.com/maps?q=Voyage%201%20DMC&output=embed';
+    }
+  }
 
   const offices={
     dubai:{
@@ -669,7 +680,12 @@ document.addEventListener('pointerdown', function (event) {
     }
     name.textContent=office.name;
     address.textContent=office.address;
-    map.href=office.map;
+    mapLink.href=office.map;
+    if(mapEmbed){
+      mapEmbed.src=toEmbedUrl(office.map);
+      mapEmbed.setAttribute('aria-label',`Voyage 1 ${office.name} office map`);
+      mapEmbed.title=`Voyage 1 ${office.name} office location`;
+    }
   }
 
   tabs.forEach(tab=>{

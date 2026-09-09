@@ -1922,9 +1922,9 @@ strong,b{
 }
 
 .vo-inline-bg-26{
-  background-image: url("../assets/images/south-africa-luxury-lodge.webp");
+  background-image: url("../assets/images/south-africa-destination-card-safari.webp");
   background-size: cover;
-  background-position: center;
+  background-position: center 72%;
 }
 
 .vo-inline-bg-27{
@@ -7152,81 +7152,60 @@ body.page-media .media-hero-content {
 
 
 /* ==========================================================
-   FINAL: unified contact network + office UI
+   FINAL: live office map + integrated office selector
    ========================================================== */
 .page-contact .office.office-network-card{
   margin-top:42px !important;
+  display:grid !important;
+  grid-template-columns:minmax(0,1.45fr) minmax(360px,.75fr) !important;
+  min-height:560px !important;
   overflow:hidden !important;
   border:1px solid rgba(22,42,75,.12) !important;
   border-radius:26px !important;
   background:#fff !important;
   box-shadow:0 24px 64px rgba(22,42,75,.08) !important;
 }
-.page-contact .office.office-network-card .map.world-map-network{
-  margin:0 !important;
-  min-height:430px !important;
+
+.page-contact .office.office-network-card .office-map-shell{
+  position:relative !important;
+  min-height:560px !important;
+  background:#eef2f5 !important;
+  border-right:1px solid rgba(22,42,75,.10) !important;
+}
+
+.page-contact .office.office-network-card .office-map-embed{
+  display:block !important;
+  width:100% !important;
+  height:100% !important;
+  min-height:560px !important;
   border:0 !important;
-  border-radius:0 !important;
-  box-shadow:none !important;
-  background:linear-gradient(135deg,#fbfaf8 0%,#f2f6fb 52%,#fbf8f4 100%) !important;
+  filter:saturate(.88) contrast(.98) !important;
 }
-.page-contact .office.office-network-card .map.world-map-network .network-world-map{
-  inset:7% 5% 6% 5% !important;
-  width:90% !important;
-  height:87% !important;
-  opacity:.92 !important;
-}
-.page-contact .office.office-network-card .map.world-map-network .pin{
-  padding:8px 11px !important;
-  font-size:9px !important;
-  line-height:1 !important;
-  letter-spacing:.055em !important;
-  box-shadow:0 8px 18px rgba(24,50,95,.16) !important;
-  transition:transform .24s ease,box-shadow .24s ease !important;
-}
-.page-contact .office.office-network-card .map.world-map-network .pin:hover{
-  transform:translate(-50%,-52%) scale(1.04) !important;
-  box-shadow:0 12px 24px rgba(24,50,95,.20) !important;
-}
-.page-contact .office.office-network-card .map.world-map-network .pin::before{
-  width:5px !important;
-  height:5px !important;
-  margin-right:6px !important;
-}
-/* Deliberate offsets around West/Central Asia and East Africa prevent pill collisions. */
-.page-contact .office.office-network-card .map.world-map-network .loc-georgia{left:59.5% !important;top:28.5% !important}
-.page-contact .office.office-network-card .map.world-map-network .loc-azerbaijan{left:63.5% !important;top:36.5% !important}
-.page-contact .office.office-network-card .map.world-map-network .loc-kazakhstan{left:69.5% !important;top:22.5% !important}
-.page-contact .office.office-network-card .map.world-map-network .loc-uae{left:64.5% !important;top:45.5% !important}
-.page-contact .office.office-network-card .map.world-map-network .loc-japan{left:88% !important;top:31% !important}
-.page-contact .office.office-network-card .map.world-map-network .loc-vietnam{left:79% !important;top:49% !important}
-.page-contact .office.office-network-card .map.world-map-network .loc-kenya{left:60.5% !important;top:60.5% !important}
-.page-contact .office.office-network-card .map.world-map-network .loc-tanzania{left:58.5% !important;top:68.5% !important}
-.page-contact .office.office-network-card .map.world-map-network .loc-south-africa{left:55.5% !important;top:81% !important}
 
 .page-contact .office.office-network-card .office-panel-integrated{
   margin:0 !important;
-  padding:28px 30px 30px !important;
+  padding:32px !important;
   border:0 !important;
-  border-top:1px solid rgba(22,42,75,.10) !important;
   border-radius:0 !important;
   box-shadow:none !important;
   background:linear-gradient(180deg,#fff 0%,#fbfaf8 100%) !important;
-  display:grid !important;
-  grid-template-columns:minmax(0,1.45fr) minmax(300px,.75fr) !important;
-  gap:34px !important;
-  align-items:start !important;
+  display:flex !important;
+  flex-direction:column !important;
+  gap:28px !important;
+  align-items:stretch !important;
+  justify-content:center !important;
 }
+
 .page-contact .office.office-network-card .office-tabs-integrated{
   margin:0 !important;
-  display:flex !important;
-  flex-wrap:wrap !important;
-  align-content:flex-start !important;
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
   gap:9px !important;
 }
+
 .page-contact .office.office-network-card .office-tabs-integrated button{
-  min-height:38px !important;
-  padding:9px 14px !important;
+  min-height:40px !important;
+  padding:9px 12px !important;
   border-radius:999px !important;
   border:1px solid rgba(22,42,75,.14) !important;
   background:#f7f3ee !important;
@@ -7234,89 +7213,106 @@ body.page-media .media-hero-content {
   font-size:10px !important;
   font-weight:600 !important;
   letter-spacing:.015em !important;
-  transition:all .22s ease !important;
+  transition:background-color .22s ease,border-color .22s ease,color .22s ease,transform .22s ease !important;
 }
+
 .page-contact .office.office-network-card .office-tabs-integrated button:hover{
   border-color:rgba(22,42,75,.30) !important;
   background:#eef3f8 !important;
+  transform:translateY(-1px) !important;
 }
+
 .page-contact .office.office-network-card .office-tabs-integrated button.active{
   background:#18325f !important;
   color:#fff !important;
   border-color:#18325f !important;
   box-shadow:0 8px 18px rgba(24,50,95,.16) !important;
 }
+
 .page-contact .office.office-network-card .office-detail-integrated{
   margin:0 !important;
-  padding:0 0 0 30px !important;
-  border-left:1px solid rgba(22,42,75,.10) !important;
-  min-height:150px !important;
+  padding:26px 0 0 !important;
+  border-left:0 !important;
+  border-top:1px solid rgba(22,42,75,.10) !important;
+  min-height:0 !important;
 }
+
 .page-contact .office.office-network-card .office-detail-integrated .ey{
   margin-bottom:8px !important;
 }
+
 .page-contact .office.office-network-card .office-detail-integrated h2{
-  margin:0 0 10px !important;
-  font-size:clamp(36px,3.2vw,56px) !important;
+  margin:0 0 12px !important;
+  font-size:clamp(38px,3.5vw,58px) !important;
   line-height:1 !important;
 }
+
 .page-contact .office.office-network-card .office-detail-integrated p{
   max-width:520px !important;
-  margin-bottom:18px !important;
+  margin-bottom:20px !important;
 }
+
 .page-contact .office.office-network-card .office-detail-integrated .btn{
   min-height:40px !important;
 }
 
-@media (max-width: 991.98px){
-  .page-contact .office.office-network-card .map.world-map-network{min-height:390px !important}
-  .page-contact .office.office-network-card .office-panel-integrated{
-    grid-template-columns:1fr !important;
-    gap:24px !important;
-  }
-  .page-contact .office.office-network-card .office-detail-integrated{
-    padding:22px 0 0 !important;
-    border-left:0 !important;
-    border-top:1px solid rgba(22,42,75,.10) !important;
-    min-height:0 !important;
+@media (max-width: 1199.98px){
+  .page-contact .office.office-network-card{
+    grid-template-columns:minmax(0,1.2fr) minmax(330px,.8fr) !important;
   }
 }
+
+@media (max-width: 991.98px){
+  .page-contact .office.office-network-card{
+    grid-template-columns:1fr !important;
+    min-height:0 !important;
+  }
+  .page-contact .office.office-network-card .office-map-shell{
+    min-height:430px !important;
+    border-right:0 !important;
+    border-bottom:1px solid rgba(22,42,75,.10) !important;
+  }
+  .page-contact .office.office-network-card .office-map-embed{
+    min-height:430px !important;
+  }
+  .page-contact .office.office-network-card .office-panel-integrated{
+    justify-content:flex-start !important;
+  }
+  .page-contact .office.office-network-card .office-tabs-integrated{
+    grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  }
+}
+
 @media (max-width: 767.98px){
   .page-contact .office.office-network-card{
     margin-top:28px !important;
     border-radius:20px !important;
   }
-  .page-contact .office.office-network-card .map.world-map-network{
-    min-height:350px !important;
-  }
-  .page-contact .office.office-network-card .map.world-map-network .network-world-map{
-    inset:7% 1% 6% 1% !important;
-    width:98% !important;
-    height:87% !important;
-  }
-  .page-contact .office.office-network-card .map.world-map-network .pin{
-    font-size:6.5px !important;
-    padding:5px 7px !important;
-  }
-  .page-contact .office.office-network-card .map.world-map-network .pin::before{
-    width:3px !important;
-    height:3px !important;
-    margin-right:4px !important;
+  .page-contact .office.office-network-card .office-map-shell,
+  .page-contact .office.office-network-card .office-map-embed{
+    min-height:340px !important;
   }
   .page-contact .office.office-network-card .office-panel-integrated{
     padding:20px !important;
+    gap:22px !important;
   }
   .page-contact .office.office-network-card .office-tabs-integrated{
+    display:flex !important;
     flex-wrap:nowrap !important;
     overflow-x:auto !important;
     padding-bottom:4px !important;
     scrollbar-width:none !important;
   }
-  .page-contact .office.office-network-card .office-tabs-integrated::-webkit-scrollbar{display:none !important}
+  .page-contact .office.office-network-card .office-tabs-integrated::-webkit-scrollbar{
+    display:none !important;
+  }
   .page-contact .office.office-network-card .office-tabs-integrated button{
     flex:0 0 auto !important;
     min-height:36px !important;
     padding:8px 12px !important;
+  }
+  .page-contact .office.office-network-card .office-detail-integrated{
+    padding-top:20px !important;
   }
 }
 
