@@ -3661,7 +3661,7 @@ body:not(.page-home) .media-hero::before {
 
 /* About/contact static banners get real full-bleed photography. */
 .page-about .hero .vo-static-banner {
-  background-image: url('../assets/images/about-story-1.webp') !important;
+  background-image: url('../assets/images/about-story-luxury-couple-mountain-terrace.webp') !important;
   background-size: cover !important;
   background-position: center 45% !important;
 }
@@ -3898,7 +3898,7 @@ body:not(.page-home) .media-hero::after {
 
 /* About uses its static banner; keep it in the same visual system. */
 .page-about .hero .vo-static-banner {
-  background-image: url('../assets/images/about-story-1.webp') !important;
+  background-image: url('../assets/images/about-story-luxury-couple-mountain-terrace.webp') !important;
   background-size: cover !important;
   background-position: center 45% !important;
 }
@@ -5574,5 +5574,108 @@ body.page-japan .hero .hero-bg{background-image:url('../assets/images/japan-hero
     font-size: 19px !important;
     line-height: 1.2 !important;
     letter-spacing: -0.01em;
+  }
+}
+
+
+/* ===== FINAL REQUEST v9 — event kicker alignment + restore original management portraits ===== */
+.media-events-section .event-slide-kicker{
+  align-self:flex-start !important;
+  justify-content:flex-start !important;
+  text-align:left !important;
+  width:auto !important;
+  margin-left:0 !important;
+}
+.media-events-section .event-slide-kicker span{
+  text-align:left !important;
+}
+
+/* About Us management cards: use the original photographic portraits and original card presentation. */
+.page-about .team-section .team-grid:first-of-type .team-card > img{
+  aspect-ratio:4 / 5 !important;
+  object-fit:cover !important;
+  object-position:center !important;
+  padding:0 !important;
+  background:transparent !important;
+}
+.page-about .team-section .team-grid:first-of-type .team-card{
+  background:#fff !important;
+  border:1px solid var(--line) !important;
+  border-radius:var(--radius) !important;
+  box-shadow:none !important;
+}
+.page-about .team-section .team-grid:first-of-type .team-card .pi{
+  background:#fff !important;
+}
+
+/* ===== FINAL REQUEST v10 — equal height team cards on About page ===== */
+.page-about .team-grid > [class*="col-"]{
+  display:flex !important;
+}
+.page-about .team-grid .team-card{
+  width:100% !important;
+  height:100% !important;
+  display:flex !important;
+  flex-direction:column !important;
+}
+.page-about .team-grid .team-card > img{
+  width:100% !important;
+  aspect-ratio:4 / 5 !important;
+  height:auto !important;
+  flex:0 0 auto !important;
+}
+.page-about .team-grid .team-card .pi{
+  flex:1 1 auto !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:flex-start !important;
+}
+.page-about .team-grid .team-card .team-socials{
+  margin-top:auto !important;
+}
+
+/* ===== FINAL REQUEST v11 — force identical team card heights =====
+   The info panel has a fixed height so longer designations (e.g. Amit Kumar Sah)
+   do not make one card taller than the others. */
+.page-about .team-grid{
+  align-items:stretch !important;
+}
+.page-about .team-grid > [class*="col-"]{
+  display:flex !important;
+  align-self:stretch !important;
+}
+.page-about .team-grid .team-card{
+  width:100% !important;
+  height:100% !important;
+  display:flex !important;
+  flex-direction:column !important;
+}
+.page-about .team-grid .team-card > img{
+  display:block !important;
+  width:100% !important;
+  aspect-ratio:4 / 5 !important;
+  object-fit:cover !important;
+  flex:0 0 auto !important;
+}
+.page-about .team-grid .team-card .pi{
+  height:142px !important;
+  min-height:142px !important;
+  max-height:142px !important;
+  flex:0 0 142px !important;
+  box-sizing:border-box !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:flex-start !important;
+}
+.page-about .team-grid .team-card .team-socials{
+  margin-top:auto !important;
+}
+
+/* ===== FINAL REQUEST v11 — mobile parent nav text navigates; row/chevron toggles dropdown ===== */
+@media (max-width: 991.98px){
+  .vo-header .dropdown-toggle .vo-nav-parent-label{
+    display:inline-block;
+    width:auto;
+    cursor:pointer;
   }
 }

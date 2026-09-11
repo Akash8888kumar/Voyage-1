@@ -208,14 +208,26 @@ document.addEventListener('DOMContentLoaded', function () {
   syncDropdownMode();
   window.addEventListener('resize', syncDropdownMode, { passive: true });
 
-  /* Parent dropdown labels are real links too. On tablet/phone the first tap
-     opens the submenu; tapping the already-open parent again follows its page link. */
+  /* Mobile/tablet dropdown interaction:
+     - tapping only the visible parent text follows the parent page link
+     - tapping the rest of the row (including the chevron/empty area) toggles the submenu.
+     Desktop behavior remains unchanged. */
   dropdownToggles.forEach((toggle) => {
+    if (!toggle.querySelector('.vo-nav-parent-label')) {
+      const label = document.createElement('span');
+      label.className = 'vo-nav-parent-label';
+      label.textContent = toggle.textContent.trim();
+      toggle.textContent = '';
+      toggle.appendChild(label);
+    }
+
     toggle.addEventListener('click', (event) => {
       if (window.innerWidth >= 992) return;
-      const menu = toggle.nextElementSibling;
+      const label = event.target.closest('.vo-nav-parent-label');
+      if (!label || !toggle.contains(label)) return;
+
       const href = toggle.getAttribute('href');
-      if (!href || href === '#' || !menu?.classList.contains('show')) return;
+      if (!href || href === '#') return;
       event.preventDefault();
       event.stopPropagation();
       window.location.href = href;
@@ -561,6 +573,7 @@ document.addEventListener('pointerdown', function (event) {
   const next=slider.querySelector('[data-event-next]');
   const current=slider.querySelector('[data-event-current]');
   const total=slider.querySelector('[data-event-total]');
+  const eventTabs=Array.from(slider.querySelectorAll('[data-event-tab]'));
   if(!viewport||!track||!slides.length) return;
   let index=0;
 
@@ -574,6 +587,30 @@ document.addEventListener('pointerdown', function (event) {
     const gTotal=gallery.querySelector('[data-gallery-total]');
     if(!gTrack||!gSlides.length) return;
     let gi=0;
+
+    let thumbRail=gallery.querySelector('.event-gallery-thumbs');
+    if(!thumbRail){
+      thumbRail=document.createElement('div');
+      thumbRail.className='event-gallery-thumbs';
+      thumbRail.setAttribute('aria-label','Event image thumbnails');
+      gSlides.forEach((slide,i)=>{
+        const source=slide.querySelector('img');
+        if(!source) return;
+        const btn=document.createElement('button');
+        btn.type='button';
+        btn.className='event-gallery-thumb';
+        btn.setAttribute('aria-label',`Show image ${i+1}`);
+        const img=document.createElement('img');
+        img.src=source.currentSrc||source.src;
+        img.alt='';
+        img.loading='lazy';
+        btn.appendChild(img);
+        btn.addEventListener('click',e=>{e.stopPropagation();gi=i;updateGallery();});
+        thumbRail.appendChild(btn);
+      });
+      gallery.appendChild(thumbRail);
+    }
+    const thumbButtons=Array.from(thumbRail.querySelectorAll('.event-gallery-thumb'));
     if(gTotal) gTotal.textContent=String(gSlides.length).padStart(2,'0');
     const updateGallery=()=>{
       gi=Math.max(0,Math.min(gi,gSlides.length-1));
@@ -581,6 +618,8 @@ document.addEventListener('pointerdown', function (event) {
       if(gCurrent) gCurrent.textContent=String(gi+1).padStart(2,'0');
       if(gPrev) gPrev.disabled=gSlides.length<=1;
       if(gNext) gNext.disabled=gSlides.length<=1;
+      thumbButtons.forEach((btn,i)=>btn.classList.toggle('is-active',i===gi));
+      thumbButtons[gi]?.scrollIntoView?.({behavior:'smooth',block:'nearest',inline:'center'});
     };
     const moveGallery=(dir)=>{ if(gSlides.length<=1) return; gi=(gi+dir+gSlides.length)%gSlides.length; updateGallery(); };
     gPrev?.addEventListener('click',e=>{e.stopPropagation();moveGallery(-1);});
@@ -599,8 +638,11 @@ document.addEventListener('pointerdown', function (event) {
   if(total) total.textContent=String(slides.length).padStart(2,'0');
   const update=()=>{
     index=(index+slides.length)%slides.length;
-    track.style.transform=`translate3d(${-index*100}%,0,0)`;
+    /* Keep the event card completely stationary. Switching EPEX/WTC only
+       swaps visibility; the movement is reserved for the photo gallery. */
+    track.style.transform='none';
     slides.forEach((slide,i)=>slide.classList.toggle('is-active',i===index));
+    eventTabs.forEach((tab,i)=>tab.classList.toggle('is-active',i===index));
     if(current) current.textContent=String(index+1).padStart(2,'0');
     if(prev) prev.disabled=slides.length<=1;
     if(next) next.disabled=slides.length<=1;
@@ -612,6 +654,7 @@ document.addEventListener('pointerdown', function (event) {
     if(e.key==='ArrowLeft'){e.preventDefault();go(-1);}
     if(e.key==='ArrowRight'){e.preventDefault();go(1);}
   });
+  eventTabs.forEach((tab,i)=>tab.addEventListener('click',()=>{index=i;update();}));
   update();
 })();
 
