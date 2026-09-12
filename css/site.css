@@ -1922,7 +1922,7 @@ strong,b{
 }
 
 .vo-inline-bg-26{
-  background-image: url("../assets/images/South_Africa_Kruger_National_Park_Destination_Card_Big_Five_Safari.webp");
+  background-image: url("../assets/images/home-destination-south-africa-card.webp");
   background-size: cover;
   background-position: center 72%;
 }
@@ -10651,3 +10651,77 @@ body.page-media .media-hero-content {
   pointer-events:none !important;
 }
 
+
+
+/* Sep 11 updates — homepage WhatsApp reveal + UAE MICE banner */
+.vo-floating-whatsapp{
+  position:fixed;
+  right:20px;
+  bottom:24px;
+  width:58px;
+  height:58px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#25D366;
+  color:#fff;
+  box-shadow:0 16px 34px rgba(0,0,0,.18);
+  z-index:9990;
+  text-decoration:none;
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(18px);
+  transition:opacity .28s ease, visibility .28s ease, transform .28s ease, box-shadow .28s ease;
+}
+.vo-floating-whatsapp.is-visible{
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0);
+}
+.vo-floating-whatsapp:hover{
+  color:#fff;
+  box-shadow:0 20px 42px rgba(0,0,0,.24);
+}
+.vo-floating-whatsapp svg{width:28px;height:28px;display:block;}
+@media (max-width:767.98px){
+  .vo-floating-whatsapp{right:14px;bottom:18px;width:54px;height:54px;}
+}
+.uae-mice-banner{
+  position:relative;
+  overflow:hidden;
+  padding:0 !important;
+}
+.uae-mice-banner-card{
+  position:relative;
+  min-height:460px;
+  border-radius:26px;
+  overflow:hidden;
+  background-image:linear-gradient(90deg,rgba(15,40,82,.82) 0%,rgba(15,40,82,.55) 42%,rgba(15,40,82,.18) 100%),url('../assets/images/uae-mice-programs-banner.webp');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+}
+.uae-mice-banner-content{
+  position:relative;
+  z-index:1;
+  max-width:620px;
+  padding:52px;
+  color:#fff;
+}
+.uae-mice-banner-content .eyebrow{color:rgba(255,255,255,.78);}
+.uae-mice-banner-content h2{color:#fff;margin-bottom:16px;}
+.uae-mice-banner-content p{color:rgba(255,255,255,.9);max-width:56ch;}
+.uae-mice-banner-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:22px;}
+.uae-mice-banner .btn{border-color:rgba(255,255,255,.4);}
+.uae-mice-banner .btn:not(.primary):not(.dark){color:#fff;}
+.uae-mice-banner .btn:not(.primary):not(.dark):hover{background:rgba(255,255,255,.1);color:#fff;}
+@media (max-width:991.98px){
+  .uae-mice-banner-card{min-height:420px;background-position:center right;}
+  .uae-mice-banner-content{padding:40px 32px;}
+}
+@media (max-width:767.98px){
+  .uae-mice-banner-card{min-height:380px;}
+  .uae-mice-banner-content{padding:28px 22px;}
+}

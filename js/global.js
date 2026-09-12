@@ -800,3 +800,19 @@ document.addEventListener('keydown', function(e){
   e.preventDefault();
   trigger.click();
 });
+
+
+/* Homepage floating WhatsApp reveals after the first banner */
+(function(){
+  const button=document.querySelector('[data-home-whatsapp]');
+  const hero=document.querySelector('body.page-home .hero');
+  if(!button || !hero) return;
+  const update=()=>{
+    const threshold=Math.max(220, hero.offsetHeight - 120);
+    if(window.scrollY > threshold){ button.classList.add('is-visible'); }
+    else{ button.classList.remove('is-visible'); }
+  };
+  update();
+  window.addEventListener('scroll', update, {passive:true});
+  window.addEventListener('resize', update);
+})();
