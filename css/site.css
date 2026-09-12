@@ -10725,3 +10725,13 @@ body.page-media .media-hero-content {
   .uae-mice-banner-card{min-height:380px;}
   .uae-mice-banner-content{padding:28px 22px;}
 }
+
+
+/* Facebook glyph polish */
+.page-about .team-card .team-socials svg.facebook-glyph,
+.management-profile-socials svg.facebook-glyph{
+  fill:currentColor !important;
+  stroke:none !important;
+}
+.page-about .team-card .team-socials svg.facebook-glyph{width:15px;height:15px;}
+.management-profile-socials svg.facebook-glyph{width:17px;height:17px;}
