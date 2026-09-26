@@ -84,27 +84,27 @@ function showFormStatus(form, message, copyText) {
   }
 }
 
-// function wireEnquiryForms() {
-//   document.querySelectorAll('form#contact-enquiry-form, form#uae-enquiry-form').forEach((form) => {
-//     form.addEventListener('submit', async (event) => {
-//       event.preventDefault();
-//       if (!form.checkValidity()) { form.reportValidity(); return; }
-//       const data = new FormData(form);
-//       const lines = [];
-//       data.forEach((value, key) => {
-//         const clean = String(value).trim();
-//         if (clean) lines.push(key.replace(/([A-Z])/g, ' $1').replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()) + ': ' + clean);
-//       });
-//       const destination = form.dataset.destination || '';
-//       const subject = form.dataset.subject || (destination ? destination + ' Journey Enquiry — Voyage 1' : 'New Enquiry — Voyage 1');
-//       const body = 'Hello Voyage 1 Team,\n\nI would like to enquire about the following:\n\n' + lines.join('\n') + '\n\nThank you.';
-//       const mailto = 'mailto:info@voyage-one.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-//       showFormStatus(form, 'Your enquiry is ready. Your email app should open now; if it does not, use “Copy enquiry” and email info@voyage-one.com.', body);
-//       await copyVoyageText(body);
-//       window.location.href = mailto;
-//     });
-//   });
-// }
+function wireEnquiryForms() {
+  document.querySelectorAll('form#contact-enquiry-form, form#uae-enquiry-form').forEach((form) => {
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      const data = new FormData(form);
+      const lines = [];
+      data.forEach((value, key) => {
+        const clean = String(value).trim();
+        if (clean) lines.push(key.replace(/([A-Z])/g, ' $1').replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()) + ': ' + clean);
+      });
+      const destination = form.dataset.destination || '';
+      const subject = form.dataset.subject || (destination ? destination + ' Journey Enquiry — Voyage 1' : 'New Enquiry — Voyage 1');
+      const body = 'Hello Voyage 1 Team,\n\nI would like to enquire about the following:\n\n' + lines.join('\n') + '\n\nThank you.';
+      const mailto = 'mailto:info@voyage-one.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      showFormStatus(form, 'Your enquiry is ready. Your email app should open now; if it does not, use “Copy enquiry” and email info@voyage-one.com.', body);
+      await copyVoyageText(body);
+      window.location.href = mailto;
+    });
+  });
+}
 
 document.addEventListener('DOMContentLoaded', function () {
   /* Career links can carry a role into the shared enquiry form. */
