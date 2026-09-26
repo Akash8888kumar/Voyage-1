@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>UAE DMC | Voyage 1 DMC</title>
+    <meta
+        content="As a trusted UAE DMC, Voyage 1 brings together local expertise, exceptional experiences and seamless operations for luxury holidays, family journeys, groups, MICE and corporate travel across the Emirates."
+        name="description" />
+    <style>
+        /* UAE image set refreshed from supplied travel imagery. */
+        .page-uae .hero-bg {
+            background-image: url('assets/images/uae-hero-banner-networking.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .uae-image-dmc {
+            background-image: url('assets/images/uae-local-partner-burj-khalifa-shopping.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-1 {
+            background-image: url('assets/images/uae-dubai-destination-card.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-2 {
+            background-image: url('assets/images/uae-abu-dhabi-destination-card.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-3 {
+            background-image: url('assets/images/uae-sharjah-destination-card.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-4 {
+            background-image: url('assets/images/uae-ras-al-khaimah-destination-card.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-5 {
+            background-image: url('assets/images/uae-fujairah-destination-card.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-6 {
+            background-image: url('assets/images/uae-ajman-destination-card.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-7 {
+            background-image: url('assets/images/uae-umm-al-quwain-destination-card.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .feature-main {
+            background-image: url('assets/images/uae-feature-main-dubai.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .feature-small:nth-child(1) {
+            background-image: url('assets/images/uae-feature-abu-dhabi.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .feature-small:nth-child(2) {
+            background-image: url('assets/images/uae-feature-ras-al-khaimah.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-9 {
+            background-image: url('assets/images/uae-itinerary-dubai-highlights.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-10 {
+            background-image: url('assets/images/uae-itinerary-dubai-abu-dhabi.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-uae .vo-inline-bg-11 {
+            background-image: url('assets/images/uae-itinerary-ultimate-uae.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link href="assets/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <script>(function () { var d = document.documentElement; d.classList.add('js-reveal'); try { if (sessionStorage.getItem('voyage-loader-seen') === '1') { d.classList.add('vo-loader-skip'); } } catch (e) { } })();</script>
+    <noscript>
+        <style>
+            html.js-reveal [data-aos] {
+                opacity: 1 !important;
+                transform: none !important;
+                transition: none !important
+            }
+        </style>
+    </noscript>
+</head>
+
+<body class="page-destination page-uae">
+    <!-- UAE COPY UPDATE: Active copy sourced from Voyage_1_copy_all_pages (1).xlsx, sheet "Sheet3", column "Shreya". Previous active copy is preserved inline as OLD CONTENT comments. -->
+    <div aria-hidden="true" class="vo-site-loader" data-site-loader="">
+        <div class="vo-loader-inner">
+            <div aria-hidden="true" class="vo-loader-logo-wrap"><img alt="" class="vo-loader-brand-logo"
+                    src="assets/images/voyage-one-logo__png.webp" /></div>
+            <div class="vo-loader-track"><span></span></div>
+            <div class="vo-loader-caption">Curating your next journey</div>
+        </div>
+    </div>
+    <header class="vo-header sticky-top">
+        <nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light py-0">
+            <div class="container"><a aria-label="Voyage 1 home" class="navbar-brand vo-brand" href="index.php"><img
+                        alt="Voyage 1 DMC logo" class="img-fluid" height="74"
+                        src="assets/images/voyage-one-logo__png.webp" width="74" /></a><button
+                    aria-controls="voyageNavbar" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler vo-navbar-toggler" data-bs-target="#voyageNavbar" data-bs-toggle="collapse"
+                    type="button"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="voyageNavbar">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" href="about-us.php">About Us</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="about-us.php#intro"><span
+                                            class="vo-drop-index">01</span><span class="vo-drop-label">Who We
+                                            Are</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#story"><span
+                                            class="vo-drop-index">02</span><span class="vo-drop-label">Our
+                                            Story</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#services"><span
+                                            class="vo-drop-index">03</span><span class="vo-drop-label">What We Bring To
+                                            The Journey</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#team"><span
+                                            class="vo-drop-index">04</span><span class="vo-drop-label">Our
+                                            Team</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle active"
+                                data-bs-toggle="dropdown" href="index.php#destinations">Destinations</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="south-africa.php"><span
+                                            class="vo-drop-index">ZA</span><span class="vo-drop-label">South
+                                            Africa</span></a></li>
+                                <li><a class="dropdown-item" href="kenya.php"><span class="vo-drop-index">KE</span><span
+                                            class="vo-drop-label">Kenya</span></a></li>
+                                <li><a class="dropdown-item" href="tanzania.php"><span
+                                            class="vo-drop-index">TZ</span><span
+                                            class="vo-drop-label">Tanzania</span></a></li>
+                                <li><a class="dropdown-item" href="japan.php"><span class="vo-drop-index">JP</span><span
+                                            class="vo-drop-label">Japan</span></a></li>
+                                <li><a class="dropdown-item" href="georgia.php"><span
+                                            class="vo-drop-index">GE</span><span
+                                            class="vo-drop-label">Georgia</span></a></li>
+                                <li><a class="dropdown-item" href="kazakhstan.php"><span
+                                            class="vo-drop-index">KZ</span><span
+                                            class="vo-drop-label">Kazakhstan</span></a></li>
+                                <li><a class="dropdown-item" href="azerbaijan.php"><span
+                                            class="vo-drop-index">AZ</span><span
+                                            class="vo-drop-label">Azerbaijan</span></a></li>
+                                <li><a class="dropdown-item" href="uae.php"><span class="vo-drop-index">UAE</span><span
+                                            class="vo-drop-label">United Arab Emirates</span></a></li>
+                                <li><a class="dropdown-item" href="vietnam.php"><span
+                                            class="vo-drop-index">VN</span><span
+                                            class="vo-drop-label">Vietnam</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" href="media.php">Media</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="media.php#blogs"><span
+                                            class="vo-drop-index">01</span><span class="vo-drop-label">Media
+                                            Coverage</span></a></li>
+                                <li><a class="dropdown-item" href="media.php#events"><span
+                                            class="vo-drop-index">02</span><span class="vo-drop-label">Events &amp;
+                                            Exhibitions</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="careers.php">Careers</a></li>
+                    </ul><a
+                        class="btn vo-header-cta ms-lg-4 mt-3 mt-lg-0 d-inline-flex align-items-center justify-content-center"
+                        href="contact.php">Send Query <span>→</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero" data-aos="fade-up" data-aos-duration="850">
+        <div aria-hidden="true" class="vo-static-banner"></div>
+        <div aria-hidden="true" class="hero-bg"
+            style="background-image:url('assets/images/uae-hero-banner-networking.webp') !important; background-size:cover !important; background-position:center right !important;">
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="eyebrow">Voyage 1 DMC • United Arab Emirates</div>
+                <!-- OLD CONTENT — Sheet3 row 3 / Hero heading: <h1>UAE DMC</h1> -->
+                <h1><span class="hero-dmc-name">UAE DMC</span><span class="hero-dmc-tagline">Your Destination Partner in
+                        the Emirates</span></h1>
+                <!-- OLD CONTENT — Sheet3 row 4 / Hero paragraph: <p>As a trusted UAE DMC, Voyage 1 brings together local expertise, exceptional experiences and seamless
+          operations for luxury holidays, family journeys, groups, MICE and corporate travel across the
+          Emirates.</p> -->
+                <p>From iconic city stays to desert escapes, luxury experiences and high-impact MICE programs, Voyage 1
+                    delivers seamless UAE destination management through local expertise, trusted partnerships and
+                    precision-led on-ground execution.</p>
+                <div class="hero-actions"><a class="btn dark d-inline-flex align-items-center justify-content-center"
+                        href="#contact">Explore UAE DMC Services</a><a
+                        class="btn d-inline-flex align-items-center justify-content-center" href="#services">Explore UAE
+                        DMC Services →</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container two">
+            <div class="row g-4 g-lg-5 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="eyebrow">UAE Destination Management</div>
+                    <!-- OLD CONTENT — Sheet3 row 8 / Section heading Your Local Partner in the UAE: <h2>Your Local Partner in the UAE</h2> -->
+                    <h2>Local Knowledge. UAE Expertise.</h2>
+                    <!-- OLD CONTENT — Sheet3 row 8 / Section intro Your Local Partner in the UAE: <p>You know your clients. We know the destination. Together, we create seamless UAE journeys backed by local
+          relationships, destination expertise and dependable support on the ground.</p> --><!-- OLD LOCAL PARTNER COPY — <p>Voyage 1 brings the UAE closer to travel partners through destination expertise, trusted local relationships and hands-on support. From the first brief to the final departure, we make every program easier to plan and deliver.</p> -->
+                    <p>Voyage 1 brings the UAE closer to travel partners through destination expertise, trusted local
+                        relationships and hands-on support. From the first brief to the final departure, we make every
+                        program easier to plan and deliver.</p>
+                    <!-- OLD LOCAL PARTNER COPY — <p>From hotels and transportation to sightseeing, experiences, groups, luxury travel and MICE programs, our
+          local team manages the details on the ground.</p> -->
+                    <p>From accommodation and transportation to experiences, excursions, groups, luxury travel and MICE
+                        programs, our destination team manages the details behind every journey — giving you the
+                        confidence to deliver exceptional travel to your clients.</p>
+                    <a class="btn btn-dark d-inline-flex align-items-center justify-content-center" href="#contact">Talk
+                        to Our UAE Team</a>
+                </div>
+                <div aria-label="Dubai skyline and UAE destination scene"
+                    class="placeholder uae-image uae-image-dmc col-12 col-lg-6" role="img"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section light" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Discover the Destination</div>
+                <!-- OLD CONTENT — Sheet3 row 9 / Section heading Why Choose the UAE?: <h2>Why Choose the UAE?</h2> -->
+                <h2>One Destination. Endless Possibilities.</h2>
+                <!-- OLD CONTENT — Sheet3 row 9 / Section intro Why Choose the UAE?: <p>Luxury, culture, adventure, entertainment and business in one destination.</p> -->
+                <p>From ultra-luxury escapes and adrenaline-filled adventures to family entertainment, cultural
+                    discovery and world-class MICE, the UAE makes it possible to create a different journey for every
+                    traveller.</p>
+            </div>
+            <div class="cards five row g-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <path d="m12 3 7 6-7 12L5 9l7-6Z"></path>
+                                <path d="m5 9 7 3 7-3M12 3v9"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Luxury</h3>
+                            <!-- OLD CONTENT — Sheet3 row 10 / Luxury: <p>Premium stays and private experiences.</p> -->
+                            <p>Luxury, with no limits.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <circle cx="12" cy="12" r="8.5"></circle>
+                                <path d="m14.8 9.2-1.7 4-4 1.6 1.6-4 4.1-1.6Z"></path>
+                                <path d="M12 3.5v2M12 18.5v2M3.5 12h2M18.5 12h2"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Adventure</h3>
+                            <!-- OLD CONTENT — Sheet3 row 11 / Adventure: <p>Desert thrills and mountain adventures.</p> -->
+                            <p>For those who want more from the journey.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <path d="M3 20h18"></path>
+                                <path d="M5 20v-8h14v8"></path>
+                                <path d="M4 12 12 5l8 7"></path>
+                                <path d="M8 12v8M12 12v8M16 12v8"></path>
+                                <path d="M9 8h6"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Culture</h3>
+                            <!-- OLD CONTENT — Sheet3 row 12 / Culture: <p>Heritage, culture and local discovery.</p> -->
+                            <p>Discover the UAE beyond the skyline.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <circle cx="8" cy="7" r="2.5"></circle>
+                                <circle cx="16" cy="8" r="2.5"></circle>
+                                <path d="M3.5 19a4.5 4.5 0 0 1 9 0"></path>
+                                <path d="M11.5 19a4.5 4.5 0 0 1 9 0"></path>
+                                <path d="M12 14a4 4 0 0 0-2.5-.8"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Family</h3>
+                            <!-- OLD CONTENT — Sheet3 row 13 / Family: <p>Theme parks and family adventures.</p> -->
+                            <p>Where every generation finds something to love.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <rect height="15" rx="2" width="16" x="4" y="5"></rect>
+                                <path d="M8 3v4M16 3v4M4 9h16"></path>
+                                <path d="M8 13h2M14 13h2M8 17h2M14 17h2"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>MICE</h3>
+                            <!-- OLD CONTENT — Sheet3 row 14 / MICE: <p>Venues, events and incentive programs.</p> -->
+                            <p>Where business meets extraordinary.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Explore the Emirates</div>
+                <h2>Discover the UAE</h2>
+                <!-- OLD CONTENT — Sheet3 row 15 / Section intro Discover the UAE: <p>Seven emirates, each offering a different side of the UAE.</p> -->
+                <p>From iconic city breaks to mountain adventures, cultural discoveries and quiet coastal escapes, the
+                    UAE offers remarkable possibilities across every Emirate. Explore the destinations our team knows
+                    best and build programs around what your clients want to experience.</p>
+            </div>
+            <div class="cards row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-1" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/uae-discover-dubai-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Dubai</h3>
+                            <!-- OLD CONTENT — Sheet3 row 16 / Dubai: <p>Luxury, shopping, entertainment and desert experiences.</p> -->
+                            <p>From extraordinary hotels and world-class shopping to desert adventures, dining,
+                                entertainment and unforgettable experiences, Dubai brings energy, luxury and endless
+                                possibilities to every itinerary.</p><a class="link" href="#services">Explore Dubai
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-2" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/uae-discover-abu-dhabi-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Abu Dhabi</h3>
+                            <!-- OLD CONTENT — Sheet3 row 17 / Abu Dhabi: <p>Culture, luxury resorts, beaches, Yas Island and MICE.</p> -->
+                            <p>Discover grand architecture, cultural landmarks, exceptional resorts, beaches and Yas
+                                Island, alongside world-class venues and experiences perfectly suited to leisure and
+                                MICE programs.</p><a class="link" href="#services">Explore Abu Dhabi
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-3" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/uae-discover-sharjah-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Sharjah</h3>
+                            <!-- OLD CONTENT — Sheet3 row 18 / Sharjah: <p>Heritage, culture, museums and family experiences.</p> -->
+                            <p>Explore museums, heritage districts, art, architecture and authentic local experiences in
+                                an Emirate where culture takes centre stage—while family-friendly attractions add
+                                another dimension.</p><a class="link" href="#services">Explore Sharjah →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-4" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/uae-discover-ras-al-khaimah-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Ras Al Khaimah</h3>
+                            <!-- OLD CONTENT — Sheet3 row 19 / Ras Al Khaimah: <p>Mountains, adventure, nature and luxury resorts.</p> -->
+                            <p>From dramatic mountain landscapes and outdoor thrills to pristine nature and exceptional
+                                resorts, Ras Al Khaimah offers a refreshing alternative for travellers seeking
+                                adventure, relaxation and something beyond the expected.</p><a class="link"
+                                href="#services">Explore RAK →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-5" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/uae-discover-fujairah-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Fujairah</h3>
+                            <!-- OLD CONTENT — Sheet3 row 20 / Fujairah: <p>Beaches, diving, mountains and relaxing escapes.</p> -->
+                            <p>With rugged mountains meeting the Indian Ocean, Fujairah invites travellers to slow down
+                                with beach escapes, diving, water experiences, nature and peaceful resort stays.</p><a
+                                class="link" href="#services">Explore Fujairah →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-6" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/uae-discover-ajman-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Ajman</h3>
+                            <!-- OLD CONTENT — Sheet3 row 21 / Ajman: <p>Beaches, resorts and relaxed leisure experiences.</p> -->
+                            <p>Golden beaches, relaxed resorts and an easy-going atmosphere make Ajman an appealing
+                                choice for travellers looking for a quieter UAE experience without giving up comfort or
+                                convenience.</p><a class="link" href="#services">Explore Ajman →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-7" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/uae-discover-umm-al-quwain-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Umm Al Quwain</h3>
+                            <!-- OLD CONTENT — Sheet3 row 22 / Umm Al Quwain: <p>Nature, water activities and quiet escapes.</p> -->
+                            <p>Discover quieter coastlines, mangroves, water adventures and unhurried experiences in an
+                                Emirate that offers space to explore, reconnect with nature and experience a more
+                                tranquil side of the UAE.</p><a class="link" href="#services">Explore UAQ →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section light" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Most Popular</div>
+                <h2>Seven Emirates. Endless Possibilities.</h2>
+            </div>
+            <div class="feature">
+                <div class="feature-main"
+                    style="background-image:url('assets/images/uae-popular-dubai-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                    <div class="feature-copy">
+                        <h2>Dubai</h2>
+                        <p>From Dubai's iconic skyline to Abu Dhabi's cultural treasures and beyond, the UAE brings
+                            together luxury, innovation, entertainment and extraordinary experiences in one dynamic
+                            destination.</p><a class="link" href="#services">Discover Dubai →</a>
+                    </div>
+                </div>
+                <div class="feature-stack">
+                    <div class="feature-small"
+                        style="background-image:url('assets/images/uae-popular-abu-dhabi-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <div class="feature-copy">
+                            <h3>Abu Dhabi</h3>
+                            <p>Culture, luxury and extraordinary experiences.</p><a class="link"
+                                href="#services">Discover →</a>
+                        </div>
+                    </div>
+                    <div class="feature-small"
+                        style="background-image:url('assets/images/uae-popular-ras-al-khaimah-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <div class="feature-copy">
+                            <h3>Ras Al Khaimah</h3>
+                            <p>Adventure meets luxury.</p><a class="link" href="#services">Discover →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section uae-experiences-redesign" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-showcase-head">
+                <div>
+                    <div class="eyebrow">Experiences</div>
+                    <h2>Things to Do in the UAE</h2>
+                </div>
+                <p>Build every itinerary around what your clients love, with the flexibility to combine iconic
+                    highlights, hidden gems and distinctive experiences into a journey that feels uniquely theirs.</p>
+            </div>
+            <div class="uae-exp-grid-redesign">
+                <article class="uae-exp-card uae-exp-card-wide" data-aos="fade-up" data-aos-delay="40">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/uae-card1.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">01</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Signature Escape</span>
+                        <h3>Desert Experiences</h3>
+                        <p>Safaris, dunes and unforgettable desert escapes with iconic UAE scenery and elevated
+                            hospitality moments.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="80">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/experience-city-luxury.webp')">
+                        <span class="uae-exp-card-num">02</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Premium Moments</span>
+                        <h3>Luxury Experiences</h3>
+                        <p>Yachts, private moments and exceptional dining tailored to refined travellers.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="120">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/uae-culture-heritage.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">03</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Stories &amp; Landmarks</span>
+                        <h3>Culture &amp; Heritage</h3>
+                        <p>Museums, souks and stories from the past that add deeper meaning to every itinerary.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="160">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/uae-family-experience.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">04</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Shared Memories</span>
+                        <h3>Family Experiences</h3>
+                        <p>Theme parks, waterparks and family-friendly adventures built for all ages.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/experience-adventure.webp')">
+                        <span class="uae-exp-card-num">05</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Adrenaline &amp; Nature</span>
+                        <h3>Adventure</h3>
+                        <p>Water sports, mountain escapes and adrenaline-filled thrills across the Emirates.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="240">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/uae-experience-shopping-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">06</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Retail Highlights</span>
+                        <h3>Shopping</h3>
+                        <p>Luxury malls, traditional souks and designer outlets for every style of traveller.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="section light" data-aos="fade-up" data-aos-duration="850" id="services">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Our Expertise</div>
+                <!-- OLD CONTENT — Sheet3 row 33 / Section heading UAE DMC Services: <h2>UAE DMC Services</h2> -->
+                <h2>UAE DMC Services, Built Around Your Brief</h2>
+                <p>From bespoke itinerary planning and premium accommodation to MICE, transportation, experiences and
+                    on-ground coordination, our UAE DMC services bring every element together seamlessly.</p>
+            </div>
+            <div class="services row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path>
+                                <path d="M4 21a8 8 0 0 1 16 0"></path>
+                            </svg></span>
+                        <h3>FIT Travel</h3>
+                        <!-- OLD CONTENT — Sheet3 row 34 / FIT Travel: <p>Tailored individual travel programs.</p> -->
+                        <p>Bespoke itineraries tailored to individual travellers.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <circle cx="9" cy="8" r="3"></circle>
+                                <circle cx="16.5" cy="9" r="2.4"></circle>
+                                <path d="M2.5 21a6.5 6.5 0 0 1 13 0M15 15.5a5 5 0 0 1 6.5 5.5"></path>
+                            </svg></span>
+                        <h3>Group Travel</h3>
+                        <!-- OLD CONTENT — Sheet3 row 35 / Group Travel: <p>Seamless group handling and logistics.</p> -->
+                        <p>Seamless group programs, coordination and logistics.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <rect height="14" rx="1.5" width="16" x="4" y="5"></rect>
+                                <path d="M8 5V3M16 5V3M4 9h16M8 13h2M14 13h2M8 16h2M14 16h2"></path>
+                            </svg></span>
+                        <h3>MICE</h3>
+                        <!-- OLD CONTENT — Sheet3 row 36 / MICE: <p>Meetings, incentives and events.</p> -->
+                        <p>Meetings, incentives, events and corporate experiences.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <rect height="13" rx="2" width="16" x="4" y="7"></rect>
+                                <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M4 12h16"></path>
+                            </svg></span>
+                        <h3>Corporate Travel</h3>
+                        <!-- OLD CONTENT — Sheet3 row 37 / Corporate Travel: <p>Business travel and corporate movements.</p> -->
+                        <p>Efficient business travel and corporate programs.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z">
+                                </path>
+                            </svg></span>
+                        <h3>Luxury Travel</h3>
+                        <!-- OLD CONTENT — Sheet3 row 38 / Luxury Travel: <p>Premium stays and private experiences.</p> -->
+                        <p>Exceptional stays, private access and bespoke experiences.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <circle cx="8" cy="8" r="2.5"></circle>
+                                <circle cx="16" cy="9" r="2.2"></circle>
+                                <path d="M3.5 20a4.5 4.5 0 0 1 9 0M12.5 20a4 4 0 0 1 8 0"></path>
+                            </svg></span>
+                        <h3>Family Holidays</h3>
+                        <!-- OLD CONTENT — Sheet3 row 39 / Family Holidays: <p>Family itineraries and attractions.</p> -->
+                        <p>Thoughtfully planned family journeys and experiences.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path
+                                    d="M12 20s-7-4.3-7-9.5A4.5 4.5 0 0 1 13 7.7 4.5 4.5 0 0 1 21 10.5C21 15.7 12 20 12 20Z">
+                                </path>
+                            </svg></span>
+                        <h3>Honeymoon</h3>
+                        <!-- OLD CONTENT — Sheet3 row 40 / Honeymoon: <p>Romantic escapes and private experiences.</p> -->
+                        <p>Romantic escapes, private stays and memorable experiences.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M3 12h18M12 3l4 9-4 9M7 7l-4 5 4 5M17 7l4 5-4 5"></path>
+                            </svg></span>
+                        <h3>Stopovers</h3>
+                        <!-- OLD CONTENT — Sheet3 row 41 / Stopovers: <p>Short programs for transit travelers.</p> -->
+                        <p>Smart, seamless programs for short UAE stays.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M4 21V5h16v16M4 9h16M8 5v4M12 5v4M16 5v4M8 13h2M14 13h2M8 17h2M14 17h2"></path>
+                            </svg></span>
+                        <h3>Hotels</h3>
+                        <!-- OLD CONTENT — Sheet3 row 42 / Hotels: <p>Accommodation sourcing and reservations.</p> -->
+                        <p>Handpicked accommodation and seamless hotel arrangements.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M4 17h16M6 17l1.5-6h9L18 17M8 11l1-4h6l1 4M8 20h2M14 20h2"></path>
+                                <circle cx="7" cy="17" r="1.5"></circle>
+                                <circle cx="17" cy="17" r="1.5"></circle>
+                            </svg></span>
+                        <h3>Transfers</h3>
+                        <!-- OLD CONTENT — Sheet3 row 43 / Transfers: <p>Airport and inter-emirate transfers.</p> -->
+                        <p>Reliable airport, hotel and inter-emirate transfers.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="m4 19 6-6 4 4 6-7"></path>
+                                <path d="M14 10h6v6"></path>
+                                <circle cx="6" cy="7" r="3"></circle>
+                                <path d="M3 14a3 3 0 0 1 6 0"></path>
+                            </svg></span>
+                        <h3>Excursions</h3>
+                        <!-- OLD CONTENT — Sheet3 row 44 / Excursions: <p>Tours, sightseeing and activities.</p> -->
+                        <p>Curated sightseeing, tours and destination experiences.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <rect height="18" rx="2" width="14" x="5" y="3"></rect>
+                                <circle cx="12" cy="9" r="2.5"></circle>
+                                <path d="M8 16h8M8 18h5"></path>
+                            </svg></span>
+                        <h3>Visa Assistance</h3>
+                        <!-- OLD CONTENT — Sheet3 row 45 / Visa Assistance: <p>UAE travel documentation support.</p> -->
+                        <p>Guidance with UAE travel documentation and requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Inspiration</div>
+                <!-- OLD CONTENT — Sheet3 row 46 / Section heading Sample UAE Itineraries: <h2>Sample UAE Itineraries</h2> -->
+                <h2>UAE Itineraries, Made Your Way</h2>
+                <!-- OLD UAE ITINERARIES INTRO: <p>Re-defining the Art of Destination Management<br/>Connecting Destinations. Creating Experiences.</p> -->
+                <p>Starting points for creating a customized program.</p>
+            </div>
+            <div class="itineraries row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="img vo-inline-bg-9"
+                            style="background-image:url('assets/images/uae-itinerary-dubai-highlights.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="body"><span class="duration">3 Days</span>
+                            <h3>Dubai Highlights</h3>
+                            <!-- OLD CONTENT — Sheet3 row 47 / Dubai Highlights: <p>Dubai sightseeing, shopping, attractions and desert safari.</p> -->
+                            <p>Iconic sights, world-class shopping, unforgettable attractions and a desert escape.</p>
+                            <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="img vo-inline-bg-10"
+                            style="background-image:url('assets/images/uae-itinerary-dubai-abu-dhabi.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="body"><span class="duration">5 Days</span>
+                            <h3>Dubai + Abu Dhabi</h3>
+                            <!-- OLD CONTENT — Sheet3 row 48 / Dubai + Abu Dhabi: <p>Two-city UAE experience combining modern attractions and culture.</p> -->
+                            <p>Two iconic cities, from Dubai’s energy to Abu Dhabi’s culture, luxury and grand
+                                experiences.</p>
+                            <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="img vo-inline-bg-11"
+                            style="background-image:url('assets/images/uae-itinerary-ultimate-uae.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="body"><span class="duration">7 Days</span>
+                            <h3>Ultimate UAE</h3>
+                            <!-- OLD CONTENT — Sheet3 row 49 / Ultimate UAE: <p>Dubai, Abu Dhabi, desert and additional emirate experiences.</p> -->
+                            <p>Dubai, Abu Dhabi, desert adventures and distinctive experiences across the Emirates.</p>
+                            <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section uae-movement-redesign" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-showcase-head uae-movement-head">
+                <div>
+                    <div class="eyebrow">On-Ground Operations</div>
+                    <h2>Seamless Movement, Every Step of the Way</h2>
+                </div>
+                <p>Seamless connections between Emirates, hotels and experiences.</p>
+            </div>
+            <div aria-label="Uae transportation journey" class="uae-route">
+                <div aria-hidden="true" class="uae-route-line"></div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">01</div>
+                    <div class="uae-route-icon">✈</div>
+                    <h3>Airport Transfers</h3>
+                    <p>Effortless arrivals, departures and private airport connections.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">02</div>
+                    <div class="uae-route-icon">↗</div>
+                    <h3>Private Cars</h3>
+                    <p>Comfortable, reliable travel tailored to individual itineraries.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">03</div>
+                    <div class="uae-route-icon">◇</div>
+                    <h3>Luxury Vehicles</h3>
+                    <p>Refined chauffeur-driven travel for elevated UAE journeys.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">04</div>
+                    <div class="uae-route-icon">▦</div>
+                    <h3>Group Coaches</h3>
+                    <p>Comfortable, coordinated transportation for groups and events.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">05</div>
+                    <div class="uae-route-icon">⇢</div>
+                    <h3>Inter-Emirate Transfers</h3>
+                    <p>Seamless connections between Emirates, hotels and experiences.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">06</div>
+                    <div class="uae-route-icon">⌁</div>
+                    <h3>Event Transportation</h3>
+                    <p>Precisely coordinated transportation for MICE and events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Why Partner With Us</div>
+                <h2>Your UAE DMC Partner</h2>
+                <p>As a trusted UAE DMC, Voyage 1 brings together local expertise, exceptional experiences and seamless
+                    operations for luxury holidays, family journeys, groups, MICE and corporate travel across the
+                    Emirates.</p>
+            </div>
+            <div class="usps row g-3">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <path d="M12 21s7-6.4 7-11.5A7 7 0 0 0 5 9.5C5 14.6 12 21 12 21Z"></path>
+                            <circle cx="12" cy="9.5" r="2.4"></circle>
+                        </svg>
+                        <h3>Local UAE Expertise</h3>
+                        <!-- OLD CONTENT — Sheet3 row 58 / Local UAE Expertise: <p>Local knowledge and coordination.</p> -->
+                        <p>Know the destination. Know how to make it work.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <circle cx="5" cy="6" r="2"></circle>
+                            <circle cx="19" cy="18" r="2"></circle>
+                            <path d="M5 8v3a4 4 0 0 0 4 4h6a4 4 0 0 1 4 3"></path>
+                        </svg>
+                        <h3>Customized Itineraries</h3>
+                        <!-- OLD CONTENT — Sheet3 row 59 / Customized Itineraries: <p>Programs shaped around your clients.</p> -->
+                        <p>Your brief. Their journey. Our expertise.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <circle cx="9" cy="8" r="3.2"></circle>
+                            <path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"></path>
+                            <circle cx="17" cy="9" r="2.6"></circle>
+                            <path d="M15.5 14.2c2.7.5 4.3 2.4 4.3 5.8"></path>
+                        </svg>
+                        <h3>FIT &amp; Group Expertise</h3>
+                        <!-- OLD CONTENT — Sheet3 row 60 / FIT & Group Expertise: <p>Flexible FIT and group handling.</p> -->
+                        <p>Different travellers. One capable destination team.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <rect height="18" width="10" x="4" y="3"></rect>
+                            <rect height="12" width="6" x="14" y="9"></rect>
+                            <path d="M7 7h1M11 7h1M7 11h1M11 11h1M7 15h1M11 15h1M16.5 13h1M16.5 17h1"></path>
+                        </svg>
+                        <h3>MICE Capability</h3>
+                        <!-- OLD CONTENT — Sheet3 row 61 / MICE Capability: <p>Corporate events and incentives.</p> -->
+                        <p>Big moments, precisely managed.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <path d="M3 11l4-3 3 2 3-2 4 3"></path>
+                            <path d="M3 11v4l4 3M21 11v4l-4 3"></path>
+                            <path d="M10 10l2.5 2.5a1.5 1.5 0 0 1-2.1 2.1L8 12.2M14 10l-1 1"></path>
+                        </svg>
+                        <h3>Reliable Suppliers</h3>
+                        <!-- OLD CONTENT — Sheet3 row 62 / Reliable Suppliers: <p>Hotels, transport and experiences.</p> -->
+                        <p>Strong local relationships. Dependable delivery.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <circle cx="12" cy="12" r="3.2"></circle>
+                            <path
+                                d="M12 3.5v2M12 18.5v2M20.5 12h-2M5.5 12h-2M17.8 6.2l-1.4 1.4M7.6 16.4l-1.4 1.4M17.8 17.8l-1.4-1.4M7.6 7.6 6.2 6.2">
+                            </path>
+                        </svg>
+                        <h3>Seamless Operations</h3>
+                        <!-- OLD CONTENT — Sheet3 row 63 / Seamless Operations: <p>One partner managing every detail.</p> -->
+                        <p>Everything connected. Nothing overlooked.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <path d="M4 13v-1a8 8 0 0 1 16 0v1"></path>
+                            <rect height="6" rx="1.3" width="4" x="2.5" y="13"></rect>
+                            <rect height="6" rx="1.3" width="4" x="17.5" y="13"></rect>
+                            <path d="M19.5 19v.6a3 3 0 0 1-3 3H13"></path>
+                        </svg>
+                        <h3>24/7 Support</h3>
+                        <!-- OLD CONTENT — Sheet3 row 64 / 24/7 Support: <p>Responsive support throughout the journey.</p> -->
+                        <p>There when the journey needs us.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <rect height="12" rx="2" width="18" x="3" y="7.5"></rect>
+                            <path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5M3 13h18"></path>
+                        </svg>
+                        <h3>B2B Focused</h3>
+                        <!-- OLD CONTENT — Sheet3 row 65 / B2B Focused: <p>Built for travel agents and operators.</p> -->
+                        <p>Built for the way travel businesses work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark uae-process-redesign" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-process-intro">
+                <div>
+                    <div class="eyebrow">Simple Process</div>
+                    <h2>How It Works</h2>
+                    <p>One clear flow from the first brief to the final departure.</p>
+                </div>
+            </div>
+            <div class="uae-process-rail">
+                <div aria-hidden="true" class="uae-process-line"></div>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">01</div>
+                    <div class="uae-process-icon">□</div>
+                    <h3>Share Your Requirement</h3>
+                    <p>Tell us about your clients, dates and travel requirements.</p>
+                </article>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">02</div>
+                    <div class="uae-process-icon">▤</div>
+                    <h3>Build Your Itinerary</h3>
+                    <p>We turn your brief into a thoughtful, tailored itinerary.</p>
+                </article>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">03</div>
+                    <div class="uae-process-icon">✓</div>
+                    <h3>Confirm &amp; Coordinate</h3>
+                    <p>We bring every booking, transfer and experience together.</p>
+                </article>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">04</div>
+                    <div class="uae-process-icon">◇</div>
+                    <h3>Travel With Confidence</h3>
+                    <p>Reliable destination support from the first brief to final departure.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Frequently Asked Questions</div>
+                <h2>UAE DMC FAQs</h2>
+                <!-- OLD CONTENT — Sheet3 row 73 / Section intro UAE DMC FAQs: <p>Planning your next UAE itinerary? Explore answers to the questions travel partners ask most—from destinations and experiences to MICE, logistics, accommodation and working with our local DMC team.</p> -->
+                <p>Planning a UAE program for your clients? Find answers to common questions about our UAE DMC services,
+                    destinations, MICE programs, accommodation, transportation, experiences and on-ground support.</p>
+            </div>
+            <div class="faq row g-3">
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>What does a UAE DMC
+                                do?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Sheet3 row 74 / FAQ What does a UAE DMC do?: <p>A UAE DMC manages the local details behind an itinerary, including hotels, transportation, experiences, guides, logistics and on-ground support.</p> -->
+                            <p>A UAE DMC manages the destination details behind your clients’ journey—from accommodation
+                                and transportation to experiences, guides, logistics and on-ground coordination.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Does Voyage 1 handle FIT
+                                and group travel?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Sheet3 row 75 / FAQ Does Voyage 1 handle FIT and group travel?: <p>Yes. We create tailored FIT programs as well as coordinated group journeys, with the flexibility to match each client brief.</p> -->
+                            <p>Yes. We manage both tailored FIT itineraries and group programs, adapting the journey,
+                                logistics and experiences to suit each travel brief.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you create
+                                customized UAE itineraries?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Sheet3 row 76 / FAQ Can you create customized UAE itineraries?: <p>Absolutely. We shape itineraries around dates, interests, traveller profiles, preferred hotels, experiences and budget.</p> -->
+                            <p>Absolutely. We build bespoke UAE itineraries around your clients’ interests, travel
+                                style, dates, preferred stays, experiences and program requirements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Does Voyage 1 provide
+                                MICE services?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Sheet3 row 77 / FAQ Does Voyage 1 provide MICE services?: <p>Yes. Our team can coordinate venues, accommodation, transportation, incentives, event logistics and on-ground event support.</p> -->
+                            <p>Yes. Our UAE DMC team supports meetings, incentives and events with venue sourcing,
+                                accommodation, transportation, experiences, event logistics and on-ground coordination.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you arrange hotels
+                                and transportation?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Sheet3 row 78 / FAQ Can you arrange hotels and transportation?: <p>We coordinate airport transfers, private vehicles, coaches and inter-emirate transportation across the UAE.</p> -->
+                            <p>Yes. We source suitable accommodation and coordinate airport transfers, private vehicles,
+                                group transportation and inter-emirate movements across the UAE.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Which emirates do you
+                                operate in?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Sheet3 row 79 / FAQ Which emirates do you operate in?: <p>We operate across all seven emirates, including Dubai, Abu Dhabi, Sharjah, Ras Al Khaimah, Fujairah, Ajman and Umm Al Quwain.</p> -->
+                            <p>We operate across all seven Emirates—Dubai, Abu Dhabi, Sharjah, Ras Al Khaimah, Fujairah,
+                                Ajman and Umm Al Quwain.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you arrange luxury
+                                travel programs?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Sheet3 row 80 / FAQ Can you arrange luxury travel programs?: <p>Yes. We curate premium stays, private experiences, luxury transportation and special moments around the traveller.</p> -->
+                            <p>Yes. We curate luxury UAE programs featuring premium stays, private transportation,
+                                exclusive experiences and carefully considered touches tailored to each traveller.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you support special
+                                experiences and celebrations?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Sheet3 row 81 / FAQ Can you support special experiences and celebrations?: <p>Yes. We can arrange curated experiences and celebration programs, including honeymoons, private occasions, family travel and other bespoke requests.</p> -->
+                            <p>Yes. From honeymoons and anniversaries to family celebrations and private experiences, we
+                                create bespoke programs designed around the occasion and the traveller.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section uae-mice-banner" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-mice-banner-card">
+                <div class="uae-mice-banner-content">
+                    <div class="eyebrow">MICE Programs In The UAE</div>
+                    <h2>Designed For Business. Delivered Like An Experience.</h2>
+                    <p>From executive meetings and incentive travel to gala dinners, networking evenings and
+                        large-format corporate gatherings, our UAE team curates MICE programs with venue sourcing,
+                        hospitality, movement planning and on-ground precision.</p>
+                    <div class="uae-mice-banner-actions">
+                        <a class="btn dark d-inline-flex align-items-center justify-content-center"
+                            href="contact.php">Send Query →</a>
+                        <a class="btn d-inline-flex align-items-center justify-content-center" href="#services">Explore
+                            UAE Services →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark" data-aos="fade-up" data-aos-duration="850" id="contact">
+        <div class="container contact">
+            <div>
+                <div class="eyebrow">Get In Touch</div>
+                <!-- OLD CONTENT — Sheet3 row 82 / Section heading Let's Plan Your UAE Program: <h2>Let's Plan Your UAE Program</h2> -->
+                <h2>Let’s Bring Your UAE Program to Life.</h2>
+                <!-- OLD CONTENT — Sheet3 row 82 / Section intro Let's Plan Your UAE Program: <p>Share your requirements and our team will get back to you with a customized proposal.</p> -->
+                <p>Share your brief, and let our UAE DMC team bring together the right destinations, experiences, stays
+                    and logistics to create a seamless program for your clients.</p>
+                <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
+                    <small>PHONE</small>+971 52 167 2038</div>
+                <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
+                    <small>EMAIL</small>info@voyage-one.com</div>
+                <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true"><small>GLOBAL
+                        OFFICE</small>#73, G Floor, Al Fahidi Plaza, Souq Al Kabeer, Dubai</div>
+            </div>
+<?php include "form.php" ?>
+
+
+            <!-- <form data-destination="UAE" data-subject="UAE Journey Enquiry — Voyage 1" id="uae-enquiry-form">
+                <div class="form-field"><label for="uae-first-name">First Name</label><input autocomplete="given-name"
+                        class="form-control" id="uae-first-name" name="firstName" placeholder="Enter first name"
+                        required="" /></div>
+                <div class="form-field"><label for="uae-last-name">Last Name</label><input autocomplete="family-name"
+                        class="form-control" id="uae-last-name" name="lastName" placeholder="Enter last name"
+                        required="" /></div>
+                <div class="form-field"><label for="uae-company">Company</label><input autocomplete="organization"
+                        class="form-control" id="uae-company" name="company" placeholder="Company name" /></div>
+                <div class="form-field"><label for="uae-email">Email</label><input autocomplete="email"
+                        class="form-control" id="uae-email" name="email" placeholder="you@company.com" required=""
+                        type="email" /></div>
+                <div class="form-field"><label for="uae-phone">Phone / WhatsApp</label><input autocomplete="tel"
+                        class="form-control" id="uae-phone" name="phone" placeholder="Your phone / WhatsApp number"
+                        type="tel" /></div>
+                <div class="form-field"><label for="uae-country">Country</label><input autocomplete="country-name"
+                        class="form-control" id="uae-country" name="country" placeholder="Country" /></div>
+                <div class="form-field"><label for="uae-date">Travel Date</label><input class="form-control"
+                        id="uae-date" name="travelDate" type="date" /></div>
+                <div class="form-field"><label for="uae-travelers">Number of Travelers</label><input
+                        class="form-control" id="uae-travelers" min="1" name="travelers" placeholder="e.g. 12"
+                        type="number" /></div>
+                <div class="form-field"><label for="uae-travel-type">Travel Type</label><select class="form-select"
+                        id="uae-travel-type" name="travelType">
+                        <option value="">Select travel type</option>
+                        <option>FIT</option>
+                        <option>Group</option>
+                        <option>MICE</option>
+                        <option>Corporate</option>
+                        <option>Luxury</option>
+                        <option>Family</option>
+                        <option>Honeymoon</option>
+                    </select></div>
+                <div class="form-field"><label for="uae-destination">Preferred City / Region</label><select
+                        class="form-select" id="uae-destination" name="destination">
+                        <option value="">Select city / region</option>
+                        <option>Dubai</option>
+                        <option>Abu Dhabi</option>
+                        <option>Sharjah</option>
+                        <option>Ras Al Khaimah</option>
+                        <option>Fujairah</option>
+                        <option>Ajman</option>
+                        <option>Umm Al Quwain</option>
+                        <option>Multiple Emirates</option>
+                    </select></div>
+                <div class="form-field full"><label for="uae-requirements">Your Requirements</label><textarea
+                        class="form-control" id="uae-requirements" name="requirements"
+                        placeholder="Tell us about your clients, dates, interests and requirements..."></textarea></div>
+                <div class="form-actions">
+                    <p class="form-note">We’ll use these details only to prepare your UAE proposal.</p><button
+                        class="btn btn-dark d-inline-flex align-items-center justify-content-center"
+                        type="submit">Submit Enquiry <span aria-hidden="true">→</span></button>
+                </div>
+            </form> -->
+        </div>
+    </section>
+    <footer class="vo-footer">
+        <div class="vo-shell container">
+            <div class="vo-footer-top row g-4 g-xl-5">
+                <div class="vo-footer-brand col-12 col-lg-5">
+                    <a class="vo-footer-logo" href="index.php"><img alt="Voyage 1 DMC logo" class="img-fluid"
+                            src="assets/images/voyage-one-logo__png.webp" /></a>
+                    <h3>Re-defining the Art of Destination Management<br />Connecting Destinations. Creating
+                        Experiences.</h3>
+                    <p>Creating seamless travel experiences through local knowledge, trusted partnerships and responsive
+                        destination teams.</p>
+                    <div class="vo-footer-contact">
+                        <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+                        <a href="tel:+971521672038">+971 52 167 2038</a>
+                        <a href="tel:+91921758633">+91 921758633</a>
+                    </div>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Explore</h4>
+                    <a href="index.php">Home</a><a href="uae.php">Destinations</a><a
+                        href="index.php#services">Services</a><a href="about-us.php">About Us</a><a
+                        href="media.php">Media</a><a href="careers.php">Careers</a>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Destinations</h4><a href="south-africa.php">South Africa</a><a href="kenya.php">Kenya</a><a
+                        href="tanzania.php">Tanzania</a><a href="japan.php">Japan</a><a href="georgia.php">Georgia</a><a
+                        href="kazakhstan.php">Kazakhstan</a><a href="azerbaijan.php">Azerbaijan</a><a
+                        href="uae.php">United Arab Emirates</a><a href="vietnam.php">Vietnam</a>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Contact Us</h4>
+                    <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+                    <a href="tel:+971521672038">+971 52 167 2038</a><a href="tel:+91921758633">+91 921758633</a>
+                    <div class="vo-footer-office">
+                        <small>GLOBAL OFFICE</small>
+                        <strong>Dubai, UAE</strong>
+                        <span>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer</span>
+                    </div>
+                    <div aria-label="Voyage 1 social media" class="vo-footer-socials">
+                        <a aria-label="Voyage 1 on Instagram" href="https://www.instagram.com/voyage1dmc/"
+                            rel="noopener noreferrer" target="_blank" title="Instagram">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <rect fill="none" height="17.5" rx="5.2" stroke="currentColor" stroke-width="1.8"
+                                    width="17.5" x="3.25" y="3.25"></rect>
+                                <circle cx="12" cy="12" fill="none" r="4.1" stroke="currentColor" stroke-width="1.8">
+                                </circle>
+                                <circle cx="17.45" cy="6.65" fill="currentColor" r="1.15"></circle>
+                            </svg>
+                        </a>
+                        <a aria-label="Voyage 1 on Facebook" href="https://www.facebook.com/Voyage1DMC"
+                            rel="noopener noreferrer" target="_blank" title="Facebook">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M13.65 21v-7h2.55l.4-3h-2.95V9.08c0-.87.24-1.46 1.5-1.46h1.61V4.94c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.06V11H7.8v3h2.66v7h3.19Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Voyage 1 on LinkedIn" href="https://www.linkedin.com/company/voyageonedmc/home/"
+                            rel="noopener noreferrer" target="_blank" title="LinkedIn">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M6.2 8.25H3.05V21H6.2V8.25ZM4.62 3A1.88 1.88 0 1 0 4.62 6.76 1.88 1.88 0 0 0 4.62 3ZM8.62 8.25V21h3.15v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.06 1.9 2.06 3.38V21h3.15v-6.85c0-3.37-.73-5.96-4.7-5.96-1.91 0-3.19 1.05-3.71 2.05h-.04v-1.99H8.62Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Chat with Voyage 1 on WhatsApp" href="https://wa.me/971521672038"
+                            rel="noopener noreferrer" target="_blank" title="WhatsApp">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="vo-footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026
+                    Voyage 1 DMC. All rights reserved.</span><span><a href="contact.php">Contact</a></span></div>
+        </div>
+    </footer>
+    <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/global.js"></script>
+</body>
+
+</html>

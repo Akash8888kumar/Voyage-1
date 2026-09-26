@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>About Us | Voyage 1 DMC</title>
+    <meta
+        content="Voyage 1 is a global Destination Management Company connecting travel partners with local expertise, trusted networks and exceptional experiences across distinctive destinations."
+        name="description" />
+    <link href="assets/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <script>(function () { var d = document.documentElement; d.classList.add('js-reveal'); try { if (sessionStorage.getItem('voyage-loader-seen') === '1') { d.classList.add('vo-loader-skip'); } } catch (e) { } })();</script>
+    <noscript>
+        <style>
+            html.js-reveal [data-aos] {
+                opacity: 1 !important;
+                transform: none !important;
+                transition: none !important
+            }
+        </style>
+    </noscript>
+</head>
+
+<body class="page-about">
+    <!-- COPY AUDIT UPDATE: Active copy sourced from Voyage_1_copy_all_pages (1).xlsx, sheet "Copy Audit" for About Us. Previous replaced copy is preserved inline as OLD CONTENT comments. -->
+    <div aria-hidden="true" class="vo-site-loader" data-site-loader="">
+        <div class="vo-loader-inner">
+            <div aria-hidden="true" class="vo-loader-logo-wrap"><img alt="" class="vo-loader-brand-logo"
+                    src="assets/images/voyage-one-logo__png.webp" /></div>
+            <div class="vo-loader-track"><span></span></div>
+            <div class="vo-loader-caption">Curating your next journey</div>
+        </div>
+    </div>
+    <header class="vo-header sticky-top">
+        <nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light py-0">
+            <div class="container"><a aria-label="Voyage 1 home" class="navbar-brand vo-brand" href="index.php"><img
+                        alt="Voyage 1 DMC logo" class="img-fluid" height="74"
+                        src="assets/images/voyage-one-logo__png.webp" width="74" /></a><button
+                    aria-controls="voyageNavbar" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler vo-navbar-toggler" data-bs-target="#voyageNavbar" data-bs-toggle="collapse"
+                    type="button"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="voyageNavbar">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle active"
+                                data-bs-toggle="dropdown" href="about-us.php">About Us</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="about-us.php#intro"><span
+                                            class="vo-drop-index">01</span><span class="vo-drop-label">Who We
+                                            Are</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#story"><span
+                                            class="vo-drop-index">02</span><span class="vo-drop-label">Our
+                                            Story</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#services"><span
+                                            class="vo-drop-index">03</span><span class="vo-drop-label">What We Bring To
+                                            The Journey</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#team"><span
+                                            class="vo-drop-index">04</span><span class="vo-drop-label">Our
+                                            Team</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" href="index.php#destinations">Destinations</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="south-africa.php"><span
+                                            class="vo-drop-index">ZA</span><span class="vo-drop-label">South
+                                            Africa</span></a></li>
+                                <li><a class="dropdown-item" href="kenya.php"><span class="vo-drop-index">KE</span><span
+                                            class="vo-drop-label">Kenya</span></a></li>
+                                <li><a class="dropdown-item" href="tanzania.php"><span
+                                            class="vo-drop-index">TZ</span><span
+                                            class="vo-drop-label">Tanzania</span></a></li>
+                                <li><a class="dropdown-item" href="japan.php"><span class="vo-drop-index">JP</span><span
+                                            class="vo-drop-label">Japan</span></a></li>
+                                <li><a class="dropdown-item" href="georgia.php"><span
+                                            class="vo-drop-index">GE</span><span
+                                            class="vo-drop-label">Georgia</span></a></li>
+                                <li><a class="dropdown-item" href="kazakhstan.php"><span
+                                            class="vo-drop-index">KZ</span><span
+                                            class="vo-drop-label">Kazakhstan</span></a></li>
+                                <li><a class="dropdown-item" href="azerbaijan.php"><span
+                                            class="vo-drop-index">AZ</span><span
+                                            class="vo-drop-label">Azerbaijan</span></a></li>
+                                <li><a class="dropdown-item" href="uae.php"><span class="vo-drop-index">UAE</span><span
+                                            class="vo-drop-label">United Arab Emirates</span></a></li>
+                                <li><a class="dropdown-item" href="vietnam.php"><span
+                                            class="vo-drop-index">VN</span><span
+                                            class="vo-drop-label">Vietnam</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" href="media.php">Media</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="media.php#blogs"><span
+                                            class="vo-drop-index">01</span><span class="vo-drop-label">Media
+                                            Coverage</span></a></li>
+                                <li><a class="dropdown-item" href="media.php#events"><span
+                                            class="vo-drop-index">02</span><span class="vo-drop-label">Events &amp;
+                                            Exhibitions</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="careers.php">Careers</a></li>
+                    </ul><a
+                        class="btn vo-header-cta ms-lg-4 mt-3 mt-lg-0 d-inline-flex align-items-center justify-content-center"
+                        href="contact.php">Send Query <span>→</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero" data-aos="fade-up" data-aos-duration="850">
+        <div aria-hidden="true" class="vo-static-banner"
+            style="background-image:url('assets/images/about-us-hero-banner.webp') !important; background-size:cover !important; background-position:center right !important;">
+        </div>
+        <div class="c hc container">
+            <div class="e">About Voyage 1</div>
+            <h1>We Don’t Just Plan<br />Journeys.</h1>
+            <p>Voyage 1 is a global Destination Management Company connecting travel partners with local expertise,
+                trusted networks and exceptional experiences across distinctive destinations—bringing together the
+                insight and operational precision needed to deliver journeys with confidence.</p>
+        </div>
+    </section>
+    <section class="s" data-aos="fade-up" data-aos-duration="850" id="intro">
+        <div class="c two container">
+            <div class="row g-4 g-lg-5 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="e">Who We Are</div>
+                    <h2>More Than A DMC.<br />A Partner On The Ground.</h2>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p class="big">Great journeys depend on what happens behind the scenes. We combine deep destination
+                        knowledge, trusted local relationships and hands-on expertise to help travel partners deliver
+                        exceptional experiences with confidence, consistency and care.</p>
+                    <p>From FIT journeys and groups to MICE, luxury travel and special experiences, we turn requirements
+                        into carefully considered destination programs—managing the details, anticipating the challenges
+                        and bringing every journey together seamlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s" data-aos="fade-up" data-aos-duration="850" id="story">
+        <div class="c story container">
+            <div aria-label="Voyage 1 destination and travel images" class="photo-collage">
+                <img alt="Luxury couple overlooking a mountain destination at golden hour" class="img-fluid"
+                    loading="lazy" src="assets/images/about-story-luxury-couple-mountain-terrace.webp" />
+                <img alt="Local destination guide speaking with travelers in the mountains" class="img-fluid"
+                    loading="lazy" src="assets/images/about-story-local-guide-mountain-travel.webp" />
+                <img alt="Luxury destination transfer with chauffeur and premium SUV" class="img-fluid" loading="lazy"
+                    src="assets/images/about-story-luxury-transfer-suv.webp" />
+            </div>
+            <div class="story-content">
+                <div class="e">Our Story</div>
+                <h2>Built Around<br />The Destination.</h2>
+                <div class="block">
+                    <!-- OLD CONTENT — Copy Audit row 36 / Story block heading: <h3>Where We Started</h3> -->
+                    <h3>The Destination Makes The Difference.</h3>
+                    <!-- OLD CONTENT — Copy Audit row 36 / Story block copy: <p>Voyage 1 was built around a simple idea: travel partners should have one dependable destination team to coordinate the details that make every journey work. Our approach combines local knowledge, careful planning and responsive on-ground support.</p> -->
+                    <p>The best journeys begin with people who know the destination—not just its highlights, but its
+                        hidden possibilities, trusted partners and the details that transform a good itinerary into an
+                        exceptional experience.</p>
+                </div>
+                <div class="block">
+                    <!-- OLD CONTENT — Copy Audit row 37 / Story block heading: <h3>Where We Are Going</h3> -->
+                    <h3>Details Are Never Just Details.</h3>
+                    <!-- OLD CONTENT — Copy Audit row 37 / Story block copy: <p>We are continuing to build a connected destination network that helps travel partners deliver thoughtful, seamless journeys across every market we serve — with the same focus on communication, detail and execution.</p> -->
+                    <p>From the right transfer to the perfect room, small decisions shape the entire travel experience.
+                        We pay attention to what happens between the headline moments, because that is where seamless
+                        journeys are truly created.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s about-vision-section" data-aos="fade-up" data-aos-duration="850">
+        <div class="c container">
+            <div class="about-vision-wrap">
+                <div class="about-vision-intro">
+                    <div class="e">Our Approach</div>
+                    <h2>How We See<br />Travel</h2>
+                    <p>Our teams work close to the destinations they represent, bringing first-hand knowledge, trusted
+                        local relationships and on-ground expertise to travel partners looking to create exceptional
+                        experiences across the globe.</p>
+                </div>
+                <div class="about-vision-grid">
+                    <article class="about-vision-card" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="about-vision-card-top">
+                            <small>01</small>
+                            <span class="about-vision-icon"><svg class="about-vision-icon-svg" fill="none"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewbox="0 0 24 24">
+                                    <path d="M12 21s7-6.4 7-11.5A7 7 0 0 0 5 9.5C5 14.6 12 21 12 21Z"></path>
+                                    <circle cx="12" cy="9.5" r="2.4"></circle>
+                                </svg></span>
+                        </div>
+                        <h3>Local Knowledge</h3>
+                        <p>Destination insight, trusted partners and the details that elevate every itinerary.</p>
+                    </article>
+                    <article class="about-vision-card" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="about-vision-card-top">
+                            <small>02</small>
+                            <span class="about-vision-icon"><svg class="about-vision-icon-svg" fill="none"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewbox="0 0 24 24">
+                                    <path d="M3 11l4-3 3 2 3-2 4 3"></path>
+                                    <path d="M3 11v4l4 3M21 11v4l-4 3"></path>
+                                    <path d="M10 10l2.5 2.5a1.5 1.5 0 0 1-2.1 2.1L8 12.2M14 10l-1 1"></path>
+                                </svg></span>
+                        </div>
+                        <h3>Human Connection</h3>
+                        <p>Travel is about experiences, relationships and meaningful moments.</p>
+                    </article>
+                    <article class="about-vision-card" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="about-vision-card-top">
+                            <small>03</small>
+                            <span class="about-vision-icon"><svg class="about-vision-icon-svg" fill="none"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewbox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="8.5"></circle>
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <circle cx="12" cy="12" fill="currentColor" r="1.5" stroke="none"></circle>
+                                </svg></span>
+                        </div>
+                        <h3>Attention To Detail</h3>
+                        <p>Thoughtful details turn seamless logistics into exceptional experiences.</p>
+                    </article>
+                    <article class="about-vision-card" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="about-vision-card-top">
+                            <small>04</small>
+                            <span class="about-vision-icon"><svg class="about-vision-icon-svg" fill="none"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewbox="0 0 24 24">
+                                    <path d="M12 3l7 3v6c0 4.8-3 7.6-7 9-4-1.4-7-4.2-7-9V6l7-3Z"></path>
+                                    <path d="M9 12l2 2 4-4.2"></path>
+                                </svg></span>
+                        </div>
+                        <h3>Partner Trust</h3>
+                        <p>We work as an extension of your team on the ground.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s" data-aos="fade-up" data-aos-duration="850" id="services">
+        <div class="c container">
+            <div class="e">Capabilities</div>
+            <h2>What We Bring<br />To The Journey</h2>
+            <p>A dependable destination team should feel like an extension of your own. We bring responsive
+                communication, destination expertise and hands-on support together to make planning and delivering
+                travel easier.</p>
+            <div class="services row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="svc h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <small>01</small>
+                        <div>
+                            <h3>FIT</h3>
+                            <p>Individual &amp; tailor-made travel.</p><a
+                                class="btn d-inline-flex align-items-center justify-content-center"
+                                href="contact.php">Explore →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="svc h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <small>02</small>
+                        <div>
+                            <h3>GIT</h3>
+                            <p>Group travel management.</p><a
+                                class="btn d-inline-flex align-items-center justify-content-center"
+                                href="contact.php">Explore →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="svc h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <small>03</small>
+                        <div>
+                            <h3>MICE</h3>
+                            <p>Meetings, incentives &amp; corporate travel.</p><a
+                                class="btn d-inline-flex align-items-center justify-content-center"
+                                href="contact.php">Explore →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="svc h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <small>04</small>
+                        <div>
+                            <h3>LUXURY</h3>
+                            <p>Premium &amp; bespoke experiences.</p><a
+                                class="btn d-inline-flex align-items-center justify-content-center"
+                                href="contact.php">Explore →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="svc h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <small>05</small>
+                        <div>
+                            <h3>EXPERIENCES</h3>
+                            <p>Curated destination activities.</p><a
+                                class="btn d-inline-flex align-items-center justify-content-center"
+                                href="contact.php">Explore →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="svc h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <small>06</small>
+                        <div>
+                            <h3>OPERATIONS</h3>
+                            <p>Transfers, logistics &amp; on-ground support.</p><a
+                                class="btn d-inline-flex align-items-center justify-content-center"
+                                href="contact.php">Explore →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s" data-aos="fade-up" data-aos-duration="850" id="team">
+        <div class="c container">
+            <div class="e">The Team</div>
+            <h2>The People<br />Behind The Journey</h2>
+            <p>
+                Meet Voyage 1's management team and destination experts, with local knowledge across the markets we
+                serve.
+            </p>
+            <div class="team-section">
+                <div class="team-label">Voyage 1 DMC Management</div>
+                <div class="team-grid row g-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"
+                            data-profile="naveen-kundu.php" role="link" tabindex="0">
+                            <img alt="Naveen Kundu" class="img-fluid" loading="lazy"
+                                src="assets/images/team/naveen-3-1-rr9y7i3cka872do3iychh1vy80m10kdttr1pfmk4ew.png" />
+                            <div class="pi"><strong>Naveen Kundu</strong><span>Chairman &amp; CEO</span>
+                                <div aria-label="Social media profiles" class="team-socials"><a
+                                        aria-label="Naveen Kundu on Instagram"
+                                        href="https://www.instagram.com/naveenkunduofficial/" rel="noopener noreferrer"
+                                        target="_blank" title="Instagram"><svg aria-hidden="true" viewbox="0 0 24 24">
+                                            <rect height="18" rx="5" width="18" x="3" y="3"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg></a><a aria-label="Naveen Kundu on LinkedIn"
+                                        href="https://www.linkedin.com/in/naveen-kundu-628ab511/"
+                                        rel="noopener noreferrer" target="_blank" title="LinkedIn"><svg
+                                            aria-hidden="true" viewbox="0 0 24 24">
+                                            <path d="M6.5 8.5v9"></path>
+                                            <path d="M6.5 5.5v.1"></path>
+                                            <path d="M11 17.5v-5a3 3 0 0 1 6 0v5"></path>
+                                            <path d="M11 11.5v6"></path>
+                                        </svg></a><a aria-label="Naveen Kundu on Facebook"
+                                        href="https://www.facebook.com/naveen.kundu.568/" rel="noopener noreferrer"
+                                        target="_blank" title="Facebook"><svg aria-hidden="true" class="facebook-glyph"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M13.7 21v-8h2.7l.4-3h-3.1V8.1c0-.9.2-1.5 1.6-1.5H17V4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2H8v3h2.6v8h3.1Z">
+                                            </path>
+                                        </svg></a></div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"
+                            data-profile="vishal-dhansinghani.php" role="link" tabindex="0">
+                            <img alt="Vishal Dhansinghani" class="img-fluid" loading="lazy"
+                                src="assets/images/team/vishal-mahesh-1-rr9y6jbbjewl4t2m61baesnw8rdg3rjrcywqodzot4.png" />
+                            <div class="pi"><strong>Vishal Dhansinghani</strong><span>Founder &amp; President, Sales
+                                    &amp; Marketing</span>
+                                <div aria-label="Social media profiles" class="team-socials"><a
+                                        aria-label="Vishal Dhansinghani on Instagram"
+                                        href="https://www.instagram.com/lavindhansinghani/" rel="noopener noreferrer"
+                                        target="_blank" title="Instagram"><svg aria-hidden="true" viewbox="0 0 24 24">
+                                            <rect height="18" rx="5" width="18" x="3" y="3"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg></a><a aria-label="Vishal Dhansinghani on LinkedIn"
+                                        href="https://www.linkedin.com/in/vishal-mahesh-747058422/"
+                                        rel="noopener noreferrer" target="_blank" title="LinkedIn"><svg
+                                            aria-hidden="true" viewbox="0 0 24 24">
+                                            <path d="M6.5 8.5v9"></path>
+                                            <path d="M6.5 5.5v.1"></path>
+                                            <path d="M11 17.5v-5a3 3 0 0 1 6 0v5"></path>
+                                            <path d="M11 11.5v6"></path>
+                                        </svg></a><a aria-label="Vishal Dhansinghani on Facebook"
+                                        href="https://www.facebook.com/share/1DDfy2rrdn/" rel="noopener noreferrer"
+                                        target="_blank" title="Facebook"><svg aria-hidden="true" class="facebook-glyph"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M13.7 21v-8h2.7l.4-3h-3.1V8.1c0-.9.2-1.5 1.6-1.5H17V4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2H8v3h2.6v8h3.1Z">
+                                            </path>
+                                        </svg></a></div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"
+                            data-profile="amit-kumar-sah.php" role="link" tabindex="0">
+                            <img alt="Amit Kumar Sah" class="img-fluid" loading="lazy"
+                                src="assets/images/team/amit-rr9yal0ayqg14d6zjaagn9wcbhfc8um5l01029zo5e.png" />
+                            <div class="pi"><strong>Amit Kumar</strong><span>Co-Founder &amp; President, Strategic
+                                    Alliance &amp; Finance</span>
+                                <div aria-label="Social media profiles" class="team-socials"><a
+                                        aria-label="Amit Kumar Sah on Instagram"
+                                        href="https://www.instagram.com/amitkumarsah2018/" rel="noopener noreferrer"
+                                        target="_blank" title="Instagram"><svg aria-hidden="true" viewbox="0 0 24 24">
+                                            <rect height="18" rx="5" width="18" x="3" y="3"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg></a><a aria-label="Amit Kumar Sah on LinkedIn"
+                                        href="https://www.linkedin.com/in/amit-kumar-78794331/"
+                                        rel="noopener noreferrer" target="_blank" title="LinkedIn"><svg
+                                            aria-hidden="true" viewbox="0 0 24 24">
+                                            <path d="M6.5 8.5v9"></path>
+                                            <path d="M6.5 5.5v.1"></path>
+                                            <path d="M11 17.5v-5a3 3 0 0 1 6 0v5"></path>
+                                            <path d="M11 11.5v6"></path>
+                                        </svg></a><a aria-label="Amit Kumar on Facebook"
+                                        href="https://www.facebook.com/amit.kumar.935419?mibextid=wwXIfr&amp;rdid=MNSXy4PIJ49D642V&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Bx1Z19mvs%2F%3Fmibextid%3DwwXIfr#"
+                                        rel="noopener noreferrer" target="_blank" title="Facebook"><svg
+                                            aria-hidden="true" class="facebook-glyph" viewBox="0 0 24 24">
+                                            <path
+                                                d="M13.7 21v-8h2.7l.4-3h-3.1V8.1c0-.9.2-1.5 1.6-1.5H17V4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2H8v3h2.6v8h3.1Z">
+                                            </path>
+                                        </svg></a></div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"
+                            data-profile="lavin-dhansinghani.php" role="link" tabindex="0">
+                            <img alt="Lavin Dhansinghani" class="img-fluid" loading="lazy"
+                                src="assets/images/team/lavin-2-1-rr9yblo0d9u7p5pql84wuinbhienl1noq1gxs2hba0.png" />
+                            <div class="pi"><strong>Lavin Dhansinghani</strong><span>Co-Founder &amp; President,
+                                    Business Development</span>
+                                <div aria-label="Social media profiles" class="team-socials"><a
+                                        aria-label="Lavin Dhansinghani on Instagram"
+                                        href="https://www.instagram.com/lavindhansinghani/" rel="noopener noreferrer"
+                                        target="_blank" title="Instagram"><svg aria-hidden="true" viewbox="0 0 24 24">
+                                            <rect height="18" rx="5" width="18" x="3" y="3"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg></a><a aria-label="Lavin Dhansinghani on LinkedIn"
+                                        href="https://www.linkedin.com/in/lavin-dhansinghani-ba5b3b335/"
+                                        rel="noopener noreferrer" target="_blank" title="LinkedIn"><svg
+                                            aria-hidden="true" viewbox="0 0 24 24">
+                                            <path d="M6.5 8.5v9"></path>
+                                            <path d="M6.5 5.5v.1"></path>
+                                            <path d="M11 17.5v-5a3 3 0 0 1 6 0v5"></path>
+                                            <path d="M11 11.5v6"></path>
+                                        </svg></a><a aria-label="Lavin Dhansinghani on Facebook"
+                                        href="https://www.facebook.com/share/1DuTZe5Fy3/" rel="noopener noreferrer"
+                                        target="_blank" title="Facebook"><svg aria-hidden="true" class="facebook-glyph"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M13.7 21v-8h2.7l.4-3h-3.1V8.1c0-.9.2-1.5 1.6-1.5H17V4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2H8v3h2.6v8h3.1Z">
+                                            </path>
+                                        </svg></a></div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="team-label">Voyage 1 DMC Expert Guide</div>
+                <div class="team-grid row g-4">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <img alt="Chander" class="img-fluid" loading="lazy"
+                                src="assets/images/team/chander-2-1.jpg" />
+                            <div class="pi"><strong>Chander Chugh</strong><span>Director - Sales &amp; Operations</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="160"
+                            data-aos-duration="750">
+                            <img alt="Shobna" class="img-fluid" loading="lazy" src="assets/images/team/shobhna-1.png" />
+                            <div class="pi"><strong>Shobna Govan</strong><span>Destination Head - South Africa</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="200"
+                            data-aos-duration="750">
+                            <img alt="Imelda" class="img-fluid" loading="lazy" src="assets/images/team/imelda.png" />
+                            <div class="pi"><strong>Imelda</strong><span>Destination Head - East Africa</span></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="120"
+                            data-aos-duration="750">
+                            <img alt="Uno Iqbal" class="img-fluid" loading="lazy"
+                                src="assets/images/team/image-18-2.png" />
+                            <div class="pi"><strong>Uno Iqbal</strong><span>Destination Head - Japan</span></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="160"
+                            data-aos-duration="750">
+                            <img alt="Catherine" class="img-fluid" loading="lazy"
+                                src="assets/images/team/catherine-vietnam.png" />
+                            <div class="pi"><strong>Catherine</strong><span>Destination Head - Vietnam</span></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="200"
+                            data-aos-duration="750">
+                            <img alt="Nini" class="img-fluid" loading="lazy" src="assets/images/team/NINI.png" />
+                            <div class="pi"><strong>Nini Abramishvili</strong><span>Destination Head - Georgia</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <img alt="Javed" class="img-fluid" loading="lazy" src="assets/images/team/javed-baku.png" />
+                            <div class="pi"><strong>Asgarli Javed</strong><span>Destination Head - Azerbaijan</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="120"
+                            data-aos-duration="750">
+                            <img alt="Faisal" class="img-fluid" loading="lazy" src="assets/images/team/faisal.png" />
+                            <div class="pi"><strong>Faisal</strong><span>Destination Head - Kazakhstan</span></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <img alt="Carol Ben" class="img-fluid" loading="lazy" src="assets/images/team/carol.png" />
+                            <div class="pi"><strong>Carol Ben</strong><span>Kenya · DMC
+                                    Head</span><small>kenyaops@voyage-one.com</small></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="160"
+                            data-aos-duration="750">
+                            <img alt="Yash Avlani" class="img-fluid" loading="lazy"
+                                src="assets/images/team/yash-Alvani.png" />
+                            <div class="pi"><strong>Yash Avlani</strong><span>Japan · OPS &amp; Reservations
+                                    Manager</span><small>japanops@voyage-one.com</small></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="120"
+                            data-aos-duration="750">
+                            <img alt="Ravi Kumar" class="img-fluid" loading="lazy"
+                                src="assets/images/team/ravi-kumar.png" />
+                            <div class="pi"><strong>Ravi Kumar</strong><span>Georgia · Reservations
+                                    Manager</span><small>georgiaops@voyage-one.com</small></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="160"
+                            data-aos-duration="750">
+                            <img alt="Arya Tendulkar" class="img-fluid" loading="lazy"
+                                src="assets/images/team/arya-tendulkar.png" />
+                            <div class="pi"><strong>Arya Tendulkar</strong><span>Inbound Head - Baku, Almaty,
+                                    Georgia</span></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <img alt="Jagadesh M" class="img-fluid" loading="lazy"
+                                src="assets/images/team/Jagdish.png" />
+                            <div class="pi"><strong>Jagadesh M</strong><span>Dubai ·
+                                    Logistics</span><small>dubaiops@voyage-one.com</small></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="team-card h-100" data-aos="fade-up" data-aos-delay="120"
+                            data-aos-duration="750">
+                            <img alt="Sachin Verma" class="img-fluid" loading="lazy"
+                                src="assets/images/team/sachin.png" />
+                            <div class="pi"><strong>Sachin Verma</strong><span>India · Account
+                                    Head</span><small>accounts2@voyage-one.com</small></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta" data-aos="fade-up" data-aos-duration="850" id="cta">
+        <div class="c container">
+            <div class="e">Start A Conversation</div>
+            <!-- CURRENT UPDATED CONTENT — Copy Audit row 48 / About CTA h2: <h2>Tell us where your clients want to go, what they want to experience and what matters most to them. We’ll bring the destination expertise, local connections and operational precision to make it happen</h2> -->
+            <h2>Let’s Create The<br />Next Journey Together.</h2>
+            <p>Whether it's an individual escape, a group adventure, a luxury itinerary or a corporate journey, our
+                destination specialists are ready to shape the right experience around your brief.</p><a
+                class="btn dark d-inline-flex align-items-center justify-content-center"
+                href="mailto:hello@voyage-one.com">Send Query →</a><a
+                class="btn d-inline-flex align-items-center justify-content-center" href="uae.php">Explore Destinations
+                →</a>
+        </div>
+    </section>
+    <footer class="vo-footer">
+        <div class="vo-shell container">
+            <div class="vo-footer-top row g-4 g-xl-5">
+                <div class="vo-footer-brand col-12 col-lg-5">
+                    <a class="vo-footer-logo" href="index.php"><img alt="Voyage 1 DMC logo" class="img-fluid"
+                            src="assets/images/voyage-one-logo__png.webp" /></a>
+                    <h3>Re-defining the Art of Destination Management<br />Connecting Destinations. Creating
+                        Experiences.</h3>
+                    <p>Creating seamless travel experiences through local knowledge, trusted partnerships and responsive
+                        destination teams.</p>
+                    <div class="vo-footer-contact">
+                        <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+                        <a href="tel:+971521672038">+971 52 167 2038</a>
+                        <a href="tel:+91921758633">+91 921758633</a>
+                    </div>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Explore</h4>
+                    <a href="index.php">Home</a><a href="uae.php">Destinations</a><a
+                        href="index.php#services">Services</a><a href="about-us.php">About Us</a><a
+                        href="media.php">Media</a><a href="careers.php">Careers</a>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Destinations</h4><a href="south-africa.php">South Africa</a><a href="kenya.php">Kenya</a><a
+                        href="tanzania.php">Tanzania</a><a href="japan.php">Japan</a><a href="georgia.php">Georgia</a><a
+                        href="kazakhstan.php">Kazakhstan</a><a href="azerbaijan.php">Azerbaijan</a><a
+                        href="uae.php">United Arab Emirates</a><a href="vietnam.php">Vietnam</a>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Contact Us</h4>
+                    <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+                    <a href="tel:+971521672038">+971 52 167 2038</a><a href="tel:+91921758633">+91 921758633</a>
+                    <div class="vo-footer-office">
+                        <small>GLOBAL OFFICE</small>
+                        <strong>Dubai, UAE</strong>
+                        <span>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer</span>
+                    </div>
+                    <div aria-label="Voyage 1 social media" class="vo-footer-socials">
+                        <a aria-label="Voyage 1 on Instagram" href="https://www.instagram.com/voyage1dmc/"
+                            rel="noopener noreferrer" target="_blank" title="Instagram">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <rect fill="none" height="17.5" rx="5.2" stroke="currentColor" stroke-width="1.8"
+                                    width="17.5" x="3.25" y="3.25"></rect>
+                                <circle cx="12" cy="12" fill="none" r="4.1" stroke="currentColor" stroke-width="1.8">
+                                </circle>
+                                <circle cx="17.45" cy="6.65" fill="currentColor" r="1.15"></circle>
+                            </svg>
+                        </a>
+                        <a aria-label="Voyage 1 on Facebook" href="https://www.facebook.com/Voyage1DMC"
+                            rel="noopener noreferrer" target="_blank" title="Facebook">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M13.65 21v-7h2.55l.4-3h-2.95V9.08c0-.87.24-1.46 1.5-1.46h1.61V4.94c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.06V11H7.8v3h2.66v7h3.19Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Voyage 1 on LinkedIn" href="https://www.linkedin.com/company/voyageonedmc/home/"
+                            rel="noopener noreferrer" target="_blank" title="LinkedIn">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M6.2 8.25H3.05V21H6.2V8.25ZM4.62 3A1.88 1.88 0 1 0 4.62 6.76 1.88 1.88 0 0 0 4.62 3ZM8.62 8.25V21h3.15v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.06 1.9 2.06 3.38V21h3.15v-6.85c0-3.37-.73-5.96-4.7-5.96-1.91 0-3.19 1.05-3.71 2.05h-.04v-1.99H8.62Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Chat with Voyage 1 on WhatsApp" href="https://wa.me/971521672038"
+                            rel="noopener noreferrer" target="_blank" title="WhatsApp">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="vo-footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026
+                    Voyage 1 DMC. All rights reserved.</span><span><a href="contact.php">Contact</a></span></div>
+        </div>
+    </footer>
+    <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/global.js"></script>
+</body>
+
+</html>

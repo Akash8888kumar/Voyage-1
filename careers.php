@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Careers | Voyage 1 DMC</title>
+  <meta
+    content="Build meaningful journeys with Voyage 1. Explore opportunities across destination operations, travel, MICE, partnerships, marketing and more."
+    name="description" />
+  <link href="assets/vendor/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/site.css" rel="stylesheet" />
+  <script>(function () { var d = document.documentElement; d.classList.add('js-reveal'); try { if (sessionStorage.getItem('voyage-loader-seen') === '1') { d.classList.add('vo-loader-skip'); } } catch (e) { } })();</script>
+  <noscript>
+    <style>
+      html.js-reveal [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important
+      }
+
+      .btn {
+    background: #162A4B !important;
+    color: #ffff !important;
+    border-color: #162A4B !important;
+}
+
+    </style>
+  </noscript>
+</head>
+
+<body class="page-careers">
+  <!-- CAREERS COPY UPDATE: Active copy sourced from Voyage_1_copy_all_pages(1).xlsx, sheet "Careers Page", column "Shreya". Previous replaced copy is preserved inline as OLD CONTENT comments. -->
+  <div aria-hidden="true" class="vo-site-loader" data-site-loader="">
+    <div class="vo-loader-inner">
+      <div aria-hidden="true" class="vo-loader-logo-wrap"><img alt="" class="vo-loader-brand-logo"
+          src="assets/images/voyage-one-logo__png.webp" /></div>
+      <div class="vo-loader-track"><span></span></div>
+      <div class="vo-loader-caption">Curating your next journey</div>
+    </div>
+  </div>
+  <header class="vo-header sticky-top">
+    <nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light py-0">
+      <div class="container"><a aria-label="Voyage 1 home" class="navbar-brand vo-brand" href="index.php"><img
+            alt="Voyage 1 DMC logo" class="img-fluid" height="74" src="assets/images/voyage-one-logo__png.webp"
+            width="74" /></a><button aria-controls="voyageNavbar" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler vo-navbar-toggler" data-bs-target="#voyageNavbar" data-bs-toggle="collapse"
+          type="button"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="voyageNavbar">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown" href="about-us.php">About Us</a>
+              <ul class="dropdown-menu vo-bootstrap-dropdown">
+                <li><a class="dropdown-item" href="about-us.php#intro"><span class="vo-drop-index">01</span><span
+                      class="vo-drop-label">Who We Are</span></a></li>
+                <li><a class="dropdown-item" href="about-us.php#story"><span class="vo-drop-index">02</span><span
+                      class="vo-drop-label">Our Story</span></a></li>
+                <li><a class="dropdown-item" href="about-us.php#services"><span class="vo-drop-index">03</span><span
+                      class="vo-drop-label">What We Bring To The Journey</span></a></li>
+                <li><a class="dropdown-item" href="about-us.php#team"><span class="vo-drop-index">04</span><span
+                      class="vo-drop-label">Our Team</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown" href="index.php#destinations">Destinations</a>
+              <ul class="dropdown-menu vo-bootstrap-dropdown">
+                <li><a class="dropdown-item" href="south-africa.php"><span class="vo-drop-index">ZA</span><span
+                      class="vo-drop-label">South Africa</span></a></li>
+                <li><a class="dropdown-item" href="kenya.php"><span class="vo-drop-index">KE</span><span
+                      class="vo-drop-label">Kenya</span></a></li>
+                <li><a class="dropdown-item" href="tanzania.php"><span class="vo-drop-index">TZ</span><span
+                      class="vo-drop-label">Tanzania</span></a></li>
+                <li><a class="dropdown-item" href="japan.php"><span class="vo-drop-index">JP</span><span
+                      class="vo-drop-label">Japan</span></a></li>
+                <li><a class="dropdown-item" href="georgia.php"><span class="vo-drop-index">GE</span><span
+                      class="vo-drop-label">Georgia</span></a></li>
+                <li><a class="dropdown-item" href="kazakhstan.php"><span class="vo-drop-index">KZ</span><span
+                      class="vo-drop-label">Kazakhstan</span></a></li>
+                <li><a class="dropdown-item" href="azerbaijan.php"><span class="vo-drop-index">AZ</span><span
+                      class="vo-drop-label">Azerbaijan</span></a></li>
+                <li><a class="dropdown-item" href="uae.php"><span class="vo-drop-index">UAE</span><span
+                      class="vo-drop-label">United Arab Emirates</span></a></li>
+                <li><a class="dropdown-item" href="vietnam.php"><span class="vo-drop-index">VN</span><span
+                      class="vo-drop-label">Vietnam</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown" href="media.php">Media</a>
+              <ul class="dropdown-menu vo-bootstrap-dropdown">
+                <li><a class="dropdown-item" href="media.php#blogs"><span class="vo-drop-index">01</span><span
+                      class="vo-drop-label">Media Coverage</span></a></li>
+                <li><a class="dropdown-item" href="media.php#events"><span class="vo-drop-index">02</span><span
+                      class="vo-drop-label">Events &amp; Exhibitions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active" href="careers.php">Careers</a></li>
+          </ul><a class="btn vo-header-cta ms-lg-4 mt-3 mt-lg-0 d-inline-flex align-items-center justify-content-center"
+            href="contact.php">Send Query <span>→</span></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="page">
+    <section class="career-hero"
+      style="background-image:url('assets/images/career-page-banner.webp') !important; background-size:cover !important; background-position:center right !important;">
+      <div class="container">
+        <div class="career-hero-content" data-aos="fade-up" data-aos-duration="850">
+          <div class="eyebrow">Careers</div>
+          <!-- OLD CONTENT — Careers Excel row 5 / Hero heading: <h1>Your next journey starts here.</h1> -->
+          <h1>Your next adventure starts here.</h1>
+          <!-- OLD CONTENT — Careers Excel row 6 / Hero paragraph: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p> -->
+          <p>Love travel? Love people? Come build a career where every day takes you somewhere new.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section career-intro" id="culture">
+      <div class="container">
+        <div class="career-split row g-4 g-lg-5 align-items-start">
+          <div class="heading col-12 col-lg-6" data-aos="fade-up">
+            <div class="eyebrow">The Voyage 1 way</div>
+            <!-- OLD CONTENT — Careers Excel row 7 / Culture Intro heading: <h2>Do work that makes the journey better.</h2> -->
+            <h2>Do work that takes you places.</h2>
+          </div>
+          <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <!-- OLD CONTENT — Careers Excel row 8 / Culture Intro paragraph 1: <p class="big">We work behind the scenes so our partners can create remarkable journeys in front of their clients. That takes people who care about the details, move with purpose and know that hospitality is a team sport.</p> -->
+            <p class="big">We believe work should be exciting, meaningful and full of possibility. At Voyage 1, you work
+              with destinations, people and ideas that turn travel into experiences worth remembering.</p>
+            <!-- OLD CONTENT — Careers Excel row 9 / Culture Intro paragraph 2: <p>Across destinations, disciplines and time zones, we share one standard: make it seamless, make it human, and leave every itinerary better than we found it.</p> -->
+            <p>Across teams, destinations and cultures, we bring energy, curiosity and ownership to everything we do.
+              Because great journeys start with great people.</p>
+          </div>
+        </div>
+        <div class="career-values row g-3">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="career-value h-100" data-aos="fade-up"><span>01</span>
+              <h3>Own the outcome</h3>
+              <!-- OLD CONTENT — Careers Excel row 11 / Culture Values / Own the outcome: <p>Take responsibility from the first brief to the final detail. We value people who turn plans into progress.</p> -->
+              <p>Take responsibility, make things happen and see your ideas through. We believe the best people don’t
+                wait for instructions—they create momentum.</p>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="career-value h-100" data-aos="fade-up" data-aos-delay="70"><span>02</span>
+              <h3>Stay curious</h3>
+              <!-- OLD CONTENT — Careers Excel row 13 / Culture Values / Stay curious: <p>Destinations change. Travellers change. We keep learning, asking better questions and looking beyond the obvious.</p> -->
+              <p>The world keeps changing. So do we. Keep exploring, keep learning and never stop asking what’s next.
+              </p>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="career-value h-100" data-aos="fade-up" data-aos-delay="140"><span>03</span>
+              <h3>Care deeply</h3>
+              <!-- OLD CONTENT — Careers Excel row 15 / Culture Values / Care deeply: <p>Precision matters, but so does empathy. We build trust through thoughtful communication and dependable follow-through.</p> -->
+              <p>Travel is personal. So are the relationships behind it. We care about our partners, our people and
+                getting the details right.</p>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="career-value h-100" data-aos="fade-up" data-aos-delay="210"><span>04</span>
+              <h3>Think globally</h3>
+              <!-- OLD CONTENT — Careers Excel row 17 / Culture Values / Think globally: <p>Bring a wider perspective to local expertise. Different cultures and viewpoints make our work stronger.</p> -->
+              <p>Different destinations, cultures and perspectives make us better. Bring your point of view, stay open
+                and think beyond the obvious.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="career-image-band">
+      <div aria-label="Voyage 1 team members discussing travel planning" class="career-image-panel" role="img"></div>
+      <div class="career-image-copy">
+        <div class="eyebrow">Life at Voyage 1</div>
+        <!-- OLD CONTENT — Careers Excel row 18 / Life at Voyage 1 heading: <h2>Placeholder content goes here.</h2> -->
+        <h2>Work hard. Travel far. Have fun.</h2>
+        <!-- OLD CONTENT — Careers Excel row 19 / Life at Voyage 1 paragraph: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p> -->
+        <p>At Voyage 1, no two days are quite the same. Expect new destinations, new ideas, new people and plenty of
+          reasons to love what you do.</p>
+        <a class="text-link" href="#roles">Learn more →</a>
+      </div>
+    </section>
+    <section class="section career-roles" id="roles">
+      <div class="container">
+        <div class="career-roles-head" data-aos="fade-up">
+          <div>
+            <div class="eyebrow">Opportunities</div>
+            <h2>Find your place at Voyage 1.</h2>
+          </div>
+          <!-- OLD CONTENT — Careers Excel row 21 / Application Section paragraph: <p>We are always interested in people who bring expertise, energy and a genuine love of travel. Share your profile with us and our team will get in touch when there is a relevant opportunity.</p> -->
+          <p>We’re looking for people with energy, curiosity, expertise and a genuine love for travel. If you’re ready
+            to build something bigger than a job, we’d love to hear from you.</p>
+        </div>
+        <div class="career-application" data-aos="fade-up" data-aos-delay="80">
+          <div class="career-form-intro">
+            <div>
+              <span class="career-form-kicker">Open application</span>
+              <h3>Tell us about yourself.</h3>
+              <p class="career-form-note">Fields marked <strong>*</strong> are required. Please upload your latest
+                resume in PDF, DOC or DOCX format.</p>
+            </div>
+
+          </div>
+
+
+  <form
+    action="career-application.php"
+    class="career-form"
+    enctype="multipart/form-data"
+    id="career-application-form"
+    method="POST"
+>
+
+  <div class="career-form-grid">
+
+    <div class="career-field">
+      <label for="career-first-name">
+        First name <span>*</span>
+      </label>
+
+      <input
+        autocomplete="given-name"
+        class="form-control"
+        id="career-first-name"
+        name="first_name"
+        placeholder="Your first name"
+        required
+        type="text"
+      />
+    </div>
+
+
+    <div class="career-field">
+      <label for="career-last-name">
+        Last name <span>*</span>
+      </label>
+
+      <input
+        autocomplete="family-name"
+        class="form-control"
+        id="career-last-name"
+        name="last_name"
+        placeholder="Your last name"
+        type="text"
+      />
+    </div>
+
+
+    <div class="career-field">
+      <label for="career-email">
+        Email address <span>*</span>
+      </label>
+
+      <input
+        autocomplete="email"
+        class="form-control"
+        id="career-email"
+        name="email"
+        placeholder="you@example.com"
+        required
+        type="email"
+      />
+    </div>
+
+
+    <div class="career-field">
+      <label for="career-phone">
+        Phone / WhatsApp
+      </label>
+
+      <input
+        autocomplete="tel"
+        class="form-control"
+        id="career-phone"
+        name="phone"
+        placeholder="+971 00 000 0000"
+        type="tel"
+      />
+    </div>
+
+
+    <div class="career-field">
+      <label for="career-country">
+        Country <span>*</span>
+      </label>
+
+      <input
+        autocomplete="country-name"
+        class="form-control"
+        id="career-country"
+        name="country"
+        placeholder="Country of residence"
+        required
+        type="text"
+      />
+    </div>
+
+
+    <div class="career-field">
+      <label for="career-interest">
+        Area of interest <span>*</span>
+      </label>
+
+      <select
+        class="form-select"
+        id="career-interest"
+        name="area_of_interest"
+        required
+      >
+        <option disabled selected value="">
+          Select an area
+        </option>
+
+        <option>Destination Operations</option>
+        <option>MICE &amp; Group Travel</option>
+        <option>Commercial &amp; Partnerships</option>
+        <option>Business Development</option>
+        <option>Creative, Content &amp; Brand</option>
+        <option>People &amp; Corporate</option>
+        <option>Other / Open Application</option>
+      </select>
+    </div>
+
+
+    <div class="career-field career-field-full career-upload-field">
+
+      <label for="career-resume">
+        Resume / CV <span>*</span>
+      </label>
+
+      <label class="career-upload" for="career-resume">
+
+        <span class="career-upload-icon">↑</span>
+
+        <span>
+          <strong>Upload your resume</strong>
+          <small>PDF, DOC or DOCX · Max 10 MB</small>
+        </span>
+
+        <span class="career-upload-action">
+          Choose file
+        </span>
+
+      </label>
+
+      <input
+        accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        class="career-file-input form-control"
+        id="career-resume"
+        name="resume"
+        required
+        type="file"
+      />
+
+      <div
+        aria-live="polite"
+        class="career-file-name"
+        id="career-file-name"
+      >
+        No file selected
+      </div>
+
+    </div>
+
+
+    <div class="career-field career-field-full">
+
+      <label for="career-message">
+        Short note
+      </label>
+
+      <textarea
+        class="form-control"
+        id="career-message"
+        name="message"
+        placeholder="Tell us briefly about your experience and the kind of opportunity you are looking for."
+        rows="5"
+      ></textarea>
+
+    </div>
+
+  </div>
+
+
+  <label class="career-consent" for="career-consent">
+
+    <input
+      class="form-check-input"
+      id="career-consent"
+      name="privacy_consent"
+      required
+      type="checkbox"
+    />
+
+    <span>
+      I consent to Voyage 1 using the information in this application
+      for recruitment purposes.
+      <strong>*</strong>
+    </span>
+
+  </label>
+
+
+  <div class="career-form-submit">
+
+    <p>
+      Your details will only be used for recruitment and opportunities at Voyage 1.
+    </p>
+
+    <button
+      class="btn primary d-inline-flex align-items-center justify-content-center"
+      id="career-submit-btn"
+      type="submit" style="border: 1px solid #162A4B;"
+    >
+      Submit application →
+    </button>
+
+  </div>
+
+
+  <div
+    aria-live="polite"
+    class="career-form-status"
+    id="career-form-status"
+  ></div>
+
+</form>
+         
+          <!-- <form action="#" class="career-form" enctype="multipart/form-data" id="career-application-form" method="post">
+            <div class="career-form-grid">
+              <div class="career-field">
+                <label for="career-first-name">First name <span>*</span></label>
+                <input autocomplete="given-name" class="form-control" id="career-first-name" name="first_name"
+                  placeholder="Your first name" required="" type="text" />
+              </div>
+              <div class="career-field">
+                <label for="career-last-name">Last name <span>*</span></label>
+                <input autocomplete="family-name" class="form-control" id="career-last-name" name="last_name"
+                  placeholder="Your last name" required="" type="text" />
+              </div>
+              <div class="career-field">
+                <label for="career-email">Email address <span>*</span></label>
+                <input autocomplete="email" class="form-control" id="career-email" name="email"
+                  placeholder="you@example.com" required="" type="email" />
+              </div>
+              <div class="career-field">
+                <label for="career-phone">Phone / WhatsApp</label>
+                <input autocomplete="tel" class="form-control" id="career-phone" name="phone"
+                  placeholder="+971 00 000 0000" type="tel" />
+              </div>
+              <div class="career-field">
+                <label for="career-country">Country <span>*</span></label>
+                <input autocomplete="country-name" class="form-control" id="career-country" name="country"
+                  placeholder="Country of residence" required="" type="text" />
+              </div>
+              <div class="career-field">
+                <label for="career-interest">Area of interest <span>*</span></label>
+                <select class="form-select" id="career-interest" name="area_of_interest" required="">
+                  <option disabled="" selected="" value="">Select an area</option>
+                  <option>Destination Operations</option>
+                  <option>MICE &amp; Group Travel</option>
+                  <option>Commercial &amp; Partnerships</option>
+                  <option>Business Development</option>
+                  <option>Creative, Content &amp; Brand</option>
+                  <option>People &amp; Corporate</option>
+                  <option>Other / Open Application</option>
+                </select>
+              </div>
+              <div class="career-field career-field-full career-upload-field">
+                <label for="career-resume">Resume / CV <span>*</span></label>
+                <label class="career-upload" for="career-resume">
+                  <span class="career-upload-icon">↑</span>
+                  <span><strong>Upload your resume</strong><small>PDF, DOC or DOCX · Max 10 MB</small></span>
+                  <span class="career-upload-action">Choose file</span>
+                </label>
+                <input
+                  accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                  class="career-file-input form-control" id="career-resume" name="resume" required="" type="file" />
+                <div aria-live="polite" class="career-file-name" id="career-file-name">No file selected</div>
+              </div>
+              <div class="career-field career-field-full">
+                <label for="career-message">Short note</label>
+                <textarea class="form-control" id="career-message" name="message"
+                  placeholder="Tell us briefly about your experience and the kind of opportunity you are looking for."
+                  rows="5"></textarea>
+              </div>
+            </div>
+            <label class="career-consent" for="career-consent">
+              <input class="form-check-input" id="career-consent" name="privacy_consent" required="" type="checkbox" />
+              <span>I consent to Voyage 1 using the information in this application for recruitment purposes.
+                <strong>*</strong></span>
+            </label>
+            <div class="career-form-submit">
+              <p>Your details will only be used for recruitment and opportunities at Voyage 1.</p>
+              <button class="btn primary d-inline-flex align-items-center justify-content-center" type="submit">Submit
+                application →</button>
+            </div>
+            <div aria-live="polite" class="career-form-status" id="career-form-status"></div>
+          </form> -->
+
+
+        </div>
+      </div>
+    </section>
+    <section class="career-principles">
+      <div class="container">
+        <div class="career-principles-grid row g-4 g-lg-5 align-items-center">
+          <div class="col-12 col-lg-6"><span class="eyebrow">More than a
+              job</span><!-- OLD CONTENT — Careers Excel row 25 / More Than a Job heading: <h2>Make an impact across destinations.</h2> -->
+            <h2>We don’t give jobs. We build careers.</h2>
+            <!-- OLD CONTENT — Careers Excel row 26 / More Than a Job paragraph: <p>Our work crosses borders, cultures and disciplines. We want people who enjoy that energy and bring generosity to every collaboration.</p> -->
+            <p>Voyage 1 is for people who want more than a desk and a designation. Come build your expertise, expand
+              your world and be part of journeys that cross destinations, cultures and borders.</p>
+          </div>
+          <div class="career-principle-list col-12 col-lg-6">
+            <div>
+              <span>→</span><!-- OLD CONTENT — Careers Excel row 28 / More Than a Job item: <p><strong>Meaningful ownership</strong><br/>Work close to the outcome and see your ideas become real journeys.</p> --><!-- OLD CONTENT — Careers Excel row 27-28 / More Than a Job item: <p><strong>Meaningful ownership</strong><br/>Take ownership, bring your ideas to life and see the impact of your work.</p> -->
+              <p><strong>Make It Yours.</strong><br />Take ownership, bring your ideas to life and see the impact of
+                your work.</p>
+            </div>
+            <div>
+              <span>→</span><!-- OLD CONTENT — Careers Excel row 30 / More Than a Job item: <p><strong>Destination exposure</strong><br/>Learn from local specialists and the markets we serve across our network.</p> --><!-- OLD CONTENT — Careers Excel row 29-30 / More Than a Job item: <p><strong>Destination exposure</strong><br/>Work across destinations, learn from local experts and discover how travel really comes together.</p> -->
+              <p><strong>See The World Differently.</strong><br />Work across destinations, learn from local experts and
+                discover how travel really comes together.</p>
+            </div>
+            <div>
+              <span>→</span><!-- OLD CONTENT — Careers Excel row 32 / More Than a Job item: <p><strong>Human collaboration</strong><br/>Work with people who value clarity, respect and getting the details right.</p> --><!-- OLD CONTENT — Careers Excel row 31-32 / More Than a Job item: <p><strong>Human collaboration</strong><br/>Collaborate with people who are curious, ambitious, generous and serious about creating something exceptional.</p> -->
+              <p><strong>Grow With Great People.</strong><br />Collaborate with people who are curious, ambitious,
+                generous and serious about creating something exceptional.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="vo-footer">
+      <div class="vo-shell container">
+        <div class="vo-footer-top row g-4 g-xl-5">
+          <div class="vo-footer-brand col-12 col-lg-5">
+            <a class="vo-footer-logo" href="index.php"><img alt="Voyage 1 DMC logo" class="img-fluid"
+                src="assets/images/voyage-one-logo__png.webp" /></a>
+            <h3>Re-defining the Art of Destination Management<br />Connecting Destinations. Creating Experiences.</h3>
+            <p>Creating seamless travel experiences through local knowledge, trusted partnerships and responsive
+              destination teams.</p>
+            <div class="vo-footer-contact">
+              <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+              <a href="tel:+971521672038">+971 52 167 2038</a>
+              <a href="tel:+91921758633">+91 921758633</a>
+            </div>
+          </div>
+          <div class="vo-footer-column col-6 col-md-4 col-lg">
+            <h4>Explore</h4>
+            <a href="index.php">Home</a><a href="uae.php">Destinations</a><a href="index.php#services">Services</a><a
+              href="about-us.php">About Us</a><a href="media.php">Media</a><a href="careers.php">Careers</a>
+          </div>
+          <div class="vo-footer-column col-6 col-md-4 col-lg">
+            <h4>Destinations</h4><a href="south-africa.php">South Africa</a><a href="kenya.php">Kenya</a><a
+              href="tanzania.php">Tanzania</a><a href="japan.php">Japan</a><a href="georgia.php">Georgia</a><a
+              href="kazakhstan.php">Kazakhstan</a><a href="azerbaijan.php">Azerbaijan</a><a href="uae.php">United Arab
+              Emirates</a><a href="vietnam.php">Vietnam</a>
+          </div>
+          <div class="vo-footer-column col-6 col-md-4 col-lg">
+            <h4>Contact Us</h4>
+            <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+            <a href="tel:+971521672038">+971 52 167 2038</a><a href="tel:+91921758633">+91 921758633</a>
+            <div class="vo-footer-office">
+              <small>GLOBAL OFFICE</small>
+              <strong>Dubai, UAE</strong>
+              <span>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer</span>
+            </div>
+            <div aria-label="Voyage 1 social media" class="vo-footer-socials">
+              <a aria-label="Voyage 1 on Instagram" href="https://www.instagram.com/voyage1dmc/"
+                rel="noopener noreferrer" target="_blank" title="Instagram">
+                <svg aria-hidden="true" viewbox="0 0 24 24">
+                  <rect fill="none" height="17.5" rx="5.2" stroke="currentColor" stroke-width="1.8" width="17.5"
+                    x="3.25" y="3.25"></rect>
+                  <circle cx="12" cy="12" fill="none" r="4.1" stroke="currentColor" stroke-width="1.8"></circle>
+                  <circle cx="17.45" cy="6.65" fill="currentColor" r="1.15"></circle>
+                </svg>
+              </a>
+              <a aria-label="Voyage 1 on Facebook" href="https://www.facebook.com/Voyage1DMC" rel="noopener noreferrer"
+                target="_blank" title="Facebook">
+                <svg aria-hidden="true" viewbox="0 0 24 24">
+                  <path
+                    d="M13.65 21v-7h2.55l.4-3h-2.95V9.08c0-.87.24-1.46 1.5-1.46h1.61V4.94c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.06V11H7.8v3h2.66v7h3.19Z"
+                    fill="currentColor"></path>
+                </svg>
+              </a>
+              <a aria-label="Voyage 1 on LinkedIn" href="https://www.linkedin.com/company/voyageonedmc/home/"
+                rel="noopener noreferrer" target="_blank" title="LinkedIn">
+                <svg aria-hidden="true" viewbox="0 0 24 24">
+                  <path
+                    d="M6.2 8.25H3.05V21H6.2V8.25ZM4.62 3A1.88 1.88 0 1 0 4.62 6.76 1.88 1.88 0 0 0 4.62 3ZM8.62 8.25V21h3.15v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.06 1.9 2.06 3.38V21h3.15v-6.85c0-3.37-.73-5.96-4.7-5.96-1.91 0-3.19 1.05-3.71 2.05h-.04v-1.99H8.62Z"
+                    fill="currentColor"></path>
+                </svg>
+              </a>
+              <a aria-label="Chat with Voyage 1 on WhatsApp" href="https://wa.me/971521672038" rel="noopener noreferrer"
+                target="_blank" title="WhatsApp">
+                <svg aria-hidden="true" viewbox="0 0 24 24">
+                  <path
+                    d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z"
+                    fill="currentColor"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="vo-footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026 Voyage 1
+            DMC. All rights reserved.</span><span><a href="contact.php">Contact</a></span></div>
+      </div>
+    </footer>
+
+   <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.getElementById("career-application-form");
+    const status = document.getElementById("career-form-status");
+    const submitBtn = document.getElementById("career-submit-btn");
+
+    if (!form) return;
+
+    form.addEventListener("submit", async function (e) {
+
+        e.preventDefault();
+
+        status.innerHTML = "Sending application...";
+        status.style.color = "#333";
+
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = "Sending...";
+
+        const formData = new FormData(form);
+
+        try {
+
+            const response = await fetch("career-application.php", {
+                method: "POST",
+                body: formData
+            });
+
+            const result = await response.text();
+
+            console.log("PHP Response:", result);
+
+            if (result.trim() === "success") {
+
+                status.innerHTML = "Application submitted successfully.";
+                status.style.color = "green";
+
+                form.reset();
+
+                const fileName = document.getElementById("career-file-name");
+
+                if (fileName) {
+                    fileName.textContent = "No file selected";
+                }
+
+            } else {
+
+                status.innerHTML = result;
+                status.style.color = "red";
+
+            }
+
+        } catch (error) {
+
+            console.error(error);
+
+            status.innerHTML =
+                "Something went wrong. Please try again.";
+
+            status.style.color = "red";
+
+        } finally {
+
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = "Submit application →";
+
+        }
+
+    });
+
+});
+</script>
+
+    <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/global.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var fileInput = document.getElementById('career-resume');
+        var fileName = document.getElementById('career-file-name');
+        var form = document.getElementById('career-application-form');
+        var status = document.getElementById('career-form-status');
+
+        if (fileInput && fileName) {
+          fileInput.addEventListener('change', function () {
+            fileName.textContent = fileInput.files && fileInput.files.length ? fileInput.files[0].name : 'No file selected';
+          });
+        }
+
+        if (form) {
+          form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            if (!form.reportValidity()) return;
+            if (status) status.textContent = 'Application form is ready to connect to your recruitment inbox or ATS.';
+          });
+        }
+      });
+    </script>
+  </main>
+</body>
+
+</html>

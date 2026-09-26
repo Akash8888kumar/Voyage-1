@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Media | Voyage 1 DMC</title>
+  <meta
+    content="Latest Voyage 1 media coverage, press stories and industry news from leading travel trade publications."
+    name="description" />
+  <link href="assets/vendor/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/site.css" rel="stylesheet" />
+  <script>(function () { var d = document.documentElement; d.classList.add('js-reveal'); try { if (sessionStorage.getItem('voyage-loader-seen') === '1') { d.classList.add('vo-loader-skip'); } } catch (e) { } })();</script>
+  <noscript>
+    <style>
+      html.js-reveal [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important
+      }
+    </style>
+  </noscript>
+</head>
+
+<body class="page-media">
+  <div aria-hidden="true" class="vo-site-loader" data-site-loader="">
+    <div class="vo-loader-inner">
+      <div aria-hidden="true" class="vo-loader-logo-wrap"><img alt="" class="vo-loader-brand-logo"
+          src="assets/images/voyage-one-logo__png.webp" /></div>
+      <div class="vo-loader-track"><span></span></div>
+      <div class="vo-loader-caption">Curating your next journey</div>
+    </div>
+  </div>
+  <header class="vo-header sticky-top">
+    <nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light py-0">
+      <div class="container"><a aria-label="Voyage 1 home" class="navbar-brand vo-brand" href="index.php"><img
+            alt="Voyage 1 DMC logo" class="img-fluid" height="74" src="assets/images/voyage-one-logo__png.webp"
+            width="74" /></a><button aria-controls="voyageNavbar" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler vo-navbar-toggler" data-bs-target="#voyageNavbar" data-bs-toggle="collapse"
+          type="button"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="voyageNavbar">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown" href="about-us.php">About Us</a>
+              <ul class="dropdown-menu vo-bootstrap-dropdown">
+                <li><a class="dropdown-item" href="about-us.php#intro"><span class="vo-drop-index">01</span><span
+                      class="vo-drop-label">Who We Are</span></a></li>
+                <li><a class="dropdown-item" href="about-us.php#story"><span class="vo-drop-index">02</span><span
+                      class="vo-drop-label">Our Story</span></a></li>
+                <li><a class="dropdown-item" href="about-us.php#services"><span class="vo-drop-index">03</span><span
+                      class="vo-drop-label">What We Bring To The Journey</span></a></li>
+                <li><a class="dropdown-item" href="about-us.php#team"><span class="vo-drop-index">04</span><span
+                      class="vo-drop-label">Our Team</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown" href="index.php#destinations">Destinations</a>
+              <ul class="dropdown-menu vo-bootstrap-dropdown">
+                <li><a class="dropdown-item" href="south-africa.php"><span class="vo-drop-index">ZA</span><span
+                      class="vo-drop-label">South Africa</span></a></li>
+                <li><a class="dropdown-item" href="kenya.php"><span class="vo-drop-index">KE</span><span
+                      class="vo-drop-label">Kenya</span></a></li>
+                <li><a class="dropdown-item" href="tanzania.php"><span class="vo-drop-index">TZ</span><span
+                      class="vo-drop-label">Tanzania</span></a></li>
+                <li><a class="dropdown-item" href="japan.php"><span class="vo-drop-index">JP</span><span
+                      class="vo-drop-label">Japan</span></a></li>
+                <li><a class="dropdown-item" href="georgia.php"><span class="vo-drop-index">GE</span><span
+                      class="vo-drop-label">Georgia</span></a></li>
+                <li><a class="dropdown-item" href="kazakhstan.php"><span class="vo-drop-index">KZ</span><span
+                      class="vo-drop-label">Kazakhstan</span></a></li>
+                <li><a class="dropdown-item" href="azerbaijan.php"><span class="vo-drop-index">AZ</span><span
+                      class="vo-drop-label">Azerbaijan</span></a></li>
+                <li><a class="dropdown-item" href="uae.php"><span class="vo-drop-index">UAE</span><span
+                      class="vo-drop-label">United Arab Emirates</span></a></li>
+                <li><a class="dropdown-item" href="vietnam.php"><span class="vo-drop-index">VN</span><span
+                      class="vo-drop-label">Vietnam</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle active"
+                data-bs-toggle="dropdown" href="media.php">Media</a>
+              <ul class="dropdown-menu vo-bootstrap-dropdown">
+                <li><a class="dropdown-item" href="media.php#blogs"><span class="vo-drop-index">01</span><span
+                      class="vo-drop-label">Media Coverage</span></a></li>
+                <li><a class="dropdown-item" href="media.php#events"><span class="vo-drop-index">02</span><span
+                      class="vo-drop-label">Events &amp; Exhibitions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="careers.php">Careers</a></li>
+          </ul><a class="btn vo-header-cta ms-lg-4 mt-3 mt-lg-0 d-inline-flex align-items-center justify-content-center"
+            href="contact.php">Send Query <span>→</span></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="page">
+    <section class="media-hero" id="media-top"
+      style="background-image:url('assets/images/media-page-banner.webp') !important; background-size:cover !important; background-position:center right !important;">
+      <div class="container">
+        <div class="media-hero-content" data-aos="fade-up" data-aos-duration="850">
+          <div class="eyebrow">Media</div>
+          <h1>In The Media</h1>
+          <p>Explore the latest media coverage, industry stories and conversations shaping Voyage 1’s journey as a
+            global destination management company.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="blogs" style="scroll-margin-top:90px;">
+      <div class="container">
+        <div class="heading">
+          <div class="eyebrow">Media</div>
+          <h2>Latest Stories &amp; Coverage</h2>
+          <p>Explore the latest media coverage, industry stories and conversations shaping Voyage 1’s journey as a
+            global destination management company.</p>
+        </div>
+        <div class="media-grid row g-4" id="mediaGrid">
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card h-100" data-aos="fade-up" data-aos-delay="0">
+              <div class="media-card-image"><img alt="ETTravelWorld media coverage" class="img-fluid" loading="lazy"
+                  src="assets/images/naveen-travelworld__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">ETTravelWorld</span>
+                <h3>Voyage 1 acquires South Africa-based World Wide African Tours to expand African footprint</h3>
+                <p>Dubai-based Voyage 1 DMC LLC has acquired 100 per cent of South Africa's World Wide African Tours
+                  under the SafarisInBushes.com brand, strengthening its presence in the African tourism market.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://travel.economictimes.indiatimes.com/news/travel-agents/outbound/voyage-1-acquires-south-africa-based-world-wide-african-tours-to-expand-african-footprint/132705991"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card h-100" data-aos="fade-up" data-aos-delay="70">
+              <div class="media-card-image"><img alt="Exchange4media media coverage" class="img-fluid" loading="lazy"
+                  src="assets/images/naveen-bw__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">Exchange4media</span>
+                <h3>Voyage 1 acquires South Africa's World Wide African Tours</h3>
+                <p>Dubai based destination management company (DMC) Voyage 1 DMC LLC has acquired a 100% stake in South
+                  Africa based World Wide African Tours, which operates under the safarisinbushes.com brand.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://www.exchange4media.com/announcements-news/voyage-1-acquires-south-africas-world-wide-african-tours-156776.php"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card h-100" data-aos="fade-up" data-aos-delay="140">
+              <div class="media-card-image"><img alt="Trav Talk media coverage" class="img-fluid" loading="lazy"
+                  src="assets/images/naveen-planner__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">Trav Talk</span>
+                <h3>Naveen Kundu-led Voyage 1 DMC acquires 100% stake in South Africa’s</h3>
+                <p>Voyage 1 DMC LLC Dubai, led by industry veteran Naveen Kundu, has officially announced a 100%
+                  acquisition of World Wide African Tours under its brand safarisinbushes.com, a DMC based in South
+                  Africa.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://travtalkindia.com/naveen-kundu-led-voyage-1-dmc-acquires-100-stake-in-south-africas-world-wide-african-tours/"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card h-100" data-aos="fade-up" data-aos-delay="0">
+              <div class="media-card-image"><img alt="TravelBiz Monitor media coverage" class="img-fluid" loading="lazy"
+                  src="assets/images/travel-biz__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">TravelBiz Monitor</span>
+                <h3>Voyage 1 acquires South Africa’s World Wide African Tours</h3>
+                <p>Voyage 1 DMC LLC Dubai, led by travel industry veteran Naveen Kundu, has announced the acquisition of
+                  a 100% stake in World Wide African Tours, operating under the brand safarisinbushes.com.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://travelbizmonitor.com/top-stories/voyage-1-acquires-south-africas-world-wide-african-tours/"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card h-100" data-aos="fade-up" data-aos-delay="70">
+              <div class="media-card-image"><img alt="BOTT media coverage" class="img-fluid" loading="lazy"
+                  src="assets/images/baveen-bott__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">BOTT</span>
+                <h3>Voyage 1 acquires 100% stake in South Africa’s World Wide African Tours</h3>
+                <p>Voyage 1 DMC LLC Dubai, led by visionary travel industry veteran Naveen Kundu, has officially
+                  announced the 100% acquisition of World Wide African Tours under its brand safarisinbushes.com.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://bottindia.com/voyage-1-acquires-100-stake-in-south-africas-world-wide-african-tours-safarisinbushes-com/"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card h-100" data-aos="fade-up" data-aos-delay="140">
+              <div class="media-card-image"><img alt="BW Disrupt media coverage" class="img-fluid" loading="lazy"
+                  src="assets/images/naveen-bw__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">BW Disrupt</span>
+                <h3>Voyage 1 Acquires South Africa's World Wide African Tours</h3>
+                <p>Dubai-headquartered destination management company (DMC) Voyage 1 has acquired a 100 per cent stake
+                  in South Africa-based World Wide African Tours, which operates under the brand safarisinbushes.com.
+                </p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://www.bwdisrupt.com/article/voyage1-acquires-south-africa-s-world-wide-african-tours-617116"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card is-hidden h-100" data-aos="fade-up" data-aos-delay="0">
+              <div class="media-card-image"><img alt="Experiential Planner media coverage" class="img-fluid"
+                  loading="lazy" src="assets/images/naveen-planner__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">Experiential Planner</span>
+                <h3>Voyage 1 Acquires South Africa’s World Wide African Tours</h3>
+                <p>Voyage 1 DMC has announced the acquisition of a 100% stake in South Africa-based World Wide African
+                  Tours, operating under the brand SafarisInBushes.com.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://www.experientialplanner.com/industry-update/voyage-1-acquires-south-africas-world-wide-african-tours/"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card is-hidden h-100" data-aos="fade-up" data-aos-delay="70">
+              <div class="media-card-image"><img alt="Travel Trends Today media coverage" class="img-fluid"
+                  loading="lazy" src="assets/images/naveen-today__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">Travel Trends Today</span>
+                <h3>Naveen Kundu acquires majority stake in destination management company VOYAGE 1</h3>
+                <p>Travel industry veteran Naveen Kundu has acquired a majority stake in Dubai-based VOYAGE 1,
+                  integrating the company with his destination marketing platform, Tourism Futures.AI.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://www.traveltrendstoday.in/naveen-kundu-acquires-majority-stake-in-destination-management-company-voyage-1"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card is-hidden h-100" data-aos="fade-up" data-aos-delay="140">
+              <div class="media-card-image"><img alt="ETTravelWorld media coverage" class="img-fluid" loading="lazy"
+                  src="assets/images/naveen-travelworld__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">ETTravelWorld</span>
+                <h3>Naveen Kundu acquires majority stake in VOYAGE 1 to create global destination management group</h3>
+                <p>Travel industry veteran Naveen Kundu has acquired a majority stake in Dubai-based destination
+                  management company VOYAGE 1 and integrated it with Tourism Futures.AI.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://travel.economictimes.indiatimes.com/news/people/naveen-kundus-strategic-acquisition-revolutionizes-voyage-1-into-a-global-destination-management-leader/132342348"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card is-hidden h-100" data-aos="fade-up" data-aos-delay="0">
+              <div class="media-card-image"><img alt="Travel Trade Journal media coverage" class="img-fluid"
+                  loading="lazy" src="assets/images/naveen-ttj__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">Travel Trade Journal</span>
+                <h3>Naveen Kundu acquires majority stake in VOYAGE 1 to build global AI-enabled DMC network</h3>
+                <p>Travel industry entrepreneur Naveen Kundu has acquired a majority stake in Dubai-based VOYAGE 1,
+                  integrating the destination management company with his destination marketing platform, Tourism
+                  Futures.AI.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://traveltradejournal.com/naveen-kundu-acquires-majority-stake-in-voyage-1-to-build-global-ai-enabled-dmc-network/"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card is-hidden h-100" data-aos="fade-up" data-aos-delay="70">
+              <div class="media-card-image"><img alt="Ascendants media coverage" class="img-fluid" loading="lazy"
+                  src="assets/images/naveen-ascen__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">Ascendants</span>
+                <h3>Naveen Kundu Acquires Majority Stake in VOYAGE 1, Combines Business With Tourism Futures.AI</h3>
+                <p>Travel industry entrepreneur Naveen Kundu has acquired a majority stake in Dubai-based destination
+                  management company Voyage 1 and brought the business together with Tourism Futures.AI.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://ascendants.in/founders-corner/naveen-kundu-acquires-majority-stake-voyage-1-tourism-futures-ai/"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="media-card is-hidden h-100" data-aos="fade-up" data-aos-delay="140">
+              <div class="media-card-image"><img alt="Travel Span media coverage" class="img-fluid" loading="lazy"
+                  src="assets/images/naveen-travelspan__jpg.webp" /></div>
+              <div class="media-card-body">
+                <span class="media-source">Travel Span</span>
+                <h3>Naveen Kundu Acquires Majority Stake in Dubai-Based DMC Voyage 1 to Build AI-Driven Global
+                  Destination Management Network</h3>
+                <p>In a move that reflects the growing convergence of technology and destination management, Delhi-based
+                  travel entrepreneur Naveen Kundu has acquired a majority stake in Dubai-headquartered destination
+                  management company (DMC) Voyage 1.</p>
+                <a class="btn d-inline-flex align-items-center justify-content-center"
+                  href="https://travelspan.in/naveen-kundu-acquires-majority-stake-in-dubai-based-dmc-voyage-1-to-build-ai-driven-global-destination-management-network/"
+                  rel="noopener noreferrer" target="_blank">Read More →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="media-load-more-wrap">
+          <button aria-controls="mediaGrid" aria-expanded="false"
+            class="btn media-load-more d-inline-flex align-items-center justify-content-center" id="mediaLoadMore"
+            type="button">
+            Read More →
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="section media-events-section" id="events" style="scroll-margin-top:90px;">
+      <div class="container">
+        <div class="heading">
+          <div class="eyebrow">Partner Events</div>
+          <h2>Partner &amp; Industry Meet</h2>
+          <p>Where trusted partners come together for meaningful conversations, destination insights and the
+            opportunities shaping what’s next.</p>
+        </div>
+        <div aria-label="Partner and industry events" class="event-slider" data-event-slider="">
+          <div aria-label="Choose event" class="event-switcher"><button aria-label="Show EPEX 2026 event"
+              class="event-switcher-btn is-active" data-event-tab="0" type="button"><span
+                class="event-switcher-name">EPEX</span><span class="event-switcher-year">2026</span></button><button
+              aria-label="Show WTC 2026 event" class="event-switcher-btn" data-event-tab="1" type="button"><span
+                class="event-switcher-name">WTC</span><span class="event-switcher-year">2026</span></button></div>
+          <div class="event-slider-viewport" tabindex="0">
+            <div class="event-slider-track">
+              <article class="event-slide is-active">
+                <div class="event-gallery" data-event-gallery="epex">
+                  <div class="event-gallery-viewport" tabindex="0">
+                    <div class="event-gallery-track">
+                      <div class="event-gallery-slide"><img alt="EPEX Partner &amp; Industry Meet — event photograph 4"
+                          aria-label="Open EPEX Partner &amp; Industry Meet — event photograph 4 in gallery"
+                          data-lightbox-group="event-epex"
+                          data-lightbox-src="assets/images/epex-partner-industry-meet-04.webp"
+                          data-lightbox-title="EPEX Partner &amp; Industry Meet — event photograph 4"
+                          data-lightbox-type="image" loading="eager" role="button"
+                          src="assets/images/epex-partner-industry-meet-04.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="EPEX Partner &amp; Industry Meet — event photograph 1"
+                          aria-label="Open EPEX Partner &amp; Industry Meet — event photograph 1 in gallery"
+                          data-lightbox-group="event-epex"
+                          data-lightbox-src="assets/images/epex-partner-industry-meet-01.webp"
+                          data-lightbox-title="EPEX Partner &amp; Industry Meet — event photograph 1"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/epex-partner-industry-meet-01.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="EPEX Partner &amp; Industry Meet — event photograph 2"
+                          aria-label="Open EPEX Partner &amp; Industry Meet — event photograph 2 in gallery"
+                          data-lightbox-group="event-epex"
+                          data-lightbox-src="assets/images/epex-partner-industry-meet-02.webp"
+                          data-lightbox-title="EPEX Partner &amp; Industry Meet — event photograph 2"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/epex-partner-industry-meet-02.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="EPEX Partner &amp; Industry Meet — event photograph 3"
+                          aria-label="Open EPEX Partner &amp; Industry Meet — event photograph 3 in gallery"
+                          data-lightbox-group="event-epex"
+                          data-lightbox-src="assets/images/epex-partner-industry-meet-03.webp"
+                          data-lightbox-title="EPEX Partner &amp; Industry Meet — event photograph 3"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/epex-partner-industry-meet-03.webp" tabindex="0" /></div>
+                    </div>
+                  </div>
+                  <div class="event-gallery-controls"><button aria-label="Previous EPEX event image"
+                      class="event-gallery-arrow" data-gallery-prev="" type="button">←</button>
+                    <div class="event-gallery-count"><strong data-gallery-current="">01</strong><span>/</span><span
+                        data-gallery-total="">04</span></div><button aria-label="Next EPEX event image"
+                      class="event-gallery-arrow" data-gallery-next="" type="button">→</button>
+                  </div>
+                </div>
+                <div class="event-slide-body">
+                  <div class="event-slide-kicker"><span>Partner Event Voyage 1</span></div>
+                  <h3>EPEX 2026</h3>
+                  <p>Where trusted partners come together for meaningful conversations, destination insights and the
+                    opportunities shaping what’s next.</p>
+                  <div class="event-slide-meta"><span>PARTNER NETWORKING</span><span>INDUSTRY CONNECTIONS</span></div>
+                </div>
+              </article>
+              <article class="event-slide">
+                <div class="event-gallery" data-event-gallery="wtc">
+                  <div class="event-gallery-viewport" tabindex="0">
+                    <div class="event-gallery-track">
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 21"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 21 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-21.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 21"
+                          data-lightbox-type="image" loading="eager" role="button"
+                          src="assets/images/wtc-partner-industry-meet-21.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 1"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 1 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-01.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 1"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-01.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 2"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 2 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-02.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 2"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-02.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 3"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 3 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-03.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 3"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-03.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 4"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 4 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-04.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 4"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-04.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 5"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 5 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-05.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 5"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-05.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 6"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 6 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-06.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 6"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-06.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 7"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 7 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-07.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 7"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-07.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 8"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 8 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-08.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 8"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-08.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 9"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 9 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-09.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 9"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-09.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 10"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 10 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-10.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 10"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-10.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 11"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 11 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-11.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 11"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-11.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 12"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 12 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-12.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 12"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-12.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 13"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 13 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-13.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 13"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-13.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 14"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 14 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-14.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 14"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-14.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 15"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 15 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-15.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 15"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-15.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 16"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 16 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-16.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 16"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-16.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 17"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 17 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-17.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 17"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-17.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 18"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 18 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-18.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 18"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-18.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 19"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 19 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-19.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 19"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-19.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 20"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 20 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-20.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 20"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-20.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 22"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 22 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-22.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 22"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-22.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 23"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 23 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-23.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 23"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-23.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 24"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 24 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-24.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 24"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-24.webp" tabindex="0" /></div>
+                      <div class="event-gallery-slide"><img alt="WTC Partner &amp; Industry Meet — event photograph 25"
+                          aria-label="Open WTC Partner &amp; Industry Meet — event photograph 25 in gallery"
+                          data-lightbox-group="event-wtc"
+                          data-lightbox-src="assets/images/wtc-partner-industry-meet-25.webp"
+                          data-lightbox-title="WTC Partner &amp; Industry Meet — event photograph 25"
+                          data-lightbox-type="image" loading="lazy" role="button"
+                          src="assets/images/wtc-partner-industry-meet-25.webp" tabindex="0" /></div>
+                    </div>
+                  </div>
+                  <div class="event-gallery-controls"><button aria-label="Previous WTC event image"
+                      class="event-gallery-arrow" data-gallery-prev="" type="button">←</button>
+                    <div class="event-gallery-count"><strong data-gallery-current="">01</strong><span>/</span><span
+                        data-gallery-total="">25</span></div><button aria-label="Next WTC event image"
+                      class="event-gallery-arrow" data-gallery-next="" type="button">→</button>
+                  </div>
+                </div>
+                <div class="event-slide-body">
+                  <div class="event-slide-kicker"><span>Partner Event Voyage 1</span></div>
+                  <h3>WTC 2026</h3>
+                  <p>Where trusted partners come together for meaningful conversations, destination insights and the
+                    opportunities shaping what’s next.</p>
+                  <div class="event-slide-meta"><span>PARTNER NETWORKING</span><span>INDUSTRY CONNECTIONS</span></div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="event-slider-controls visually-hidden-event-controls">
+            <button aria-label="Previous event" class="event-slider-arrow" data-event-prev="" type="button">←</button>
+            <div aria-live="polite" class="event-slider-count"><strong
+                data-event-current="">01</strong><span>/</span><span data-event-total="">02</span></div>
+            <button aria-label="Next event" class="event-slider-arrow" data-event-next="" type="button">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div aria-hidden="true" class="vo-lightbox" data-vo-lightbox="">
+      <div class="vo-lightbox-backdrop" data-lightbox-close=""></div>
+      <div aria-label="Event gallery preview" aria-modal="true" class="vo-lightbox-dialog" role="dialog">
+        <button aria-label="Close preview" class="vo-lightbox-close" data-lightbox-close="" type="button">×</button>
+        <button aria-label="Previous image" class="vo-lightbox-nav prev" data-lightbox-prev="" type="button">←</button>
+        <div class="vo-lightbox-content" data-lightbox-content=""></div>
+        <button aria-label="Next image" class="vo-lightbox-nav next" data-lightbox-next="" type="button">→</button>
+        <div class="vo-lightbox-caption"><span data-lightbox-caption=""></span><span data-lightbox-count=""></span>
+        </div>
+      </div>
+    </div>
+    <footer class="vo-footer">
+      <div class="vo-shell container">
+        <div class="vo-footer-top row g-4 g-xl-5">
+          <div class="vo-footer-brand col-12 col-lg-5">
+            <a class="vo-footer-logo" href="index.php"><img alt="Voyage 1 DMC logo" class="img-fluid"
+                src="assets/images/voyage-one-logo__png.webp" /></a>
+            <h3>Re-defining the Art of Destination Management<br />Connecting Destinations. Creating Experiences.</h3>
+            <p>Creating seamless travel experiences through local knowledge, trusted partnerships and responsive
+              destination teams.</p>
+            <div class="vo-footer-contact">
+              <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+              <a href="tel:+971521672038">+971 52 167 2038</a>
+              <a href="tel:+91921758633">+91 921758633</a>
+            </div>
+          </div>
+          <div class="vo-footer-column col-6 col-md-4 col-lg">
+            <h4>Explore</h4>
+            <a href="index.php">Home</a><a href="uae.php">Destinations</a><a href="index.php#services">Services</a><a
+              href="about-us.php">About Us</a><a href="media.php">Media</a><a href="careers.php">Careers</a>
+          </div>
+          <div class="vo-footer-column col-6 col-md-4 col-lg">
+            <h4>Destinations</h4><a href="south-africa.php">South Africa</a><a href="kenya.php">Kenya</a><a
+              href="tanzania.php">Tanzania</a><a href="japan.php">Japan</a><a href="georgia.php">Georgia</a><a
+              href="kazakhstan.php">Kazakhstan</a><a href="azerbaijan.php">Azerbaijan</a><a href="uae.php">United Arab
+              Emirates</a><a href="vietnam.php">Vietnam</a>
+          </div>
+          <div class="vo-footer-column col-6 col-md-4 col-lg">
+            <h4>Contact Us</h4>
+            <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+            <a href="tel:+971521672038">+971 52 167 2038</a><a href="tel:+91921758633">+91 921758633</a>
+            <div class="vo-footer-office">
+              <small>GLOBAL OFFICE</small>
+              <strong>Dubai, UAE</strong>
+              <span>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer</span>
+            </div>
+            <div aria-label="Voyage 1 social media" class="vo-footer-socials">
+              <a aria-label="Voyage 1 on Instagram" href="https://www.instagram.com/voyage1dmc/"
+                rel="noopener noreferrer" target="_blank" title="Instagram">
+                <svg aria-hidden="true" viewbox="0 0 24 24">
+                  <rect fill="none" height="17.5" rx="5.2" stroke="currentColor" stroke-width="1.8" width="17.5"
+                    x="3.25" y="3.25"></rect>
+                  <circle cx="12" cy="12" fill="none" r="4.1" stroke="currentColor" stroke-width="1.8"></circle>
+                  <circle cx="17.45" cy="6.65" fill="currentColor" r="1.15"></circle>
+                </svg>
+              </a>
+              <a aria-label="Voyage 1 on Facebook" href="https://www.facebook.com/Voyage1DMC" rel="noopener noreferrer"
+                target="_blank" title="Facebook">
+                <svg aria-hidden="true" viewbox="0 0 24 24">
+                  <path
+                    d="M13.65 21v-7h2.55l.4-3h-2.95V9.08c0-.87.24-1.46 1.5-1.46h1.61V4.94c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.06V11H7.8v3h2.66v7h3.19Z"
+                    fill="currentColor"></path>
+                </svg>
+              </a>
+              <a aria-label="Voyage 1 on LinkedIn" href="https://www.linkedin.com/company/voyageonedmc/home/"
+                rel="noopener noreferrer" target="_blank" title="LinkedIn">
+                <svg aria-hidden="true" viewbox="0 0 24 24">
+                  <path
+                    d="M6.2 8.25H3.05V21H6.2V8.25ZM4.62 3A1.88 1.88 0 1 0 4.62 6.76 1.88 1.88 0 0 0 4.62 3ZM8.62 8.25V21h3.15v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.06 1.9 2.06 3.38V21h3.15v-6.85c0-3.37-.73-5.96-4.7-5.96-1.91 0-3.19 1.05-3.71 2.05h-.04v-1.99H8.62Z"
+                    fill="currentColor"></path>
+                </svg>
+              </a>
+              <a aria-label="Chat with Voyage 1 on WhatsApp" href="https://wa.me/971521672038" rel="noopener noreferrer"
+                target="_blank" title="WhatsApp">
+                <svg aria-hidden="true" viewbox="0 0 24 24">
+                  <path
+                    d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z"
+                    fill="currentColor"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="vo-footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026 Voyage 1
+            DMC. All rights reserved.</span><span><a href="contact.php">Contact</a></span></div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const button = document.getElementById('mediaLoadMore');
+      const grid = document.getElementById('mediaGrid');
+      if (!button || !grid) return;
+
+      const hiddenCards = Array.from(grid.querySelectorAll('.media-card.is-hidden'));
+      let expanded = false;
+      let busy = false;
+
+      button.addEventListener('click', function () {
+        if (busy) return;
+        busy = true;
+        button.disabled = true;
+        button.classList.add('is-loading');
+
+        if (!expanded) {
+          // Reveal the remaining six cards with a staggered animation.
+          hiddenCards.forEach(function (card, index) {
+            card.classList.remove('is-hidden');
+            card.style.setProperty('--reveal-delay', (index * 90) + 'ms');
+            card.classList.add('media-card-reveal');
+          });
+
+          button.setAttribute('aria-expanded', 'true');
+          button.textContent = 'Read Less ←';
+          expanded = true;
+
+          // Keep the staggered reveal intact, then clean up the temporary classes.
+          window.setTimeout(function () {
+            hiddenCards.forEach(function (card) {
+              card.classList.remove('media-card-reveal');
+              card.style.removeProperty('--reveal-delay');
+            });
+            button.disabled = false;
+            button.classList.remove('is-loading');
+            busy = false;
+          }, 950);
+        } else {
+          // Collapse back to the first six cards when Read Less is clicked.
+          hiddenCards.forEach(function (card) {
+            card.classList.add('media-card-collapse');
+          });
+
+          window.setTimeout(function () {
+            hiddenCards.forEach(function (card) {
+              card.classList.add('is-hidden');
+              card.classList.remove('media-card-collapse');
+            });
+
+            button.setAttribute('aria-expanded', 'false');
+            button.textContent = 'Read More →';
+            button.disabled = false;
+            button.classList.remove('is-loading');
+            expanded = false;
+            busy = false;
+          }, 320);
+        }
+      });
+    });
+  </script>
+  <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+  <script src="js/global.js"></script>
+</body>
+
+</html>

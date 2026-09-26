@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Kenya DMC | Voyage 1 DMC</title>
+    <meta
+        content="As a trusted Kenya DMC, Voyage 1 delivers local expertise, seamless operations and tailored travel programs for FIT, groups, luxury, MICE and corporate travel across Kenya."
+        name="description" />
+    <style>
+        .page-kenya .hero-bg {
+            background-image: url('assets/images/hero-kenya.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .uae-image-dmc {
+            background-image: linear-gradient(180deg, rgba(22, 42, 75, .04), rgba(22, 42, 75, .12)), url('assets/images/Kenya__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-1 {
+            background-image: url('assets/images/hero-kenya.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-2 {
+            background-image: url('assets/images/Kenya__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-3 {
+            background-image: url('assets/images/experience-wildlife-safari.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-4 {
+            background-image: url('assets/images/destination-collage.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-5 {
+            background-image: url('assets/images/Kenya__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-6 {
+            background-image: url('assets/images/hero-kenya.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-7 {
+            background-image: url('assets/images/experience-wildlife-safari.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-8 {
+            background-image: url('assets/images/destination-collage.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-9 {
+            background-image: url('assets/images/Kenya__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-10 {
+            background-image: url('assets/images/experience-wildlife-safari.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-11 {
+            background-image: url('assets/images/Kenya__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-12 {
+            background-image: url('assets/images/hero-kenya.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <style>
+        /* Website image refresh: selected from existing unused WebP assets. */
+        .page-kenya .uae-image-dmc {
+            background-image: linear-gradient(180deg, rgba(22, 42, 75, .04), rgba(22, 42, 75, .12)), url('assets/images/kenya-partner.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-1 {
+            background-image: url('assets/images/kenya-card1.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-2 {
+            background-image: url('assets/images/kenya-card2.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-3 {
+            background-image: url('assets/images/kenya-card3.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-4 {
+            background-image: url('assets/images/kenya-card4.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-5 {
+            background-image: url('assets/images/kenya-card5.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-6 {
+            background-image: url('assets/images/kenya-nairobi.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .vo-inline-bg-7 {
+            background-image: url('assets/images/kenya-card7.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-kenya .feature-main {
+            background-image: url('assets/images/kenya-card1.webp') !important;
+        }
+
+        .page-kenya .feature-small:nth-child(1) {
+            background-image: url('assets/images/kenya-card2.webp') !important;
+        }
+
+        .page-kenya .feature-small:nth-child(2) {
+            background-image: url('assets/images/kenya-card3.webp') !important;
+        }
+    </style>
+    <link href="assets/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <script>(function () { var d = document.documentElement; d.classList.add('js-reveal'); try { if (sessionStorage.getItem('voyage-loader-seen') === '1') { d.classList.add('vo-loader-skip'); } } catch (e) { } })();</script>
+    <noscript>
+        <style>
+            html.js-reveal [data-aos] {
+                opacity: 1 !important;
+                transform: none !important;
+                transition: none !important
+            }
+        </style>
+    </noscript>
+</head>
+
+<body class="page-destination page-kenya">
+    <!-- KENYA COPY UPDATE: Active copy sourced from Voyage_1_copy_all_pages (3).xlsx, sheet "Kenya", column "Shreya". Previous active copy is preserved inline as OLD CONTENT comments. -->
+    <div aria-hidden="true" class="vo-site-loader" data-site-loader="">
+        <div class="vo-loader-inner">
+            <div aria-hidden="true" class="vo-loader-logo-wrap"><img alt="" class="vo-loader-brand-logo"
+                    src="assets/images/voyage-one-logo__png.webp" /></div>
+            <div class="vo-loader-track"><span></span></div>
+            <div class="vo-loader-caption">Curating your next journey</div>
+        </div>
+    </div>
+    <header class="vo-header sticky-top">
+        <nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light py-0">
+            <div class="container"><a aria-label="Voyage 1 home" class="navbar-brand vo-brand" href="index.php"><img
+                        alt="Voyage 1 DMC logo" class="img-fluid" height="74"
+                        src="assets/images/voyage-one-logo__png.webp" width="74" /></a><button
+                    aria-controls="voyageNavbar" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler vo-navbar-toggler" data-bs-target="#voyageNavbar" data-bs-toggle="collapse"
+                    type="button"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="voyageNavbar">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" href="about-us.php">About Us</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="about-us.php#intro"><span
+                                            class="vo-drop-index">01</span><span class="vo-drop-label">Who We
+                                            Are</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#story"><span
+                                            class="vo-drop-index">02</span><span class="vo-drop-label">Our
+                                            Story</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#services"><span
+                                            class="vo-drop-index">03</span><span class="vo-drop-label">What We Bring To
+                                            The Journey</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#team"><span
+                                            class="vo-drop-index">04</span><span class="vo-drop-label">Our
+                                            Team</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle active"
+                                data-bs-toggle="dropdown" href="index.php#destinations">Destinations</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="south-africa.php"><span
+                                            class="vo-drop-index">ZA</span><span class="vo-drop-label">South
+                                            Africa</span></a></li>
+                                <li><a class="dropdown-item" href="kenya.php"><span class="vo-drop-index">KE</span><span
+                                            class="vo-drop-label">Kenya</span></a></li>
+                                <li><a class="dropdown-item" href="tanzania.php"><span
+                                            class="vo-drop-index">TZ</span><span
+                                            class="vo-drop-label">Tanzania</span></a></li>
+                                <li><a class="dropdown-item" href="japan.php"><span class="vo-drop-index">JP</span><span
+                                            class="vo-drop-label">Japan</span></a></li>
+                                <li><a class="dropdown-item" href="georgia.php"><span
+                                            class="vo-drop-index">GE</span><span
+                                            class="vo-drop-label">Georgia</span></a></li>
+                                <li><a class="dropdown-item" href="kazakhstan.php"><span
+                                            class="vo-drop-index">KZ</span><span
+                                            class="vo-drop-label">Kazakhstan</span></a></li>
+                                <li><a class="dropdown-item" href="azerbaijan.php"><span
+                                            class="vo-drop-index">AZ</span><span
+                                            class="vo-drop-label">Azerbaijan</span></a></li>
+                                <li><a class="dropdown-item" href="uae.php"><span class="vo-drop-index">UAE</span><span
+                                            class="vo-drop-label">United Arab Emirates</span></a></li>
+                                <li><a class="dropdown-item" href="vietnam.php"><span
+                                            class="vo-drop-index">VN</span><span
+                                            class="vo-drop-label">Vietnam</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" href="media.php">Media</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="media.php#blogs"><span
+                                            class="vo-drop-index">01</span><span class="vo-drop-label">Media
+                                            Coverage</span></a></li>
+                                <li><a class="dropdown-item" href="media.php#events"><span
+                                            class="vo-drop-index">02</span><span class="vo-drop-label">Events &amp;
+                                            Exhibitions</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="careers.php">Careers</a></li>
+                    </ul><a
+                        class="btn vo-header-cta ms-lg-4 mt-3 mt-lg-0 d-inline-flex align-items-center justify-content-center"
+                        href="contact.php">Send Query <span>→</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero" data-aos="fade-up" data-aos-duration="850">
+        <div aria-hidden="true" class="vo-static-banner"></div>
+        <div aria-hidden="true" class="hero-bg"></div>
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="eyebrow">Voyage 1 DMC • Kenya</div>
+                <h1><span class="hero-dmc-name">Kenya DMC</span><span class="hero-dmc-tagline">Where The Wild Comes
+                        Alive</span></h1>
+                <!-- OLD CONTENT — Kenya Excel row 2 / Hero paragraph: <p>Kenya is a premier safari destination known for the Maasai Mara, the Great Migration, iconic wildlife, dramatic landscapes and rich cultural experiences. Voyage 1 builds responsible, seamless programs for leisure, luxury, families, groups and MICE.</p> -->
+                <p>From the legendary Maasai Mara and the Great Migration to Mount Kenya, dramatic landscapes and the
+                    Indian Ocean coast, Voyage 1 creates seamless Kenya programs for leisure, luxury, families, groups
+                    and MICE.</p>
+                <div class="hero-actions"><a class="btn dark d-inline-flex align-items-center justify-content-center"
+                        href="#contact">Request a Proposal Explore Services</a><a
+                        class="btn d-inline-flex align-items-center justify-content-center" href="#services">Explore
+                        Services →</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container two">
+            <div class="row g-4 g-lg-5 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="eyebrow">Kenya Destination Management</div>
+                    <h2>Your Local Partner in Kenya</h2>
+                    <!-- OLD LOCAL PARTNER COPY — <p>You know your clients. We know the destination. Together, we create seamless journeys backed by local relationships, destination expertise and dependable support on the ground.</p> -->
+                    <p>You know your clients. We know the destination. Together, we turn travel briefs into seamless
+                        destination experiences, backed by local expertise, trusted relationships and dependable support
+                        on the ground.</p>
+                    <!-- OLD LOCAL PARTNER COPY — <p>From classic Big Five safaris and luxury camps to beach extensions and cultural encounters, our local coordination connects lodges, vehicles, guides and experiences into a dependable journey.</p> -->
+                    <p>From accommodation and transportation to experiences, excursions, groups, luxury travel and MICE
+                        programs, our destination team manages the details behind every journey — giving you the
+                        confidence to deliver exceptional travel to your clients.</p>
+                    <a class="btn btn-dark d-inline-flex align-items-center justify-content-center" href="#contact">Talk
+                        to Our Kenya Team</a>
+                </div>
+                <div aria-label="Kenya destination scene" class="placeholder uae-image uae-image-dmc col-12 col-lg-6"
+                    role="img"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section light" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Discover the Destination</div>
+                <h2>One Destination. Endless Wild Possibilities.</h2>
+                <!-- OLD CONTENT — Kenya Excel row 3 / Why Choose Kenya? section intro: <p>Culture, nature, adventure, hospitality and memorable experiences in one destination.</p> -->
+                <p>Kenya brings together extraordinary wildlife, iconic landscapes, rich culture and coastal escapes,
+                    creating remarkable possibilities for every kind of traveller.</p>
+            </div>
+            <div class="cards five row g-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <circle cx="12" cy="12" r="8.5"></circle>
+                                <path d="m14.8 9.2-1.7 4-4 1.6 1.6-4 4.1-1.6Z"></path>
+                                <path d="M8 5.5 6.5 4M16 5.5 17.5 4M8 18.5 6.5 20M16 18.5 17.5 20"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Safari</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 4 / Safari: <p>Big Five game viewing and world-class reserves.</p> -->
+                            <p>Big Five encounters across Kenya’s iconic wilderness.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M5 10c0-2 1.5-3.5 3.5-3.5S12 8 12 10v5.5c0 2-1.5 3.5-3.5 3.5S5 17.5 5 15.5V10Z">
+                                </path>
+                                <path d="M12 10c0-2 1.5-3.5 3.5-3.5S19 8 19 10v5.5c0 2-1.5 3.5-3.5 3.5S12 17.5 12 15.5">
+                                </path>
+                                <path d="M7.5 6V4M16.5 6V4M9 11h.01M15 11h.01"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Wildlife</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 5 / Wildlife: <p>Exceptional biodiversity and seasonal spectacles.</p> -->
+                            <p>Extraordinary biodiversity and unforgettable seasonal spectacles.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <path d="m12 3 7 6-7 12L5 9l7-6Z"></path>
+                                <path d="m5 9 7 3 7-3M12 3v9"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Luxury</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 6 / Luxury: <p>Premium lodges, camps and private experiences.</p> -->
+                            <p>Exceptional lodges, private camps and exclusive experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <circle cx="8" cy="7" r="2.5"></circle>
+                                <circle cx="16" cy="8" r="2.5"></circle>
+                                <path d="M3.5 19a4.5 4.5 0 0 1 9 0"></path>
+                                <path d="M11.5 19a4.5 4.5 0 0 1 9 0"></path>
+                                <path d="M12 14a4 4 0 0 0-2.5-.8"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Family</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 7 / Family: <p>Family-friendly safari and nature programs.</p> -->
+                            <p>Engaging safaris and nature experiences for families.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <rect height="15" rx="2" width="16" x="4" y="5"></rect>
+                                <path d="M8 3v4M16 3v4M4 9h16"></path>
+                                <path d="M8 13h2M14 13h2M8 17h2M14 17h2"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>MICE</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 8 / MICE: <p>Incentive travel with unforgettable African settings.</p> -->
+                            <p>Unforgettable incentive programs in extraordinary African settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Explore Kenya</div>
+                <h2>Discover Kenya</h2>
+                <!-- OLD CONTENT — Kenya Excel row 9 / Discover Kenya section intro: <p>Signature destinations and experiences to build into every itinerary.</p> -->
+                <p>“From legendary safari reserves and wildlife-rich landscapes to vibrant Nairobi and the Indian Ocean
+                    coast, discover the destinations that make Kenya unforgettable.”</p>
+            </div>
+            <div class="cards row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-1" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Maasai Mara</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 10 / Maasai Mara: <p>Big Five, open savannah and the Great Migration.</p> -->
+                            <p>Endless savannah, Big Five encounters and the legendary Great Migration.</p><a
+                                class="link" href="#services">Explore Maasai Mara →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-2" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Amboseli</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 11 / Amboseli: <p>Elephants and spectacular views of Mount Kilimanjaro.</p> -->
+                            <p>Iconic elephant encounters beneath spectacular Mount Kilimanjaro views.</p><a
+                                class="link" href="#services">Explore Amboseli →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-3" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/kenya-discover-lake-nakuru-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Lake Nakuru</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 12 / Lake Nakuru: <p>Rhino conservation, birdlife and scenic landscapes.</p> -->
+                            <p>Rhino encounters, remarkable birdlife and scenic landscapes.</p><a class="link"
+                                href="#services">Explore Lake Nakuru →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-4" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/kenya-discover-tsavo-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Tsavo</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 13 / Tsavo: <p>Vast wilderness, wildlife and dramatic red-earth scenery.</p> -->
+                            <p>Vast wilderness, iconic wildlife and striking red-earth landscapes.</p><a class="link"
+                                href="#services">Explore Tsavo →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-5" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/kenya-discover-samburu-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Samburu</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 14 / Samburu: <p>Distinctive wildlife, rugged landscapes and cultural encounters.</p> -->
+                            <p>Rugged landscapes, unique wildlife and authentic cultural encounters.</p><a class="link"
+                                href="#services">Explore Samburu →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-6" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Nairobi</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 15 / Nairobi: <p>Gateway city with wildlife, culture and urban experiences.</p> -->
+                            <p>A vibrant capital blending wildlife, culture and urban experiences.</p><a class="link"
+                                href="#services">Explore Nairobi →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-7" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Diani Beach</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 16 / Diani Beach: <p>Indian Ocean beaches and safari-and-coast combinations.</p> -->
+                            <p>Pristine Indian Ocean beaches and unforgettable safari-and-coast escapes.</p><a
+                                class="link" href="#services">Explore Diani Beach →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section light" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Most Popular</div>
+                <h2>Kenya Destinations</h2>
+            </div>
+            <div class="feature">
+                <div class="feature-main"
+                    style="background-image:url('assets/images/kenya-safari-vehicle.webp') !important; background-size:cover !important; background-position:center center !important;">
+                    <div class="feature-copy">
+                        <h2>Maasai Mara</h2>
+                        <p>Kenya's iconic safari destination and migration country.</p><a class="link"
+                            href="#services">Discover Maasai Mara →</a>
+                    </div>
+                </div>
+                <div class="feature-stack">
+                    <div class="feature-small"
+                        style="background-image:url('assets/images/kenya-luxury-camp.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <div class="feature-copy">
+                            <h3>Amboseli</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 17 / Amboseli: <p>A memorable wildlife experience beneath Mount Kilimanjaro.</p> -->
+                            <p>Unforgettable wildlife encounters beneath Mount Kilimanjaro.</p><a class="link"
+                                href="#services">Discover Amboseli →</a>
+                        </div>
+                    </div>
+                    <div class="feature-small"
+                        style="background-image:url('assets/images/kenya-diani-popular.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <div class="feature-copy">
+                            <h3>Diani Beach</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 18 / Diani Beach: <p>A relaxed Indian Ocean extension after safari adventures.</p> -->
+                            <p>A tropical Indian Ocean escape after unforgettable safari adventures.</p><a class="link"
+                                href="#services">Discover Diani Beach →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section uae-experiences-redesign" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-showcase-head">
+                <div>
+                    <div class="eyebrow">Experiences</div>
+                    <h2>Experience Kenya Your Way</h2>
+                </div>
+                <p>From thrilling safari encounters and private wilderness stays to cultural discoveries, active
+                    adventures and Indian Ocean escapes, shape a Kenya journey around your clients.</p>
+            </div>
+            <div class="uae-exp-grid-redesign">
+                <article class="uae-exp-card uae-exp-card-wide" data-aos="fade-up" data-aos-delay="40">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/kenya-experience-safari-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">01</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Wildlife Encounters</span>
+                        <h3>Safari Experiences</h3>
+                        <p>Game drives, wildlife tracking and private conservancies.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="80">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/kenya-experience-luxury-safari-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">02</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Exclusive Stays</span>
+                        <h3>Luxury Safari</h3>
+                        <p>Private camps, exceptional lodges and exclusive safari experiences.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="120">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/kenya-culture-community.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">03</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Local Encounters</span>
+                        <h3>Culture &amp; Community</h3>
+                        <p>Meaningful encounters rooted in local culture and traditions.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="160">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/kenya-family-safari.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">04</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Shared Adventures</span>
+                        <h3>Family Safari</h3>
+                        <p>Thoughtfully paced wildlife programs for memorable family journeys.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/kenya-adventure-experience.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">05</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Outdoor Thrills</span>
+                        <h3>Adventure</h3>
+                        <p>Walking safaris, nature trails and active wilderness experiences.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="240">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/kenya-beach-escapes.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">06</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Coastal Leisure</span>
+                        <h3>Beach Escapes</h3>
+                        <p>Indian Ocean resorts and unforgettable safari-and-beach combinations.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="section light" data-aos="fade-up" data-aos-duration="850" id="services">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Our Expertise</div>
+                <h2>Kenya DMC Services, Built Around Your Brief</h2>
+                <!-- OLD CONTENT — Kenya Excel row 26 / Kenya DMC Services section intro: <p>From itinerary planning and accommodation to MICE, transportation, experiences and on-ground coordination, our Kenya DMC services bring every element together seamlessly.</p> -->
+                <p>From bespoke safaris and luxury escapes to group programs, family holidays and MICE, our Kenya DMC
+                    team brings together the destination expertise and local support behind seamless journeys.</p>
+            </div>
+            <div class="services row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path>
+                                <path d="M4 21a8 8 0 0 1 16 0"></path>
+                            </svg></span>
+                        <h3>FIT Travel</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 27 / FIT Travel: <p>Tailored individual travel programs.</p> -->
+                        <p>Bespoke Kenya journeys tailored to individual travellers.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <circle cx="9" cy="8" r="3"></circle>
+                                <circle cx="16.5" cy="9" r="2.4"></circle>
+                                <path d="M2.5 21a6.5 6.5 0 0 1 13 0M15 15.5a5 5 0 0 1 6.5 5.5"></path>
+                            </svg></span>
+                        <h3>Group Travel</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 28 / Group Travel: <p>Seamless group handling and logistics.</p> -->
+                        <p>Seamless group programs, coordination and safari logistics.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <rect height="14" rx="1.5" width="16" x="4" y="5"></rect>
+                                <path d="M8 5V3M16 5V3M4 9h16M8 13h2M14 13h2M8 16h2M14 16h2"></path>
+                            </svg></span>
+                        <h3>MICE</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 29 / MICE: <p>Meetings, incentives and events.</p> -->
+                        <p>Meetings, incentives and distinctive destination events.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <rect height="13" rx="2" width="16" x="4" y="7"></rect>
+                                <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M4 12h16"></path>
+                            </svg></span>
+                        <h3>Corporate Travel</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 30 / Corporate Travel: <p>Business travel and corporate movements.</p> -->
+                        <p>Efficient business travel and corporate programs.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z">
+                                </path>
+                            </svg></span>
+                        <h3>Luxury Travel</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 31 / Luxury Travel: <p>Premium stays and private experiences.</p> -->
+                        <p>Premium lodges, private experiences and exclusive access.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <circle cx="8" cy="8" r="2.5"></circle>
+                                <circle cx="16" cy="9" r="2.2"></circle>
+                                <path d="M3.5 20a4.5 4.5 0 0 1 9 0M12.5 20a4 4 0 0 1 8 0"></path>
+                            </svg></span>
+                        <h3>Family Holidays</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 32 / Family Holidays: <p>Family itineraries and attractions.</p> -->
+                        <p>Thoughtfully planned safaris and family experiences.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path
+                                    d="M12 20s-7-4.3-7-9.5A4.5 4.5 0 0 1 13 7.7 4.5 4.5 0 0 1 21 10.5C21 15.7 12 20 12 20Z">
+                                </path>
+                            </svg></span>
+                        <h3>Honeymoon</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 33 / Honeymoon: <p>Romantic escapes and private experiences.</p> -->
+                        <p>Romantic safari escapes and unforgettable coastal stays.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M3 12h18M12 3l4 9-4 9M7 7l-4 5 4 5M17 7l4 5-4 5"></path>
+                            </svg></span>
+                        <h3>Stopovers</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 34 / Stopovers: <p>Short programs for transit travelers.</p> -->
+                        <p>Smart short stays between safari and coast.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M4 21V5h16v16M4 9h16M8 5v4M12 5v4M16 5v4M8 13h2M14 13h2M8 17h2M14 17h2"></path>
+                            </svg></span>
+                        <h3>Hotels</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 35 / Hotels: <p>Accommodation sourcing and reservations.</p> -->
+                        <p>Exceptional lodges, camps and hotels, sourced around your brief.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M4 17h16M6 17l1.5-6h9L18 17M8 11l1-4h6l1 4M8 20h2M14 20h2"></path>
+                                <circle cx="7" cy="17" r="1.5"></circle>
+                                <circle cx="17" cy="17" r="1.5"></circle>
+                            </svg></span>
+                        <h3>Transfers</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 36 / Transfers: <p>Airport and regional transfers.</p> -->
+                        <p>Reliable airport, safari and regional transfers.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="m4 19 6-6 4 4 6-7"></path>
+                                <path d="M14 10h6v6"></path>
+                                <circle cx="6" cy="7" r="3"></circle>
+                                <path d="M3 14a3 3 0 0 1 6 0"></path>
+                            </svg></span>
+                        <h3>Excursions</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 37 / Excursions: <p>Tours, sightseeing and activities.</p> -->
+                        <p>Curated tours, wildlife experiences and local activities.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <rect height="18" rx="2" width="14" x="5" y="3"></rect>
+                                <circle cx="12" cy="9" r="2.5"></circle>
+                                <path d="M8 16h8M8 18h5"></path>
+                            </svg></span>
+                        <h3>Visa &amp; Entry Support</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 38 / Visa & Entry Support: <p>Travel documentation and destination guidance.</p> -->
+                        <p>Essential travel documentation and destination guidance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Inspiration</div>
+                <h2>Kenya Itineraries, Made Your Way</h2>
+                <p>Starting points for creating a customized program.</p>
+            </div>
+            <div class="itineraries row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="img vo-inline-bg-9"
+                            style="background-image:url('assets/images/kenya-safari-guests.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="body"><span class="duration">4 Days</span>
+                            <h3>Maasai Mara Safari</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 40 / Maasai Mara Safari: <p>Classic game drives and a premium safari camp experience.</p> -->
+                            <p>Classic game drives, Big Five encounters and an exceptional safari camp stay.</p>
+                            <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="img vo-inline-bg-10"
+                            style="background-image:url('assets/images/kenya-family-safari.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="body"><span class="duration">6 Days</span>
+                            <h3>Mara + Amboseli</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 41 / Mara + Amboseli: <p>Two iconic parks with wildlife and mountain scenery.</p> -->
+                            <p>Two iconic safari destinations, from the Mara’s wildlife to Kilimanjaro views.</p>
+                            <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="img vo-inline-bg-11"
+                            style="background-image:url('assets/images/kenya-itinerary-kenya-safari-coast.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="body"><span class="duration">9 Days</span>
+                            <h3>Kenya Safari + Coast</h3>
+                            <!-- OLD CONTENT — Kenya Excel row 42 / Kenya Safari + Coast: <p>Safari highlights followed by a relaxing Indian Ocean stay.</p> -->
+                            <p>Unforgettable safari encounters followed by a relaxing Indian Ocean escape.</p>
+                            <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section uae-movement-redesign" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-showcase-head uae-movement-head">
+                <div>
+                    <div class="eyebrow">On-Ground Operations</div>
+                    <h2>Seamless Movement, From Safari To Shore</h2>
+                </div>
+                <p>From airport arrivals and private safari vehicles to park-to-park journeys and coastal transfers, we
+                    coordinate every connection behind the experience.</p>
+            </div>
+            <div aria-label="Kenya transportation journey" class="uae-route">
+                <div aria-hidden="true" class="uae-route-line"></div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">01</div>
+                    <div class="uae-route-icon">✈</div>
+                    <h3>Airport Transfers</h3>
+                    <p>Smooth, reliable arrivals and departures, expertly coordinated.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">02</div>
+                    <div class="uae-route-icon">↗</div>
+                    <h3>Private Safari Vehicles</h3>
+                    <p>Private safari vehicles with experienced drivers and local knowledge.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">03</div>
+                    <div class="uae-route-icon">◇</div>
+                    <h3>Luxury Vehicles</h3>
+                    <p>Premium chauffeur-driven travel in comfort and style.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">04</div>
+                    <div class="uae-route-icon">▦</div>
+                    <h3>Group Coaches</h3>
+                    <p>Comfortable transportation for groups and events.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">05</div>
+                    <div class="uae-route-icon">⇢</div>
+                    <h3>Park-to-Park Transfers</h3>
+                    <p>Seamless connections between Kenya’s key safari regions.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">06</div>
+                    <div class="uae-route-icon">⌁</div>
+                    <h3>Event Transportation</h3>
+                    <p>Precisely coordinated transportation for MICE and events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Why Partner With Us</div>
+                <h2>Built To Deliver. Trusted To Execute.</h2>
+                <!-- OLD CONTENT — Kenya Excel row 50 / Your Kenya DMC Partner section intro: <p>From the first brief to the final departure, Voyage 1 combines local Kenya destination expertise, customized programs and seamless operations to help travel partners deliver with confidence.</p> -->
+                <p>From the first brief to the final departure, Voyage 1 combines Kenya destination expertise, trusted
+                    local relationships and seamless operations to help travel partners deliver with confidence.</p>
+            </div>
+            <div class="usps row g-3">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <path d="M12 21s7-6.4 7-11.5A7 7 0 0 0 5 9.5C5 14.6 12 21 12 21Z"></path>
+                            <circle cx="12" cy="9.5" r="2.4"></circle>
+                        </svg>
+                        <h3>Local Kenya Expertise</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 51 / Local Kenya Expertise: <p>Local knowledge and coordination.</p> -->
+                        <p>Destination insight, trusted relationships and on-ground know-how.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <circle cx="5" cy="6" r="2"></circle>
+                            <circle cx="19" cy="18" r="2"></circle>
+                            <path d="M5 8v3a4 4 0 0 0 4 4h6a4 4 0 0 1 4 3"></path>
+                        </svg>
+                        <h3>Customized Itineraries</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 52 / Customized Itineraries: <p>Programs shaped around your clients.</p> -->
+                        <p>Kenya programs shaped around your clients’ needs.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <circle cx="9" cy="8" r="3.2"></circle>
+                            <path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"></path>
+                            <circle cx="17" cy="9" r="2.6"></circle>
+                            <path d="M15.5 14.2c2.7.5 4.3 2.4 4.3 5.8"></path>
+                        </svg>
+                        <h3>FIT &amp; Group Expertise</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 53 / FIT & Group Expertise: <p>Flexible FIT and group handling.</p> -->
+                        <p>Flexible handling for FITs, families and groups.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <rect height="18" width="10" x="4" y="3"></rect>
+                            <rect height="12" width="6" x="14" y="9"></rect>
+                            <path d="M7 7h1M11 7h1M7 11h1M11 11h1M7 15h1M11 15h1M16.5 13h1M16.5 17h1"></path>
+                        </svg>
+                        <h3>MICE Capability</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 54 / MICE Capability: <p>Corporate events and incentives.</p> -->
+                        <p>Incentives and events, expertly brought together.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <path d="M3 11l4-3 3 2 3-2 4 3"></path>
+                            <path d="M3 11v4l4 3M21 11v4l-4 3"></path>
+                            <path d="M10 10l2.5 2.5a1.5 1.5 0 0 1-2.1 2.1L8 12.2M14 10l-1 1"></path>
+                        </svg>
+                        <h3>Reliable Suppliers</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 55 / Reliable Suppliers: <p>Hotels, transport and experiences.</p> -->
+                        <p>Trusted lodges, camps, transport and experience partners.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <circle cx="12" cy="12" r="3.2"></circle>
+                            <path
+                                d="M12 3.5v2M12 18.5v2M20.5 12h-2M5.5 12h-2M17.8 6.2l-1.4 1.4M7.6 16.4l-1.4 1.4M17.8 17.8l-1.4-1.4M7.6 7.6 6.2 6.2">
+                            </path>
+                        </svg>
+                        <h3>Seamless Operations</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 56 / Seamless Operations: <p>One partner managing every detail.</p> -->
+                        <p>One destination team managing every detail.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <path d="M4 13v-1a8 8 0 0 1 16 0v1"></path>
+                            <rect height="6" rx="1.3" width="4" x="2.5" y="13"></rect>
+                            <rect height="6" rx="1.3" width="4" x="17.5" y="13"></rect>
+                            <path d="M19.5 19v.6a3 3 0 0 1-3 3H13"></path>
+                        </svg>
+                        <h3>24/7 Support</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 57 / 24/7 Support: <p>Responsive support throughout the journey.</p> -->
+                        <p>Responsive support whenever your clients need it.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <rect height="12" rx="2" width="18" x="3" y="7.5"></rect>
+                            <path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5M3 13h18"></path>
+                        </svg>
+                        <h3>B2B Focused</h3>
+                        <!-- OLD CONTENT — Kenya Excel row 58 / B2B Focused: <p>Built for travel agents and operators.</p> -->
+                        <p>Built specifically for travel trade partners.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark uae-process-redesign" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-process-intro">
+                <div>
+                    <div class="eyebrow">Simple Process</div>
+                    <h2>Plan Your Kenya Journey</h2>
+                    <p>One clear flow from the first brief to the final departure.</p>
+                </div>
+            </div>
+            <div class="uae-process-rail">
+                <div aria-hidden="true" class="uae-process-line"></div>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">01</div>
+                    <div class="uae-process-icon">□</div>
+                    <h3>Share Your Requirement</h3>
+                    <p>Share your Kenya brief, traveller profile and priorities with us.</p>
+                </article>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">02</div>
+                    <div class="uae-process-icon">▤</div>
+                    <h3>Build Your Itinerary</h3>
+                    <p>We shape the routing, stays, experiences and logistics around your brief.</p>
+                </article>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">03</div>
+                    <div class="uae-process-icon">✓</div>
+                    <h3>Confirm &amp; Coordinate</h3>
+                    <p>Our destination team brings suppliers, bookings and every detail together.</p>
+                </article>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">04</div>
+                    <div class="uae-process-icon">◇</div>
+                    <h3>Travel With Confidence</h3>
+                    <p>Your clients travel. Our team stays close throughout.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Frequently Asked Questions</div>
+                <h2>Kenya DMC FAQs</h2>
+                <p>We can build programs across Kenya, including Maasai Mara, Amboseli, Lake Nakuru, Tsavo, Samburu,
+                    Nairobi and Diani Beach.</p>
+            </div>
+            <div class="faq row g-3">
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>What does a Kenya DMC
+                                do?</strong><span aria-hidden="true">+</span></button>
+                        <!-- OLD CONTENT — Kenya Excel row 63 / FAQ answer: <div class="faq-answer"><p>A Kenya DMC manages the local details behind an itinerary, including hotels, transportation, experiences, guides, logistics and on-ground support.</p></div> -->
+                        <div class="faq-answer">
+                            <p>A Kenya DMC manages the local details behind an itinerary, including hotels,
+                                transportation, safari experiences, guides, logistics and on-ground support.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Does Voyage 1 handle FIT
+                                and group travel?</strong><span aria-hidden="true">+</span></button>
+                        <!-- OLD CONTENT — Kenya Excel row 64 / FAQ answer: <div class="faq-answer"><p>Yes. We create tailored FIT programs as well as coordinated group journeys, with the flexibility to match each client brief.</p></div> -->
+                        <div class="faq-answer">
+                            <p>Yes. We create tailored FIT programs and coordinated group journeys, with the flexibility
+                                to match each client brief.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you create
+                                customized Kenya itineraries?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <p>Absolutely. We shape Kenya itineraries around dates, interests, traveller profiles,
+                                preferred stays, experiences and budget.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Does Voyage 1 provide
+                                MICE services?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <p>Yes. We coordinate venues, accommodation, transportation, incentives, event logistics and
+                                on-ground support for Kenya MICE programs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you arrange hotels
+                                and transportation?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <p>We coordinate airport transfers, safari vehicles, private transfers and inter-city
+                                transportation throughout Kenya.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Which parts of Kenya do
+                                you operate in?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <p>We support journeys across Nairobi, Maasai Mara, Amboseli, Tsavo, Lake Nakuru, Samburu,
+                                Mombasa, Diani and other key regions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you arrange luxury
+                                travel programs?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <p>Yes. We curate premium lodges, private experiences, luxury transportation and exclusive
+                                moments around each traveller.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you support special
+                                experiences and celebrations?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <p>Yes. We create bespoke programs for honeymoons, private celebrations, family journeys and
+                                other special occasions across Kenya.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark" data-aos="fade-up" data-aos-duration="850" id="contact">
+        <div class="container contact">
+            <div>
+                <div class="eyebrow">Get In Touch</div>
+                <h2>Let's Plan Your Kenya Program</h2>
+                <p>Share your requirements and our team will get back to you with a customized proposal.</p>
+                <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
+                    <small>PHONE</small>+971 52 167 2038</div>
+                <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
+                    <small>EMAIL</small>info@voyage-one.com</div>
+                <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true"><small>GLOBAL
+                        OFFICE</small>#73, G Floor, Al Fahidi Plaza, Souq Al Kabeer, Dubai</div>
+            </div>
+<?php include "form.php" ?>
+
+
+            <!-- <form data-destination="Kenya" data-subject="Kenya Journey Enquiry — Voyage 1" id="uae-enquiry-form">
+                <div class="form-field"><label for="uae-first-name">First Name</label><input autocomplete="given-name"
+                        class="form-control" id="uae-first-name" name="firstName" placeholder="Enter first name"
+                        required="" /></div>
+                <div class="form-field"><label for="uae-last-name">Last Name</label><input autocomplete="family-name"
+                        class="form-control" id="uae-last-name" name="lastName" placeholder="Enter last name"
+                        required="" /></div>
+                <div class="form-field"><label for="uae-company">Company</label><input autocomplete="organization"
+                        class="form-control" id="uae-company" name="company" placeholder="Company name" /></div>
+                <div class="form-field"><label for="uae-email">Email</label><input autocomplete="email"
+                        class="form-control" id="uae-email" name="email" placeholder="you@company.com" required=""
+                        type="email" /></div>
+                <div class="form-field"><label for="uae-phone">Phone / WhatsApp</label><input autocomplete="tel"
+                        class="form-control" id="uae-phone" name="phone" placeholder="Your phone / WhatsApp number"
+                        type="tel" /></div>
+                <div class="form-field"><label for="uae-country">Country</label><input autocomplete="country-name"
+                        class="form-control" id="uae-country" name="country" placeholder="Country" /></div>
+                <div class="form-field"><label for="uae-date">Travel Date</label><input class="form-control"
+                        id="uae-date" name="travelDate" type="date" /></div>
+                <div class="form-field"><label for="uae-travelers">Number of Travelers</label><input
+                        class="form-control" id="uae-travelers" min="1" name="travelers" placeholder="e.g. 12"
+                        type="number" /></div>
+                <div class="form-field"><label for="uae-travel-type">Travel Type</label><select class="form-select"
+                        id="uae-travel-type" name="travelType">
+                        <option value="">Select travel type</option>
+                        <option>FIT</option>
+                        <option>Group</option>
+                        <option>MICE</option>
+                        <option>Corporate</option>
+                        <option>Luxury</option>
+                        <option>Family</option>
+                        <option>Honeymoon</option>
+                    </select></div>
+                <div class="form-field"><label for="uae-destination">Preferred City / Region</label><select
+                        class="form-select" id="uae-destination" name="destination">
+                        <option value="">Select city / region</option>
+                        <option>Nairobi</option>
+                        <option>Maasai Mara</option>
+                        <option>Amboseli</option>
+                        <option>Tsavo</option>
+                        <option>Lake Nakuru</option>
+                        <option>Diani Beach</option>
+                        <option>Mombasa</option>
+                        <option>Samburu</option>
+                        <option>Multi-region Kenya</option>
+                    </select></div>
+                <div class="form-field full"><label for="uae-requirements">Your Requirements</label><textarea
+                        class="form-control" id="uae-requirements" name="requirements"
+                        placeholder="Tell us about your clients, dates, interests and requirements..."></textarea></div>
+                <div class="form-actions">
+                    <p class="form-note">We’ll use these details only to prepare your Kenya proposal.</p><button
+                        class="btn btn-dark d-inline-flex align-items-center justify-content-center"
+                        type="submit">Submit Enquiry <span aria-hidden="true">→</span></button>
+                </div>
+            </form> -->
+        </div>
+    </section>
+    <footer class="vo-footer">
+        <div class="vo-shell container">
+            <div class="vo-footer-top row g-4 g-xl-5">
+                <div class="vo-footer-brand col-12 col-lg-5">
+                    <a class="vo-footer-logo" href="index.php"><img alt="Voyage 1 DMC logo" class="img-fluid"
+                            src="assets/images/voyage-one-logo__png.webp" /></a>
+                    <h3>Re-defining the Art of Destination Management<br />Connecting Destinations. Creating
+                        Experiences.</h3>
+                    <p>Creating seamless travel experiences through local knowledge, trusted partnerships and responsive
+                        destination teams.</p>
+                    <div class="vo-footer-contact">
+                        <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+                        <a href="tel:+971521672038">+971 52 167 2038</a>
+                        <a href="tel:+91921758633">+91 921758633</a>
+                    </div>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Explore</h4>
+                    <a href="index.php">Home</a><a href="uae.php">Destinations</a><a
+                        href="index.php#services">Services</a><a href="about-us.php">About Us</a><a
+                        href="media.php">Media</a><a href="careers.php">Careers</a>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Destinations</h4><a href="south-africa.php">South Africa</a><a href="kenya.php">Kenya</a><a
+                        href="tanzania.php">Tanzania</a><a href="japan.php">Japan</a><a href="georgia.php">Georgia</a><a
+                        href="kazakhstan.php">Kazakhstan</a><a href="azerbaijan.php">Azerbaijan</a><a
+                        href="uae.php">United Arab Emirates</a><a href="vietnam.php">Vietnam</a>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Contact Us</h4>
+                    <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+                    <a href="tel:+971521672038">+971 52 167 2038</a><a href="tel:+91921758633">+91 921758633</a>
+                    <div class="vo-footer-office">
+                        <small>GLOBAL OFFICE</small>
+                        <strong>Dubai, UAE</strong>
+                        <span>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer</span>
+                    </div>
+                    <div aria-label="Voyage 1 social media" class="vo-footer-socials">
+                        <a aria-label="Voyage 1 on Instagram" href="https://www.instagram.com/voyage1dmc/"
+                            rel="noopener noreferrer" target="_blank" title="Instagram">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <rect fill="none" height="17.5" rx="5.2" stroke="currentColor" stroke-width="1.8"
+                                    width="17.5" x="3.25" y="3.25"></rect>
+                                <circle cx="12" cy="12" fill="none" r="4.1" stroke="currentColor" stroke-width="1.8">
+                                </circle>
+                                <circle cx="17.45" cy="6.65" fill="currentColor" r="1.15"></circle>
+                            </svg>
+                        </a>
+                        <a aria-label="Voyage 1 on Facebook" href="https://www.facebook.com/Voyage1DMC"
+                            rel="noopener noreferrer" target="_blank" title="Facebook">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M13.65 21v-7h2.55l.4-3h-2.95V9.08c0-.87.24-1.46 1.5-1.46h1.61V4.94c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.06V11H7.8v3h2.66v7h3.19Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Voyage 1 on LinkedIn" href="https://www.linkedin.com/company/voyageonedmc/home/"
+                            rel="noopener noreferrer" target="_blank" title="LinkedIn">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M6.2 8.25H3.05V21H6.2V8.25ZM4.62 3A1.88 1.88 0 1 0 4.62 6.76 1.88 1.88 0 0 0 4.62 3ZM8.62 8.25V21h3.15v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.06 1.9 2.06 3.38V21h3.15v-6.85c0-3.37-.73-5.96-4.7-5.96-1.91 0-3.19 1.05-3.71 2.05h-.04v-1.99H8.62Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Chat with Voyage 1 on WhatsApp" href="https://wa.me/971521672038"
+                            rel="noopener noreferrer" target="_blank" title="WhatsApp">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="vo-footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026
+                    Voyage 1 DMC. All rights reserved.</span><span><a href="contact.php">Contact</a></span></div>
+        </div>
+    </footer>
+    <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/global.js"></script>
+</body>
+
+</html>

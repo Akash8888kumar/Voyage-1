@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Voyage 1 DMC | Global Destination Management Company</title>
+<meta content="Voyage 1 is a global DMC partner for travel businesses, combining local expertise, curated experiences and seamless destination operations to turn every itinerary into an experience worth remembering." name="description"/>
+<link href="assets/vendor/bootstrap.min.css" rel="stylesheet"/><link href="css/site.css" rel="stylesheet"/><script>(function(){var d=document.documentElement;d.classList.add('js-reveal');try{if(sessionStorage.getItem('voyage-loader-seen')==='1'){d.classList.add('vo-loader-skip');}}catch(e){}})();</script><noscript><style>html.js-reveal [data-aos]{opacity:1!important;transform:none!important;transition:none!important}</style></noscript></head>
+<body class="page-home"><!-- COPY AUDIT UPDATE: Active copy sourced from Voyage_1_copy_all_pages (1).xlsx, sheet "Copy Audit" for Homepage. Previous replaced copy is preserved inline as OLD CONTENT comments. --><div aria-hidden="true" class="vo-site-loader" data-site-loader=""><div class="vo-loader-inner"><div aria-hidden="true" class="vo-loader-logo-wrap"><img alt="" class="vo-loader-brand-logo" src="assets/images/voyage-one-logo__png.webp"/></div><div class="vo-loader-track"><span></span></div><div class="vo-loader-caption">Curating your next journey</div></div></div>
+<header class="vo-header sticky-top"><nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light py-0"><div class="container"><a aria-label="Voyage 1 home" class="navbar-brand vo-brand" href="index.php"><img alt="Voyage 1 DMC logo" class="img-fluid" height="74" src="assets/images/voyage-one-logo__png.webp" width="74"/></a><button aria-controls="voyageNavbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler vo-navbar-toggler" data-bs-target="#voyageNavbar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="voyageNavbar"><ul class="navbar-nav ms-auto align-items-lg-center"><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about-us.php">About Us</a><ul class="dropdown-menu vo-bootstrap-dropdown"><li><a class="dropdown-item" href="about-us.php#intro"><span class="vo-drop-index">01</span><span class="vo-drop-label">Who We Are</span></a></li><li><a class="dropdown-item" href="about-us.php#story"><span class="vo-drop-index">02</span><span class="vo-drop-label">Our Story</span></a></li><li><a class="dropdown-item" href="about-us.php#services"><span class="vo-drop-index">03</span><span class="vo-drop-label">What We Bring To The Journey</span></a></li><li><a class="dropdown-item" href="about-us.php#team"><span class="vo-drop-index">04</span><span class="vo-drop-label">Our Team</span></a></li></ul></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php#destinations">Destinations</a><ul class="dropdown-menu vo-bootstrap-dropdown"><li><a class="dropdown-item" href="south-africa.php"><span class="vo-drop-index">ZA</span><span class="vo-drop-label">South Africa</span></a></li><li><a class="dropdown-item" href="kenya.php"><span class="vo-drop-index">KE</span><span class="vo-drop-label">Kenya</span></a></li><li><a class="dropdown-item" href="tanzania.php"><span class="vo-drop-index">TZ</span><span class="vo-drop-label">Tanzania</span></a></li><li><a class="dropdown-item" href="japan.php"><span class="vo-drop-index">JP</span><span class="vo-drop-label">Japan</span></a></li><li><a class="dropdown-item" href="georgia.php"><span class="vo-drop-index">GE</span><span class="vo-drop-label">Georgia</span></a></li><li><a class="dropdown-item" href="kazakhstan.php"><span class="vo-drop-index">KZ</span><span class="vo-drop-label">Kazakhstan</span></a></li><li><a class="dropdown-item" href="azerbaijan.php"><span class="vo-drop-index">AZ</span><span class="vo-drop-label">Azerbaijan</span></a></li><li><a class="dropdown-item" href="uae.php"><span class="vo-drop-index">UAE</span><span class="vo-drop-label">United Arab Emirates</span></a></li><li><a class="dropdown-item" href="vietnam.php"><span class="vo-drop-index">VN</span><span class="vo-drop-label">Vietnam</span></a></li></ul></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="media.php">Media</a><ul class="dropdown-menu vo-bootstrap-dropdown"><li><a class="dropdown-item" href="media.php#blogs"><span class="vo-drop-index">01</span><span class="vo-drop-label">Media Coverage</span></a></li><li><a class="dropdown-item" href="media.php#events"><span class="vo-drop-index">02</span><span class="vo-drop-label">Events &amp; Exhibitions</span></a></li></ul></li><li class="nav-item"><a class="nav-link" href="careers.php">Careers</a></li></ul><a class="btn vo-header-cta ms-lg-4 mt-3 mt-lg-0 d-inline-flex align-items-center justify-content-center" href="contact.php">Send Query <span>→</span></a></div></div></nav></header>
+<div class="page">
+<section class="hero" data-aos="fade-up" data-aos-duration="850">
+<div aria-hidden="true" class="vo-hero-slider" data-hero-slider=""><div class="vo-hero-slide vo-hero-slide-video is-active" data-hero-slide="" data-slide-type="video"><video class="vo-hero-video" data-hero-video="" muted="" playsinline="" poster="assets/images/hero-video-poster.webp" preload="metadata" tabindex="-1"><source src="assets/videos/hero-video.mp4" type="video/mp4"/></video></div><div class="vo-hero-slide" data-hero-slide="" data-label="UAE" data-slide-type="image" style="background-image:url('assets/images/UAE__jpg.webp')"></div><div class="vo-hero-slide" data-hero-slide="" data-label="Georgia" data-slide-type="image" style="background-image:url('assets/images/georgia__jpg.webp')"></div><div class="vo-hero-slide" data-hero-slide="" data-label="Kazakhstan" data-slide-type="image" style="background-image:url('assets/images/home-destination-kazakhstan.webp') !important; background-position:center center !important;"></div><div class="vo-hero-slide" data-hero-slide="" data-label="Azerbaijan" data-slide-type="image" style="background-image:url('assets/images/home-destination-azerbaijan.webp') !important; background-position:center center !important;"></div><div class="vo-hero-slide" data-hero-slide="" data-label="Japan" data-slide-type="image" style="background-image:url('assets/images/home-destination-japan.webp') !important; background-position:center center !important;"></div><div class="vo-hero-slide" data-hero-slide="" data-label="Vietnam" data-slide-type="image" style="background-image:url('assets/images/home-destination-vietnam.webp') !important; background-position:center center !important;"></div><div class="vo-hero-slide" data-hero-slide="" data-label="Kenya" data-slide-type="image" style="background-image:url('assets/images/home-destination-kenya.webp') !important; background-position:center center !important;"></div><div class="vo-hero-slide" data-hero-slide="" data-label="Tanzania" data-slide-type="image" style="background-image:url('assets/images/tanzania__jpg.webp')"></div><div class="vo-hero-slide" data-hero-slide="" data-label="South Africa" data-slide-type="image" style="background-image:url('assets/images/home-destination-south-africa.webp') !important; background-position:center center !important;"></div></div>
+<div class="container">
+<div class="hero-content">
+<div class="eyebrow">Global Destination Management Company</div>
+<h1>Wherever The <br/>Journey Takes <br/>You.</h1>
+<p class="hero-copy">From local insight to seamless execution, Voyage 1 delivers exceptional destination
+            experiences and dependable DMC solutions across the world's most compelling destinations.</p>
+<div class="hero-actions">
+<a class="btn primary d-inline-flex align-items-center justify-content-center" href="contact.php">Send Query →</a>
+</div>
+<div aria-label="Hero image controls" class="hero-slider-controls" data-hero-controls=""></div>
+</div>
+</div>
+</section>
+<div class="service-strip">
+<div>FIT</div>
+<div>GIT</div>
+<div>MICE</div>
+<div>LUXURY</div>
+<div>CORPORATE</div>
+<div>TAILOR-MADE</div>
+</div>
+<section class="section" data-aos="fade-up" data-aos-duration="850" id="intro">
+<div class="container intro-grid">
+<div class="row g-4 g-lg-5 align-items-center"><div class="intro-copy col-12 col-lg-5">
+<div class="eyebrow">The Voyage 1 Difference</div>
+<!-- CURRENT UPDATED CONTENT — Copy Audit row 3 / Homepage h2: <h2>Voyage 1 is a global DMC partner for travel businesses, combining local expertise, curated experiences and seamless destination operations to turn every itinerary into an experience worth remembering.</h2> --><h2>We Don't Just Plan Journeys. We Make Them Happen.</h2>
+<p>Voyage 1 connects travel businesses to trusted local expertise, curated
+            experiences and seamless
+            destination operations. From the first enquiry to the final departure, we work behind the scenes to
+            ensure every journey is delivered with precision, care and confidence.</p>
+</div><div class="value-list col-12 col-lg-7" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="value local_experties" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="value-no" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">01</div>
+<div>
+<h3>Local Expertise</h3>
+<p>Destination knowledge and trusted local partnerships.</p>
+</div>
+</div>
+<div class="value local_experties" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="value-no" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">02</div>
+<div>
+<h3>Seamless Operations</h3>
+<p>Travel logistics managed from start to finish.</p>
+</div>
+</div>
+<div class="value" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="value-no" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">03</div>
+<div>
+<!-- OLD CONTENT — Copy Audit row 5 / Tailor-Made heading: <h3>Tailor-Made Experiences</h3> --><h3>Because No Two Journeys Should Feel The Same.</h3>
+<p>Every traveller, every brief and every destination calls for a different approach. We create flexible,
+                thoughtfully tailored journeys shaped around your requirements, not a template.</p>
+</div>
+</div>
+<div class="value local_experties" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="value-no" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">04</div>
+<div>
+<h3>Reliable Support</h3>
+<p>Support throughout the destination experience.</p>
+</div>
+</div>
+</div></div></div>
+</section>
+<section class="section" data-aos="fade-up" data-aos-duration="850" id="destinations">
+<div class="container">
+<div class="section-head">
+<div>
+<div class="eyebrow">Explore</div>
+<h2>Our Destinations</h2>
+</div>
+</div>
+<div class="dest-grid">
+<article class="dest-card vo-inline-bg-26 large" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="dest-overlay">
+<h3>South Africa</h3>
+<p>One Country. Countless Ways To Wander.</p>
+<p class="full-description">From Cape Town and the Winelands to the Garden Route and beyond, create
+                bespoke South Africa journeys blending luxury stays, culture, nature and unforgettable experiences.</p>
+<a class="read-more" href="south-africa.php">Read More →</a>
+</div>
+</article><article class="dest-card vo-inline-bg-24" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="dest-overlay">
+<h3>Kenya</h3>
+<p>Where The Extraordinary Is Part Of The Journey.</p>
+<p class="full-description">Create immersive Africa experiences around wildlife, wilderness and remarkable
+                landscapes, complemented by premium stays, thoughtful itineraries and seamless destination management.
+              </p><a class="read-more" href="kenya.php">Read More →</a>
+</div>
+</article><article class="dest-card vo-inline-bg-25" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="dest-overlay">
+<h3>Tanzania</h3>
+<p>Where The Wild Runs Beyond The Horizon.</p>
+<p class="full-description">Create immersive Africa experiences around wildlife, wilderness and remarkable
+                landscapes, complemented by premium stays, thoughtful itineraries and seamless destination management.
+              </p><a class="read-more" href="tanzania.php">Read More →</a>
+</div>
+</article><article class="dest-card vo-inline-bg-22" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="dest-overlay">
+<h3>Japan</h3>
+<p>A Thousand Ways To Experience Japan.</p>
+<p class="full-description">From Tokyo's energy to Kyoto's timeless beauty, discover Japan through curated
+                luxury travel, authentic culture, extraordinary cuisine and iconic landscapes brought together
+                seamlessly.</p><a class="read-more" href="japan.php">Read More →</a>
+</div>
+</article><article class="dest-card vo-inline-bg-19" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="dest-overlay">
+<h3>Georgia</h3>
+<p>Where Europe Meets The Unexpected.</p>
+<p class="full-description">Discover Georgia through curated cultural experiences, mountain adventures,
+                celebrated cuisine and distinctive stays—crafted into seamless journeys by destination experts who know
+                the country intimately.</p><a class="read-more" href="georgia.php">Read More →</a>
+</div>
+</article><article class="dest-card vo-inline-bg-20" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="dest-overlay">
+<h3>Kazakhstan</h3>
+<p>Where Every Horizon Holds A Story.</p>
+<p class="full-description">Discover Almaty through a distinctive mix of contemporary city life, dramatic
+                mountain landscapes, local culture and bespoke experiences crafted for the modern traveller.</p><a class="read-more" href="kazakhstan.php">Read More →</a>
+</div>
+</article><article class="dest-card vo-inline-bg-21" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="dest-overlay">
+<h3>Azerbaijan</h3>
+<p>Where Ancient Stories Meet Modern Ambition.</p>
+<p class="full-description">Experience Baku and beyond through a compelling blend of heritage,
+                contemporary design, luxury hospitality and carefully crafted journeys shaped around every traveller's
+                interests.</p><a class="read-more" href="azerbaijan.php">Read More →</a>
+</div>
+</article><article class="dest-card image_1 vo-inline-bg-18" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="dest-overlay">
+<h3>UAE</h3>
+<p>More Than A Skyline. A World Of Possibilities.</p>
+<p class="full-description">From luxury city escapes and exceptional hospitality to MICE and bespoke
+                experiences, discover the UAE through seamless destination management and local expertise.</p><a class="read-more" href="uae.php">Read More →</a>
+</div>
+</article></div>
+</div>
+</section>
+<section class="section" data-aos="fade-up" data-aos-duration="850" id="services">
+<div class="container">
+<div class="section-head">
+<div>
+<div class="eyebrow">Capabilities</div>
+<h2>What We Do</h2>
+<div class="section-lead">
+<p>Tailor-made travel, seamless logistics and exceptional experiences, thoughtfully arranged around every traveller and every brief.</p>
+<!-- OLD CONTENT — Copy Audit row 14 / What We Do copy: <p>From exceptional stays to one-of-a-kind experiences, we curate every element around the traveller—combining local insight, trusted partners and thoughtful destination planning.</p> --><p>Premium Stays &amp; Bespoke Experiences From exceptional stays to one-of-a-kind experiences, we curate every element around the traveller—combining local insight, trusted partners and thoughtful destination planning.</p>
+</div>
+</div>
+</div>
+<div class="services-grid row g-4">
+<div class="col-12 col-md-6 col-lg-4"><div class="service-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="service-no">01</span>
+<div>
+<svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+<rect height="13" rx="2" width="18" x="3" y="7"></rect>
+<path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+<path d="M3 12h18"></path>
+</svg>
+<h3>FIT Travel</h3>
+<p>Tailor-made individual journeys.</p>
+</div>
+</div></div>
+<div class="col-12 col-md-6 col-lg-4"><div class="service-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="service-no">02</span>
+<div>
+<svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+<circle cx="9" cy="8" r="3.2"></circle>
+<path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"></path>
+<circle cx="17" cy="9" r="2.6"></circle>
+<path d="M15.5 14.2c2.7.5 4.3 2.4 4.3 5.8"></path>
+</svg>
+<h3>Group Travel</h3>
+<p>End-to-end group travel management.</p>
+</div>
+</div></div>
+<div class="col-12 col-md-6 col-lg-4"><div class="service-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="service-no">03</span>
+<div>
+<svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+<rect height="18" width="10" x="4" y="3"></rect>
+<rect height="12" width="6" x="14" y="9"></rect>
+<path d="M7 7h1M11 7h1M7 11h1M11 11h1M7 15h1M11 15h1M16.5 13h1M16.5 17h1"></path>
+</svg>
+<h3>MICE</h3>
+<p>Meetings, incentives and corporate experiences.</p>
+</div>
+</div></div>
+<div class="col-12 col-md-6 col-lg-4"><div class="service-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="service-no">04</span>
+<div>
+<svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+<path d="M3 19h18"></path>
+<path d="M4 19l-1.5-10L8 13l4-7 4 7 5.5-4L20 19"></path>
+</svg>
+<h3>Luxury Travel</h3>
+<p>Premium stays and private experiences.</p>
+</div>
+</div></div>
+<div class="col-12 col-md-6 col-lg-4"><div class="service-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="service-no">05</span>
+<div>
+<svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="9"></circle>
+<path d="M14.8 9.2 13 13l-3.8 1.8L11 11z"></path>
+</svg>
+<h3>Transfers &amp; Excursions</h3>
+<p>Reliable transport and curated activities.</p>
+</div>
+</div></div>
+<div class="col-12 col-md-6 col-lg-4"><div class="service-card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="service-no">06</span>
+<div>
+<svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+<path d="M12 3c.6 3.4 2.6 5.4 6 6-3.4.6-5.4 2.6-6 6-.6-3.4-2.6-5.4-6-6 3.4-.6 5.4-2.6 6-6Z"></path>
+</svg>
+<h3>Special Experiences</h3>
+<p>Honeymoon, adventure, wildlife and more.</p>
+</div>
+</div></div>
+</div>
+</div>
+</section>
+<section class="section" data-aos="fade-up" data-aos-duration="850" id="why">
+<div class="container why-grid">
+<div class="row g-4"><div class="col-12 col-lg-5">
+<div class="eyebrow">Our Advantage</div>
+<h2 class="w-100">Why Choose <br/>Voyage 1?</h2>
+</div><div class="why-list col-12 col-lg-7">
+<div class="why-item" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="why-number">01</div>
+<div>
+<h3>Local Destination Expertise</h3>
+<p>Local knowledge that makes every itinerary feel effortless.</p>
+</div>
+</div>
+<div class="why-item" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="why-number">02</div>
+<div>
+<h3>Trusted On-Ground Network</h3>
+<p>Trusted local partners delivering reliable support across destinations.</p>
+</div>
+</div>
+<div class="why-item" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="why-number">03</div>
+<div>
+<!-- CURRENT UPDATED CONTENT — Copy Audit row 16 / Why heading: <h3>Journeys Designed Around Every Requirement</h3> --><h3>Tailor-Made Solutions</h3>
+<!-- CURRENT UPDATED CONTENT — Copy Audit row 16 / Why copy: <p>No templates. No one-size-fits-all itineraries. We listen to the brief, understand the traveller and shape every journey around the details that matter most.</p> --><p>Bespoke itineraries shaped around your brief and traveller.</p>
+</div>
+</div>
+<div class="why-item" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="why-number">04</div>
+<div>
+<!-- CURRENT UPDATED CONTENT — Copy Audit row 17 / Why heading: <h3>We Manage The Details Behind Every Journey</h3> --><h3>Seamless Execution</h3>
+<!-- CURRENT UPDATED CONTENT — Copy Audit row 17 / Why copy: <p>From the first enquiry to the final departure, our destination teams coordinate the moving parts behind the scenes—so travel partners can focus on their clients while we focus on getting every detail right.</p> --><p>Coordinated destination teams keep every detail moving smoothly.</p>
+</div>
+</div>
+<div class="why-item" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="why-number">05</div>
+<div>
+<h3>Partner-First Service</h3>
+<p>Your clients, your brand, our destination expertise together.</p>
+</div>
+</div>
+</div></div></div>
+</section>
+<section class="section process row g-3" data-aos="fade-up" data-aos-duration="850" id="process">
+<div class="container">
+<div class="section-head">
+<div>
+<div class="eyebrow">Our Process</div>
+<h2>From Query To Journey.</h2>
+</div>
+</div>
+<div class="process-grid row g-4">
+<div class="col-12 col-sm-6 col-lg"><div class="process-step h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="no">01</span>
+<h3>Send Your Requirements</h3>
+<p>Tell us what you need.</p>
+</div></div>
+<div class="col-12 col-sm-6 col-lg"><div class="process-step h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="no">02</span>
+<h3>We Build Your Itinerary</h3>
+<p>Our team shapes the journey.</p>
+</div></div>
+<div class="col-12 col-sm-6 col-lg"><div class="process-step h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="no">03</span>
+<h3>We Coordinate The Details</h3>
+<p>Operations handled end-to-end.</p>
+</div></div>
+<div class="col-12 col-sm-6 col-lg"><div class="process-step h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="no">04</span>
+<h3>Your Client Travels</h3>
+<p>A seamless destination experience.</p>
+</div></div>
+<div class="col-12 col-sm-6 col-lg"><div class="process-step h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><span class="no">05</span>
+<h3>We Support The Journey</h3>
+<p>We're there throughout.</p>
+</div></div>
+</div>
+</div>
+</section>
+<section class="section" data-aos="fade-up" data-aos-duration="850" id="experiences">
+<div class="container">
+<div class="section-head">
+<div>
+<div class="eyebrow">Inspiration</div>
+<h2 style="width: 110% !important;">Experiences Worth Travelling For</h2>
+</div>
+</div>
+<div class="experience-grid row g-4" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="col-12 col-sm-6 col-lg"><div class="experience vo-inline-bg-27 h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="experience-content" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<h3>City &amp; Luxury</h3>
+<p>Luxury, beautifully done.</p>
+</div>
+</div></div>
+<div class="col-12 col-sm-6 col-lg"><div class="experience vo-inline-bg-28 h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="experience-content" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<h3>Adventure</h3>
+<p>Journeys made for exploration.</p>
+</div>
+</div></div>
+<div class="col-12 col-sm-6 col-lg"><div class="experience vo-inline-bg-29 h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="experience-content" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<h3>Wildlife &amp; Safari</h3>
+<p>Wild. Unforgettable.</p>
+</div>
+</div></div>
+<div class="col-12 col-sm-6 col-lg"><div class="experience vo-inline-bg-30 h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="experience-content" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<h3>Culture &amp; Heritage</h3>
+<p>Stories worth discovering.</p>
+</div>
+</div></div>
+<div class="col-12 col-sm-6 col-lg"><div class="experience vo-inline-bg-31 h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<div class="experience-content" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+<h3>Honeymoon &amp; Romance</h3>
+<p>Made for two.</p>
+</div>
+</div></div>
+</div>
+</div>
+</section>
+<section class="section" data-aos="fade-up" data-aos-duration="850">
+<div class="container">
+<div class="section-head">
+<div>
+<div class="eyebrow">Selected Work</div>
+<h2>Journeys We've Brought To Life</h2>
+</div>
+</div>
+<div class="cases-slider" data-cases-slider="">
+<div aria-label="Selected journeys" class="cases-viewport" tabindex="0">
+<div class="cases-track">
+<article class="case vo-inline-bg-32" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><div class="case-content"><h3>Dubai</h3><p>Luxury Incentive Experience · MICE · 4 Days</p><a class="btn d-inline-flex align-items-center justify-content-center" href="uae.php">View Journey →</a></div></article>
+<article class="case vo-inline-bg-33" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><div class="case-content"><h3>Georgia</h3><p>Caucasus Escape · FIT · Luxury</p><a class="btn d-inline-flex align-items-center justify-content-center" href="georgia.php">View Journey →</a></div></article>
+<article class="case vo-inline-bg-34" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><div class="case-content"><h3>Kenya</h3><p>Safari Experience · Wildlife · Luxury</p><a class="btn d-inline-flex align-items-center justify-content-center" href="kenya.php">View Journey →</a></div></article>
+<article class="case vo-inline-bg-39" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><div class="case-content"><h3>Tanzania</h3><p>Wildlife Escape · Safari · Luxury</p><a class="btn d-inline-flex align-items-center justify-content-center" href="tanzania.php">View Journey →</a></div></article>
+<article class="case vo-inline-bg-40" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><div class="case-content"><h3>Azerbaijan</h3><p>Culture Escape · FIT · Heritage</p><a class="btn d-inline-flex align-items-center justify-content-center" href="azerbaijan.php">View Journey →</a></div></article>
+<article class="case vo-inline-bg-41" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><div class="case-content"><h3>Kazakhstan</h3><p>Adventure Escape · FIT · Luxury</p><a class="btn d-inline-flex align-items-center justify-content-center" href="kazakhstan.php">View Journey →</a></div></article>
+<article class="case vo-inline-bg-37" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><div class="case-content"><h3>Japan</h3><p>Culture Journey · FIT · Premium</p><a class="btn d-inline-flex align-items-center justify-content-center" href="japan.php">View Journey →</a></div></article>
+<article class="case vo-inline-bg-42" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><div class="case-content"><h3>Vietnam</h3><p>Nature Journey · FIT · Experiences</p><a class="btn d-inline-flex align-items-center justify-content-center" href="vietnam.php">View Journey →</a></div></article>
+<article class="case vo-inline-bg-43" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><div class="case-content"><h3>South Africa</h3><p>Safari Journey · Wildlife · Luxury</p><a class="btn d-inline-flex align-items-center justify-content-center" href="south-africa.php">View Journey →</a></div></article>
+</div>
+</div>
+<div aria-label="Selected journey controls" class="cases-slider-controls">
+<button aria-label="Previous journeys" class="cases-arrow" data-cases-prev="" type="button">←</button>
+<button aria-label="Next journeys" class="cases-arrow" data-cases-next="" type="button">→</button>
+</div>
+</div>
+</div>
+</section>
+<section class="section" data-aos="fade-up" data-aos-duration="850">
+<div class="container">
+<div class="eyebrow">Testimonials</div>
+<h2>What Our Clients Say</h2>
+<div class="testimonial-slider" data-testimonial-slider="" data-testimonial-visible="3">
+<div aria-label="Client testimonials" class="testimonial-viewport" tabindex="0">
+<div class="testimonial-track">
+<article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-video">
+<button aria-label="Play Client Experience — Georgia" class="testimonial-video-frame testimonial-video-trigger" data-lightbox-group="testimonial" data-lightbox-poster="assets/images/testimonial-georgia.webp" data-lightbox-src="assets/videos/testimonial-georgia.mp4" data-lightbox-title="Client Experience — Georgia" data-lightbox-type="video" type="button">
+<img alt="Client Experience — Georgia" class="img-fluid" loading="lazy" src="assets/images/testimonial-georgia.webp"/>
+<span aria-hidden="true" class="video-play-icon"><span>▶</span></span>
+<span class="video-play-label">Watch video</span>
+</button>
+<div class="person">Client Experience — Georgia</div>
+</div>
+</article>
+<article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-video">
+<button aria-label="Play Real Stories — Voyage 1" class="testimonial-video-frame testimonial-video-trigger" data-lightbox-group="testimonial" data-lightbox-poster="assets/images/testimonial-real-stories.jpg" data-lightbox-src="assets/videos/testimonial-real-stories.mp4" data-lightbox-title="Real Stories — Voyage 1" data-lightbox-type="video" type="button">
+<img alt="Real Stories — Voyage 1" class="img-fluid" loading="lazy" src="assets/images/testimonial-real-stories.jpg"/>
+<span aria-hidden="true" class="video-play-icon"><span>▶</span></span>
+<span class="video-play-label">Watch video</span>
+</button>
+<div class="person">Real Stories — Voyage 1</div>
+</div>
+</article>
+<article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-video">
+<button aria-label="Play Client Testimonial — Almaty" class="testimonial-video-frame testimonial-video-trigger" data-lightbox-group="testimonial" data-lightbox-poster="assets/images/testimonial-almaty.webp" data-lightbox-src="assets/videos/testimonial-almaty.mp4" data-lightbox-title="Client Testimonial — Almaty" data-lightbox-type="video" type="button">
+<img alt="Client Testimonial — Almaty" class="img-fluid" loading="lazy" src="assets/images/testimonial-almaty.webp"/>
+<span aria-hidden="true" class="video-play-icon"><span>▶</span></span>
+<span class="video-play-label">Watch video</span>
+</button>
+<div class="person">Client Testimonial — Almaty</div>
+</div>
+</article>
+<article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-video">
+<button aria-label="Play Client Experience — Dubai" class="testimonial-video-frame testimonial-video-trigger" data-lightbox-group="testimonial" data-lightbox-poster="assets/images/testimonial-dubai.jpg" data-lightbox-src="assets/videos/testimonial-dubai.mp4" data-lightbox-title="Client Experience — Dubai" data-lightbox-type="video" type="button">
+<img alt="Client Experience — Dubai" class="img-fluid" loading="lazy" src="assets/images/testimonial-dubai.jpg"/>
+<span aria-hidden="true" class="video-play-icon"><span>▶</span></span>
+<span class="video-play-label">Watch video</span>
+</button>
+<div class="person">Client Experience — Dubai</div>
+</div>
+</article>
+<article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-video">
+<button aria-label="Play Client Experience — South Africa" class="testimonial-video-frame testimonial-video-trigger" data-lightbox-group="testimonial" data-lightbox-poster="assets/images/testimonial-south-africa.webp" data-lightbox-src="assets/videos/testimonial-south-africa.mp4" data-lightbox-title="Client Experience — South Africa" data-lightbox-type="video" type="button">
+<img alt="Client Experience — South Africa" class="img-fluid" loading="lazy" src="assets/images/testimonial-south-africa.webp"/>
+<span aria-hidden="true" class="video-play-icon"><span>▶</span></span>
+<span class="video-play-label">Watch video</span>
+</button>
+<div class="person">Client Experience — South Africa</div>
+</div>
+</article><article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-text">
+<span class="testimonial-type">Client Review</span>
+<p class="quote">“A smooth and hassle-free experience with responsive support throughout ticketing and visa assistance. Highly recommended.”</p>
+<div class="person">Tin Castro · Traveller</div>
+</div>
+</article>
+<article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-text">
+<span class="testimonial-type">Client Review</span>
+<p class="quote">“Very good service from Voyage One DMC. The visa arrived on time, and the A2A service with flights and meals made everything convenient.”</p>
+<div class="person">Zainul Islam · Traveller</div>
+</div>
+</article>
+<article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-text">
+<span class="testimonial-type">Client Review</span>
+<p class="quote">“Received the visa within two days. The team was friendly, genuine, supportive, and easy to recommend.”</p>
+<div class="person">Tehba Pervez · Traveller</div>
+</div>
+</article>
+<article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-text">
+<span class="testimonial-type">Client Review</span>
+<p class="quote">“Professional and efficient customer service. Questions were answered clearly, and Vishal was especially helpful and supportive.”</p>
+<div class="person">Rachelle Sulit · Traveller</div>
+</div>
+</article>
+<article aria-hidden="true" class="testimonial-slide">
+<div class="testimonial testimonial-text">
+<span class="testimonial-type">Client Review</span>
+<p class="quote">“Fast, smooth and professional visa processing with a helpful and responsive team. A reliable choice for travel and visa services.”</p>
+<div class="person">Mohd Shakil · Traveller</div>
+</div>
+</article>
+</div>
+</div>
+<div aria-label="Testimonial controls" class="testimonial-controls">
+<button aria-label="Previous testimonials" class="testimonial-arrow" data-testimonial-prev="" type="button">←</button>
+<button aria-label="Next testimonials" class="testimonial-arrow" data-testimonial-next="" type="button">→</button>
+</div>
+</div>
+</div>
+</section>
+<section class="section media-home-section" data-aos="fade-up" data-aos-duration="850">
+<div class="container">
+<div class="heading">
+<div class="eyebrow">In The News</div>
+<h2>Voyage 1 In The Media</h2>
+<p>Explore the latest stories and industry coverage featuring Voyage 1, from global expansion and destination expertise to our growing African footprint.</p>
+</div>
+<div class="media-grid media-grid-home row g-4"><div class="media-grid media-grid-home row g-4">
+<div class="col-12 col-md-6 col-lg-4"><article class="media-card h-100" data-aos="fade-up" data-aos-delay="0">
+<div class="media-card-image"><img alt="ETTravelWorld media coverage" class="img-fluid" loading="lazy" src="assets/images/naveen-travelworld__jpg.webp"/></div>
+<div class="media-card-body">
+<span class="media-source">ETTravelWorld</span>
+<h3>Voyage 1 acquires South Africa-based World Wide African Tours to expand African footprint</h3>
+<p>Dubai-based Voyage 1 DMC LLC has acquired 100 per cent of South Africa's World Wide African Tours under the SafarisInBushes.com brand, strengthening its presence in the African tourism market.</p>
+<a class="btn d-inline-flex align-items-center justify-content-center" href="https://travel.economictimes.indiatimes.com/news/travel-agents/outbound/voyage-1-acquires-south-africa-based-world-wide-african-tours-to-expand-african-footprint/132705991">Read More →</a>
+</div>
+</article></div>
+<div class="col-12 col-md-6 col-lg-4"><article class="media-card h-100" data-aos="fade-up" data-aos-delay="80">
+<div class="media-card-image"><img alt="Exchange4media media coverage" class="img-fluid" loading="lazy" src="assets/images/naveen-bw__jpg.webp"/></div>
+<div class="media-card-body">
+<span class="media-source">Exchange4media</span>
+<h3>Voyage 1 acquires South Africa's World Wide African Tours</h3>
+<p>Dubai based destination management company (DMC) Voyage 1 DMC LLC has acquired a 100% stake in South Africa based World Wide African Tours, which operates under the safarisinbushes.com brand.</p>
+<a class="btn d-inline-flex align-items-center justify-content-center" href="https://www.exchange4media.com/announcements-news/voyage-1-acquires-south-africas-world-wide-african-tours-156776.php">Read More →</a>
+</div>
+</article></div>
+<div class="col-12 col-md-6 col-lg-4"><article class="media-card h-100" data-aos="fade-up" data-aos-delay="160">
+<div class="media-card-image"><img alt="Trav Talk media coverage" class="img-fluid" loading="lazy" src="assets/images/naveen-planner__jpg.webp"/></div>
+<div class="media-card-body">
+<span class="media-source">Trav Talk</span>
+<h3>Naveen Kundu-led Voyage 1 DMC acquires 100% stake in South Africa’s</h3>
+<p>Voyage 1 DMC LLC Dubai, led by industry veteran Naveen Kundu, has officially announced a 100% acquisition of World Wide African Tours under its brand safarisinbushes.com, a DMC based in South Africa.</p>
+<a class="btn d-inline-flex align-items-center justify-content-center" href="https://travtalkindia.com/naveen-kundu-led-voyage-1-dmc-acquires-100-stake-in-south-africas-world-wide-african-tours/">Read More →</a>
+</div>
+</article></div>
+</div>
+<div class="media-home-actions"><a class="btn primary d-inline-flex align-items-center justify-content-center" href="media.php#media-top">View All Media →</a></div>
+</div>
+</div></section>
+<section class="final-cta" data-aos="fade-up" data-aos-duration="850" id="cta">
+<div class="container">
+<div class="eyebrow">Start A Conversation</div>
+<h2>Ready To Plan The Next Journey?</h2>
+<p>Share your requirements with us and let our destination experts take care of the rest.</p>
+<a class="btn primary d-inline-flex align-items-center justify-content-center" href="contact.php">Send Query →</a>
+<a class="btn d-inline-flex align-items-center justify-content-center" href="#destinations">Explore Destinations →</a>
+</div>
+</section>
+<div aria-hidden="true" class="vo-lightbox" data-vo-lightbox="">
+<div class="vo-lightbox-backdrop" data-lightbox-close=""></div>
+<div aria-label="Media preview" aria-modal="true" class="vo-lightbox-dialog" role="dialog">
+<button aria-label="Close preview" class="vo-lightbox-close" data-lightbox-close="" type="button">×</button>
+<button aria-label="Previous item" class="vo-lightbox-nav prev" data-lightbox-prev="" type="button">←</button>
+<div class="vo-lightbox-content" data-lightbox-content=""></div>
+<button aria-label="Next item" class="vo-lightbox-nav next" data-lightbox-next="" type="button">→</button>
+<div class="vo-lightbox-caption"><span data-lightbox-caption=""></span><span data-lightbox-count=""></span></div>
+</div>
+</div>
+<footer class="vo-footer">
+<div class="vo-shell container">
+<div class="vo-footer-top row g-4 g-xl-5">
+<div class="vo-footer-brand col-12 col-lg-5">
+<a class="vo-footer-logo" href="index.php"><img alt="Voyage 1 DMC logo" class="img-fluid" src="assets/images/voyage-one-logo__png.webp"/></a>
+<h3>Re-defining the Art of Destination Management<br/>Connecting Destinations. Creating Experiences.</h3>
+<p>Creating seamless travel experiences through local knowledge, trusted partnerships and responsive destination teams.</p>
+<div class="vo-footer-contact">
+<a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+<a href="tel:+971521672038">+971 52 167 2038</a>
+<a href="tel:+91921758633">+91 921758633</a></div>
+</div>
+<div class="vo-footer-column col-6 col-md-4 col-lg"><h4>Explore</h4>
+<a href="index.php">Home</a><a href="uae.php">Destinations</a><a href="index.php#services">Services</a><a href="about-us.php">About Us</a><a href="media.php">Media</a><a href="careers.php">Careers</a></div>
+<div class="vo-footer-column col-6 col-md-4 col-lg"><h4>Destinations</h4><a href="south-africa.php">South Africa</a><a href="kenya.php">Kenya</a><a href="tanzania.php">Tanzania</a><a href="japan.php">Japan</a><a href="georgia.php">Georgia</a><a href="kazakhstan.php">Kazakhstan</a><a href="azerbaijan.php">Azerbaijan</a><a href="uae.php">United Arab Emirates</a><a href="vietnam.php">Vietnam</a></div>
+<div class="vo-footer-column col-6 col-md-4 col-lg">
+<h4>Contact Us</h4>
+<a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+<a href="tel:+971521672038">+971 52 167 2038</a><a href="tel:+91921758633">+91 921758633</a>
+<div class="vo-footer-office">
+<small>GLOBAL OFFICE</small>
+<strong>Dubai, UAE</strong>
+<span>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer</span>
+</div>
+<div aria-label="Voyage 1 social media" class="vo-footer-socials">
+<a aria-label="Voyage 1 on Instagram" href="https://www.instagram.com/voyage1dmc/" rel="noopener noreferrer" target="_blank" title="Instagram">
+<svg aria-hidden="true" viewbox="0 0 24 24"><rect fill="none" height="17.5" rx="5.2" stroke="currentColor" stroke-width="1.8" width="17.5" x="3.25" y="3.25"></rect><circle cx="12" cy="12" fill="none" r="4.1" stroke="currentColor" stroke-width="1.8"></circle><circle cx="17.45" cy="6.65" fill="currentColor" r="1.15"></circle></svg>
+</a>
+<a aria-label="Voyage 1 on Facebook" href="https://www.facebook.com/Voyage1DMC" rel="noopener noreferrer" target="_blank" title="Facebook">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M13.65 21v-7h2.55l.4-3h-2.95V9.08c0-.87.24-1.46 1.5-1.46h1.61V4.94c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.06V11H7.8v3h2.66v7h3.19Z" fill="currentColor"></path></svg>
+</a>
+<a aria-label="Voyage 1 on LinkedIn" href="https://www.linkedin.com/company/voyageonedmc/home/" rel="noopener noreferrer" target="_blank" title="LinkedIn">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M6.2 8.25H3.05V21H6.2V8.25ZM4.62 3A1.88 1.88 0 1 0 4.62 6.76 1.88 1.88 0 0 0 4.62 3ZM8.62 8.25V21h3.15v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.06 1.9 2.06 3.38V21h3.15v-6.85c0-3.37-.73-5.96-4.7-5.96-1.91 0-3.19 1.05-3.71 2.05h-.04v-1.99H8.62Z" fill="currentColor"></path></svg>
+</a>
+<a aria-label="Chat with Voyage 1 on WhatsApp" href="https://wa.me/971521672038" rel="noopener noreferrer" target="_blank" title="WhatsApp">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z" fill="currentColor"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="vo-footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026 Voyage 1 DMC. All rights reserved.</span><span><a href="contact.php">Contact</a></span></div>
+</div>
+</footer>
+</div>
+<a aria-label="Chat with Voyage 1 on WhatsApp" class="vo-floating-whatsapp" data-home-whatsapp="" href="https://wa.me/971521672038" rel="noopener noreferrer" target="_blank" title="WhatsApp"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z" fill="currentColor"></path></svg></a><script src="assets/vendor/bootstrap.bundle.min.js"></script><script src="js/global.js"></script>
+</body>
+</html>

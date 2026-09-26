@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Japan DMC | Voyage 1 DMC</title>
+  <meta
+    content="As a trusted Japan DMC, Voyage 1 delivers local expertise, seamless operations and tailored travel programs for FIT, groups, luxury, MICE and corporate travel across Japan."
+    name="description" />
+  <style>
+    .page-japan .hero-bg {
+      background-image: url('assets/images/japan-hero-banner-autumn-street.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .uae-image-dmc {
+      background-image: linear-gradient(180deg, rgba(22, 42, 75, .04), rgba(22, 42, 75, .12)), url('assets/images/japan-hiroshima-architecture.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-1 {
+      background-image: url('assets/images/hero-japan.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-2 {
+      background-image: url('assets/images/japan-hiroshima-architecture.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-3 {
+      background-image: url('assets/images/japan-culture.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-4 {
+      background-image: url('assets/images/japan-hiroshima-heritage.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-5 {
+      background-image: url('assets/images/japan-hiroshima-architecture.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-6 {
+      background-image: url('assets/images/hero-japan.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-7 {
+      background-image: url('assets/images/japan-culture.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-8 {
+      background-image: url('assets/images/japan-hiroshima-heritage.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-9 {
+      background-image: url('assets/images/japan-hiroshima-architecture.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-10 {
+      background-image: url('assets/images/japan-culture.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-11 {
+      background-image: url('assets/images/japan-hiroshima-architecture.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-12 {
+      background-image: url('assets/images/hero-japan.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+  <style>
+    /* Website image refresh: selected from existing unused WebP assets. */
+    .page-japan .uae-image-dmc {
+      background-image: linear-gradient(180deg, rgba(22, 42, 75, .04), rgba(22, 42, 75, .12)), url('assets/images/japan-partner.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-1 {
+      background-image: url('assets/images/japan-card1.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-2 {
+      background-image: url('assets/images/japan-card2.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-3 {
+      background-image: url('assets/images/japan-card3.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-4 {
+      background-image: url('assets/images/japan-card4.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-5 {
+      background-image: url('assets/images/japan-card5.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-6 {
+      background-image: url('assets/images/japan-card6.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .vo-inline-bg-7 {
+      background-image: url('assets/images/japan-osaka-street.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .page-japan .feature-main {
+      background-image: url('assets/images/japan-card1.webp') !important;
+    }
+
+    .page-japan .feature-small:nth-child(1) {
+      background-image: url('assets/images/japan-card2.webp') !important;
+    }
+
+    .page-japan .feature-small:nth-child(2) {
+      background-image: url('assets/images/japan-card4.webp') !important;
+    }
+  </style>
+  <link href="assets/vendor/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/site.css" rel="stylesheet" />
+  <script>(function () { var d = document.documentElement; d.classList.add('js-reveal'); try { if (sessionStorage.getItem('voyage-loader-seen') === '1') { d.classList.add('vo-loader-skip'); } } catch (e) { } })();</script>
+  <noscript>
+    <style>
+      html.js-reveal [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important
+      }
+    </style>
+  </noscript>
+  <style>
+    /* Final Japan hero banner override */
+    .page-japan .vo-static-banner,
+    .page-japan .hero-bg {
+      background-image: url('assets/images/japan-hero-banner-autumn-street.webp') !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .page-japan .overlay {
+      background: linear-gradient(90deg, rgba(10, 23, 44, .48) 0%, rgba(10, 23, 44, .26) 34%, rgba(10, 23, 44, .10) 60%, rgba(10, 23, 44, .06) 100%) !important;
+    }
+  </style>
+  <style>
+    .page-japan .vo-inline-bg-10 {
+      background-image: url('assets/images/japan-osaka-food-culture.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+  <style>
+    .page-japan .vo-inline-bg-5 {
+      background-image: url('assets/images/japan-nara-temple.webp') !important;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+
+<body class="page-destination page-japan">
+  <!-- JAPAN COPY UPDATE: Active copy sourced from Voyage_1_copy_all_pages (5).xlsx, sheet "Japan", column "Shreya". Previous active copy is preserved inline as OLD CONTENT comments. -->
+  <div aria-hidden="true" class="vo-site-loader" data-site-loader="">
+    <div class="vo-loader-inner">
+      <div aria-hidden="true" class="vo-loader-logo-wrap"><img alt="" class="vo-loader-brand-logo"
+          src="assets/images/voyage-one-logo__png.webp" /></div>
+      <div class="vo-loader-track"><span></span></div>
+      <div class="vo-loader-caption">Curating your next journey</div>
+    </div>
+  </div>
+  <header class="vo-header sticky-top">
+    <nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light py-0">
+      <div class="container"><a aria-label="Voyage 1 home" class="navbar-brand vo-brand" href="index.php"><img
+            alt="Voyage 1 DMC logo" class="img-fluid" height="74" src="assets/images/voyage-one-logo__png.webp"
+            width="74" /></a><button aria-controls="voyageNavbar" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler vo-navbar-toggler" data-bs-target="#voyageNavbar" data-bs-toggle="collapse"
+          type="button"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="voyageNavbar">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown" href="about-us.php">About Us</a>
+              <ul class="dropdown-menu vo-bootstrap-dropdown">
+                <li><a class="dropdown-item" href="about-us.php#intro"><span class="vo-drop-index">01</span><span
+                      class="vo-drop-label">Who We Are</span></a></li>
+                <li><a class="dropdown-item" href="about-us.php#story"><span class="vo-drop-index">02</span><span
+                      class="vo-drop-label">Our Story</span></a></li>
+                <li><a class="dropdown-item" href="about-us.php#services"><span class="vo-drop-index">03</span><span
+                      class="vo-drop-label">What We Bring To The Journey</span></a></li>
+                <li><a class="dropdown-item" href="about-us.php#team"><span class="vo-drop-index">04</span><span
+                      class="vo-drop-label">Our Team</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle active"
+                data-bs-toggle="dropdown" href="index.php#destinations">Destinations</a>
+              <ul class="dropdown-menu vo-bootstrap-dropdown">
+                <li><a class="dropdown-item" href="south-africa.php"><span class="vo-drop-index">ZA</span><span
+                      class="vo-drop-label">South Africa</span></a></li>
+                <li><a class="dropdown-item" href="kenya.php"><span class="vo-drop-index">KE</span><span
+                      class="vo-drop-label">Kenya</span></a></li>
+                <li><a class="dropdown-item" href="tanzania.php"><span class="vo-drop-index">TZ</span><span
+                      class="vo-drop-label">Tanzania</span></a></li>
+                <li><a class="dropdown-item" href="japan.php"><span class="vo-drop-index">JP</span><span
+                      class="vo-drop-label">Japan</span></a></li>
+                <li><a class="dropdown-item" href="georgia.php"><span class="vo-drop-index">GE</span><span
+                      class="vo-drop-label">Georgia</span></a></li>
+                <li><a class="dropdown-item" href="kazakhstan.php"><span class="vo-drop-index">KZ</span><span
+                      class="vo-drop-label">Kazakhstan</span></a></li>
+                <li><a class="dropdown-item" href="azerbaijan.php"><span class="vo-drop-index">AZ</span><span
+                      class="vo-drop-label">Azerbaijan</span></a></li>
+                <li><a class="dropdown-item" href="uae.php"><span class="vo-drop-index">UAE</span><span
+                      class="vo-drop-label">United Arab Emirates</span></a></li>
+                <li><a class="dropdown-item" href="vietnam.php"><span class="vo-drop-index">VN</span><span
+                      class="vo-drop-label">Vietnam</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown" href="media.php">Media</a>
+              <ul class="dropdown-menu vo-bootstrap-dropdown">
+                <li><a class="dropdown-item" href="media.php#blogs"><span class="vo-drop-index">01</span><span
+                      class="vo-drop-label">Media Coverage</span></a></li>
+                <li><a class="dropdown-item" href="media.php#events"><span class="vo-drop-index">02</span><span
+                      class="vo-drop-label">Events &amp; Exhibitions</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="careers.php">Careers</a></li>
+          </ul><a class="btn vo-header-cta ms-lg-4 mt-3 mt-lg-0 d-inline-flex align-items-center justify-content-center"
+            href="contact.php">Send Query <span>→</span></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="hero" data-aos="fade-up" data-aos-duration="850">
+    <div aria-hidden="true" class="vo-static-banner"></div>
+    <div aria-hidden="true" class="hero-bg"
+      style="background-image:url('assets/images/japan-hero-banner-autumn-street.webp') !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important;">
+    </div>
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="eyebrow">Voyage 1 DMC • Japan</div>
+        <h1><span class="hero-dmc-name">Japan DMC</span><span class="hero-dmc-tagline">Where Tradition Meets
+            Tomorrow</span></h1>
+        <!-- OLD CONTENT — Japan Excel row 2 / Hero paragraph: <p>Japan offers an extraordinary mix of timeless traditions, modern cities, refined hospitality, seasonal beauty and world-class cuisine. Voyage 1 designs seamless B2B programs across Tokyo, Kyoto, Osaka and beyond.</p> -->
+        <p>From Tokyo’s energy and Kyoto’s timeless traditions to Mount Fuji, Osaka and beyond, Voyage 1 creates
+          seamless B2B programs across Japan for FIT, groups, luxury, families and MICE.</p>
+        <div class="hero-actions"><a class="btn dark d-inline-flex align-items-center justify-content-center"
+            href="#contact">Request a Proposal →</a><a
+            class="btn d-inline-flex align-items-center justify-content-center" href="#services">Explore Services →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" data-aos="fade-up" data-aos-duration="850">
+    <div class="container two">
+      <div class="row g-4 g-lg-5 align-items-center">
+        <div class="col-12 col-lg-6">
+          <div class="eyebrow">Japan Destination Management</div>
+          <h2>Your Local Partner in Japan</h2>
+          <!-- OLD LOCAL PARTNER COPY — <p>You know your clients. We know the destination. Together, we create seamless journeys backed by local relationships, destination expertise and dependable support on the ground.</p> -->
+          <p>You know your clients. We know the destination. Together, we turn travel briefs into seamless destination
+            experiences, backed by local expertise, trusted relationships and dependable support on the ground.</p>
+          <!-- OLD LOCAL PARTNER COPY — <p>From classic first-time journeys and premium rail travel to cultural immersion, family programs, luxury stays, MICE and incentive travel, our destination support keeps every detail coordinated.</p> -->
+          <p>From accommodation and transportation to experiences, excursions, groups, luxury travel and MICE programs,
+            our destination team manages the details behind every journey — giving you the confidence to deliver
+            exceptional travel to your clients.</p>
+          <a class="btn btn-dark d-inline-flex align-items-center justify-content-center" href="#contact">Talk to Our
+            Japan Team</a>
+        </div>
+        <div aria-label="Japan destination scene" class="placeholder uae-image uae-image-dmc col-12 col-lg-6"
+          role="img"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section light" data-aos="fade-up" data-aos-duration="850">
+    <div class="container">
+      <div class="heading">
+        <div class="eyebrow">Discover the Destination</div>
+        <h2>One Destination. A World Of Contrasts.</h2>
+        <!-- OLD CONTENT — Japan Excel row 3 / Why Choose Japan? section intro: <p>Culture, nature, adventure, hospitality and memorable experiences in one destination.</p> -->
+        <p>Ancient traditions, cutting-edge cities, seasonal beauty, exceptional cuisine and refined hospitality come
+          together to make Japan endlessly rewarding.</p>
+      </div>
+      <div class="cards five row g-4">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg aria-hidden="true"
+                viewbox="0 0 24 24">
+                <path d="M3 20h18"></path>
+                <path d="M5 20v-8h14v8"></path>
+                <path d="M4 12 12 5l8 7"></path>
+                <path d="M8 12v8M12 12v8M16 12v8"></path>
+                <path d="M9 8h6"></path>
+              </svg></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Culture</h3>
+              <!-- OLD CONTENT — Japan Excel row 4 / Culture: <p>Temples, traditions, arts and living heritage.</p> -->
+              <p>Ancient traditions, timeless arts and living heritage.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg aria-hidden="true"
+                viewbox="0 0 24 24">
+                <path d="m12 3 7 6-7 12L5 9l7-6Z"></path>
+                <path d="m5 9 7 3 7-3M12 3v9"></path>
+              </svg></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Luxury</h3>
+              <!-- OLD CONTENT — Japan Excel row 5 / Luxury: <p>Exceptional hotels, dining and private experiences.</p> -->
+              <p>Exceptional stays, fine dining and private experiences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg aria-hidden="true"
+                viewbox="0 0 24 24">
+                <path d="M4 20c0-6 4-11 11-15 1 7-2 12-8 15"></path>
+                <path d="M4 20c3-3 6-5 10-7"></path>
+                <path d="M13 20c3-2 5-5 6-9"></path>
+              </svg></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Nature</h3>
+              <!-- OLD CONTENT — Japan Excel row 6 / Nature: <p>Mountains, gardens, lakes and seasonal landscapes.</p> -->
+              <p>Mountains, gardens, lakes and spectacular seasonal landscapes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg aria-hidden="true"
+                viewbox="0 0 24 24">
+                <circle cx="8" cy="7" r="2.5"></circle>
+                <circle cx="16" cy="8" r="2.5"></circle>
+                <path d="M3.5 19a4.5 4.5 0 0 1 9 0"></path>
+                <path d="M11.5 19a4.5 4.5 0 0 1 9 0"></path>
+                <path d="M12 14a4 4 0 0 0-2.5-.8"></path>
+              </svg></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Family</h3>
+              <!-- OLD CONTENT — Japan Excel row 7 / Family: <p>Theme parks, interactive attractions and easy rail travel.</p> -->
+              <p>Interactive attractions, theme parks and effortless rail journeys.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg aria-hidden="true"
+                viewbox="0 0 24 24">
+                <rect height="15" rx="2" width="16" x="4" y="5"></rect>
+                <path d="M8 3v4M16 3v4M4 9h16"></path>
+                <path d="M8 13h2M14 13h2M8 17h2M14 17h2"></path>
+              </svg></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>MICE</h3>
+              <!-- OLD CONTENT — Japan Excel row 8 / MICE: <p>World-class venues, transport and event support.</p> -->
+              <p>World-class venues, seamless transport and event expertise.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" data-aos="fade-up" data-aos-duration="850">
+    <div class="container">
+      <div class="heading">
+        <div class="eyebrow">Explore Japan</div>
+        <h2>Discover Japan</h2>
+        <!-- OLD CONTENT — Japan Excel row 9 / Discover Japan section intro: <p>Signature destinations and experiences to build into every itinerary.</p> -->
+        <p>“From neon-lit city streets and ancient temples to mountain escapes and tranquil hot springs, discover the
+          destinations that reveal Japan’s many different sides.”</p>
+      </div>
+      <div class="cards row g-4">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img vo-inline-bg-1" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Tokyo</h3>
+              <!-- OLD CONTENT — Japan Excel row 10 / Tokyo: <p>Dynamic neighborhoods, shopping, food and modern culture.</p> -->
+              <p>Dynamic neighbourhoods, extraordinary dining, shopping and contemporary culture.</p><a class="link"
+                href="#services">Explore Tokyo →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img vo-inline-bg-2" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Kyoto</h3>
+              <!-- OLD CONTENT — Japan Excel row 11 / Kyoto: <p>Temples, gardens, traditions and timeless atmosphere.</p> -->
+              <p>Timeless temples, serene gardens and Japan’s cultural traditions.</p><a class="link"
+                href="#services">Explore Kyoto →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img vo-inline-bg-3" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Osaka</h3>
+              <!-- OLD CONTENT — Japan Excel row 12 / Osaka: <p>Food, entertainment and vibrant city experiences.</p> -->
+              <p>Vibrant street food, entertainment and unmistakable city energy.</p><a class="link"
+                href="#services">Explore Osaka →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img vo-inline-bg-4" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Mount Fuji</h3>
+              <!-- OLD CONTENT — Japan Excel row 13 / Mount Fuji: <p>Iconic scenery, lakes and classic Japanese landscapes.</p> -->
+              <p>Iconic mountain views, tranquil lakes and classic Japanese scenery.</p><a class="link"
+                href="#services">Explore Mount Fuji →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img vo-inline-bg-5" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Nara</h3>
+              <!-- OLD CONTENT — Japan Excel row 14 / Nara: <p>Historic temples, gardens and cultural encounters.</p> -->
+              <p>Ancient temples, peaceful gardens and intimate cultural encounters.</p><a class="link"
+                href="#services">Explore Nara →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img vo-inline-bg-6" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Hiroshima</h3>
+              <!-- OLD CONTENT — Japan Excel row 15 / Hiroshima: <p>Peace heritage, island scenery and regional cuisine.</p> -->
+              <p>Powerful peace heritage, island landscapes and regional cuisine.</p><a class="link"
+                href="#services">Explore Hiroshima →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="card-img vo-inline-bg-7" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"></div>
+            <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+              <h3>Hakone</h3>
+              <!-- OLD CONTENT — Japan Excel row 16 / Hakone: <p>Hot springs, mountain scenery and relaxing escapes.</p> -->
+              <p>Hot springs, mountain views and beautifully restorative escapes.</p><a class="link"
+                href="#services">Explore Hakone →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section light" data-aos="fade-up" data-aos-duration="850">
+    <div class="container">
+      <div class="heading">
+        <div class="eyebrow">Most Popular</div>
+        <h2>Japan Destinations</h2>
+      </div>
+      <div class="feature">
+        <div class="feature-main"
+          style="background-image:url('assets/images/japan-fuji-scenic.webp') !important; background-size:cover !important; background-position:center center !important;">
+          <div class="feature-copy">
+            <h2>Tokyo</h2>
+            <p>A world-class capital where innovation and tradition coexist.</p><a class="link"
+              href="#services">Discover Tokyo →</a>
+          </div>
+        </div>
+        <div class="feature-stack">
+          <div class="feature-small"
+            style="background-image:url('assets/images/japan-kyoto-temple.webp') !important; background-size:cover !important; background-position:center center !important;">
+            <div class="feature-copy">
+              <h3>Kyoto</h3>
+              <!-- OLD CONTENT — Japan Excel row 17 / Kyoto: <p>Japan's cultural heart with temples, gardens and refined experiences.</p> -->
+              <p>Japan’s cultural heart, where temples, gardens and refined experiences come together.</p><a
+                class="link" href="#services">Discover Kyoto →</a>
+            </div>
+          </div>
+          <div class="feature-small"
+            style="background-image:url('assets/images/japan-osaka-street.webp') !important; background-size:cover !important; background-position:center center !important;">
+            <div class="feature-copy">
+              <h3>Osaka</h3>
+              <!-- OLD CONTENT — Japan Excel row 18 / Osaka: <p>A lively destination known for food, entertainment and warm hospitality.</p> -->
+              <p>A vibrant city of exceptional food, entertainment and unmistakable local character.</p><a class="link"
+                href="#services">Discover Osaka →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section uae-experiences-redesign" data-aos="fade-up" data-aos-duration="850">
+    <div class="container">
+      <div class="uae-showcase-head">
+        <div>
+          <div class="eyebrow">Experiences</div>
+          <h2>Experience Japan Your Way</h2>
+        </div>
+        <p>From ancient rituals and refined dining to seasonal landscapes, family adventures and unforgettable city
+          experiences, shape Japan around what your clients want to discover.</p>
+      </div>
+      <div class="uae-exp-grid-redesign">
+        <article class="uae-exp-card uae-exp-card-wide" data-aos="fade-up" data-aos-delay="40">
+          <div class="uae-exp-card-media"
+            style="background-image:url('assets/images/japan-hiroshima-heritage.webp') !important; background-size:cover !important; background-position:center center !important;">
+            <span class="uae-exp-card-num">01</span>
+          </div>
+          <div class="uae-exp-card-body">
+            <span class="uae-exp-card-tag">Timeless Culture</span>
+            <h3>Cultural Experiences</h3>
+            <p>Tea ceremonies, temples, crafts and timeless Japanese traditions.</p>
+          </div>
+        </article>
+        <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="uae-exp-card-media"
+            style="background-image:url('assets/images/japan-fuji-lake.webp') !important; background-size:cover !important; background-position:center center !important;">
+            <span class="uae-exp-card-num">02</span>
+          </div>
+          <div class="uae-exp-card-body">
+            <span class="uae-exp-card-tag">Premium Moments</span>
+            <h3>Luxury Experiences</h3>
+            <p>Ryokan stays, private dining and beautifully curated experiences.</p>
+          </div>
+        </article>
+        <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="120">
+          <div class="uae-exp-card-media"
+            style="background-image:url('assets/images/japan-kyoto-street.webp') !important; background-size:cover !important; background-position:center center !important;">
+            <span class="uae-exp-card-num">03</span>
+          </div>
+          <div class="uae-exp-card-body">
+            <span class="uae-exp-card-tag">Seasonal Beauty</span>
+            <h3>Nature &amp; Seasons</h3>
+            <p>Mountains, gardens, lakes and Japan’s seasonal beauty.</p>
+          </div>
+        </article>
+        <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="160">
+          <div class="uae-exp-card-media"
+            style="background-image:url('assets/images/japan-nara-deer.webp') !important; background-size:cover !important; background-position:center center !important;">
+            <span class="uae-exp-card-num">04</span>
+          </div>
+          <div class="uae-exp-card-body">
+            <span class="uae-exp-card-tag">Shared Memories</span>
+            <h3>Family Experiences</h3>
+            <p>Theme parks, interactive museums and easy-paced city adventures.</p>
+          </div>
+        </article>
+        <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="uae-exp-card-media"
+            style="background-image:url('assets/images/japan-osaka-food.webp') !important; background-size:cover !important; background-position:center center !important;">
+            <span class="uae-exp-card-num">05</span>
+          </div>
+          <div class="uae-exp-card-body">
+            <span class="uae-exp-card-tag">Outdoor Thrills</span>
+            <h3>Adventure</h3>
+            <p>Mountain walks, cycling and immersive outdoor experiences.</p>
+          </div>
+        </article>
+        <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="uae-exp-card-media"
+            style="background-image:url('assets/images/japan-culinary.webp') !important; background-size:cover !important; background-position:center center !important;">
+            <span class="uae-exp-card-num">06</span>
+          </div>
+          <div class="uae-exp-card-body">
+            <span class="uae-exp-card-tag">Dining &amp; Taste</span>
+            <h3>Culinary Journeys</h3>
+            <p>Sushi, regional flavours, markets and exceptional dining experiences.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="section light" data-aos="fade-up" data-aos-duration="850" id="services">
+    <div class="container">
+      <div class="heading">
+        <div class="eyebrow">Our Expertise</div>
+        <h2>Japan DMC Services, Built Around Your Brief</h2>
+        <!-- OLD CONTENT — Japan Excel row 26 / Japan DMC Services section intro: <p>From itinerary planning and accommodation to MICE, transportation, experiences and on-ground coordination, our Japan DMC services bring every element together seamlessly.</p> -->
+        <p>From tailor-made journeys and luxury experiences to groups, families and MICE, our Japan DMC team brings
+          together local expertise, trusted partners and seamless destination operations.</p>
+      </div>
+      <div class="services row g-3">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <path d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path>
+                <path d="M4 21a8 8 0 0 1 16 0"></path>
+              </svg></span>
+            <h3>FIT Travel</h3>
+            <!-- OLD CONTENT — Japan Excel row 27 / FIT Travel: <p>Tailored individual travel programs.</p> -->
+            <p>Bespoke Japan journeys tailored to individual travellers.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <circle cx="9" cy="8" r="3"></circle>
+                <circle cx="16.5" cy="9" r="2.4"></circle>
+                <path d="M2.5 21a6.5 6.5 0 0 1 13 0M15 15.5a5 5 0 0 1 6.5 5.5"></path>
+              </svg></span>
+            <h3>Group Travel</h3>
+            <!-- OLD CONTENT — Japan Excel row 28 / Group Travel: <p>Seamless group handling and logistics.</p> -->
+            <p>Seamless group programs, coordination and logistics.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <rect height="14" rx="1.5" width="16" x="4" y="5"></rect>
+                <path d="M8 5V3M16 5V3M4 9h16M8 13h2M14 13h2M8 16h2M14 16h2"></path>
+              </svg></span>
+            <h3>MICE</h3>
+            <!-- OLD CONTENT — Japan Excel row 29 / MICE: <p>Meetings, incentives and events.</p> -->
+            <p>Meetings, incentives and distinctive destination events.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <rect height="13" rx="2" width="16" x="4" y="7"></rect>
+                <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M4 12h16"></path>
+              </svg></span>
+            <h3>Corporate Travel</h3>
+            <!-- OLD CONTENT — Japan Excel row 30 / Corporate Travel: <p>Business travel and corporate movements.</p> -->
+            <p>Efficient business travel and corporate programs.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"></path>
+              </svg></span>
+            <h3>Luxury Travel</h3>
+            <!-- OLD CONTENT — Japan Excel row 31 / Luxury Travel: <p>Premium stays and private experiences.</p> -->
+            <p>Premium stays, private experiences and exclusive access.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <circle cx="8" cy="8" r="2.5"></circle>
+                <circle cx="16" cy="9" r="2.2"></circle>
+                <path d="M3.5 20a4.5 4.5 0 0 1 9 0M12.5 20a4 4 0 0 1 8 0"></path>
+              </svg></span>
+            <h3>Family Holidays</h3>
+            <!-- OLD CONTENT — Japan Excel row 32 / Family Holidays: <p>Family itineraries and attractions.</p> -->
+            <p>Thoughtfully planned family journeys and experiences.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <path d="M12 20s-7-4.3-7-9.5A4.5 4.5 0 0 1 13 7.7 4.5 4.5 0 0 1 21 10.5C21 15.7 12 20 12 20Z"></path>
+              </svg></span>
+            <h3>Honeymoon</h3>
+            <!-- OLD CONTENT — Japan Excel row 33 / Honeymoon: <p>Romantic escapes and private experiences.</p> -->
+            <p>Romantic escapes, refined stays and intimate experiences.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <path d="M3 12h18M12 3l4 9-4 9M7 7l-4 5 4 5M17 7l4 5-4 5"></path>
+              </svg></span>
+            <h3>Stopovers</h3>
+            <!-- OLD CONTENT — Japan Excel row 34 / Stopovers: <p>Short programs for transit travelers.</p> -->
+            <p>Smart short stays between destinations.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <path d="M4 21V5h16v16M4 9h16M8 5v4M12 5v4M16 5v4M8 13h2M14 13h2M8 17h2M14 17h2"></path>
+              </svg></span>
+            <h3>Hotels</h3>
+            <!-- OLD CONTENT — Japan Excel row 35 / Hotels: <p>Accommodation sourcing and reservations.</p> -->
+            <p>Exceptional hotels and ryokans, sourced around your brief.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <path d="M4 17h16M6 17l1.5-6h9L18 17M8 11l1-4h6l1 4M8 20h2M14 20h2"></path>
+                <circle cx="7" cy="17" r="1.5"></circle>
+                <circle cx="17" cy="17" r="1.5"></circle>
+              </svg></span>
+            <h3>Transfers</h3>
+            <!-- OLD CONTENT — Japan Excel row 36 / Transfers: <p>Airport and regional transfers.</p> -->
+            <p>Reliable airport, private and regional transfers.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <path d="m4 19 6-6 4 4 6-7"></path>
+                <path d="M14 10h6v6"></path>
+                <circle cx="6" cy="7" r="3"></circle>
+                <path d="M3 14a3 3 0 0 1 6 0"></path>
+              </svg></span>
+            <h3>Excursions</h3>
+            <!-- OLD CONTENT — Japan Excel row 37 / Excursions: <p>Tours, sightseeing and activities.</p> -->
+            <p>Curated tours, cultural experiences and local discoveries.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                viewbox="0 0 24 24">
+                <rect height="18" rx="2" width="14" x="5" y="3"></rect>
+                <circle cx="12" cy="9" r="2.5"></circle>
+                <path d="M8 16h8M8 18h5"></path>
+              </svg></span>
+            <h3>Visa &amp; Entry Support</h3>
+            <!-- OLD CONTENT — Japan Excel row 38 / Visa & Entry Support: <p>Travel documentation and destination guidance.</p> -->
+            <p>Essential travel documentation and destination guidance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" data-aos="fade-up" data-aos-duration="850">
+    <div class="container">
+      <div class="heading">
+        <div class="eyebrow">Inspiration</div>
+        <h2>Japan Itineraries, Made Your Way</h2>
+        <p>Starting points for creating a customized program.</p>
+      </div>
+      <div class="itineraries row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="img vo-inline-bg-9"
+              style="background-image:url('assets/images/japan-fuji-scenic.webp') !important; background-size:cover !important; background-position:center center !important;">
+            </div>
+            <div class="body"><span class="duration">4 Days</span>
+              <h3>Tokyo Essentials</h3>
+              <!-- OLD CONTENT — Japan Excel row 40 / Tokyo Essentials: <p>City highlights, food, shopping and cultural neighborhoods.</p> -->
+              <p>City highlights, exceptional food, shopping and cultural discoveries.</p>
+              <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="img vo-inline-bg-10"></div>
+            <div class="body"><span class="duration">7 Days</span>
+              <h3>Tokyo + Kyoto</h3>
+              <!-- OLD CONTENT — Japan Excel row 41 / Tokyo + Kyoto: <p>Classic Japan combining modern Tokyo and historic Kyoto.</p> -->
+              <p>Modern Tokyo meets the timeless beauty of Kyoto.</p>
+              <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <div class="img vo-inline-bg-11"></div>
+            <div class="body"><span class="duration">10 Days</span>
+              <h3>Japan Grand Journey</h3>
+              <!-- OLD CONTENT — Japan Excel row 42 / Japan Grand Journey: <p>Tokyo, Hakone, Kyoto, Nara and Osaka with curated experiences.</p> -->
+              <p>Tokyo, Hakone, Kyoto, Nara and Osaka, thoughtfully brought together.</p>
+              <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section uae-movement-redesign" data-aos="fade-up" data-aos-duration="850">
+    <div class="container">
+      <div class="uae-showcase-head uae-movement-head">
+        <div>
+          <div class="eyebrow">On-Ground Operations</div>
+          <h2>Seamless Journeys, The Japanese Way</h2>
+        </div>
+        <p>From high-speed rail and private transfers to group movements and MICE transportation, we coordinate every
+          connection with the precision Japan is known for.</p>
+      </div>
+      <div aria-label="Japan transportation journey" class="uae-route">
+        <div aria-hidden="true" class="uae-route-line"></div>
+        <div class="uae-route-stop">
+          <div class="uae-route-node">01</div>
+          <div class="uae-route-icon">✈</div>
+          <h3>Airport Transfers</h3>
+          <p>Smooth, reliable arrivals and departures, expertly coordinated.</p>
+        </div>
+        <div class="uae-route-stop">
+          <div class="uae-route-node">02</div>
+          <div class="uae-route-icon">↗</div>
+          <h3>Private Cars</h3>
+          <p>Comfortable private travel tailored to your itinerary.</p>
+        </div>
+        <div class="uae-route-stop">
+          <div class="uae-route-node">03</div>
+          <div class="uae-route-icon">▦</div>
+          <h3>Premium Rail Support</h3>
+          <p>Seamless rail planning, reservations and journey support.</p>
+        </div>
+        <div class="uae-route-stop">
+          <div class="uae-route-node">04</div>
+          <div class="uae-route-icon">▦</div>
+          <h3>Group Coaches</h3>
+          <p>Comfortable transportation for groups and events.</p>
+        </div>
+        <div class="uae-route-stop">
+          <div class="uae-route-node">05</div>
+          <div class="uae-route-icon">⇢</div>
+          <h3>Intercity Transfers</h3>
+          <p>Effortless connections between Japan’s key destinations.</p>
+        </div>
+        <div class="uae-route-stop">
+          <div class="uae-route-node">06</div>
+          <div class="uae-route-icon">⌁</div>
+          <h3>Event Transportation</h3>
+          <p>Precisely coordinated transportation for MICE and events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section dark" data-aos="fade-up" data-aos-duration="850">
+    <div class="container">
+      <div class="heading">
+        <div class="eyebrow">Why Partner With Us</div>
+        <h2>Built To Deliver. Trusted To Execute.</h2>
+        <!-- OLD CONTENT — Japan Excel row 50 / Your Japan DMC Partner section intro: <p>From the first brief to the final departure, Voyage 1 combines local Japan destination expertise, customized programs and seamless operations to help travel partners deliver with confidence.</p> -->
+        <p>From the first brief to the final departure, Voyage 1 combines Japan destination expertise, trusted local
+          relationships and precise operations to help travel partners deliver exceptional journeys.</p>
+      </div>
+      <div class="usps row g-3">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1.5" viewbox="0 0 24 24">
+              <path d="M12 21s7-6.4 7-11.5A7 7 0 0 0 5 9.5C5 14.6 12 21 12 21Z"></path>
+              <circle cx="12" cy="9.5" r="2.4"></circle>
+            </svg>
+            <h3>Local Japan Expertise</h3>
+            <!-- OLD CONTENT — Japan Excel row 51 / Local Japan Expertise: <p>Local knowledge and coordination.</p> -->
+            <p>Destination insight, trusted relationships and on-ground know-how.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1.5" viewbox="0 0 24 24">
+              <circle cx="5" cy="6" r="2"></circle>
+              <circle cx="19" cy="18" r="2"></circle>
+              <path d="M5 8v3a4 4 0 0 0 4 4h6a4 4 0 0 1 4 3"></path>
+            </svg>
+            <h3>Customized Itineraries</h3>
+            <!-- OLD CONTENT — Japan Excel row 52 / Customized Itineraries: <p>Programs shaped around your clients.</p> -->
+            <p>Japan programs shaped around your clients’ needs.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1.5" viewbox="0 0 24 24">
+              <circle cx="9" cy="8" r="3.2"></circle>
+              <path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"></path>
+              <circle cx="17" cy="9" r="2.6"></circle>
+              <path d="M15.5 14.2c2.7.5 4.3 2.4 4.3 5.8"></path>
+            </svg>
+            <h3>FIT &amp; Group Expertise</h3>
+            <!-- OLD CONTENT — Japan Excel row 53 / FIT & Group Expertise: <p>Flexible FIT and group handling.</p> -->
+            <p>Flexible handling for FITs, families and groups.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1.5" viewbox="0 0 24 24">
+              <rect height="18" width="10" x="4" y="3"></rect>
+              <rect height="12" width="6" x="14" y="9"></rect>
+              <path d="M7 7h1M11 7h1M7 11h1M11 11h1M7 15h1M11 15h1M16.5 13h1M16.5 17h1"></path>
+            </svg>
+            <h3>MICE Capability</h3>
+            <!-- OLD CONTENT — Japan Excel row 54 / MICE Capability: <p>Corporate events and incentives.</p> -->
+            <p>Incentives and events, expertly brought together.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1.5" viewbox="0 0 24 24">
+              <path d="M3 11l4-3 3 2 3-2 4 3"></path>
+              <path d="M3 11v4l4 3M21 11v4l-4 3"></path>
+              <path d="M10 10l2.5 2.5a1.5 1.5 0 0 1-2.1 2.1L8 12.2M14 10l-1 1"></path>
+            </svg>
+            <h3>Reliable Suppliers</h3>
+            <!-- OLD CONTENT — Japan Excel row 55 / Reliable Suppliers: <p>Hotels, transport and experiences.</p> -->
+            <p>Trusted hotels, ryokans, transport and experience partners.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1.5" viewbox="0 0 24 24">
+              <circle cx="12" cy="12" r="3.2"></circle>
+              <path
+                d="M12 3.5v2M12 18.5v2M20.5 12h-2M5.5 12h-2M17.8 6.2l-1.4 1.4M7.6 16.4l-1.4 1.4M17.8 17.8l-1.4-1.4M7.6 7.6 6.2 6.2">
+              </path>
+            </svg>
+            <h3>Seamless Operations</h3>
+            <!-- OLD CONTENT — Japan Excel row 56 / Seamless Operations: <p>One partner managing every detail.</p> -->
+            <p>One destination team managing every detail.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1.5" viewbox="0 0 24 24">
+              <path d="M4 13v-1a8 8 0 0 1 16 0v1"></path>
+              <rect height="6" rx="1.3" width="4" x="2.5" y="13"></rect>
+              <rect height="6" rx="1.3" width="4" x="17.5" y="13"></rect>
+              <path d="M19.5 19v.6a3 3 0 0 1-3 3H13"></path>
+            </svg>
+            <h3>24/7 Support</h3>
+            <!-- OLD CONTENT — Japan Excel row 57 / 24/7 Support: <p>Responsive support throughout the journey.</p> -->
+            <p>Responsive support whenever your clients need it.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+            <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1.5" viewbox="0 0 24 24">
+              <rect height="12" rx="2" width="18" x="3" y="7.5"></rect>
+              <path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5M3 13h18"></path>
+            </svg>
+            <h3>B2B Focused</h3>
+            <!-- OLD CONTENT — Japan Excel row 58 / B2B Focused: <p>Built for travel agents and operators.</p> -->
+            <p>Built specifically for travel trade partners.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section dark uae-process-redesign" data-aos="fade-up" data-aos-duration="850">
+    <div class="container">
+      <div class="uae-process-intro">
+        <div>
+          <div class="eyebrow">Simple Process</div>
+          <h2>Plan Your Japan Journey</h2>
+          <p>One clear flow from the first brief to the final departure.</p>
+        </div>
+      </div>
+      <div class="uae-process-rail">
+        <div aria-hidden="true" class="uae-process-line"></div>
+        <article class="uae-process-step">
+          <div class="uae-process-num">01</div>
+          <div class="uae-process-icon">□</div>
+          <h3>Share Your Requirement</h3>
+          <p>Share your Japan brief, traveller profile and priorities with us.</p>
+        </article>
+        <article class="uae-process-step">
+          <div class="uae-process-num">02</div>
+          <div class="uae-process-icon">▤</div>
+          <h3>Build Your Itinerary</h3>
+          <p>We shape the routing, stays, experiences and logistics around your brief.</p>
+        </article>
+        <article class="uae-process-step">
+          <div class="uae-process-num">03</div>
+          <div class="uae-process-icon">✓</div>
+          <h3>Confirm &amp; Coordinate</h3>
+          <p>Our destination team brings suppliers, bookings and every detail together.</p>
+        </article>
+        <article class="uae-process-step">
+          <div class="uae-process-num">04</div>
+          <div class="uae-process-icon">◇</div>
+          <h3>Travel With Confidence</h3>
+          <p>Your clients travel. Our team stays close throughout.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="section" data-aos="fade-up" data-aos-duration="850">
+    <div class="container">
+      <div class="heading">
+        <div class="eyebrow">Frequently Asked Questions</div>
+        <h2>Japan DMC FAQs</h2>
+        <p>Yes. We create bespoke programs for honeymoons, private celebrations, family journeys and other special
+          occasions across Japan.</p>
+      </div>
+      <div class="faq row g-3">
+        <div class="col-12 col-lg-6">
+          <div class="faq-item h-100">
+            <button aria-expanded="false" class="faq-trigger" type="button"><strong>What does a Japan DMC
+                do?</strong><span aria-hidden="true">+</span></button>
+            <div class="faq-answer">
+              <p>A Japan DMC manages the local details behind an itinerary, including hotels, transportation,
+                experiences, guides, logistics and on-ground support.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="faq-item h-100">
+            <button aria-expanded="false" class="faq-trigger" type="button"><strong>Does Voyage 1 handle FIT and group
+                travel?</strong><span aria-hidden="true">+</span></button>
+            <div class="faq-answer">
+              <!-- OLD CONTENT — Japan Excel row 64 / FAQ answer — Does Voyage 1 handle FIT and group travel?: <p>Yes. We create tailored FIT programs as well as coordinated group journeys, with the flexibility to match each client brief.</p> -->
+              <p>Yes. We create tailored FIT programs and coordinated group journeys, with the flexibility to match each
+                client brief.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="faq-item h-100">
+            <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you create customized Japan
+                itineraries?</strong><span aria-hidden="true">+</span></button>
+            <div class="faq-answer">
+              <!-- OLD CONTENT — Japan Excel row 65 / FAQ answer — Can you create customized Japan itineraries?: <p>Absolutely. We shape itineraries around dates, interests, traveller profiles, preferred hotels, experiences and budget.</p> -->
+              <p>Absolutely. We shape Japan itineraries around dates, interests, traveller profiles, preferred stays,
+                experiences and budget.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="faq-item h-100">
+            <button aria-expanded="false" class="faq-trigger" type="button"><strong>Does Voyage 1 provide MICE
+                services?</strong><span aria-hidden="true">+</span></button>
+            <div class="faq-answer">
+              <!-- OLD CONTENT — Japan Excel row 66 / FAQ answer — Does Voyage 1 provide MICE services?: <p>Yes. Our team can coordinate venues, accommodation, transportation, incentives, event logistics and on-ground event support.</p> -->
+              <p>Yes. We coordinate venues, accommodation, transportation, incentives, event logistics and on-ground
+                support for Japan MICE programs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="faq-item h-100">
+            <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you arrange hotels and
+                transportation?</strong><span aria-hidden="true">+</span></button>
+            <div class="faq-answer">
+              <!-- OLD CONTENT — Japan Excel row 67 / FAQ answer — Can you arrange hotels and transportation?: <p>We coordinate airport transfers, private vehicles, rail arrangements and inter-city transportation throughout Japan.</p> -->
+              <p>We source suitable hotels and ryokans and coordinate airport transfers, private vehicles, rail travel
+                and group transportation across Japan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="faq-item h-100">
+            <button aria-expanded="false" class="faq-trigger" type="button"><strong>Which destinations do you cover in
+                Japan?</strong><span aria-hidden="true">+</span></button>
+            <div class="faq-answer">
+              <!-- OLD CONTENT — Japan Excel row 68 / FAQ answer — Which parts of Japan do you operate in?: <p>We support journeys across Tokyo, Kyoto, Osaka, Hiroshima, Hokkaido, Okinawa, Kanazawa, Hakone and other major destinations.</p> -->
+              <p>We can build programs across Japan, including Tokyo, Kyoto, Osaka, Mount Fuji, Nara, Hiroshima and
+                Hakone.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="faq-item h-100">
+            <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you arrange luxury travel
+                programs?</strong><span aria-hidden="true">+</span></button>
+            <div class="faq-answer">
+              <!-- OLD CONTENT — Japan Excel row 69 / FAQ answer — Can you arrange luxury travel programs?: <p>Yes. We curate premium stays, private experiences, luxury transportation and special moments around the traveller.</p> -->
+              <p>Yes. We curate premium stays, private experiences, luxury transportation and exclusive moments around
+                each traveller.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="faq-item h-100">
+            <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you support special experiences
+                and celebrations?</strong><span aria-hidden="true">+</span></button>
+            <div class="faq-answer">
+              <!-- OLD CONTENT — Japan Excel row 70 / FAQ answer — Can you support special experiences and celebrations?: <p>Yes. We can arrange curated experiences and celebration programs, including honeymoons, private occasions, family travel and other bespoke requests.</p> -->
+              <p>Yes. We create bespoke programs for honeymoons, private celebrations, family journeys and other special
+                occasions across Japan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section dark" data-aos="fade-up" data-aos-duration="850" id="contact">
+    <div class="container contact">
+      <div>
+        <div class="eyebrow">Get In Touch</div>
+        <h2>Let's Plan Your Japan Program</h2>
+        <p>Share your requirements and our team will get back to you with a customized proposal.</p>
+        <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true"><small>PHONE</small>+971 52
+          167 2038</div>
+        <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
+          <small>EMAIL</small>info@voyage-one.com</div>
+        <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true"><small>GLOBAL
+            OFFICE</small>#73, G Floor, Al Fahidi Plaza, Souq Al Kabeer, Dubai</div>
+      </div>
+      
+<?php include "form.php" ?>
+      
+
+
+      <!-- <form data-destination="Japan" data-subject="Japan Journey Enquiry — Voyage 1" id="uae-enquiry-form">
+        <div class="form-field"><label for="uae-first-name">First Name</label><input autocomplete="given-name"
+            class="form-control" id="uae-first-name" name="firstName" placeholder="Enter first name" required="" />
+        </div>
+        <div class="form-field"><label for="uae-last-name">Last Name</label><input autocomplete="family-name"
+            class="form-control" id="uae-last-name" name="lastName" placeholder="Enter last name" required="" /></div>
+        <div class="form-field"><label for="uae-company">Company</label><input autocomplete="organization"
+            class="form-control" id="uae-company" name="company" placeholder="Company name" /></div>
+        <div class="form-field"><label for="uae-email">Email</label><input autocomplete="email" class="form-control"
+            id="uae-email" name="email" placeholder="you@company.com" required="" type="email" /></div>
+        <div class="form-field"><label for="uae-phone">Phone / WhatsApp</label><input autocomplete="tel"
+            class="form-control" id="uae-phone" name="phone" placeholder="Your phone / WhatsApp number" type="tel" />
+        </div>
+        <div class="form-field"><label for="uae-country">Country</label><input autocomplete="country-name"
+            class="form-control" id="uae-country" name="country" placeholder="Country" /></div>
+        <div class="form-field"><label for="uae-date">Travel Date</label><input class="form-control" id="uae-date"
+            name="travelDate" type="date" /></div>
+        <div class="form-field"><label for="uae-travelers">Number of Travelers</label><input class="form-control"
+            id="uae-travelers" min="1" name="travelers" placeholder="e.g. 12" type="number" /></div>
+        <div class="form-field"><label for="uae-travel-type">Travel Type</label><select class="form-select"
+            id="uae-travel-type" name="travelType">
+            <option value="">Select travel type</option>
+            <option>FIT</option>
+            <option>Group</option>
+            <option>MICE</option>
+            <option>Corporate</option>
+            <option>Luxury</option>
+            <option>Family</option>
+            <option>Honeymoon</option>
+          </select></div>
+        <div class="form-field"><label for="uae-destination">Preferred City / Region</label><select class="form-select"
+            id="uae-destination" name="destination">
+            <option value="">Select city / region</option>
+            <option>Tokyo</option>
+            <option>Kyoto</option>
+            <option>Osaka</option>
+            <option>Hiroshima</option>
+            <option>Hokkaido</option>
+            <option>Okinawa</option>
+            <option>Kanazawa</option>
+            <option>Hakone</option>
+            <option>Multi-city Japan</option>
+          </select></div>
+        <div class="form-field full"><label for="uae-requirements">Your Requirements</label><textarea
+            class="form-control" id="uae-requirements" name="requirements"
+            placeholder="Tell us about your clients, dates, interests and requirements..."></textarea></div>
+        <div class="form-actions">
+          <p class="form-note">We’ll use these details only to prepare your Japan proposal.</p><button
+            class="btn btn-dark d-inline-flex align-items-center justify-content-center" type="submit">Submit Enquiry
+            <span aria-hidden="true">→</span></button>
+        </div>
+      </form> -->
+    </div>
+  </section>
+  <footer class="vo-footer">
+    <div class="vo-shell container">
+      <div class="vo-footer-top row g-4 g-xl-5">
+        <div class="vo-footer-brand col-12 col-lg-5">
+          <a class="vo-footer-logo" href="index.php"><img alt="Voyage 1 DMC logo" class="img-fluid"
+              src="assets/images/voyage-one-logo__png.webp" /></a>
+          <h3>Re-defining the Art of Destination Management<br />Connecting Destinations. Creating Experiences.</h3>
+          <p>Creating seamless travel experiences through local knowledge, trusted partnerships and responsive
+            destination teams.</p>
+          <div class="vo-footer-contact">
+            <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+            <a href="tel:+971521672038">+971 52 167 2038</a>
+            <a href="tel:+91921758633">+91 921758633</a>
+          </div>
+        </div>
+        <div class="vo-footer-column col-6 col-md-4 col-lg">
+          <h4>Explore</h4>
+          <a href="index.php">Home</a><a href="uae.php">Destinations</a><a href="index.php#services">Services</a><a
+            href="about-us.php">About Us</a><a href="media.php">Media</a><a href="careers.php">Careers</a>
+        </div>
+        <div class="vo-footer-column col-6 col-md-4 col-lg">
+          <h4>Destinations</h4><a href="south-africa.php">South Africa</a><a href="kenya.php">Kenya</a><a
+            href="tanzania.php">Tanzania</a><a href="japan.php">Japan</a><a href="georgia.php">Georgia</a><a
+            href="kazakhstan.php">Kazakhstan</a><a href="azerbaijan.php">Azerbaijan</a><a href="uae.php">United Arab
+            Emirates</a><a href="vietnam.php">Vietnam</a>
+        </div>
+        <div class="vo-footer-column col-6 col-md-4 col-lg">
+          <h4>Contact Us</h4>
+          <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+          <a href="tel:+971521672038">+971 52 167 2038</a><a href="tel:+91921758633">+91 921758633</a>
+          <div class="vo-footer-office">
+            <small>GLOBAL OFFICE</small>
+            <strong>Dubai, UAE</strong>
+            <span>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer</span>
+          </div>
+          <div aria-label="Voyage 1 social media" class="vo-footer-socials">
+            <a aria-label="Voyage 1 on Instagram" href="https://www.instagram.com/voyage1dmc/" rel="noopener noreferrer"
+              target="_blank" title="Instagram">
+              <svg aria-hidden="true" viewbox="0 0 24 24">
+                <rect fill="none" height="17.5" rx="5.2" stroke="currentColor" stroke-width="1.8" width="17.5" x="3.25"
+                  y="3.25"></rect>
+                <circle cx="12" cy="12" fill="none" r="4.1" stroke="currentColor" stroke-width="1.8"></circle>
+                <circle cx="17.45" cy="6.65" fill="currentColor" r="1.15"></circle>
+              </svg>
+            </a>
+            <a aria-label="Voyage 1 on Facebook" href="https://www.facebook.com/Voyage1DMC" rel="noopener noreferrer"
+              target="_blank" title="Facebook">
+              <svg aria-hidden="true" viewbox="0 0 24 24">
+                <path
+                  d="M13.65 21v-7h2.55l.4-3h-2.95V9.08c0-.87.24-1.46 1.5-1.46h1.61V4.94c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.06V11H7.8v3h2.66v7h3.19Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+            <a aria-label="Voyage 1 on LinkedIn" href="https://www.linkedin.com/company/voyageonedmc/home/"
+              rel="noopener noreferrer" target="_blank" title="LinkedIn">
+              <svg aria-hidden="true" viewbox="0 0 24 24">
+                <path
+                  d="M6.2 8.25H3.05V21H6.2V8.25ZM4.62 3A1.88 1.88 0 1 0 4.62 6.76 1.88 1.88 0 0 0 4.62 3ZM8.62 8.25V21h3.15v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.06 1.9 2.06 3.38V21h3.15v-6.85c0-3.37-.73-5.96-4.7-5.96-1.91 0-3.19 1.05-3.71 2.05h-.04v-1.99H8.62Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+            <a aria-label="Chat with Voyage 1 on WhatsApp" href="https://wa.me/971521672038" rel="noopener noreferrer"
+              target="_blank" title="WhatsApp">
+              <svg aria-hidden="true" viewbox="0 0 24 24">
+                <path
+                  d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="vo-footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026 Voyage 1
+          DMC. All rights reserved.</span><span><a href="contact.php">Contact</a></span></div>
+    </div>
+  </footer>
+  <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+  <script src="js/global.js"></script>
+  <style>
+    /* Japan hero hard override: keep this after site.css */
+    body.page-japan .hero .hero-bg {
+      background-image: url('assets/images/japan-hero-banner-autumn-street.webp') !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+    }
+  </style>
+</body>
+
+</html>

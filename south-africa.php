@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>South Africa DMC | Voyage 1 DMC</title>
+    <meta
+        content="As a trusted South Africa DMC, Voyage 1 delivers local expertise, seamless operations and tailored travel programs for FIT, groups, luxury, MICE and corporate travel across South Africa."
+        name="description" />
+    <style>
+        .page-south-africa .hero-bg {
+            background-image: url('assets/images/hero-south-africa.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .uae-image-dmc {
+            background-image: linear-gradient(180deg, rgba(22, 42, 75, .04), rgba(22, 42, 75, .12)), url('assets/images/South Africa__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-1 {
+            background-image: url('assets/images/hero-south-africa.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-2 {
+            background-image: url('assets/images/South Africa__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-3 {
+            background-image: url('assets/images/south-africa-coast.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-4 {
+            background-image: url('assets/images/southafrica-1__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-5 {
+            background-image: url('assets/images/South Africa__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-6 {
+            background-image: url('assets/images/hero-south-africa.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-7 {
+            background-image: url('assets/images/south-africa-coast.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-8 {
+            background-image: url('assets/images/southafrica-1__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-9 {
+            background-image: url('assets/images/South Africa__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-10 {
+            background-image: url('assets/images/south-africa-coast.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-11 {
+            background-image: url('assets/images/South Africa__jpg.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-12 {
+            background-image: url('assets/images/hero-south-africa.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <style>
+        /* Website image refresh: selected from existing unused WebP assets. */
+        .page-south-africa .uae-image-dmc {
+            background-image: linear-gradient(180deg, rgba(22, 42, 75, .04), rgba(22, 42, 75, .12)), url('assets/images/south-africa-partner.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-1 {
+            background-image: url('assets/images/south-africa-card1.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-2 {
+            background-image: url('assets/images/South_Africa_Kruger_National_Park_Destination_Card_Big_Five_Safari.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-3 {
+            background-image: url('assets/images/south-africa-card3.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-4 {
+            background-image: url('assets/images/South_Africa_Winelands_Destination_Card_Stellenbosch_Vineyards.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-5 {
+            background-image: url('assets/images/South_Africa_Johannesburg_Destination_Card_City_Skyline_Culture.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-6 {
+            background-image: url('assets/images/south-africa-card3.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .vo-inline-bg-7 {
+            background-image: url('assets/images/south-africa-card7.webp') !important;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .page-south-africa .feature-main {
+            background-image: url('assets/images/south-africa-card1.webp') !important;
+        }
+
+        .page-south-africa .feature-small:nth-child(1) {
+            background-image: url('assets/images/South_Africa_Kruger_National_Park_Destination_Card_Big_Five_Safari.webp') !important;
+        }
+
+        .page-south-africa .feature-small:nth-child(2) {
+            background-image: url('assets/images/south-africa-card3.webp') !important;
+        }
+    </style>
+    <link href="assets/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <script>(function () { var d = document.documentElement; d.classList.add('js-reveal'); try { if (sessionStorage.getItem('voyage-loader-seen') === '1') { d.classList.add('vo-loader-skip'); } } catch (e) { } })();</script>
+    <noscript>
+        <style>
+            html.js-reveal [data-aos] {
+                opacity: 1 !important;
+                transform: none !important;
+                transition: none !important
+            }
+        </style>
+    </noscript>
+</head>
+
+<body class="page-destination page-south-africa">
+    <!-- SOUTH AFRICA COPY UPDATE: New active copy sourced from Voyage_1_copy_all_pages.xlsx, sheet "South Africa", column "Shreya". Previous active copy is preserved inline as OLD CONTENT comments. -->
+    <div aria-hidden="true" class="vo-site-loader" data-site-loader="">
+        <div class="vo-loader-inner">
+            <div aria-hidden="true" class="vo-loader-logo-wrap"><img alt="" class="vo-loader-brand-logo"
+                    src="assets/images/voyage-one-logo__png.webp" /></div>
+            <div class="vo-loader-track"><span></span></div>
+            <div class="vo-loader-caption">Curating your next journey</div>
+        </div>
+    </div>
+    <header class="vo-header sticky-top">
+        <nav aria-label="Primary navigation" class="navbar navbar-expand-lg navbar-light py-0">
+            <div class="container"><a aria-label="Voyage 1 home" class="navbar-brand vo-brand" href="index.php"><img
+                        alt="Voyage 1 DMC logo" class="img-fluid" height="74"
+                        src="assets/images/voyage-one-logo__png.webp" width="74" /></a><button
+                    aria-controls="voyageNavbar" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler vo-navbar-toggler" data-bs-target="#voyageNavbar" data-bs-toggle="collapse"
+                    type="button"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="voyageNavbar">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" href="about-us.php">About Us</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="about-us.php#intro"><span
+                                            class="vo-drop-index">01</span><span class="vo-drop-label">Who We
+                                            Are</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#story"><span
+                                            class="vo-drop-index">02</span><span class="vo-drop-label">Our
+                                            Story</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#services"><span
+                                            class="vo-drop-index">03</span><span class="vo-drop-label">What We Bring To
+                                            The Journey</span></a></li>
+                                <li><a class="dropdown-item" href="about-us.php#team"><span
+                                            class="vo-drop-index">04</span><span class="vo-drop-label">Our
+                                            Team</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle active"
+                                data-bs-toggle="dropdown" href="index.php#destinations">Destinations</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="south-africa.php"><span
+                                            class="vo-drop-index">ZA</span><span class="vo-drop-label">South
+                                            Africa</span></a></li>
+                                <li><a class="dropdown-item" href="kenya.php"><span class="vo-drop-index">KE</span><span
+                                            class="vo-drop-label">Kenya</span></a></li>
+                                <li><a class="dropdown-item" href="tanzania.php"><span
+                                            class="vo-drop-index">TZ</span><span
+                                            class="vo-drop-label">Tanzania</span></a></li>
+                                <li><a class="dropdown-item" href="japan.php"><span class="vo-drop-index">JP</span><span
+                                            class="vo-drop-label">Japan</span></a></li>
+                                <li><a class="dropdown-item" href="georgia.php"><span
+                                            class="vo-drop-index">GE</span><span
+                                            class="vo-drop-label">Georgia</span></a></li>
+                                <li><a class="dropdown-item" href="kazakhstan.php"><span
+                                            class="vo-drop-index">KZ</span><span
+                                            class="vo-drop-label">Kazakhstan</span></a></li>
+                                <li><a class="dropdown-item" href="azerbaijan.php"><span
+                                            class="vo-drop-index">AZ</span><span
+                                            class="vo-drop-label">Azerbaijan</span></a></li>
+                                <li><a class="dropdown-item" href="uae.php"><span class="vo-drop-index">UAE</span><span
+                                            class="vo-drop-label">United Arab Emirates</span></a></li>
+                                <li><a class="dropdown-item" href="vietnam.php"><span
+                                            class="vo-drop-index">VN</span><span
+                                            class="vo-drop-label">Vietnam</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" href="media.php">Media</a>
+                            <ul class="dropdown-menu vo-bootstrap-dropdown">
+                                <li><a class="dropdown-item" href="media.php#blogs"><span
+                                            class="vo-drop-index">01</span><span class="vo-drop-label">Media
+                                            Coverage</span></a></li>
+                                <li><a class="dropdown-item" href="media.php#events"><span
+                                            class="vo-drop-index">02</span><span class="vo-drop-label">Events &amp;
+                                            Exhibitions</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="careers.php">Careers</a></li>
+                    </ul><a
+                        class="btn vo-header-cta ms-lg-4 mt-3 mt-lg-0 d-inline-flex align-items-center justify-content-center"
+                        href="contact.php">Send Query <span>→</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero" data-aos="fade-up" data-aos-duration="850">
+        <div aria-hidden="true" class="vo-static-banner"></div>
+        <div aria-hidden="true" class="hero-bg"
+            style="background-image:url('assets/images/south-africa-hero-banner-v2.webp') !important; background-size:cover !important; background-position:center right !important;">
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="eyebrow">Voyage 1 DMC • South Africa</div>
+                <h1><span class="hero-dmc-name">South Africa DMC</span></h1>
+                <!-- OLD CONTENT — Excel row 2 / Hero paragraph: <p>South Africa offers exceptional diversity, from Cape Town and the Garden Route to private game reserves, wine country and dramatic coastlines. Voyage 1 designs flexible B2B programs for FIT, groups, luxury, families and MICE.</p> -->
+                <p>From Cape Town and the Garden Route to private game reserves, wine country and dramatic coastlines,
+                    Voyage 1 creates seamless South Africa programs for FIT, groups, luxury travel, families and MICE.
+                </p>
+                <div class="hero-actions"><a class="btn dark d-inline-flex align-items-center justify-content-center"
+                        href="#contact">Request a Proposal →</a><a
+                        class="btn d-inline-flex align-items-center justify-content-center" href="#services">Explore
+                        Services →</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container two">
+            <div class="row g-4 g-lg-5 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="eyebrow">South Africa Destination Management</div>
+                    <h2>Your Local Partner in South Africa</h2>
+                    <!-- OLD LOCAL PARTNER COPY — <p>You know your clients. We know the destination. Together, we create seamless journeys backed by local relationships, destination expertise and dependable support on the ground.</p> -->
+                    <p>You know your clients. We know the destination. Together, we turn travel briefs into seamless
+                        destination experiences, backed by local expertise, trusted relationships and dependable support
+                        on the ground.</p>
+                    <!-- OLD LOCAL PARTNER COPY — <p>We connect city stays, safari, wine, coast and adventure into well-paced programs, supported by local suppliers, guides, transportation and on-ground coordination.</p> -->
+                    <p>From accommodation and transportation to experiences, excursions, groups, luxury travel and MICE
+                        programs, our destination team manages the details behind every journey — giving you the
+                        confidence to deliver exceptional travel to your clients.</p>
+                    <a class="btn btn-dark d-inline-flex align-items-center justify-content-center" href="#contact">Talk
+                        to Our South Africa Team</a>
+                </div>
+                <div aria-label="South Africa destination scene"
+                    class="placeholder uae-image uae-image-dmc col-12 col-lg-6" role="img"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section light" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Discover the Destination</div>
+                <h2>Why Choose South Africa?</h2>
+                <p>Culture, nature, adventure, hospitality and memorable experiences in one destination.</p>
+            </div>
+            <div class="cards five row g-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <circle cx="12" cy="12" r="8.5"></circle>
+                                <path d="m14.8 9.2-1.7 4-4 1.6 1.6-4 4.1-1.6Z"></path>
+                                <path d="M8 5.5 6.5 4M16 5.5 17.5 4M8 18.5 6.5 20M16 18.5 17.5 20"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Safari</h3>
+                            <!-- OLD CONTENT — Excel row 3 / Safari: <p>Private reserves, Big Five and premium game viewing.</p> -->
+                            <p>Big Five. Private reserves. Unforgettable encounters.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <path d="M7 3h10l-1 5a4 4 0 0 1-3 3.8V20"></path>
+                                <path d="M17 3H7l1 5a4 4 0 0 0 3 3.8V20"></path>
+                                <path d="M8 20h8"></path>
+                                <path d="M9 7h6"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Wine</h3>
+                            <!-- OLD CONTENT — Excel row 4 / Wine: <p>Cape Winelands, estates and curated tastings.</p> -->
+                            <p>Vineyards, estates and exceptional Cape Winelands experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <path d="M4 20c0-6 4-11 11-15 1 7-2 12-8 15"></path>
+                                <path d="M4 20c3-3 6-5 10-7"></path>
+                                <path d="M13 20c3-2 5-5 6-9"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Nature</h3>
+                            <!-- OLD CONTENT — Excel row 5 / Nature: <p>Coastlines, mountains and scenic road journeys.</p> -->
+                            <p>Dramatic coastlines, mountains and unforgettable road journeys.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <circle cx="8" cy="7" r="2.5"></circle>
+                                <circle cx="16" cy="8" r="2.5"></circle>
+                                <path d="M3.5 19a4.5 4.5 0 0 1 9 0"></path>
+                                <path d="M11.5 19a4.5 4.5 0 0 1 9 0"></path>
+                                <path d="M12 14a4 4 0 0 0-2.5-.8"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Family</h3>
+                            <!-- OLD CONTENT — Excel row 6 / Family: <p>Wildlife, beaches and engaging experiences.</p> -->
+                            <p>Wildlife, beaches and adventures for every generation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-fifth">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750"><svg
+                                aria-hidden="true" viewbox="0 0 24 24">
+                                <rect height="15" rx="2" width="16" x="4" y="5"></rect>
+                                <path d="M8 3v4M16 3v4M4 9h16"></path>
+                                <path d="M8 13h2M14 13h2M8 17h2M14 17h2"></path>
+                            </svg></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>MICE</h3>
+                            <!-- OLD CONTENT — Excel row 7 / MICE: <p>World-class venues and incentive possibilities.</p> -->
+                            <p>Remarkable venues. Extraordinary incentive possibilities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Explore South Africa</div>
+                <h2>Discover South Africa</h2>
+                <p>Signature destinations and experiences to build into every itinerary.</p>
+            </div>
+            <div class="cards row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-1" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Cape Town</h3>
+                            <!-- OLD CONTENT — Excel row 8 / Cape Town: <p>Table Mountain, waterfront, culture and coastal scenery.</p> -->
+                            <p>Table Mountain, coastal beauty, culture and vibrant city life.</p><a class="link"
+                                href="#services">Explore Cape Town →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-2" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Kruger National Park</h3>
+                            <!-- OLD CONTENT — Excel row 9 / Kruger National Park: <p>Iconic safari landscapes and diverse wildlife.</p> -->
+                            <p>Big Five encounters across iconic African wilderness.</p><a class="link"
+                                href="#services">Explore Kruger National Park →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-3" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"
+                            style="background-image:url('assets/images/south-africa-garden-route.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Garden Route</h3>
+                            <!-- OLD CONTENT — Excel row 10 / Garden Route: <p>Forests, beaches, lagoons and scenic drives.</p> -->
+                            <p>Forests, beaches, lagoons and unforgettable coastal drives.</p><a class="link"
+                                href="#services">Explore Garden Route →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-4" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Winelands</h3>
+                            <!-- OLD CONTENT — Excel row 11 / Winelands: <p>Stellenbosch, Franschhoek and premium wine estates.</p> -->
+                            <p>Stellenbosch, Franschhoek and celebrated wine country experiences.</p><a class="link"
+                                href="#services">Explore Winelands →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-5" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Johannesburg</h3>
+                            <!-- OLD CONTENT — Excel row 12 / Johannesburg: <p>Urban culture, history and gateway connections.</p> -->
+                            <p>Urban energy, rich history and gateway to adventure.</p><a class="link"
+                                href="#services">Explore Johannesburg →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-6" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Hermanus</h3>
+                            <!-- OLD CONTENT — Excel row 13 / Hermanus: <p>Coastal scenery and seasonal whale watching.</p> -->
+                            <p>Dramatic coastline and unforgettable seasonal whale encounters.</p><a class="link"
+                                href="#services">Explore Hermanus →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="card-img vo-inline-bg-7" data-aos="fade-up" data-aos-delay="80"
+                            data-aos-duration="750"></div>
+                        <div class="card-body" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                            <h3>Durban</h3>
+                            <!-- OLD CONTENT — Excel row 14 / Durban: <p>Indian Ocean beaches, food and relaxed coastal experiences.</p> -->
+                            <p>Indian Ocean beaches, vibrant cuisine and relaxed coastal charm.</p><a class="link"
+                                href="#services">Explore Durban →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section light" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Most Popular</div>
+                <h2>South Africa Destinations</h2>
+            </div>
+            <div class="feature">
+                <div class="feature-main"
+                    style="background-image:url('assets/images/south-africa-popular-cape-town-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                    <div class="feature-copy">
+                        <h2>Cape Town</h2>
+                        <p>A world-class city framed by mountains, ocean and culture.</p><a class="link"
+                            href="#services">Discover Cape Town →</a>
+                    </div>
+                </div>
+                <div class="feature-stack">
+                    <div class="feature-small"
+                        style="background-image:url('assets/images/south-africa-luxury-lodge.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <div class="feature-copy">
+                            <h3>Kruger</h3>
+                            <!-- OLD CONTENT — Excel row 15 / Kruger: <p>A premier safari destination for Big Five experiences.</p> -->
+                            <p>Premier safari country and unforgettable Big Five encounters.</p><a class="link"
+                                href="#services">Discover Kruger →</a>
+                        </div>
+                    </div>
+                    <div class="feature-small"
+                        style="background-image:url('assets/images/south-africa-popular-winelands-v2.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <div class="feature-copy">
+                            <h3>Winelands</h3>
+                            <!-- OLD CONTENT — Excel row 16 / Winelands: <p>Elegant estates, scenery and culinary experiences.</p> -->
+                            <p>Elegant estates, rolling vineyards and exceptional culinary experiences.</p><a
+                                class="link" href="#services">Discover Winelands →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section uae-experiences-redesign" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-showcase-head">
+                <div>
+                    <div class="eyebrow">Experiences</div>
+                    <h2>Things to Do in South Africa</h2>
+                </div>
+                <p>Make South Africa personal with curated experiences shaped around every traveller and travel brief.
+                </p>
+            </div>
+            <div class="uae-exp-grid-redesign">
+                <article class="uae-exp-card uae-exp-card-wide" data-aos="fade-up" data-aos-delay="40">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/south-africa-luxury-lodge.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">01</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Wildlife Encounters</span>
+                        <h3>Safari Experiences</h3>
+                        <p>Private game drives, reserves and unforgettable wildlife encounters.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="80">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/south-africa-luxury-experience.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">02</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Premium Moments</span>
+                        <h3>Luxury Experiences</h3>
+                        <p>Luxury lodges, private touring and exceptional dining experiences.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="120">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/south-africa-wine-culinary.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">03</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Taste &amp; Terroir</span>
+                        <h3>Wine &amp; Culinary</h3>
+                        <p>Wine estates, intimate tastings and distinctive South African flavours.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="160">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/south-africa-family-experience.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">04</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Shared Memories</span>
+                        <h3>Family Experiences</h3>
+                        <p>Wildlife, beaches and memorable family adventures.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/rectangle-683__png.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        <span class="uae-exp-card-num">05</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Outdoor Thrills</span>
+                        <h3>Adventure</h3>
+                        <p>Hiking, scenic drives and exhilarating outdoor experiences.</p>
+                    </div>
+                </article>
+                <article class="uae-exp-card" data-aos="fade-up" data-aos-delay="240">
+                    <div class="uae-exp-card-media"
+                        style="background-image:url('assets/images/south-africa-coast.webp')">
+                        <span class="uae-exp-card-num">06</span>
+                    </div>
+                    <div class="uae-exp-card-body">
+                        <span class="uae-exp-card-tag">Oceanfront Retreats</span>
+                        <h3>Coastal Escapes</h3>
+                        <p>Pristine beaches, marine encounters and beautiful oceanfront stays.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="section light" data-aos="fade-up" data-aos-duration="850" id="services">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Our Expertise</div>
+                <h2>South Africa DMC Services</h2>
+                <p>From itinerary planning and accommodation to MICE, transportation, experiences and on-ground
+                    coordination, our South Africa DMC services bring every element together seamlessly.</p>
+            </div>
+            <div class="services row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path>
+                                <path d="M4 21a8 8 0 0 1 16 0"></path>
+                            </svg></span>
+                        <h3>FIT Travel</h3>
+                        <!-- OLD CONTENT — Excel row 23 / FIT Travel: <p>Tailored individual travel programs.</p> -->
+                        <p>Bespoke programs for individual travellers.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <circle cx="9" cy="8" r="3"></circle>
+                                <circle cx="16.5" cy="9" r="2.4"></circle>
+                                <path d="M2.5 21a6.5 6.5 0 0 1 13 0M15 15.5a5 5 0 0 1 6.5 5.5"></path>
+                            </svg></span>
+                        <h3>Group Travel</h3>
+                        <!-- OLD CONTENT — Excel row 24 / Group Travel: <p>Seamless group handling and logistics.</p> -->
+                        <p>Seamless group programs and destination logistics.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <rect height="14" rx="1.5" width="16" x="4" y="5"></rect>
+                                <path d="M8 5V3M16 5V3M4 9h16M8 13h2M14 13h2M8 16h2M14 16h2"></path>
+                            </svg></span>
+                        <h3>MICE</h3>
+                        <!-- OLD CONTENT — Excel row 25 / MICE: <p>Meetings, incentives and events.</p> -->
+                        <p>Meetings, incentives and exceptional events.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <rect height="13" rx="2" width="16" x="4" y="7"></rect>
+                                <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M4 12h16"></path>
+                            </svg></span>
+                        <h3>Corporate Travel</h3>
+                        <!-- OLD CONTENT — Excel row 26 / Corporate Travel: <p>Business travel and corporate movements.</p> -->
+                        <p>Business travel, movements and on-ground coordination.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z">
+                                </path>
+                            </svg></span>
+                        <h3>Luxury Travel</h3>
+                        <!-- OLD CONTENT — Excel row 27 / Luxury Travel: <p>Premium stays and private experiences.</p> -->
+                        <p>Private experiences, premium stays and exclusive access.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <circle cx="8" cy="8" r="2.5"></circle>
+                                <circle cx="16" cy="9" r="2.2"></circle>
+                                <path d="M3.5 20a4.5 4.5 0 0 1 9 0M12.5 20a4 4 0 0 1 8 0"></path>
+                            </svg></span>
+                        <h3>Family Holidays</h3>
+                        <!-- OLD CONTENT — Excel row 28 / Family Holidays: <p>Family itineraries and attractions.</p> -->
+                        <p>Family journeys filled with discovery and adventure.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path
+                                    d="M12 20s-7-4.3-7-9.5A4.5 4.5 0 0 1 13 7.7 4.5 4.5 0 0 1 21 10.5C21 15.7 12 20 12 20Z">
+                                </path>
+                            </svg></span>
+                        <h3>Honeymoon</h3>
+                        <!-- OLD CONTENT — Excel row 29 / Honeymoon: <p>Romantic escapes and private experiences.</p> -->
+                        <p>Romantic escapes and unforgettable private experiences.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M3 12h18M12 3l4 9-4 9M7 7l-4 5 4 5M17 7l4 5-4 5"></path>
+                            </svg></span>
+                        <h3>Stopovers</h3>
+                        <!-- OLD CONTENT — Excel row 30 / Stopovers: <p>Short programs for transit travelers.</p> -->
+                        <p>Smart short stays between destinations.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M4 21V5h16v16M4 9h16M8 5v4M12 5v4M16 5v4M8 13h2M14 13h2M8 17h2M14 17h2"></path>
+                            </svg></span>
+                        <h3>Hotels</h3>
+                        <!-- OLD CONTENT — Excel row 31 / Hotels: <p>Accommodation sourcing and reservations.</p> -->
+                        <p>Exceptional stays, sourced around your brief.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="M4 17h16M6 17l1.5-6h9L18 17M8 11l1-4h6l1 4M8 20h2M14 20h2"></path>
+                                <circle cx="7" cy="17" r="1.5"></circle>
+                                <circle cx="17" cy="17" r="1.5"></circle>
+                            </svg></span>
+                        <h3>Transfers</h3>
+                        <!-- OLD CONTENT — Excel row 32 / Transfers: <p>Airport and regional transfers.</p> -->
+                        <p>Reliable airport and regional transfers.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <path d="m4 19 6-6 4 4 6-7"></path>
+                                <path d="M14 10h6v6"></path>
+                                <circle cx="6" cy="7" r="3"></circle>
+                                <path d="M3 14a3 3 0 0 1 6 0"></path>
+                            </svg></span>
+                        <h3>Excursions</h3>
+                        <!-- OLD CONTENT — Excel row 33 / Excursions: <p>Tours, sightseeing and activities.</p> -->
+                        <p>Curated tours, sightseeing and local experiences.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service h-100"><span aria-hidden="true" class="service-icon"><svg fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                viewbox="0 0 24 24">
+                                <rect height="18" rx="2" width="14" x="5" y="3"></rect>
+                                <circle cx="12" cy="9" r="2.5"></circle>
+                                <path d="M8 16h8M8 18h5"></path>
+                            </svg></span>
+                        <h3>Visa &amp; Entry Support</h3>
+                        <!-- OLD CONTENT — Excel row 34 / Visa & Entry Support: <p>Travel documentation and destination guidance.</p> -->
+                        <p>Entry guidance and essential travel documentation support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Inspiration</div>
+                <h2>Sample South Africa Itineraries</h2>
+                <p>Starting points for creating a customized program.</p>
+            </div>
+            <div class="itineraries row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="img vo-inline-bg-9"
+                            style="background-image:url('assets/images/south-africa-itinerary-cape-town-essentials.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="body"><span class="duration">4 Days</span>
+                            <h3>Cape Town Essentials</h3>
+                            <!-- OLD CONTENT — Excel row 35 / Cape Town Essentials: <p>City highlights, Table Mountain and coastal touring.</p> -->
+                            <p>Iconic sights, Table Mountain and unforgettable coastal experiences.</p>
+                            <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="img vo-inline-bg-10"
+                            style="background-image:url('assets/images/south-africa-itinerary-cape-town-safari.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="body"><span class="duration">7 Days</span>
+                            <h3>Cape Town + Safari</h3>
+                            <!-- OLD CONTENT — Excel row 36 / Cape Town + Safari: <p>Cape Town paired with a premium safari experience.</p> -->
+                            <p>Pair Cape Town’s energy with an unforgettable safari escape.</p>
+                            <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="itinerary h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <div class="img vo-inline-bg-11"
+                            style="background-image:url('assets/images/south-africa-itinerary-south-africa-discovery.webp') !important; background-size:cover !important; background-position:center center !important;">
+                        </div>
+                        <div class="body"><span class="duration">10 Days</span>
+                            <h3>South Africa Discovery</h3>
+                            <!-- OLD CONTENT — Excel row 37 / South Africa Discovery: <p>Cape Town, Winelands, Garden Route and safari.</p> -->
+                            <p>Cape Town, Winelands, Garden Route and unforgettable safari experiences.</p>
+                            <a class="itinerary-card-cta" href="contact.php">Send Query →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section uae-movement-redesign" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-showcase-head uae-movement-head">
+                <div>
+                    <div class="eyebrow">On-Ground Operations</div>
+                    <h2>Transportation &amp; Logistics</h2>
+                </div>
+                <p>Smooth connections across South Africa.</p>
+            </div>
+            <div aria-label="South Africa transportation journey" class="uae-route">
+                <div aria-hidden="true" class="uae-route-line"></div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">01</div>
+                    <div class="uae-route-icon">✈</div>
+                    <h3>Airport Transfers</h3>
+                    <p>Effortless arrivals and departures, expertly coordinated.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">02</div>
+                    <div class="uae-route-icon">↗</div>
+                    <h3>Private Cars</h3>
+                    <p>Comfortable, private travel tailored to your itinerary.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">03</div>
+                    <div class="uae-route-icon">◇</div>
+                    <h3>Luxury Vehicles</h3>
+                    <p>Premium chauffeur-driven journeys in comfort and style.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">04</div>
+                    <div class="uae-route-icon">▦</div>
+                    <h3>Group Coaches</h3>
+                    <p>Comfortable transportation for groups and events.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">05</div>
+                    <div class="uae-route-icon">⇢</div>
+                    <h3>Regional Transfers</h3>
+                    <p>Seamless connections across South Africa’s regions.</p>
+                </div>
+                <div class="uae-route-stop">
+                    <div class="uae-route-node">06</div>
+                    <div class="uae-route-icon">⌁</div>
+                    <h3>Event Transportation</h3>
+                    <p>Precisely coordinated MICE transportation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Why Partner With Us</div>
+                <h2>Your South Africa DMC Partner</h2>
+                <p>From the first brief to the final departure, Voyage 1 combines local South Africa destination
+                    expertise, customized programs and seamless operations to help travel partners deliver with
+                    confidence.</p>
+            </div>
+            <div class="usps row g-3">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <path d="M12 21s7-6.4 7-11.5A7 7 0 0 0 5 9.5C5 14.6 12 21 12 21Z"></path>
+                            <circle cx="12" cy="9.5" r="2.4"></circle>
+                        </svg>
+                        <h3>Local South Africa Expertise</h3>
+                        <!-- OLD CONTENT — Excel row 44 / Local South Africa Expertise: <p>Local knowledge and coordination.</p> -->
+                        <p>Know the destination. Know what works.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <circle cx="5" cy="6" r="2"></circle>
+                            <circle cx="19" cy="18" r="2"></circle>
+                            <path d="M5 8v3a4 4 0 0 0 4 4h6a4 4 0 0 1 4 3"></path>
+                        </svg>
+                        <h3>Customized Itineraries</h3>
+                        <!-- OLD CONTENT — Excel row 45 / Customized Itineraries: <p>Programs shaped around your clients.</p> -->
+                        <p>Every journey shaped around the traveller.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <circle cx="9" cy="8" r="3.2"></circle>
+                            <path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"></path>
+                            <circle cx="17" cy="9" r="2.6"></circle>
+                            <path d="M15.5 14.2c2.7.5 4.3 2.4 4.3 5.8"></path>
+                        </svg>
+                        <h3>FIT &amp; Group Expertise</h3>
+                        <!-- OLD CONTENT — Excel row 46 / FIT & Group Expertise: <p>Flexible FIT and group handling.</p> -->
+                        <p>Different journeys. One experienced team.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <rect height="18" width="10" x="4" y="3"></rect>
+                            <rect height="12" width="6" x="14" y="9"></rect>
+                            <path d="M7 7h1M11 7h1M7 11h1M11 11h1M7 15h1M11 15h1M16.5 13h1M16.5 17h1"></path>
+                        </svg>
+                        <h3>MICE Capability</h3>
+                        <!-- OLD CONTENT — Excel row 47 / MICE Capability: <p>Corporate events and incentives.</p> -->
+                        <p>Big programs, precisely managed.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <path d="M3 11l4-3 3 2 3-2 4 3"></path>
+                            <path d="M3 11v4l4 3M21 11v4l-4 3"></path>
+                            <path d="M10 10l2.5 2.5a1.5 1.5 0 0 1-2.1 2.1L8 12.2M14 10l-1 1"></path>
+                        </svg>
+                        <h3>Reliable Suppliers</h3>
+                        <!-- OLD CONTENT — Excel row 48 / Reliable Suppliers: <p>Hotels, transport and experiences.</p> -->
+                        <p>Trusted relationships. Dependable delivery.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <circle cx="12" cy="12" r="3.2"></circle>
+                            <path
+                                d="M12 3.5v2M12 18.5v2M20.5 12h-2M5.5 12h-2M17.8 6.2l-1.4 1.4M7.6 16.4l-1.4 1.4M17.8 17.8l-1.4-1.4M7.6 7.6 6.2 6.2">
+                            </path>
+                        </svg>
+                        <h3>Seamless Operations</h3>
+                        <!-- OLD CONTENT — Excel row 49 / Seamless Operations: <p>One partner managing every detail.</p> -->
+                        <p>Everything connected. Nothing overlooked.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <path d="M4 13v-1a8 8 0 0 1 16 0v1"></path>
+                            <rect height="6" rx="1.3" width="4" x="2.5" y="13"></rect>
+                            <rect height="6" rx="1.3" width="4" x="17.5" y="13"></rect>
+                            <path d="M19.5 19v.6a3 3 0 0 1-3 3H13"></path>
+                        </svg>
+                        <h3>24/7 Support</h3>
+                        <!-- OLD CONTENT — Excel row 50 / 24/7 Support: <p>Responsive support throughout the journey.</p> -->
+                        <p>There when the journey needs us.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="usp h-100" data-aos="fade-up" data-aos-delay="80" data-aos-duration="750">
+                        <svg class="card-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+                            <rect height="12" rx="2" width="18" x="3" y="7.5"></rect>
+                            <path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5M3 13h18"></path>
+                        </svg>
+                        <h3>B2B Focused</h3>
+                        <!-- OLD CONTENT — Excel row 51 / B2B Focused: <p>Built for travel agents and operators.</p> -->
+                        <p>Built for the travel trade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark uae-process-redesign" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="uae-process-intro">
+                <div>
+                    <div class="eyebrow">Simple Process</div>
+                    <h2>Plan Your South Africa Journey</h2>
+                    <p>One clear flow from the first brief to the final departure.</p>
+                </div>
+            </div>
+            <div class="uae-process-rail">
+                <div aria-hidden="true" class="uae-process-line"></div>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">01</div>
+                    <div class="uae-process-icon">□</div>
+                    <h3>Share Your Requirement</h3>
+                    <p>Give us the brief. We’ll take it from there.</p>
+                </article>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">02</div>
+                    <div class="uae-process-icon">▤</div>
+                    <h3>Build Your Itinerary</h3>
+                    <p>We turn your brief into the right journey.</p>
+                </article>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">03</div>
+                    <div class="uae-process-icon">✓</div>
+                    <h3>Confirm &amp; Coordinate</h3>
+                    <p>Every booking, connection and experience brought together.</p>
+                </article>
+                <article class="uae-process-step">
+                    <div class="uae-process-num">04</div>
+                    <div class="uae-process-icon">◇</div>
+                    <h3>Travel With Confidence</h3>
+                    <p>Your clients travel. Our team stays close.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-aos="fade-up" data-aos-duration="850">
+        <div class="container">
+            <div class="heading">
+                <div class="eyebrow">Frequently Asked Questions</div>
+                <h2>South Africa DMC FAQs</h2>
+                <p>Yes. We create bespoke experiences for honeymoons, private celebrations, family journeys and other
+                    special occasions across South Africa.</p>
+            </div>
+            <div class="faq row g-3">
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>What does a South Africa
+                                DMC do?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Excel row 56 / FAQ answer for What does a South Africa DMC do?: <p>A South Africa DMC manages the local details behind an itinerary, including hotels, transportation, experiences, guides, logistics and on-ground support.</p> -->
+                            <p>A South Africa DMC manages the destination details behind your itinerary, including
+                                accommodation, transportation, experiences, guides, logistics and on-ground support.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Does Voyage 1 handle FIT
+                                and group travel?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Excel row 57 / FAQ answer for Does Voyage 1 handle FIT and group travel?: <p>Yes. We create tailored FIT programs as well as coordinated group journeys, with the flexibility to match each client brief.</p> -->
+                            <p>Yes. We create tailored FIT programs and coordinated group journeys, with flexible
+                                solutions built around each client brief.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you create
+                                customized South Africa itineraries?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Excel row 58 / FAQ answer for Can you create customized South Africa itineraries?: <p>Absolutely. We shape itineraries around dates, interests, traveller profiles, preferred hotels, experiences and budget.</p> -->
+                            <p>Absolutely. We shape itineraries around dates, interests, traveller profiles, preferred
+                                stays, experiences and budget.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Does Voyage 1 provide
+                                MICE services?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Excel row 59 / FAQ answer for Does Voyage 1 provide MICE services?: <p>Yes. Our team can coordinate venues, accommodation, transportation, incentives, event logistics and on-ground event support.</p> -->
+                            <p>Yes. Our team coordinates venues, accommodation, transportation, incentives, event
+                                logistics and on-ground support for MICE programs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you arrange hotels
+                                and transportation?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Excel row 60 / FAQ answer for Can you arrange hotels and transportation?: <p>We coordinate airport transfers, private vehicles, coaches and domestic transportation throughout South Africa.</p> -->
+                            <p>We source suitable accommodation and coordinate airport transfers, private vehicles,
+                                group transportation and regional transfers across South Africa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Which destinations do
+                                you cover in South Africa</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Excel row 61 / FAQ answer for Which parts of South Africa do you operate in?: <p>We support programs across Cape Town, Johannesburg, Kruger, Durban, the Garden Route, Stellenbosch, Pretoria, Sun City and other key regions.</p> -->
+                            <p>We can build programs across South Africa, including Cape Town, Winelands, Garden Route,
+                                Kruger, Johannesburg, Hermanus and Durban.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you arrange luxury
+                                travel programs?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Excel row 62 / FAQ answer for Can you arrange luxury travel programs?: <p>Yes. We curate premium stays, private experiences, luxury transportation and special moments around the traveller.</p> -->
+                            <p>Yes. We curate premium lodges, exceptional stays, private experiences, luxury
+                                transportation and exclusive moments around each traveller.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="faq-item h-100">
+                        <button aria-expanded="false" class="faq-trigger" type="button"><strong>Can you support special
+                                experiences and celebrations?</strong><span aria-hidden="true">+</span></button>
+                        <div class="faq-answer">
+                            <!-- OLD CONTENT — Excel row 63 / FAQ answer for Can you support special experiences and celebrations?: <p>Yes. We can arrange curated experiences and celebration programs, including honeymoons, private occasions, family travel and other bespoke requests.</p> -->
+                            <p>Yes. We create bespoke experiences for honeymoons, private celebrations, family journeys
+                                and other special occasions across South Africa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section dark" data-aos="fade-up" data-aos-duration="850" id="contact">
+        <div class="container contact">
+            <div>
+                <div class="eyebrow">Get In Touch</div>
+                <h2>Let's Plan Your South Africa Program</h2>
+                <p>Share your requirements and our team will get back to you with a customized proposal.</p>
+                <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
+                    <small>PHONE</small>+971 52 167 2038</div>
+                <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
+                    <small>EMAIL</small>info@voyage-one.com</div>
+                <div class="detail" data-aos="fade-up" data-aos-duration="750" data-aos-once="true"><small>GLOBAL
+                        OFFICE</small>#73, G Floor, Al Fahidi Plaza, Souq Al Kabeer, Dubai</div>
+            </div>
+
+<?php include "form.php" ?>
+
+
+            
+        </div>
+    </section>
+    <footer class="vo-footer">
+        <div class="vo-shell container">
+            <div class="vo-footer-top row g-4 g-xl-5">
+                <div class="vo-footer-brand col-12 col-lg-5">
+                    <a class="vo-footer-logo" href="index.php"><img alt="Voyage 1 DMC logo" class="img-fluid"
+                            src="assets/images/voyage-one-logo__png.webp" /></a>
+                    <h3>Re-defining the Art of Destination Management<br />Connecting Destinations. Creating
+                        Experiences.</h3>
+                    <p>Creating seamless travel experiences through local knowledge, trusted partnerships and responsive
+                        destination teams.</p>
+                    <div class="vo-footer-contact">
+                        <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+                        <a href="tel:+971521672038">+971 52 167 2038</a>
+                        <a href="tel:+91921758633">+91 921758633</a>
+                    </div>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Explore</h4>
+                    <a href="index.php">Home</a><a href="uae.php">Destinations</a><a
+                        href="index.php#services">Services</a><a href="about-us.php">About Us</a><a
+                        href="media.php">Media</a><a href="careers.php">Careers</a>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Destinations</h4><a href="south-africa.php">South Africa</a><a href="kenya.php">Kenya</a><a
+                        href="tanzania.php">Tanzania</a><a href="japan.php">Japan</a><a href="georgia.php">Georgia</a><a
+                        href="kazakhstan.php">Kazakhstan</a><a href="azerbaijan.php">Azerbaijan</a><a
+                        href="uae.php">United Arab Emirates</a><a href="vietnam.php">Vietnam</a>
+                </div>
+                <div class="vo-footer-column col-6 col-md-4 col-lg">
+                    <h4>Contact Us</h4>
+                    <a href="mailto:info@voyage-one.com">info@voyage-one.com</a>
+                    <a href="tel:+971521672038">+971 52 167 2038</a><a href="tel:+91921758633">+91 921758633</a>
+                    <div class="vo-footer-office">
+                        <small>GLOBAL OFFICE</small>
+                        <strong>Dubai, UAE</strong>
+                        <span>#73, G Floor, Al Fahidi Plaza Souq Al Kabeer</span>
+                    </div>
+                    <div aria-label="Voyage 1 social media" class="vo-footer-socials">
+                        <a aria-label="Voyage 1 on Instagram" href="https://www.instagram.com/voyage1dmc/"
+                            rel="noopener noreferrer" target="_blank" title="Instagram">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <rect fill="none" height="17.5" rx="5.2" stroke="currentColor" stroke-width="1.8"
+                                    width="17.5" x="3.25" y="3.25"></rect>
+                                <circle cx="12" cy="12" fill="none" r="4.1" stroke="currentColor" stroke-width="1.8">
+                                </circle>
+                                <circle cx="17.45" cy="6.65" fill="currentColor" r="1.15"></circle>
+                            </svg>
+                        </a>
+                        <a aria-label="Voyage 1 on Facebook" href="https://www.facebook.com/Voyage1DMC"
+                            rel="noopener noreferrer" target="_blank" title="Facebook">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M13.65 21v-7h2.55l.4-3h-2.95V9.08c0-.87.24-1.46 1.5-1.46h1.61V4.94c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.06V11H7.8v3h2.66v7h3.19Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Voyage 1 on LinkedIn" href="https://www.linkedin.com/company/voyageonedmc/home/"
+                            rel="noopener noreferrer" target="_blank" title="LinkedIn">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M6.2 8.25H3.05V21H6.2V8.25ZM4.62 3A1.88 1.88 0 1 0 4.62 6.76 1.88 1.88 0 0 0 4.62 3ZM8.62 8.25V21h3.15v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.06 1.9 2.06 3.38V21h3.15v-6.85c0-3.37-.73-5.96-4.7-5.96-1.91 0-3.19 1.05-3.71 2.05h-.04v-1.99H8.62Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Chat with Voyage 1 on WhatsApp" href="https://wa.me/971521672038"
+                            rel="noopener noreferrer" target="_blank" title="WhatsApp">
+                            <svg aria-hidden="true" viewbox="0 0 24 24">
+                                <path
+                                    d="M12 3.2a8.8 8.8 0 0 0-7.62 13.2L3.2 20.8l4.53-1.17A8.8 8.8 0 1 0 12 3.2Zm0 15.75a6.94 6.94 0 0 1-3.54-.97l-.25-.15-2.69.7.72-2.62-.16-.27A6.95 6.95 0 1 1 12 18.95Zm3.83-5.2c-.21-.11-1.23-.61-1.42-.68-.19-.07-.33-.11-.47.11-.14.21-.54.68-.66.82-.12.14-.24.16-.45.05-.21-.11-.9-.33-1.72-1.05-.64-.57-1.07-1.27-1.19-1.48-.12-.21-.01-.33.09-.44.09-.09.21-.24.31-.36.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.11-.47-1.13-.64-1.55-.17-.41-.34-.36-.47-.37h-.4c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.73s.75 2.01.85 2.15c.11.14 1.47 2.25 3.57 3.15.5.22.89.35 1.19.45.5.16.96.14 1.32.08.4-.06 1.23-.5 1.4-.98.17-.48.17-.89.12-.98-.05-.09-.19-.14-.4-.25Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="vo-footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026
+                    Voyage 1 DMC. All rights reserved.</span><span><a href="contact.php">Contact</a></span></div>
+        </div>
+    </footer>
+    <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/global.js"></script>
+</body>
+
+</html>
